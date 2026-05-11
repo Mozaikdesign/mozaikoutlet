@@ -1,0 +1,3559 @@
+[
+  {
+    "id": 0,
+    "brand": "Fendi Casa",
+    "name": "Fun Fendi Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 37260,
+    "outletEur": 26085,
+    "saleEur": 20495,
+    "discountPct": 45,
+    "dims": "362 x 264 cm H:42/72,5cm · 7090 x4",
+    "dekupe": "photos/dekupe/fendicasa.png",
+    "lifes": [
+      "photos/life/fendi-fun-1.jpg",
+      "photos/life/fendi-fun-2.jpg",
+      "photos/life/fendi-fun-3.jpg"
+    ]
+  },
+  {
+    "id": 200,
+    "brand": "B&B Italia",
+    "name": "Atoll Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 25080,
+    "outletEur": 17560,
+    "saleEur": 13795,
+    "discountPct": 45,
+    "dims": "344 x 147,5cm h:45/86 cm",
+    "dekupe": "photos/dekupe/bnb-atoll.png",
+    "lifes": [
+      "photos/life/bb-atoll.png"
+    ]
+  },
+  {
+    "id": 1,
+    "brand": "Flexform",
+    "name": "Groundpiece Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 34890,
+    "outletEur": 24425,
+    "saleEur": 19190,
+    "discountPct": 45,
+    "dims": "401 x 122 cm H:40/56cm · 011M79 Manila N.751 fabric · 011MB5 Suede Olive 6003 leather detailed armrest · 122x122cm h:39cm",
+    "dekupe": "photos/dekupe/flexform-groundpiece.png",
+    "lifes": [
+      "photos/life/flexform-groundpiece-life1.png",
+      "photos/life/flexform-groundpiece-life2.png"
+    ]
+  },
+  {
+    "id": 3,
+    "brand": "Gallotti & Radice",
+    "name": "evolis next sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 14760,
+    "outletEur": 10335,
+    "saleEur": 8120,
+    "discountPct": 45,
+    "dims": "296 x 102 cm H:43/76cm",
+    "dekupe": "photos/dekupe/gallotti-radice-evolis-next-sofa.png",
+    "lifes": [
+      "photos/life/gallotti-radice-evolis-next-sofa.png"
+    ]
+  },
+  {
+    "id": 4,
+    "brand": "Gallotti & Radice",
+    "name": "evolis sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 11256,
+    "outletEur": 7880,
+    "saleEur": 6190,
+    "discountPct": 45,
+    "dims": "236 x 102 cm H:43/76cm",
+    "dekupe": "photos/dekupe/gallotti-evolis.png",
+    "lifes": [
+      "photos/life/gallotti-radice-evolis-sofa.png"
+    ]
+  },
+  {
+    "id": 5,
+    "brand": "Gallotti & Radice",
+    "name": "stami sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 15504,
+    "outletEur": 10855,
+    "saleEur": 8530,
+    "discountPct": 45,
+    "dims": "249 x 96 cm H:43/73cm",
+    "dekupe": "photos/dekupe/gallotti-radice-stami.png",
+    "lifes": [
+      "photos/life/gallotti-radice-stami.png"
+    ]
+  },
+  {
+    "id": 6,
+    "brand": "Edra",
+    "name": "Cipria Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 19398,
+    "outletEur": 13500,
+    "saleEur": 11000,
+    "discountPct": 43,
+    "dims": "220 x 114 cm H:40/82 cm",
+    "dekupe": "photos/dekupe/edra-cipria-sofa.png",
+    "lifes": [
+      "photos/life/edra-cipria.png"
+    ]
+  },
+  {
+    "id": 7,
+    "brand": "Cassina",
+    "name": "Cornaro Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 20280,
+    "outletEur": 14000,
+    "saleEur": 11000,
+    "discountPct": 46,
+    "dims": "300 x 97 cm H:40/66cm",
+    "dekupe": "photos/dekupe/cassina-cornaro-sofa.png",
+    "lifes": [
+      "photos/life/cassina-cornaro-sofa.png"
+    ]
+  },
+  {
+    "id": 8,
+    "brand": "Andreu World",
+    "name": "Mariya Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 11160,
+    "outletEur": 7800,
+    "saleEur": 6000,
+    "discountPct": 46,
+    "dims": "245 x 85,5cm H:53/88cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/andreu-world-maria-sofa.png",
+    "lifes": [
+      "photos/life/andreu-world-maria.png"
+    ]
+  },
+  {
+    "id": 9,
+    "brand": "Andreu World",
+    "name": "Mariya Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 12000,
+    "outletEur": 8400,
+    "saleEur": 6600,
+    "discountPct": 45,
+    "dims": "90 x 85,5cm H:53/88cm",
+    "dekupe": "photos/dekupe/mariya-armchair-2.png",
+    "lifes": [
+      "photos/life/mariya-armchair-life2.webp"
+    ]
+  },
+  {
+    "id": 10,
+    "brand": "Knoll",
+    "name": "Womb Sette",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 8124,
+    "outletEur": 5700,
+    "saleEur": 4500,
+    "discountPct": 45,
+    "dims": "159 x 94 cm H:43,5/92cm",
+    "dekupe": "photos/dekupe/knoll-womb-sette.png",
+    "lifes": [
+      "photos/life/knoll-womb-sette-life.png"
+    ]
+  },
+  {
+    "id": 12,
+    "brand": "Flexform",
+    "name": "Gregory Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 15828,
+    "outletEur": 11000,
+    "saleEur": 8700,
+    "discountPct": 45,
+    "dims": "227 x 116 cm H:40/60cm",
+    "dekupe": "photos/dekupe/flexform-gregory-sofa.png",
+    "lifes": [
+      "photos/life/flexform-gregory-sofa.png"
+    ]
+  },
+  {
+    "id": 13,
+    "brand": "Flexform",
+    "name": "Zeus Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 18980,
+    "outletEur": 13250,
+    "saleEur": 10500,
+    "discountPct": 45,
+    "dims": "246 x 90 cm H:36/68 cm",
+    "dekupe": "photos/dekupe/flexform-zeus.png",
+    "lifes": [
+      "photos/life/flexform-zeus.png"
+    ]
+  },
+  {
+    "id": 223,
+    "brand": "Flexform",
+    "name": "Flexform Supermax Sofa",
+    "saleEur": 7250,
+    "listEur": 13182,
+    "dekupe": "photos/dekupe/flexform-supermax.png",
+    "lifes": [
+      "photos/life/flexform-supermax-life1.webp",
+      "photos/life/flexform-supermax-life2.webp",
+      "photos/life/flexform-supermax-life3.webp"
+    ],
+    "category": "Sofas",
+    "description": "",
+    "dimensions": ""
+  },
+  {
+    "id": 14,
+    "brand": "Vitra",
+    "name": "Polder Compact Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 6360,
+    "outletEur": 4500,
+    "saleEur": 3500,
+    "discountPct": 45,
+    "dims": "225 cm x 97 cm h:82 cm",
+    "dekupe": "photos/dekupe/vitra-polder.png",
+    "lifes": [
+      "photos/dekupe/vitra-polder-new.webp",
+      "photos/life/vitra-polder-life.webp"
+    ]
+  },
+  {
+    "id": 15,
+    "brand": "Carl Hansen",
+    "name": "Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 11800,
+    "outletEur": 6500,
+    "saleEur": 6500,
+    "discountPct": 45,
+    "dims": "6.500 €",
+    "dekupe": "photos/dekupe/carl-hansen.png",
+    "lifes": [
+      "photos/life/carl-hansen.png"
+    ]
+  },
+  {
+    "id": 16,
+    "brand": "Promemoria",
+    "name": "Komodo Daybed",
+    "section": "INDOOR",
+    "category": "Beds & Daybeds",
+    "qty": 1,
+    "listEur": 30030,
+    "outletEur": 21000,
+    "saleEur": 16500,
+    "discountPct": 45,
+    "dims": "H: 40/72cm",
+    "dekupe": "photos/dekupe/promemoria-komodo-daybed-main.png",
+    "lifes": [
+      "photos/dekupe/promemoria-komodo-daybed-new.png",
+      "photos/life/promemoria-komodo-daybed-life.png"
+    ]
+  },
+  {
+    "id": 17,
+    "brand": "Vitra",
+    "name": "Abalon Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 6276,
+    "outletEur": 3500,
+    "saleEur": 3500,
+    "discountPct": 44,
+    "dims": "3.500 €",
+    "dekupe": "photos/dekupe/vitra-abalon-sofa.png",
+    "lifes": [
+      "photos/dekupe/vitra-abalon-new.png",
+      "photos/life/vitra-abalon-life.png"
+    ]
+  },
+  {
+    "id": 18,
+    "brand": "Knoll",
+    "name": "Klismos Day Bed",
+    "section": "INDOOR",
+    "category": "Beds & Daybeds",
+    "qty": 1,
+    "listEur": 11232,
+    "outletEur": 7865,
+    "saleEur": 6180,
+    "discountPct": 45,
+    "dims": "187,5 x 78,5cm H:42/92cm",
+    "dekupe": "photos/dekupe/knoll-klismos-day-bed-2.png",
+    "lifes": [
+      "photos/dekupe/knoll-klismos-daybed-3.png"
+    ]
+  },
+  {
+    "id": 19,
+    "brand": "Maxalto",
+    "name": "Febo Day Bed",
+    "section": "INDOOR",
+    "category": "Beds & Daybeds",
+    "qty": 1,
+    "listEur": 5978,
+    "outletEur": 3300,
+    "saleEur": 3300,
+    "discountPct": 45,
+    "dims": "3.300 €",
+    "dekupe": "photos/dekupe/maxalto-febo-daybed.png",
+    "lifes": [
+      "photos/life/maxalto-febo-daybed-life.png",
+      "photos/dekupe/maxalto-febo-daybed-new.png"
+    ]
+  },
+  {
+    "id": 20,
+    "brand": "Knoll",
+    "name": "Barcelona Chair Classic",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 8340,
+    "outletEur": 5840,
+    "saleEur": 4590,
+    "discountPct": 45,
+    "dims": "77x75x77 h:43cm",
+    "dekupe": "photos/dekupe/knoll-barcelona-chair-classic.png",
+    "lifes": [
+      "photos/life/knoll-barcelona-life.png"
+    ]
+  },
+  {
+    "id": 21,
+    "brand": "Ceccotti Collezioni",
+    "name": "Pigra Armchair & Ottoman",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 13654,
+    "outletEur": 9560,
+    "saleEur": 7510,
+    "discountPct": 45,
+    "dims": "56677 75 x 90 cm H:40/102 cm · 63 x 63 cm H:43,5cm",
+    "dekupe": "photos/dekupe/ceccotti-collezioni.png",
+    "lifes": [
+      "photos/life/ceccotti-collezione.png"
+    ]
+  },
+  {
+    "id": 22,
+    "brand": "Cassina",
+    "name": "Feltri Armchair (highback)",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 6259,
+    "outletEur": 4250,
+    "saleEur": 3500,
+    "discountPct": 44,
+    "dims": "73 x 66 cm H:45/130 cm · grey inner and outer body, grey seat · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/cassina-feltri-armchair.png",
+    "lifes": [
+      "photos/life/cassina-feltri.png"
+    ]
+  },
+  {
+    "id": 23,
+    "brand": "Zanotta",
+    "name": "Gilda Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 15813,
+    "outletEur": 11070,
+    "saleEur": 8700,
+    "discountPct": 45,
+    "dims": "79 x 85-113 cm H:39/70-93cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/zanotta-gilda-armchair.png",
+    "lifes": [
+      "photos/life/zanotta-gilda-life.webp"
+    ]
+  },
+  {
+    "id": 24,
+    "brand": "Living Divani",
+    "name": "Greene Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 6830,
+    "outletEur": 9500,
+    "saleEur": 7500,
+    "discountPct": -10,
+    "dims": "101 x 96 cm H:40/72cm",
+    "dekupe": "photos/dekupe/living-divani-greene.png",
+    "lifes": [
+      "photos/life/living-divani-greene-life1.png",
+      "photos/life/living-divani-greene-life2.png"
+    ]
+  },
+  {
+    "id": 25,
+    "brand": "Flexform",
+    "name": "Magnum Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 10204,
+    "outletEur": 7145,
+    "saleEur": 5620,
+    "discountPct": 45,
+    "dims": "H:64cm",
+    "dekupe": "photos/dekupe/flexform-magnum-armchair.jpg",
+    "lifes": [
+      "photos/life/flexform-magnum-armchair-life.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "brand": "Flexform",
+    "name": "Ortigia Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 5120,
+    "outletEur": 3585,
+    "saleEur": 2820,
+    "discountPct": 45,
+    "dims": "59 x 59cm H:75,5cm · brown",
+    "dekupe": "photos/dekupe/flexform-ortigia-2820.png",
+    "lifes": [
+      "photos/dekupe/flexform-ortigia-brown.png",
+      "photos/life/flexform-ortigia-brown-life.png"
+    ]
+  },
+  {
+    "id": 28,
+    "brand": "Flexform",
+    "name": "Ortigia Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 5120,
+    "outletEur": 3585,
+    "saleEur": 2820,
+    "discountPct": 45,
+    "dims": "59 x 59cm H:75,5cm · dark brown · İndirimli 2 adet fiyatı",
+    "dekupe": "photos/dekupe/flexform-ortigia-2820.png",
+    "lifes": [
+      "photos/dekupe/flexform-ortigia-dark-brown.png",
+      "photos/life/flexform-ortigia-dark-brown-life.webp"
+    ]
+  },
+  {
+    "id": 29,
+    "brand": "Flexform",
+    "name": "Ortigia S.H. Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 4820,
+    "outletEur": 6750,
+    "saleEur": 5000,
+    "discountPct": -4,
+    "dims": "55 x 54 h:46/83 cm",
+    "dekupe": "photos/dekupe/flexform-ortigia-sh.png",
+    "lifes": [
+      "photos/life/flexform-ortigia-sh-life1.webp",
+      "photos/life/flexform-ortigia-sh-life2.webp"
+    ]
+  },
+  {
+    "id": 30,
+    "brand": "Flexform",
+    "name": "Ortigia Armchair without Armrest",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 5081,
+    "outletEur": 3500,
+    "saleEur": 2800,
+    "discountPct": 45,
+    "dims": "78 x 63 cm H:42/76cm · İndirimli adet fiyatı:",
+    "dekupe": "photos/dekupe/flexform-ortigia-no-armrest-cover.png",
+    "lifes": [
+      "photos/life/flexform-ortigia-no-armrest-life1.webp",
+      "photos/life/flexform-ortigia-no-armrest-life2.webp",
+      "photos/dekupe/flexform-ortigia-no-armrest.png"
+    ]
+  },
+  {
+    "id": 31,
+    "brand": "Santa&Cole",
+    "name": "Digamma Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 6302,
+    "outletEur": 4412,
+    "saleEur": 3466,
+    "discountPct": 45,
+    "dims": "58 cm x 80 cm h:38/70 cm",
+    "dekupe": "photos/dekupe/santacole-digamma.png",
+    "lifes": [
+      "photos/life/santacole-digamma-life1.webp",
+      "photos/life/santacole-digamma-life2.webp",
+      "photos/life/santacole-digamma-life3.webp"
+    ]
+  },
+  {
+    "id": 32,
+    "brand": "Walter Knoll",
+    "name": "Isanka Pouf",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 1,
+    "listEur": 5000,
+    "outletEur": 3500,
+    "saleEur": 2750,
+    "discountPct": 45,
+    "dims": "73 x 73cm H:35,5cm",
+    "dekupe": "photos/dekupe/walter-knoll-isanka-pouf.png",
+    "lifes": [
+      "photos/life/walter-knoll-isanka-pouf-life.png"
+    ]
+  },
+  {
+    "id": 33,
+    "brand": "Fendi Casa",
+    "name": "Icaro Table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 22103,
+    "outletEur": 15475,
+    "saleEur": 12160,
+    "discountPct": 45,
+    "dims": "H:75cm",
+    "dekupe": "photos/dekupe/fendi-casa-icaro.png",
+    "lifes": [
+      "photos/life/fendi-casa-icaro-table.png"
+    ]
+  },
+  {
+    "id": 34,
+    "brand": "Maxalto",
+    "name": "Lucullo Table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 11113,
+    "outletEur": 7500,
+    "saleEur": 7500,
+    "discountPct": 33,
+    "dims": "H:74cm",
+    "dekupe": "photos/life/maxalto-lucullo-table-life.webp",
+    "lifes": [
+      "photos/dekupe/maxalto-lucullo-table.png"
+    ]
+  },
+  {
+    "id": 35,
+    "brand": "Gallotti & Radice",
+    "name": "haumea table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 9575,
+    "outletEur": 6700,
+    "saleEur": 5300,
+    "discountPct": 45,
+    "dims": "180x110 cm H:74cm",
+    "dekupe": "photos/dekupe/gallotti-radice-haumea-cover.png",
+    "lifes": [
+      "photos/dekupe/gallotti-radice-haumea-table.png",
+      "photos/life/gallotti-radice-haumea-table-life.png"
+    ]
+  },
+  {
+    "id": 36,
+    "brand": "Mdf Italia",
+    "name": "NVL Table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 15856,
+    "outletEur": 11100,
+    "saleEur": 8720,
+    "discountPct": 45,
+    "dims": "250 x 130 cm H:74cm",
+    "dekupe": "photos/dekupe/mdf-italia-nvl-table.png",
+    "lifes": [
+      "photos/life/mdf-italia-nvl-table-life.jpg",
+      "photos/life/mdf-italia-nvl-table-life2.png"
+    ]
+  },
+  {
+    "id": 201,
+    "brand": "B&B Italia",
+    "name": "Hans Table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 6558,
+    "outletEur": 4590,
+    "saleEur": 3610,
+    "discountPct": 45,
+    "dims": "220 x 100 h:75 cm",
+    "dekupe": null,
+    "lifes": []
+  },
+  {
+    "id": 37,
+    "brand": "Moooi",
+    "name": "Two Tops Table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 7494,
+    "outletEur": 5250,
+    "saleEur": 4000,
+    "discountPct": 47,
+    "dims": "220x90cm H:78cm",
+    "dekupe": "photos/dekupe/moooi-two-tops-table.png",
+    "lifes": []
+  },
+  {
+    "id": 38,
+    "brand": "Vitra",
+    "name": "EM table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 9540,
+    "outletEur": 6700,
+    "saleEur": 5250,
+    "discountPct": 45,
+    "dims": "2600*900MM -H740MM",
+    "dekupe": "photos/dekupe/vitra-em-table.png",
+    "lifes": [
+      "photos/life/vitra-em-dark-table-life1.webp",
+      "photos/life/vitra-em-dark-table-life2.webp"
+    ]
+  },
+  {
+    "id": 39,
+    "brand": "Vitra",
+    "name": "EM table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 9540,
+    "outletEur": 6700,
+    "saleEur": 5250,
+    "discountPct": 45,
+    "dims": "2400*900MM -H740MM",
+    "dekupe": "photos/dekupe/vitra-em-walnut.png",
+    "lifes": [
+      "photos/life/vitra-em-walnut-life.webp"
+    ]
+  },
+  {
+    "id": 40,
+    "brand": "Cassina",
+    "name": "Cassina 9 Oval Lounge Table — Black Marble",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 7824,
+    "outletEur": 4350,
+    "saleEur": 4350,
+    "discountPct": 44,
+    "dims": "140x90cm H:64cm",
+    "dekupe": "photos/dekupe/cassina-9-oval-black-marble.png",
+    "lifes": [
+      "photos/dekupe/cassina-9-oval.png",
+      "photos/life/cassina-9-oval-black-marble-life.webp"
+    ]
+  },
+  {
+    "id": 42,
+    "brand": "USM",
+    "name": "Kitos Table 90 cm",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 1740,
+    "outletEur": 1218,
+    "saleEur": 950,
+    "discountPct": 45,
+    "dims": "Tekerlekli yükseklik ayarlanabilir masa",
+    "dekupe": "photos/dekupe/usm-kitos-table-cover.png",
+    "lifes": [
+      "photos/dekupe/usm-kitos-table.webp",
+      "photos/life/usm-kitos-table-life.webp"
+    ]
+  },
+  {
+    "id": 43,
+    "brand": "B&B Italia",
+    "name": "Pianura Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 8411,
+    "outletEur": 5890,
+    "saleEur": 4630,
+    "discountPct": 45,
+    "dims": "H:49cm",
+    "dekupe": "photos/dekupe/bb-pianura-coffee-table.png",
+    "lifes": [
+      "photos/life/bb-pianura-coffee-table.png"
+    ]
+  },
+  {
+    "id": 44,
+    "brand": "B&B Italia",
+    "name": "Tobi Ishi Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 22462,
+    "outletEur": 15723,
+    "saleEur": 12355,
+    "discountPct": 45,
+    "dims": "145 x 90cm H:30cm",
+    "dekupe": "photos/dekupe/bb-tobi-ishi-coffee-table.avif",
+    "lifes": [
+      "photos/life/bb-tobi-ishi.png"
+    ]
+  },
+  {
+    "id": 45,
+    "brand": "Flexform",
+    "name": "Pico Small Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 7107,
+    "outletEur": 4975,
+    "saleEur": 3910,
+    "discountPct": 45,
+    "dims": "194 x 100 cm H:23 cm",
+    "dekupe": "photos/dekupe/flexform-pico.png",
+    "lifes": [
+      "photos/life/flexform-pico-life.png"
+    ]
+  },
+  {
+    "id": 46,
+    "brand": "Maxalto",
+    "name": "Alcor Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 16095,
+    "outletEur": 11250,
+    "saleEur": 8800,
+    "discountPct": 45,
+    "dims": "h:38cm",
+    "dekupe": "photos/dekupe/maxalto-alcor-coffee-table.png",
+    "lifes": [
+      "photos/life/maxalto-alcor-coffee-table-life.png"
+    ]
+  },
+  {
+    "id": 47,
+    "brand": "B&B Italia",
+    "name": "Area Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 5080,
+    "outletEur": 2800,
+    "saleEur": 2800,
+    "discountPct": 45,
+    "dims": "108 x 108cm H:35cm",
+    "dekupe": "photos/dekupe/bb-area-coffee-table.png",
+    "lifes": [
+      "photos/life/bb-area-coffee-table-life1.webp",
+      "photos/life/bb-area-coffee-table-life2.webp",
+      "photos/life/bb-area-coffee-table-life3.webp"
+    ]
+  },
+  {
+    "id": 48,
+    "brand": "Maxalto",
+    "name": "Xilos Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 13796,
+    "outletEur": 9700,
+    "saleEur": 7500,
+    "discountPct": 46,
+    "dims": "Ø150 cm H:41 cm",
+    "dekupe": "photos/dekupe/maxalto-xilos-coffee-table.png",
+    "lifes": [
+      "photos/life/maxalto-xilos-coffee-table-life1.webp",
+      "photos/life/maxalto-xilos-coffee-table-life2.webp",
+      "photos/life/maxalto-xilos-coffee-table-life3.webp"
+    ]
+  },
+  {
+    "id": 51,
+    "brand": "Walter Knoll",
+    "name": "Ishino Wood Low Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 5135,
+    "outletEur": 3500,
+    "saleEur": 2800,
+    "discountPct": 45,
+    "dims": "153 x 82,5 cm H:20,5 cm · .14wo burned oak",
+    "dekupe": "photos/dekupe/walter-knoll-ishino-wood-low-table-2.png",
+    "lifes": [
+      "photos/life/walter-knoll-ishino-life1.webp",
+      "photos/life/walter-knoll-ishino-life2.webp",
+      "photos/life/walter-knoll-ishino-wood-low-table-life.webp"
+    ]
+  },
+  {
+    "id": 52,
+    "brand": "Vitra",
+    "name": "Eames Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 2148,
+    "outletEur": 1505,
+    "saleEur": 1185,
+    "discountPct": 45,
+    "dims": "h:39cm · Carrara marble top · Black ash base",
+    "dekupe": "photos/dekupe/vitra-eames-coffee-table.png",
+    "lifes": [
+      "photos/life/vitra-eames-coffee-table-life1.webp",
+      "photos/life/vitra-eames-coffee-table-life2.webp",
+      "photos/life/vitra-eames-coffee-table-life3.webp"
+    ]
+  },
+  {
+    "id": 202,
+    "brand": "Flexform",
+    "name": "Plain Side Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 2432,
+    "outletEur": 1705,
+    "saleEur": 1705,
+    "discountPct": 30,
+    "dims": "H: 53cm · Kösele deri",
+    "dekupe": null,
+    "lifes": []
+  },
+  {
+    "id": 203,
+    "brand": "B&B Italia",
+    "name": "Elios Square Small Table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 2440,
+    "outletEur": 1710,
+    "saleEur": 1345,
+    "discountPct": 45,
+    "dims": "43,5 x 40cm H:47,5cm",
+    "dekupe": "photos/dekupe/maxalto-elios-2.png",
+    "lifes": [
+      "photos/life/maxalto-elios-life.webp"
+    ]
+  },
+  {
+    "id": 54,
+    "brand": "Classicon",
+    "name": "Pli Side Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 2045,
+    "outletEur": 1435,
+    "saleEur": 1125,
+    "discountPct": 45,
+    "dims": "56 x 42cm H:48cm",
+    "dekupe": "photos/dekupe/classicon-pli-side-table.webp",
+    "lifes": [
+      "photos/life/classicon-pli-side-table-life.jpg"
+    ]
+  },
+  {
+    "id": 204,
+    "brand": "B&B Italia",
+    "name": "Planck Small Table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 2446,
+    "outletEur": 1715,
+    "saleEur": 1345,
+    "discountPct": 45,
+    "dims": "Ø50cm H:40cm · indirimli adet fiyatı",
+    "dekupe": null,
+    "lifes": []
+  },
+  {
+    "id": 55,
+    "brand": "Cassina",
+    "name": "Bed Side Coffee Table",
+    "section": "INDOOR",
+    "category": "Beds & Daybeds",
+    "qty": 2,
+    "listEur": 2520,
+    "outletEur": 1765,
+    "saleEur": 1390,
+    "discountPct": 45,
+    "dims": "Ø44cm H:74cm",
+    "dekupe": "photos/dekupe/cassina-bed-side-coffee-table.png",
+    "lifes": [
+      "photos/life/cassina-bedside.png"
+    ]
+  },
+  {
+    "id": 56,
+    "brand": "Flexform",
+    "name": "Fly Side Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 3653,
+    "outletEur": 2500,
+    "saleEur": 2000,
+    "discountPct": 45,
+    "dims": "80 x 80 cm H:46,5 cm",
+    "dekupe": "photos/dekupe/flexform-fly-side-table.png",
+    "lifes": [
+      "photos/life/flexform-fly-side-life-1.png",
+      "photos/life/flexform-fly-side-life-2.png"
+    ]
+  },
+  {
+    "id": 57,
+    "brand": "Gallotti & Radice",
+    "name": "arch low table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 1968,
+    "outletEur": 1380,
+    "saleEur": 1085,
+    "discountPct": 45,
+    "dims": "80 x 36,8 cm H:25 cm",
+    "dekupe": "photos/dekupe/gallotti-radice-arch-low-table.png",
+    "lifes": [
+      "photos/life/gallotti-radice-arc-low-table.png"
+    ]
+  },
+  {
+    "id": 59,
+    "brand": "Miniforms",
+    "name": "Zigo Coffee table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 2656,
+    "outletEur": 1860,
+    "saleEur": 1460,
+    "discountPct": 45,
+    "dims": "Ø69cm H:25,5cm",
+    "dekupe": "photos/dekupe/miniforms-zigo.jpg",
+    "lifes": [
+      "photos/life/miniforms-zigo-life.jpg"
+    ]
+  },
+  {
+    "id": 60,
+    "brand": "Andreu World",
+    "name": "Uves Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 1470,
+    "outletEur": 1000,
+    "saleEur": 800,
+    "discountPct": 46,
+    "dims": "Ø60cm H:41cm",
+    "dekupe": "photos/dekupe/andreu-world-uves-coffee-table.png",
+    "lifes": [
+      "photos/life/andreu-world-uves-coffee-life.png"
+    ]
+  },
+  {
+    "id": 61,
+    "brand": "B&B Italia",
+    "name": "Fat Fat Low Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 6,
+    "listEur": 671,
+    "outletEur": 470,
+    "saleEur": 370,
+    "discountPct": 45,
+    "dims": "Ø42cm H:26cm",
+    "dekupe": "photos/dekupe/bb-fat-fat-low-table.png",
+    "lifes": [
+      "photos/life/bb-fat-fat-low-black-life.webp",
+      "photos/life/bb-fat-fat-low-double-life.avif"
+    ]
+  },
+  {
+    "id": 62,
+    "brand": "B&B Italia",
+    "name": "Fat Fat Low Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 823,
+    "outletEur": 580,
+    "saleEur": 455,
+    "discountPct": 45,
+    "dims": "Ø62cm H:32cm · indirimli adet fiyatı",
+    "dekupe": "photos/dekupe/bb-fat-fat-low-white.webp",
+    "lifes": [
+      "photos/life/bb-fat-fat-low-white-life.webp",
+      "photos/life/bb-fat-fat-low-white-life2.webp"
+    ]
+  },
+  {
+    "id": 65,
+    "brand": "Maxalto",
+    "name": "Elios Round Small Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 2,
+    "listEur": 1044,
+    "outletEur": 730,
+    "saleEur": 575,
+    "discountPct": 45,
+    "dims": "Ø 35 cm H:47 cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/maxalto-elios-2.png",
+    "lifes": [
+      "photos/life/maxalto-elios-life.webp"
+    ]
+  },
+  {
+    "id": 66,
+    "brand": "Living Divani",
+    "name": "Moon Satellite Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 2,
+    "listEur": 3858,
+    "outletEur": 5400,
+    "saleEur": 4250,
+    "discountPct": -10,
+    "dims": "Ø40cm h:57cm",
+    "dekupe": "photos/dekupe/living-divani-moon-satellite.png",
+    "lifes": [
+      "photos/life/living-divani-moon-satellite-life.webp"
+    ]
+  },
+  {
+    "id": 67,
+    "brand": "e-15",
+    "name": "Habibi Low Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 1379,
+    "outletEur": 965,
+    "saleEur": 750,
+    "discountPct": 46,
+    "dims": "Ø37 h:47 cm · Pirinç",
+    "dekupe": "photos/dekupe/e15-habibi-final.png",
+    "lifes": [
+      "photos/dekupe/e15-habibi-new.png"
+    ]
+  },
+  {
+    "id": 68,
+    "brand": "Maxalto",
+    "name": "Caratos Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 18624,
+    "outletEur": 13040,
+    "saleEur": 10245,
+    "discountPct": 45,
+    "dims": "60 x 60,5 cm H:48/65/80,5cm · İndirimli 4 adet fiyatı:",
+    "dekupe": "photos/dekupe/maxalto-caratos.png",
+    "lifes": [
+      "photos/life/maxalto-caratos-life.png",
+      "photos/life/maxalto-caratos-life-2.png",
+      "photos/dekupe/maxalto-caratos-2.png"
+    ]
+  },
+  {
+    "id": 69,
+    "brand": "B&B Italia",
+    "name": "Heri' O Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 4,
+    "listEur": 7684,
+    "outletEur": 5380,
+    "saleEur": 4230,
+    "discountPct": 45,
+    "dims": "H:47/78cm · İndirimli 6 adet fiyatı:",
+    "dekupe": "photos/dekupe/bb-heri-o.png",
+    "lifes": [
+      "photos/life/bb-heri-o-life2.webp",
+      "photos/life/bb-heri-o-life3.webp"
+    ]
+  },
+  {
+    "id": 70,
+    "brand": "Gallotti & Radice",
+    "name": "akiko chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 23472,
+    "outletEur": 16500,
+    "saleEur": 12500,
+    "discountPct": 47,
+    "dims": "h:77cm · L2 cat Nabuk_warm grey · Metal feet · fixed version · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/gallotti-radice-akiko.webp",
+    "lifes": [
+      "photos/life/gallotti-radice-akiko-life.jpg"
+    ]
+  },
+  {
+    "id": 71,
+    "brand": "Edra",
+    "name": "Blue Velvet Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 2,
+    "listEur": 5688,
+    "outletEur": 3985,
+    "saleEur": 3130,
+    "discountPct": 45,
+    "dims": "H:43/80cm",
+    "dekupe": "photos/dekupe/edra-blue-velvet.jpg",
+    "lifes": [
+      "photos/life/edra-blue-velvet-life.webp"
+    ]
+  },
+  {
+    "id": 72,
+    "brand": "Knoll",
+    "name": "KN06 Sandalye",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 10930,
+    "outletEur": 7655,
+    "saleEur": 6015,
+    "discountPct": 45,
+    "dims": "63x56 cm h:47/79 cm · İndirimli 4 adet fiyatı:",
+    "dekupe": "photos/dekupe/knoll-kn06.jpg",
+    "lifes": [
+      "photos/life/knoll-kn06-life.jpg"
+    ]
+  },
+  {
+    "id": 74,
+    "brand": "Cassina",
+    "name": "Goteborg 1 Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 4,
+    "listEur": 9988,
+    "outletEur": 5495,
+    "saleEur": 5495,
+    "discountPct": 45,
+    "dims": "5.495 € · İndirimli adet fiyatı:",
+    "dekupe": "photos/dekupe/cassina-goteborg-1.png",
+    "lifes": [
+      "photos/life/cassina-goteborg-1-life2.jpg"
+    ]
+  },
+  {
+    "id": 75,
+    "brand": "Knoll",
+    "name": "Saarinen Conference Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 1872,
+    "outletEur": 1000,
+    "saleEur": 1000,
+    "discountPct": 47,
+    "dims": "1.000 € · İndirimli 8 adet fiyatı:",
+    "dekupe": "photos/dekupe/knoll-saarinen-conference-chair-2.png",
+    "lifes": [
+      "photos/life/knoll-saarinen-conference-chair-life.jpg"
+    ]
+  },
+  {
+    "id": 76,
+    "brand": "Fritz Hansen",
+    "name": "Series 7",
+    "section": "INDOOR",
+    "category": "Indoor",
+    "qty": 8,
+    "listEur": 2900,
+    "outletEur": 512,
+    "saleEur": 2250,
+    "discountPct": 22,
+    "dims": "45 x 42cm H:78cm",
+    "dekupe": "photos/dekupe/fritz-hansen-1.png",
+    "lifes": [
+      "photos/dekupe/fritz-hansen-2.jpg",
+      "photos/dekupe/fritz-hansen-3.jpg",
+      "photos/dekupe/fritz-hansen-4.jpg",
+      "photos/dekupe/fritz-hansen-5.jpg",
+      "photos/dekupe/fritz-hansen-6.jpg",
+      "photos/dekupe/fritz-hansen-7.jpg",
+      "photos/life/fritz-hansen-toplu.png"
+    ],
+    "unitSaleEur": 512
+  },
+  {
+    "id": 205,
+    "brand": "Andreu World",
+    "name": "Oru Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 2004,
+    "outletEur": 1405,
+    "saleEur": 1105,
+    "discountPct": 45,
+    "dims": "61,5 x 61 cm H:46/73,5 cm",
+    "dekupe": "photos/dekupe/andreu-world-oru-2.png",
+    "lifes": [
+      "photos/dekupe/andreu-world-oru-1.png",
+      "photos/life/andreu-world-oru-1.png",
+      "photos/life/andreu-world-oru-3.png"
+    ]
+  },
+  {
+    "id": 206,
+    "brand": "Maxalto",
+    "name": "Fulgens Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 2805,
+    "outletEur": 1965,
+    "saleEur": 1545,
+    "discountPct": 45,
+    "dims": "h:45,5/80cm",
+    "dekupe": "photos/dekupe/maxalto-fulgens-2.png",
+    "lifes": [
+      "photos/life/maxalto-fulgens-life.webp",
+      "photos/life/maxalto-fulgens-life2.webp"
+    ]
+  },
+  {
+    "id": 77,
+    "brand": "Maxalto",
+    "name": "Febo Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 1688,
+    "outletEur": 1185,
+    "saleEur": 930,
+    "discountPct": 45,
+    "dims": "50,5 x 61,5cm H:48/90cm",
+    "dekupe": "photos/dekupe/maxalto-febo-white.png",
+    "lifes": [
+      "photos/dekupe/maxalto-febo-chair-2.png"
+    ]
+  },
+  {
+    "id": 78,
+    "brand": "Maxalto",
+    "name": "Febo Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 1606,
+    "outletEur": 1125,
+    "saleEur": 885,
+    "discountPct": 45,
+    "dims": "50,5 x 61,5cm H:48/90cm",
+    "dekupe": "photos/dekupe/maxalto-febo-cream.png",
+    "lifes": [
+      "photos/dekupe/maxalto-febo-other-color.png"
+    ]
+  },
+  {
+    "id": 79,
+    "brand": "Cassina",
+    "name": "Hola Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 1300,
+    "outletEur": 715,
+    "saleEur": 715,
+    "discountPct": 45,
+    "dims": "715 €",
+    "dekupe": "photos/dekupe/cassina-hola.png",
+    "lifes": [
+      "photos/life/cassina-hola-life.png"
+    ]
+  },
+  {
+    "id": 80,
+    "brand": "Knoll",
+    "name": "Gio Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 1768,
+    "outletEur": 1240,
+    "saleEur": 975,
+    "discountPct": 45,
+    "dims": "56 x 60cm H:43/81cm",
+    "dekupe": "photos/dekupe/knoll-gio-2.png",
+    "lifes": [
+      "photos/dekupe/knoll-gio-new.png"
+    ]
+  },
+  {
+    "id": 81,
+    "brand": "Vitra",
+    "name": "Standard Chair Wood",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 846,
+    "outletEur": 465,
+    "saleEur": 465,
+    "discountPct": 45,
+    "dims": "465 € · indirimli 2 adet fiyatı",
+    "dekupe": "photos/dekupe/vitra-standard-chair-wood.png",
+    "lifes": [
+      "photos/life/vitra-standard-chair-wood-life.png"
+    ]
+  },
+  {
+    "id": 82,
+    "brand": "Fritz Hansen",
+    "name": "Drop Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 2,
+    "listEur": 760,
+    "outletEur": 535,
+    "saleEur": 535,
+    "discountPct": 30,
+    "dims": "",
+    "dekupe": "photos/dekupe/fritz-hansen-drop-chair.png",
+    "lifes": [
+      "photos/life/fritz-hansen-drop-life.png"
+    ]
+  },
+  {
+    "id": 83,
+    "brand": "Hal",
+    "name": "Wood Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 588,
+    "outletEur": 412,
+    "saleEur": 325,
+    "discountPct": 45,
+    "dims": "44 x 44cm H:80cm",
+    "dekupe": "photos/dekupe/hal-wood-chair.png",
+    "lifes": []
+  },
+  {
+    "id": 207,
+    "brand": "Vitra",
+    "name": "Freeform Ottoman",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 1,
+    "listEur": 2712,
+    "outletEur": 1900,
+    "saleEur": 1495,
+    "discountPct": 45,
+    "dims": "120 x 65cm H:26cm · indirimli adet fiyatı",
+    "dekupe": "photos/dekupe/vitra-freeform-ottoman-2.png",
+    "lifes": [
+      "photos/life/vitra-freeform-ottoman-life1.webp",
+      "photos/life/vitra-freeform-ottoman-life2.webp",
+      "photos/life/vitra-freeform-ottoman-life3.webp"
+    ]
+  },
+  {
+    "id": 84,
+    "brand": "Flexform",
+    "name": "Feel Good Ottoman",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 2,
+    "listEur": 2312,
+    "outletEur": 1620,
+    "saleEur": 1275,
+    "discountPct": 45,
+    "dims": "76 x 74cm H:38/76cm",
+    "dekupe": "photos/dekupe/flexform-feel-good-ottoman.png",
+    "lifes": [
+      "photos/life/flexform-feel-good-ottoman-1.png",
+      "photos/life/flexform-feel-good-ottoman-2.png"
+    ]
+  },
+  {
+    "id": 85,
+    "brand": "Cassina",
+    "name": "x Karakter Console",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 1,
+    "listEur": 7868,
+    "outletEur": 5510,
+    "saleEur": 4330,
+    "discountPct": 45,
+    "dims": "190 x 43 cm H:76 cm",
+    "dekupe": "photos/dekupe/cassina-karakter-console.webp",
+    "lifes": [
+      "photos/life/cassina-karakter-console-1.png",
+      "photos/life/cassina-karakter-console-2.png"
+    ]
+  },
+  {
+    "id": 208,
+    "brand": "Knoll",
+    "name": "Florence Credenza Unit",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 13196,
+    "outletEur": 9240,
+    "saleEur": 9240,
+    "discountPct": 30,
+    "dims": "190 x 46cm H:64,5cm",
+    "dekupe": "photos/dekupe/knoll-florence-credenza-cover.png",
+    "lifes": [
+      "photos/dekupe/knoll-florence-credenza-3.png"
+    ]
+  },
+  {
+    "id": 209,
+    "brand": "B&B Italia",
+    "name": "Arne Bookcase",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 6270,
+    "outletEur": 4390,
+    "saleEur": 3450,
+    "discountPct": 45,
+    "dims": "73 x 73 cm H:66 cm · döner mekanizmalı",
+    "dekupe": "photos/dekupe/bb-arne-bookcase.jpg",
+    "lifes": [
+      "photos/life/bb-arne-bookcase-1.png",
+      "photos/life/bb-arne-bookcase-2.png"
+    ]
+  },
+  {
+    "id": 88,
+    "brand": "Vitra",
+    "name": "ESU Shelf",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 2754,
+    "outletEur": 1928,
+    "saleEur": 1515,
+    "discountPct": 45,
+    "dims": "179,5 cm x 42 cm h:117,5 cm",
+    "dekupe": "photos/dekupe/vitra-esu-shelf.jpg",
+    "lifes": [
+      "photos/dekupe/vitra-esu-shelf.png"
+    ]
+  },
+  {
+    "id": 89,
+    "brand": "B&B Italia",
+    "name": "Liago Storage Unit",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 10768,
+    "outletEur": 7500,
+    "saleEur": 5900,
+    "discountPct": 45,
+    "dims": "250 x 65 cm H:66cm",
+    "dekupe": "photos/dekupe/bb-liago-storage-unit.png",
+    "lifes": [
+      "photos/life/bb-storage-unit.png"
+    ]
+  },
+  {
+    "id": 90,
+    "brand": "B&B Italia",
+    "name": "| Pab Wall Unit",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 17868,
+    "outletEur": 12500,
+    "saleEur": 9800,
+    "discountPct": 45,
+    "dims": "h:121cm",
+    "dekupe": "photos/dekupe/bb-pab-wall-unit.png",
+    "lifes": [
+      "photos/dekupe/bb-pab-storage.webp"
+    ]
+  },
+  {
+    "id": 91,
+    "brand": "B&B Italia",
+    "name": "Pab Wall Unit",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 35886,
+    "outletEur": 25000,
+    "saleEur": 19750,
+    "discountPct": 45,
+    "dims": "360 x 62cm H:225cm",
+    "dekupe": "photos/dekupe/bb-pab-wall-unit.png",
+    "lifes": []
+  },
+  {
+    "id": 92,
+    "brand": "Maxalto",
+    "name": "Windscreen In 3 Elements",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 2884,
+    "outletEur": 2000,
+    "saleEur": 1500,
+    "discountPct": 48,
+    "dims": "H:120cm",
+    "dekupe": "photos/dekupe/maxalto-windscreen-3-elements.png",
+    "lifes": [
+      "photos/dekupe/maxalto-windscreen-2.png"
+    ]
+  },
+  {
+    "id": 93,
+    "brand": "Cassina",
+    "name": "Nuvola Rossa Bookcase",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 5136,
+    "outletEur": 4109,
+    "saleEur": 4109,
+    "discountPct": 20,
+    "dims": "100 x 39,5cm H:192cm",
+    "dekupe": "photos/dekupe/cassina-nuvola-rossa-black.webp",
+    "lifes": [
+      "photos/life/cassina-nuvola-rossa-1.png",
+      "photos/life/cassina-nuvola-rossa-2.png",
+      "photos/life/cassina-nuvola-rossa-3.png",
+      "photos/life/cassina-nuvola.jpg"
+    ]
+  },
+  {
+    "id": 94,
+    "brand": "Cassina",
+    "name": "Nuage Bookcase",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 16884,
+    "outletEur": 12000,
+    "saleEur": 9250,
+    "discountPct": 45,
+    "dims": "H: 177cm",
+    "dekupe": "photos/dekupe/cassina-nuage.png",
+    "lifes": [
+      "photos/life/cassina-nuage-1.png",
+      "photos/life/cassina-nuage-2.png"
+    ]
+  },
+  {
+    "id": 95,
+    "brand": "Flexform",
+    "name": "Dragonfly Bed",
+    "section": "INDOOR",
+    "category": "Beds & Daybeds",
+    "qty": 1,
+    "listEur": 17221,
+    "outletEur": 12000,
+    "saleEur": 9500,
+    "discountPct": 45,
+    "dims": "220 x 250 cm H:34/138cm · 180x200 mattress_ *not included · Pelle leather headboard and bed frame · Ashwood stained wenge base · Grossgrain 049",
+    "dekupe": "photos/dekupe/flexform-dragonfly.png",
+    "lifes": [
+      "photos/life/dragonfly-bed-1.png",
+      "photos/life/dragonfly-bed-2.png"
+    ]
+  },
+  {
+    "id": 96,
+    "brand": "Gallotti & Radice",
+    "name": "Yuki Bed",
+    "section": "INDOOR",
+    "category": "Beds & Daybeds",
+    "qty": 1,
+    "listEur": 16536,
+    "outletEur": 11575,
+    "saleEur": 9000,
+    "discountPct": 46,
+    "dims": "363 x 225cm H:135cm",
+    "dekupe": "photos/dekupe/gallotti-radice-yuki.png",
+    "lifes": [
+      "photos/dekupe/gallotti-radice-yuki.jpg",
+      "photos/life/gallotti-radice-yuki.jpg"
+    ]
+  },
+  {
+    "id": 97,
+    "brand": "Maison Dada",
+    "name": "Mademoiselle Georges No4",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 169,
+    "outletEur": 118,
+    "saleEur": 118,
+    "discountPct": 30,
+    "dims": "Ø16cm H:34cm",
+    "dekupe": "photos/dekupe/maison-dada-mademoiselle-no4-cover.png",
+    "lifes": [
+      "photos/dekupe/maison-dada-mademoiselle-no4.png",
+      "photos/life/maison-dada-mademoiselle-no4-life1.png",
+      "photos/life/maison-dada-mademoiselle-no4-life-new.png"
+    ]
+  },
+  {
+    "id": 98,
+    "brand": "Maison Dada",
+    "name": "Mademoiselle Georges No1",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 143,
+    "outletEur": 100,
+    "saleEur": 100,
+    "discountPct": 30,
+    "dims": "Ø13cm H:37cm",
+    "dekupe": "photos/dekupe/maison-dada-mademoiselle-no1-cover.png",
+    "lifes": [
+      "photos/dekupe/maison-dada-mademoiselle-no1.webp"
+    ]
+  },
+  {
+    "id": 99,
+    "brand": "Maison Dada",
+    "name": "Tray Blue",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 350,
+    "outletEur": 245,
+    "saleEur": 245,
+    "discountPct": 30,
+    "dims": "Ø42cm H:6cm",
+    "dekupe": "photos/dekupe/maison-dada-tray-blue-cover.png",
+    "lifes": [
+      "photos/life/maison-dada-tray-blue-life.png",
+      "photos/life/maison-dada-tray-blue-life-b.webp"
+    ]
+  },
+  {
+    "id": 100,
+    "brand": "Maison Dada",
+    "name": "Red Portrait",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 389,
+    "outletEur": 273,
+    "saleEur": 273,
+    "discountPct": 30,
+    "dims": "26,5 x 24cm H:63cm",
+    "dekupe": "photos/dekupe/maison-dada-red-portrait.webp",
+    "lifes": [
+      "photos/life/maison-dada-red-portrait-life.webp",
+      "photos/dekupe/maison-dada-red-portrait-2.png"
+    ]
+  },
+  {
+    "id": 101,
+    "brand": "Maison Dada",
+    "name": "Of The Moon No3",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 844,
+    "outletEur": 591,
+    "saleEur": 591,
+    "discountPct": 30,
+    "dims": "Ø35cm H:79,6cm",
+    "dekupe": "photos/dekupe/maison-dada-moon3.png",
+    "lifes": [
+      "photos/life/maison-dada-moon3-life1.png",
+      "photos/life/maison-dada-moon3-life2.png"
+    ]
+  },
+  {
+    "id": 102,
+    "brand": "Maison Dada",
+    "name": "Du Roy Pink",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 617,
+    "outletEur": 432,
+    "saleEur": 432,
+    "discountPct": 30,
+    "dims": "Ø41,2cm H:45cm",
+    "dekupe": "photos/dekupe/maison-dada-du-roy.jpg",
+    "lifes": [
+      "photos/life/maison-dada-du-roy-pink.png"
+    ]
+  },
+  {
+    "id": 103,
+    "brand": "Driade",
+    "name": "Ordini",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 681,
+    "outletEur": 477,
+    "saleEur": 477,
+    "discountPct": 30,
+    "dims": "Ø13,5cm H:45cm",
+    "dekupe": "photos/dekupe/driade-ordini-477.jpg",
+    "lifes": [
+      "photos/life/driade-regnard-2.jpg",
+      "photos/life/driade-ordini-477-life.jpg",
+      "photos/dekupe/driade-ordini-509612-life.webp"
+    ]
+  },
+  {
+    "id": 104,
+    "brand": "Driade",
+    "name": "Ordini Bowl",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 470,
+    "outletEur": 329,
+    "saleEur": 329,
+    "discountPct": 30,
+    "dims": "Ø33cm H:11,5cm",
+    "dekupe": "photos/dekupe/driade-ordini-bowl-new.jpg",
+    "lifes": [
+      "photos/life/driade-regnard-2.jpg",
+      "photos/life/driade-ordini-bowl-life.webp",
+      "photos/life/driade-ordini-bowl-life2.webp"
+    ]
+  },
+  {
+    "id": 105,
+    "brand": "Driade",
+    "name": "Root Vase",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 344,
+    "outletEur": 241,
+    "saleEur": 241,
+    "discountPct": 30,
+    "dims": "Ø12cm H:35cm",
+    "dekupe": "photos/dekupe/driade-root-vase-new.gif",
+    "lifes": [
+      "photos/dekupe/driade-root-vase.webp",
+      "photos/life/driade-root-vase-life.webp"
+    ]
+  },
+  {
+    "id": 106,
+    "brand": "Driade",
+    "name": "Root Vase Small",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 302,
+    "outletEur": 211,
+    "saleEur": 211,
+    "discountPct": 30,
+    "dims": "Ø12cm H:25,5cm",
+    "dekupe": "photos/dekupe/driade-root-small.webp",
+    "lifes": []
+  },
+  {
+    "id": 107,
+    "brand": "Driade",
+    "name": "Roques",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 316,
+    "outletEur": 221,
+    "saleEur": 221,
+    "discountPct": 30,
+    "dims": "Ø30cm H:18cm",
+    "dekupe": "photos/dekupe/driade-roques-new.webp",
+    "lifes": [
+      "photos/life/driade-regnard-2.jpg"
+    ]
+  },
+  {
+    "id": 108,
+    "brand": "Driade",
+    "name": "Reinach",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 407,
+    "outletEur": 285,
+    "saleEur": 285,
+    "discountPct": 30,
+    "dims": "Ø33cm H:25cm",
+    "dekupe": "photos/dekupe/driade-reinach.webp",
+    "lifes": [
+      "photos/life/driade-regnard-2.jpg"
+    ]
+  },
+  {
+    "id": 109,
+    "brand": "Driade",
+    "name": "Ordini",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 526,
+    "outletEur": 368,
+    "saleEur": 368,
+    "discountPct": 30,
+    "dims": "Ø31cm H:11,5cm",
+    "dekupe": "photos/dekupe/driade-ordini-368-rose-gold.jpg",
+    "lifes": [
+      "photos/life/driade-regnard-2.jpg",
+      "photos/dekupe/driade-ordini-rose-gold.jpg"
+    ]
+  },
+  {
+    "id": 110,
+    "brand": "Driade",
+    "name": "Ordini",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 681,
+    "outletEur": 477,
+    "saleEur": 477,
+    "discountPct": 30,
+    "dims": "Ø13cm H:45cm",
+    "dekupe": "photos/dekupe/driade-ordini-477.jpg",
+    "lifes": [
+      "photos/life/driade-regnard-2.jpg",
+      "photos/life/driade-ordini-477-life.jpg"
+    ]
+  },
+  {
+    "id": 111,
+    "brand": "Driade",
+    "name": "Gear",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 604,
+    "outletEur": 423,
+    "saleEur": 423,
+    "discountPct": 30,
+    "dims": "Ø34cm H:12cm",
+    "dekupe": "photos/dekupe/driade-gear-423.webp",
+    "lifes": [
+      "photos/life/driade-gear-gold-life.jpg"
+    ]
+  },
+  {
+    "id": 112,
+    "brand": "Driade",
+    "name": "Gear",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 667,
+    "outletEur": 467,
+    "saleEur": 467,
+    "discountPct": 30,
+    "dims": "Ø14,5cm H:41cm",
+    "dekupe": "photos/dekupe/driade-gear-gold.webp",
+    "lifes": [
+      "photos/life/driade-gear-gold-life.jpg"
+    ]
+  },
+  {
+    "id": 113,
+    "brand": "Driade",
+    "name": "Gear",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 667,
+    "outletEur": 467,
+    "saleEur": 467,
+    "discountPct": 30,
+    "dims": "Ø24cm H:20cm",
+    "dekupe": "photos/dekupe/driade-gear-gold.webp",
+    "lifes": [
+      "photos/life/driade-gear-gold-life.jpg"
+    ]
+  },
+  {
+    "id": 114,
+    "brand": "Driade",
+    "name": "Gear",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 330,
+    "outletEur": 231,
+    "saleEur": 231,
+    "discountPct": 30,
+    "dims": "Ø14,5cm H:41cm",
+    "dekupe": "photos/dekupe/driade-gear-white.jpg",
+    "lifes": [
+      "photos/life/driade-gear-gold-life.jpg"
+    ]
+  },
+  {
+    "id": 115,
+    "brand": "Driade",
+    "name": "Tenochtitlan",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 393,
+    "outletEur": 275,
+    "saleEur": 275,
+    "discountPct": 30,
+    "dims": "",
+    "dekupe": "photos/dekupe/driade-tenochtitlan.webp",
+    "lifes": [
+      "photos/life/driade-tenochtitlan.webp"
+    ]
+  },
+  {
+    "id": 116,
+    "brand": "Driade",
+    "name": "Ordini",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 618,
+    "outletEur": 433,
+    "saleEur": 433,
+    "discountPct": 30,
+    "dims": "Ø13cm H:44,5cm",
+    "dekupe": "photos/dekupe/driade-ordini-433.jpg",
+    "lifes": [
+      "photos/life/driade-regnard-2.jpg",
+      "photos/life/driade-ordini-433-life.webp"
+    ]
+  },
+  {
+    "id": 117,
+    "brand": "Driade",
+    "name": "Ordini",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 618,
+    "outletEur": 433,
+    "saleEur": 433,
+    "discountPct": 30,
+    "dims": "Ø13cm H:44,5cm",
+    "dekupe": "photos/dekupe/driade-ordini-433.jpg",
+    "lifes": [
+      "photos/life/driade-regnard-2.jpg",
+      "photos/life/driade-ordini-433-life.webp"
+    ]
+  },
+  {
+    "id": 118,
+    "brand": "Driade",
+    "name": "Regnard II",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 316,
+    "outletEur": 221,
+    "saleEur": 221,
+    "discountPct": 30,
+    "dims": "Ø8,5cm H:31cm",
+    "dekupe": "photos/dekupe/driade-regnard-ii.webp",
+    "lifes": [
+      "photos/life/driade-regnard-1.jpg",
+      "photos/life/driade-regnard-2.jpg",
+      "photos/life/driade-regnard-ii-life.webp",
+      "photos/dekupe/driade-regnard-ii-834281-new.webp"
+    ]
+  },
+  {
+    "id": 119,
+    "brand": "Driade",
+    "name": "Regnard II",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 330,
+    "outletEur": 231,
+    "saleEur": 231,
+    "discountPct": 30,
+    "dims": "Ø8,5cm H:31cm",
+    "dekupe": "photos/dekupe/driade-regnard-ii.webp",
+    "lifes": [
+      "photos/life/driade-regnard-1.jpg",
+      "photos/life/driade-regnard-2.jpg",
+      "photos/life/driade-regnard-ii-life.webp",
+      "photos/dekupe/driade-regnard-ii-834281-new.webp"
+    ]
+  },
+  {
+    "id": 120,
+    "brand": "Driade",
+    "name": "Rolland I",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 225,
+    "outletEur": 158,
+    "saleEur": 158,
+    "discountPct": 30,
+    "dims": "Ø28cm H:17cm",
+    "dekupe": "photos/dekupe/driade-rolland-i.avif",
+    "lifes": [
+      "photos/dekupe/driade-rolland-i-ii.png",
+      "photos/dekupe/driade-rolland-i-ii-new.png"
+    ]
+  },
+  {
+    "id": 121,
+    "brand": "Driade",
+    "name": "Rolland II",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 274,
+    "outletEur": 192,
+    "saleEur": 192,
+    "discountPct": 30,
+    "dims": "Ø28cm H:17cm",
+    "dekupe": "photos/dekupe/driade-rolland-ii.webp",
+    "lifes": [
+      "photos/dekupe/driade-rolland-i-ii.png",
+      "photos/dekupe/driade-rolland-i-ii-new.png"
+    ]
+  },
+  {
+    "id": 122,
+    "brand": "Paola C",
+    "name": "Small Titus III Blue Glass Vase",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 384,
+    "outletEur": 269,
+    "saleEur": 269,
+    "discountPct": 30,
+    "dims": "Ø10cm H:21cm",
+    "dekupe": "photos/dekupe/paola-c-titus-blue.jpg",
+    "lifes": []
+  },
+  {
+    "id": 123,
+    "brand": "Paola C",
+    "name": "Longi",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 180,
+    "outletEur": 126,
+    "saleEur": 126,
+    "discountPct": 30,
+    "dims": "Ø22cm H:13cm",
+    "dekupe": "photos/dekupe/paola-c-longi-orange-cover.webp",
+    "lifes": [
+      "photos/dekupe/paola-c-longi-2.png",
+      "photos/life/paola-c-longi-lifestyle.webp",
+      "photos/dekupe/paola-c-longi-ikili-2.png",
+      "photos/life/paola-c-longi-life-a.png",
+      "photos/life/paola-c-longi-ikili-life.png",
+      "photos/life/paola-c-longi-lifestyle-new.webp"
+    ]
+  },
+  {
+    "id": 124,
+    "brand": "Paola C",
+    "name": "Longi",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 180,
+    "outletEur": 126,
+    "saleEur": 126,
+    "discountPct": 30,
+    "dims": "Ø22cm H:13cm",
+    "dekupe": "photos/dekupe/paola-c-longi-cover.png",
+    "lifes": [
+      "photos/dekupe/paola-c-longi-2.png",
+      "photos/life/paola-c-longi-lifestyle.webp",
+      "photos/life/paola-c-longi-ikili-life.png",
+      "photos/life/paola-c-longi-lifestyle-new.webp"
+    ]
+  },
+  {
+    "id": 125,
+    "brand": "Paola C",
+    "name": "Longi",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 180,
+    "outletEur": 126,
+    "saleEur": 126,
+    "discountPct": 30,
+    "dims": "Ø12cm H:21,5cm",
+    "dekupe": "photos/dekupe/paola-c-longi-2-new.png",
+    "lifes": [
+      "photos/life/paola-c-longi-lifestyle.webp",
+      "photos/life/paola-c-longi-ikili-life.png"
+    ]
+  },
+  {
+    "id": 126,
+    "brand": "Paola C",
+    "name": "Longi",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 180,
+    "outletEur": 126,
+    "saleEur": 126,
+    "discountPct": 30,
+    "dims": "Ø12cm H:21,5cm",
+    "dekupe": "photos/dekupe/paola-c-longi-blue-cover.png",
+    "lifes": [
+      "photos/life/paola-c-longi-lifestyle.webp",
+      "photos/life/paola-c-longi-ikili-life.png"
+    ]
+  },
+  {
+    "id": 127,
+    "brand": "Paola C",
+    "name": "Riflessi",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 720,
+    "outletEur": 504,
+    "saleEur": 504,
+    "discountPct": 30,
+    "dims": "Ø15cm H:37cm",
+    "dekupe": "photos/dekupe/paola-c-riflessi.jpg",
+    "lifes": []
+  },
+  {
+    "id": 128,
+    "brand": "Paola C",
+    "name": "Cuppone",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 744,
+    "outletEur": 521,
+    "saleEur": 521,
+    "discountPct": 30,
+    "dims": "Ø34cm H:20cm",
+    "dekupe": "photos/dekupe/paola-c-cuppone-3.jpg",
+    "lifes": [
+      "photos/dekupe/paola-c-cuppone-2.jpg"
+    ]
+  },
+  {
+    "id": 129,
+    "brand": "Paola C",
+    "name": "The Flat",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 900,
+    "outletEur": 630,
+    "saleEur": 630,
+    "discountPct": 30,
+    "dims": "Ø37cm H:9cm",
+    "dekupe": "photos/dekupe/paola-c-the-flat.jpg",
+    "lifes": []
+  },
+  {
+    "id": 131,
+    "brand": "Paola C",
+    "name": "Gambino",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 216,
+    "outletEur": 151,
+    "saleEur": 151,
+    "discountPct": 30,
+    "dims": "Ø18cm H:12cm",
+    "dekupe": "photos/dekupe/paola-c-gambino-3.webp",
+    "lifes": [
+      "photos/life/paola-c-gambino-life1.jpg",
+      "photos/life/paola-c-gambino-life2.webp"
+    ]
+  },
+  {
+    "id": 132,
+    "brand": "Paola C",
+    "name": "New Moon",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 1440,
+    "outletEur": 720,
+    "saleEur": 720,
+    "discountPct": 50,
+    "dims": "Ø32cm H:50cm",
+    "dekupe": "photos/dekupe/paola-c-new-moon.jpg",
+    "lifes": [
+      "photos/life/paola-c-new-moon-life.jpg"
+    ]
+  },
+  {
+    "id": 134,
+    "brand": "Paola C",
+    "name": "Tiberius I",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 1200,
+    "outletEur": 840,
+    "saleEur": 840,
+    "discountPct": 30,
+    "dims": "Ø50cm H:18cm",
+    "dekupe": "photos/dekupe/paola-c-tiberius-i-840.png",
+    "lifes": [
+      "photos/life/paola-c-gambone-life.jpg",
+      "photos/life/paola-c-gambone-life2.png"
+    ]
+  },
+  {
+    "id": 135,
+    "brand": "Paola C",
+    "name": "Titus II",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 660,
+    "outletEur": 462,
+    "saleEur": 462,
+    "discountPct": 30,
+    "dims": "Ø15cm H:30cm",
+    "dekupe": "photos/dekupe/paola-c-titus-green.jpg",
+    "lifes": [
+      "photos/life/paola-c-titus-life1.webp",
+      "photos/life/paola-c-titus-life2.webp"
+    ]
+  },
+  {
+    "id": 210,
+    "brand": "Paola C",
+    "name": "The Short Vase Blue Small",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 828,
+    "outletEur": 580,
+    "saleEur": 580,
+    "discountPct": 30,
+    "dims": "Ø20cm H:31cm",
+    "dekupe": "photos/dekupe/paola-c-short-vase.webp",
+    "lifes": []
+  },
+  {
+    "id": 136,
+    "brand": "Paola C",
+    "name": "The Tall Vase Blue",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 960,
+    "outletEur": 672,
+    "saleEur": 672,
+    "discountPct": 30,
+    "dims": "Ø25cm H:40cm",
+    "dekupe": "photos/dekupe/paola-c-tall-vase.webp",
+    "lifes": []
+  },
+  {
+    "id": 137,
+    "brand": "Paola C",
+    "name": "Gambino",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 360,
+    "outletEur": 252,
+    "saleEur": 252,
+    "discountPct": 30,
+    "dims": "Ø18cm H:12cm",
+    "dekupe": "photos/dekupe/paola-c-gambino-3.webp",
+    "lifes": [
+      "photos/life/paola-c-gambino-life1.jpg",
+      "photos/life/paola-c-gambino-life2.webp"
+    ]
+  },
+  {
+    "id": 139,
+    "brand": "Paola C",
+    "name": "Silver-Plated Titus",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 660,
+    "outletEur": 462,
+    "saleEur": 462,
+    "discountPct": 30,
+    "dims": "Ø15cm H:30cm",
+    "dekupe": "photos/dekupe/paola-c-silver-titus.png",
+    "lifes": []
+  },
+  {
+    "id": 140,
+    "brand": "Paola C",
+    "name": "Silver-Plated Titus",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 864,
+    "outletEur": 605,
+    "saleEur": 605,
+    "discountPct": 30,
+    "dims": "Ø20cm H:40,5cm",
+    "dekupe": "photos/dekupe/paola-c-silver-titus.png",
+    "lifes": []
+  },
+  {
+    "id": 141,
+    "brand": "Paola C",
+    "name": "Red Moon",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 600,
+    "outletEur": 420,
+    "saleEur": 420,
+    "discountPct": 30,
+    "dims": "Ø30cm H:18cm",
+    "dekupe": "photos/dekupe/paola-c-red-moon.png",
+    "lifes": []
+  },
+  {
+    "id": 222,
+    "brand": "Paola C",
+    "name": "Paola C Red Moon 2",
+    "saleEur": 134,
+    "listEur": 192,
+    "dekupe": "photos/dekupe/paola-c-red-moon-2.png",
+    "lifes": [],
+    "category": "Objects & Vases",
+    "description": "",
+    "dimensions": ""
+  },
+  {
+    "id": 143,
+    "brand": "Exteta",
+    "name": "Sunset Basket Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 20651,
+    "outletEur": 14455,
+    "saleEur": 11360,
+    "discountPct": 45,
+    "dims": "265 x 105 cm H:38/70cm · CS60PR x2 · CS60S",
+    "dekupe": "photos/dekupe/exteta-sunset-basket-sofa-new.png",
+    "lifes": [
+      "photos/life/exteta-sunset-basket-sofa-life.webp",
+      "photos/life/exteta-basket-sofa-outdoor-life.webp",
+      "photos/life/exteta-sunset-basket-sofa-life-new.png"
+    ]
+  },
+  {
+    "id": 225,
+    "brand": "Exteta",
+    "name": "Exteta Sunset Outdoor Chair",
+    "saleEur": 11000,
+    "listEur": 20639,
+    "dekupe": "photos/dekupe/exteta-sunset-outdoor-chair-2.png",
+    "lifes": [
+      "photos/dekupe/exteta-sunset-outdoor-chair-3.png",
+      "photos/life/exteta-sunset-outdoor-chair-life.webp",
+      "photos/life/exteta-sunset-basket-chair-life.webp",
+      "photos/life/exteta-sunset-basket-chair-life2.webp"
+    ],
+    "category": "Sofas",
+    "description": "",
+    "dimensions": ""
+  },
+  {
+    "id": 144,
+    "brand": "Roda",
+    "name": "Roda Piper Masa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 10221,
+    "outletEur": 9625,
+    "saleEur": 5000,
+    "discountPct": 45,
+    "dims": "269 x 97 cm H:51cm",
+    "dekupe": "photos/dekupe/roda-piper-cover.jpg",
+    "lifes": [
+      "photos/dekupe/roda-piper.png",
+      "photos/life/roda-piper-life.png"
+    ]
+  },
+  {
+    "id": 145,
+    "brand": "B&B Italia",
+    "name": "Softcage Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 12179,
+    "outletEur": 8500,
+    "saleEur": 6700,
+    "discountPct": 45,
+    "dims": "235 x 85 cm H:40/65cm",
+    "dekupe": "photos/dekupe/bb-softcage-sofa.webp",
+    "lifes": [
+      "photos/life/bb-softcage-sofa-life4.jpg",
+      "photos/life/bb-softcage-2.jpg",
+      "photos/life/bb-softcage-3.webp"
+    ]
+  },
+  {
+    "id": 147,
+    "brand": "Cassina",
+    "name": "Trampoline Sofa",
+    "section": "INDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 9324,
+    "outletEur": 6526,
+    "saleEur": 5130,
+    "discountPct": 45,
+    "dims": "245 x 100cm H:70cm",
+    "dekupe": "photos/dekupe/cassina-trampoline-sofa.png",
+    "lifes": [
+      "photos/life/cassina-trampoline-sofa-life.jpg",
+      "photos/life/cassina-trampoline-sofa-life2.webp"
+    ]
+  },
+  {
+    "id": 148,
+    "brand": "Cassina",
+    "name": "Esosoft 3 Seater Sofa",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 15718,
+    "outletEur": 11000,
+    "saleEur": 8500,
+    "discountPct": 46,
+    "dims": "582 92 x4 240 x 95 cm H:43/73 cm",
+    "dekupe": "photos/dekupe/cassina-esosoft-3-seater-sofa.png",
+    "lifes": [
+      "photos/life/cassina-esosoft-life.webp"
+    ]
+  },
+  {
+    "id": 149,
+    "brand": "Paola Lenti",
+    "name": "Orbitry Sofa",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 24494,
+    "outletEur": 17000,
+    "saleEur": 13500,
+    "discountPct": 45,
+    "dims": "H: 40/80cm",
+    "dekupe": "photos/dekupe/paola-lenti-orbitry-sofa.png",
+    "lifes": [
+      "photos/dekupe/paola-lenti-orbitry-sofa-1.png",
+      "photos/life/paola-lenti-orbitry-life-1.png",
+      "photos/life/paola-lenti-orbitry-life-2.png"
+    ]
+  },
+  {
+    "id": 211,
+    "brand": "Carl Hansen",
+    "name": "BK12 Sofa",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 2715,
+    "outletEur": 1900,
+    "saleEur": 1500,
+    "discountPct": 45,
+    "dims": "H:67cm · (2 adet fiyatıdır)",
+    "dekupe": null,
+    "lifes": []
+  },
+  {
+    "id": 212,
+    "brand": "Carl Hansen",
+    "name": "BK11 Armchair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 2,
+    "listEur": 3520,
+    "outletEur": 2465,
+    "saleEur": 1940,
+    "discountPct": 45,
+    "dims": "H:67cm",
+    "dekupe": null,
+    "lifes": []
+  },
+  {
+    "id": 150,
+    "brand": "Gandia Blasco",
+    "name": "Isla Arosa Sofa",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 5538,
+    "outletEur": 3900,
+    "saleEur": 3000,
+    "discountPct": 46,
+    "dims": "H:80cm",
+    "dekupe": "photos/dekupe/gandia-blasco-isla-arosa.webp",
+    "lifes": [
+      "photos/life/gandia-blasco-isla-chair.png"
+    ]
+  },
+  {
+    "id": 151,
+    "brand": "B&B Italia",
+    "name": "Hybrid Chaise Longue",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 7507,
+    "outletEur": 5255,
+    "saleEur": 4000,
+    "discountPct": 47,
+    "dims": "h:38/59cm",
+    "dekupe": "photos/dekupe/bb-hybrid-chaise-longue-new.png",
+    "lifes": [
+      "photos/life/bb-hybrid-chaise-longue-life3.webp",
+      "photos/life/bb-hybrid-chaise-longue-life4.webp",
+      "photos/life/bb-hybrid-chaise-longue-life5.webp"
+    ]
+  },
+  {
+    "id": 152,
+    "brand": "B&B Italia",
+    "name": "Nooch Ottoman",
+    "section": "OUTDOOR",
+    "category": "Outdoor Accents",
+    "qty": 1,
+    "listEur": 7788,
+    "outletEur": 5455,
+    "saleEur": 4300,
+    "discountPct": 45,
+    "dims": "190 x 95 cm H:43cm · İndirimli adet fiyatı:",
+    "dekupe": "photos/dekupe/bb-nooch-ottoman.png",
+    "lifes": [
+      "photos/life/bb-nooch-ottoman-life.webp",
+      "photos/life/bb-nooch-ottoman-life2.webp"
+    ]
+  },
+  {
+    "id": 153,
+    "brand": "Paola Lenti",
+    "name": "Portofino Armchair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Accents",
+    "qty": 4,
+    "listEur": 15913,
+    "outletEur": 11000,
+    "saleEur": 8750,
+    "discountPct": 45,
+    "dims": "86 x 96 cm H:44/71 cm",
+    "dekupe": "photos/dekupe/paola-lenti-portofino-armchair.jpg",
+    "lifes": [
+      "photos/dekupe/paola-lenti-portofino-armchair-2.jpg"
+    ]
+  },
+  {
+    "id": 155,
+    "brand": "Cassina",
+    "name": "Fauteuil Grand Confort, grand modèle, Outdoor",
+    "section": "OUTDOOR",
+    "category": "Outdoor",
+    "qty": 2,
+    "listEur": 6203,
+    "outletEur": 8700,
+    "saleEur": 6800,
+    "discountPct": -40,
+    "dims": "6.800 € · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/cassina-fauteuil-grand-confort.png",
+    "lifes": [
+      "photos/life/cassina-fauteuil-grand-confort-life4.webp",
+      "photos/life/cassina-fauteuil-grand-confort-life5.webp",
+      "photos/life/cassina-fauteuil-grand-confort-life6.webp"
+    ]
+  },
+  {
+    "id": 156,
+    "brand": "Flexform",
+    "name": "Ortigia Armchair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 2,
+    "listEur": 4327,
+    "outletEur": 6000,
+    "saleEur": 4750,
+    "discountPct": -10,
+    "dims": "78 x 63 cm H:42/76 cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/flexform-ortigia-armchair.png",
+    "lifes": [
+      "photos/life/flexform-ortigia-no-armrest-life1.webp",
+      "photos/life/flexform-ortigia-no-armrest-life2.webp"
+    ]
+  },
+  {
+    "id": 157,
+    "brand": "Paola Lenti",
+    "name": "Ami Armchair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 2,
+    "listEur": 6426,
+    "outletEur": 4500,
+    "saleEur": 3535,
+    "discountPct": 45,
+    "dims": "70 x 64cm H:40cm · İndirimli adet fiyatı:",
+    "dekupe": "photos/dekupe/paola-lenti-ami-armchair.png",
+    "lifes": [
+      "photos/life/paola-lenti-ami-1.png",
+      "photos/life/paola-lenti-ami-2.png",
+      "photos/life/paola-lenti-ami-4.png",
+      "photos/life/paola-lenti-ami-5.png"
+    ]
+  },
+  {
+    "id": 158,
+    "brand": "B&B Italia",
+    "name": "Fat Armchair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 2,
+    "listEur": 6123,
+    "outletEur": 4250,
+    "saleEur": 4250,
+    "discountPct": 31,
+    "dims": "3.350 €",
+    "dekupe": "photos/dekupe/bb-fat-armchair.png",
+    "lifes": [
+      "photos/life/bb-fat-armchair-1.png",
+      "photos/life/bb-fat-armchair-2.png",
+      "photos/life/bb-fat-armchair-3.png",
+      "photos/life/bb-fat-armchair-4.png",
+      "photos/life/bb-fat-armchair-5.png"
+    ]
+  },
+  {
+    "id": 224,
+    "brand": "B&B Italia",
+    "name": "B&B Italia Borea Armchair",
+    "saleEur": 5850,
+    "listEur": 7500,
+    "dekupe": "photos/dekupe/bb-borea-armchair.webp",
+    "lifes": [
+      "photos/life/bb-borea-armchair-1.webp"
+    ],
+    "category": "Sofas",
+    "description": "",
+    "dimensions": ""
+  },
+  {
+    "id": 159,
+    "brand": "Roda",
+    "name": "Astra 002 Loung Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 2,
+    "listEur": 11556,
+    "outletEur": 8090,
+    "saleEur": 6350,
+    "discountPct": 30,
+    "dims": "6.350 € · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/roda-astra-002-cover.png",
+    "lifes": [
+      "photos/dekupe/roda-astra-002-2.webp",
+      "photos/life/roda-astra-002-life.webp"
+    ]
+  },
+  {
+    "id": 160,
+    "brand": "Roda",
+    "name": "| DOUBLE Dış Mekan Tekli Koltuk",
+    "section": "OUTDOOR",
+    "category": "Outdoor",
+    "qty": 2,
+    "listEur": 3600,
+    "outletEur": 5000,
+    "saleEur": 3950,
+    "discountPct": -10,
+    "dims": "77 x 75 h: 42/79 cm",
+    "dekupe": "photos/dekupe/roda-double-cover.png",
+    "lifes": [
+      "photos/life/roda-double-life.png",
+      "photos/life/roda-double-life-new.png"
+    ]
+  },
+  {
+    "id": 161,
+    "brand": "Roda",
+    "name": "Lawrence Lounge Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 1,
+    "listEur": 1800,
+    "outletEur": 1260,
+    "saleEur": 990,
+    "discountPct": 45,
+    "dims": "76 x 80cm H:45/99cm",
+    "dekupe": "",
+    "lifes": []
+  },
+  {
+    "id": 162,
+    "brand": "Roda",
+    "name": "Lawrence Stool",
+    "section": "OUTDOOR",
+    "category": "Outdoor Accents",
+    "qty": 1,
+    "listEur": 1572,
+    "outletEur": 1100,
+    "saleEur": 865,
+    "discountPct": 45,
+    "dims": "76 x 50cm H:45cm",
+    "dekupe": "photos/dekupe/roda-lawrence.webp",
+    "lifes": [
+      "photos/life/roda-lawrence.webp"
+    ]
+  },
+  {
+    "id": 163,
+    "brand": "Fendi",
+    "name": "Ohe Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Accents",
+    "qty": 1,
+    "listEur": 12213,
+    "outletEur": 8500,
+    "saleEur": 6700,
+    "discountPct": 45,
+    "dims": "Ø180cm H:72cm",
+    "dekupe": "photos/dekupe/fendi-ohe-table-new.webp",
+    "lifes": [
+      "photos/life/fendi-ohe-table-life.jpg"
+    ]
+  },
+  {
+    "id": 164,
+    "brand": "Fendi Casa",
+    "name": "Ohe Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 6,
+    "listEur": 18850,
+    "outletEur": 18850,
+    "saleEur": 14500,
+    "discountPct": -223,
+    "dims": "70 x 60 cm H:44/73 cm · Black coffee bambou structure · Koror gold fabric seat",
+    "dekupe": "photos/dekupe/fendi-casa-ohe-chair.jpg",
+    "lifes": [
+      "photos/dekupe/fendi-ohe-chair-new.png"
+    ]
+  },
+  {
+    "id": 165,
+    "brand": "B&B Italia",
+    "name": "Ginestra Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 10599,
+    "outletEur": 7400,
+    "saleEur": 5800,
+    "discountPct": 45,
+    "dims": "Ø 180cm h:73,5cm · 1 Coro Table · Ø135cm H:75cm · f",
+    "dekupe": "photos/dekupe/bb-ginestra-table.webp",
+    "lifes": [
+      "photos/life/bb-ginestra-table.jpg"
+    ]
+  },
+  {
+    "id": 166,
+    "brand": "Coro",
+    "name": "Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 5192,
+    "outletEur": 3650,
+    "saleEur": 2850,
+    "discountPct": 45,
+    "dims": "255x90cm H:73,5cm",
+    "dekupe": "photos/dekupe/coro-table-long-new.png",
+    "lifes": [
+      "photos/life/coro-table-long-life.webp",
+      "photos/life/coro-table-long-life2.webp"
+    ]
+  },
+  {
+    "id": 167,
+    "brand": "Fermob",
+    "name": "Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 1800,
+    "outletEur": 1260,
+    "saleEur": 990,
+    "discountPct": 45,
+    "dims": "160 x 90cm H:74cm",
+    "dekupe": "photos/dekupe/fermob-table.png",
+    "lifes": []
+  },
+  {
+    "id": 213,
+    "brand": "B&B Italia",
+    "name": "Mirto Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 3912,
+    "outletEur": 2740,
+    "saleEur": 2155,
+    "discountPct": 45,
+    "dims": "150 x 150cm H:74cm",
+    "dekupe": "photos/dekupe/bb-mirto-table-2155.png",
+    "lifes": [
+      "photos/dekupe/bb-mirto-table.png",
+      "photos/life/bb-mirto-table-life.png"
+    ]
+  },
+  {
+    "id": 168,
+    "brand": "B&B Italia",
+    "name": "Mirto Outdoor",
+    "section": "OUTDOOR",
+    "category": "Outdoor",
+    "qty": 1,
+    "listEur": 4912,
+    "outletEur": 3500,
+    "saleEur": 2700,
+    "discountPct": 45,
+    "dims": "150x150cm H:74cm",
+    "dekupe": "photos/dekupe/bb-mirto-outdoor.png",
+    "lifes": [
+      "photos/life/bb-mirto-outdoor-life1.webp",
+      "photos/life/bb-mirto-outdoor-life2.webp"
+    ]
+  },
+  {
+    "id": 169,
+    "brand": "Fendi",
+    "name": "Kathy Outdoor Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 19504,
+    "outletEur": 13650,
+    "saleEur": 10700,
+    "discountPct": 45,
+    "dims": "280 x 110 cm H:74 cm",
+    "dekupe": "photos/dekupe/fendi-kathy-outdoor-table.webp",
+    "lifes": [
+      "photos/life/fendi-kathy-outdoor-table-life.webp"
+    ]
+  },
+  {
+    "id": 170,
+    "brand": "Fendi",
+    "name": "Kathy Outdoor Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 6,
+    "listEur": 28704,
+    "outletEur": 20000,
+    "saleEur": 15750,
+    "discountPct": 45,
+    "dims": "53,5 x 60,5 cm H:47,5/83 cm",
+    "dekupe": "photos/dekupe/fendi-kathy-chair-dekupe.png",
+    "lifes": [
+      "photos/dekupe/fendi-kathy-outdoor-chair.jpg",
+      "photos/life/fendi-kathy-outdoor-life.webp"
+    ]
+  },
+  {
+    "id": 171,
+    "brand": "Cassina",
+    "name": "Trampoline Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 1,
+    "listEur": 8087,
+    "outletEur": 5661,
+    "saleEur": 4500,
+    "discountPct": 44,
+    "dims": "240 x 110 cm H:74cm · İndirimli 6 adet fiyatı:",
+    "dekupe": "photos/dekupe/cassina-trampoline-table-dekupe.png",
+    "lifes": [
+      "photos/dekupe/cassina-trampoline-table.png",
+      "photos/life/cassina-trampoline-table-life.webp",
+      "photos/life/cassina-trampoline-table-life-new.webp"
+    ]
+  },
+  {
+    "id": 172,
+    "brand": "Cassina",
+    "name": "Trampoline Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 6,
+    "listEur": 8765,
+    "outletEur": 8675,
+    "saleEur": 6800,
+    "discountPct": -229,
+    "dims": "10 58 x 63 cm H:45/68/80cm",
+    "dekupe": "photos/dekupe/cassina-trampoline-chair.jpg",
+    "lifes": []
+  },
+  {
+    "id": 173,
+    "brand": "Roda",
+    "name": "Piper Masa",
+    "section": "OUTDOOR",
+    "category": "Outdoor",
+    "qty": 1,
+    "listEur": 10221,
+    "outletEur": 2500,
+    "saleEur": 2500,
+    "discountPct": 76,
+    "dims": "220 x 100 h:75 cm · açılıp kapanma iptal sabit masa olarak kullanılabilir",
+    "dekupe": "photos/dekupe/roda-piper-cover.jpg",
+    "lifes": [
+      "photos/dekupe/roda-piper.png",
+      "photos/life/roda-piper-life.png",
+      "photos/life/roda-piper-life-a.png",
+      "photos/life/roda-piper-life-b.png"
+    ]
+  },
+  {
+    "id": 175,
+    "brand": "Fermob",
+    "name": "Outdoor masa",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 1000,
+    "outletEur": 700,
+    "saleEur": 550,
+    "discountPct": 45,
+    "dims": "77 x 77cm H:75cm · indirimli 4 adet fiyatı",
+    "dekupe": "photos/dekupe/fermob-outdoor.png",
+    "lifes": [
+      "photos/life/fermob-outdoor-1.png",
+      "photos/life/fermob-outdoor-2.png",
+      "photos/life/fermob-outdoor-3.png"
+    ]
+  },
+  {
+    "id": 214,
+    "brand": "Gandia Blasco",
+    "name": "Isla Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 4,
+    "listEur": 10944,
+    "outletEur": 7660,
+    "saleEur": 7660,
+    "discountPct": 30,
+    "dims": "73 x 73cm H:48/80cm · indirimli 6 adet fiyatı:",
+    "dekupe": "photos/dekupe/gandia-blasco-isla-chair.webp",
+    "lifes": [
+      "photos/dekupe/gandia-blasco-isla-chair-2.png"
+    ]
+  },
+  {
+    "id": 176,
+    "brand": "Flexform",
+    "name": "Ortigia Dining Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 6,
+    "listEur": 3907,
+    "outletEur": 16408,
+    "saleEur": 12800,
+    "discountPct": 0,
+    "dims": "55 x 54 h:46/83 cm · İndirimli 6 adet fiyatı:",
+    "dekupe": "photos/dekupe/flexform-ortigia-chair.webp",
+    "lifes": [
+      "photos/life/flexform-ortigia-life1.webp",
+      "photos/life/flexform-ortigia-life2.webp"
+    ]
+  },
+  {
+    "id": 177,
+    "brand": "Roda",
+    "name": "DOUBLE 011 chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 2,
+    "listEur": 2260,
+    "outletEur": 1582,
+    "saleEur": 2500,
+    "discountPct": -11,
+    "dims": "52 x 70 cm H:48/60 cm",
+    "dekupe": "photos/dekupe/roda-double-011.png",
+    "lifes": [
+      "photos/life/roda-double-011-life1.webp",
+      "photos/life/roda-double-011-life2.webp"
+    ]
+  },
+  {
+    "id": 215,
+    "brand": "Andreu World",
+    "name": "Trenza Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 2,
+    "listEur": 1880,
+    "outletEur": 1320,
+    "saleEur": 1320,
+    "discountPct": 30,
+    "dims": "52,5 x 52,5cm H:64/81cm",
+    "dekupe": "photos/dekupe/andreu-world-trenza-chair.png",
+    "lifes": [
+      "photos/life/andreu-world-trenza-chair-life-a.webp",
+      "photos/life/andreu-world-trenza-chair-life-b.webp"
+    ]
+  },
+  {
+    "id": 179,
+    "brand": "B&B Italia",
+    "name": "Mirto Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 1,
+    "listEur": 1632,
+    "outletEur": 1145,
+    "saleEur": 900,
+    "discountPct": 45,
+    "dims": "H:46/80,5cm · İndirimli 8 adet fiyatı:",
+    "lifes": [],
+    "dekupe": "photos/dekupe/bb-mirto-chair.webp"
+  },
+  {
+    "id": 180,
+    "brand": "Roda",
+    "name": "Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 8,
+    "listEur": 16992,
+    "outletEur": 12000,
+    "saleEur": 9000,
+    "discountPct": 47,
+    "dims": "52 x 58cm H:80,5cm",
+    "dekupe": "photos/dekupe/roda-chair-new.png",
+    "lifes": [
+      "photos/life/roda-chair-life.webp"
+    ]
+  },
+  {
+    "id": 181,
+    "brand": "Cassina",
+    "name": "Sail Out Pouf",
+    "section": "OUTDOOR",
+    "category": "Outdoor Accents",
+    "qty": 1,
+    "listEur": 1248,
+    "outletEur": 874,
+    "saleEur": 650,
+    "discountPct": 48,
+    "dims": "Ø 80 cm H:37 cm",
+    "dekupe": "photos/dekupe/cassina-sail-out-pouf.webp",
+    "lifes": []
+  },
+  {
+    "id": 182,
+    "brand": "Roda",
+    "name": "Double 35 Pouf",
+    "section": "OUTDOOR",
+    "category": "Outdoor Accents",
+    "qty": 1,
+    "listEur": 2460,
+    "outletEur": 1700,
+    "saleEur": 1700,
+    "discountPct": 31,
+    "dims": "1.350 €",
+    "dekupe": "photos/dekupe/roda-double-35-36-pouf.png",
+    "lifes": []
+  },
+  {
+    "id": 183,
+    "brand": "Roda",
+    "name": "Double 36 Pouf",
+    "section": "OUTDOOR",
+    "category": "Outdoor Accents",
+    "qty": 1,
+    "listEur": 3122,
+    "outletEur": 2185,
+    "saleEur": 2185,
+    "discountPct": 30,
+    "dims": "1.700 € · indirimli adet fiyatı",
+    "dekupe": "photos/dekupe/roda-double-35-36-pouf.png",
+    "lifes": []
+  },
+  {
+    "id": 184,
+    "brand": "Paola Lenti",
+    "name": "Otto Cylindrical Pouf",
+    "section": "OUTDOOR",
+    "category": "Outdoor Accents",
+    "qty": 2,
+    "listEur": 1150,
+    "outletEur": 805,
+    "saleEur": 650,
+    "discountPct": 43,
+    "dims": "Ø 48cm h: 46 cm",
+    "dekupe": "photos/dekupe/paola-lenti-otto-cylindrical-pouf.jpg",
+    "lifes": []
+  },
+  {
+    "id": 186,
+    "brand": "Fendi",
+    "name": "Ohe Coffee Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 12213,
+    "outletEur": 6500,
+    "saleEur": 6700,
+    "discountPct": 47,
+    "dims": "Ø100 cm H:21 cm · Marquiana matte marble top · Black Bambu",
+    "dekupe": "photos/dekupe/fendi-ohe-table.jpg",
+    "lifes": [
+      "photos/dekupe/fendi-ohe-table-2.jpg",
+      "photos/life/fendi-ohe-coffee-table.jpg",
+      "photos/life/fendi-ohe-table-life.jpg"
+    ]
+  },
+  {
+    "id": 187,
+    "brand": "B&B Italia",
+    "name": "Colosseo Side Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 901,
+    "outletEur": 630,
+    "saleEur": 495,
+    "discountPct": 45,
+    "dims": "Ø40cm h:45cm · naturel taş · indirimli adet fiyatı",
+    "dekupe": "photos/dekupe/bb-colosseo-orange.png",
+    "lifes": [
+      "photos/dekupe/bb-colosseo-side-table-new.png"
+    ]
+  },
+  {
+    "id": 188,
+    "brand": "B&B Italia",
+    "name": "Colosseo Side Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 2,
+    "listEur": 989,
+    "outletEur": 695,
+    "saleEur": 545,
+    "discountPct": 45,
+    "dims": "Ø45cm h:49cm · naturel taş",
+    "dekupe": "photos/dekupe/bb-colosseo-green.png",
+    "lifes": [
+      "photos/dekupe/bb-colosseo-side-table-new.png",
+      "photos/life/bb-colosseo-side-table-life.png",
+      "photos/life/bb-colosseo-side-table-green.webp"
+    ]
+  },
+  {
+    "id": 216,
+    "brand": "Paola Lenti",
+    "name": "Strap Side Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 3988,
+    "outletEur": 2795,
+    "saleEur": 2195,
+    "discountPct": 45,
+    "dims": "Ø45cm H:40cm",
+    "dekupe": "photos/dekupe/paola-lenti-strap-side-table-new.png",
+    "lifes": [
+      "photos/dekupe/paola-lenti-strap-side-table-2.png"
+    ]
+  },
+  {
+    "id": 189,
+    "brand": "Flexform",
+    "name": "Fly Side Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 2,
+    "listEur": 2325,
+    "outletEur": 1630,
+    "saleEur": 1280,
+    "discountPct": 45,
+    "dims": "Ø40cm H: 46cm",
+    "dekupe": "photos/dekupe/flexform-fly-side-table-1280-new.avif",
+    "lifes": [
+      "photos/dekupe/flexform-fly-side-table-1280.webp",
+      "photos/life/flexform-fly-side-table-1280-life.webp"
+    ]
+  },
+  {
+    "id": 190,
+    "brand": "Gervasoni",
+    "name": "Heiko Outdoor Coffee Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 1480,
+    "outletEur": 1036,
+    "saleEur": 814,
+    "discountPct": 45,
+    "dims": "Ø90cm H:30cm",
+    "dekupe": "photos/dekupe/gervasoni-heiko-814.webp",
+    "lifes": [
+      "photos/dekupe/gervasoni-heiko-outdoor-2.png",
+      "photos/life/gervasoni-heiko-outdoor-life.png",
+      "photos/life/gervasoni-heiko-outdoor-life2.webp",
+      "photos/life/gervasoni-heiko-814-life-b.png",
+      "photos/life/gervasoni-heiko-814-life-c.webp"
+    ]
+  },
+  {
+    "id": 191,
+    "brand": "Gervasoni",
+    "name": "Heiko Outdoor Coffee Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 1310,
+    "outletEur": 917,
+    "saleEur": 720,
+    "discountPct": 45,
+    "dims": "Ø60cm H:41cm",
+    "dekupe": "photos/dekupe/gervasoni-heiko-720.jpg",
+    "lifes": [
+      "photos/dekupe/gervasoni-heiko-outdoor-3.png",
+      "photos/life/gervasoni-heiko-outdoor-life.png",
+      "photos/life/gervasoni-heiko-outdoor-life4.webp",
+      "photos/life/gervasoni-heiko-outdoor-life5.jpg"
+    ]
+  },
+  {
+    "id": 192,
+    "brand": "Gervasoni",
+    "name": "Heiko Outdoor Coffee Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 1140,
+    "outletEur": 800,
+    "saleEur": 630,
+    "discountPct": 45,
+    "dims": "Ø40cm H:50cm",
+    "dekupe": "photos/dekupe/gervasoni-heiko-630.jpg",
+    "lifes": [
+      "photos/dekupe/gervasoni-heiko-outdoor-4.png",
+      "photos/life/gervasoni-heiko-outdoor-life.png"
+    ]
+  },
+  {
+    "id": 193,
+    "brand": "B&B Italia",
+    "name": "Outdoor Canasta Coffee Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 883,
+    "outletEur": 650,
+    "saleEur": 490,
+    "discountPct": 45,
+    "dims": "30 x 33 cm H:30cm",
+    "dekupe": "photos/dekupe/bb-outdoor-canasta-new.png",
+    "lifes": [
+      "photos/life/gervasoni-heiko.png",
+      "photos/life/bb-outdoor-canasta-life.webp"
+    ]
+  },
+  {
+    "id": 194,
+    "brand": "Talenti",
+    "name": "Venice Coffee Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 5390,
+    "outletEur": 3773,
+    "saleEur": 3773,
+    "discountPct": 30,
+    "dims": "2.950 € · indirimli adet fiyatı",
+    "dekupe": "photos/dekupe/talenti-venice-coffee-table-new.jpg",
+    "lifes": [
+      "photos/dekupe/talenti-venice-coffee-table-2.jpg"
+    ]
+  },
+  {
+    "id": 195,
+    "brand": "Paola Lenti",
+    "name": "Portofino Stool",
+    "section": "OUTDOOR",
+    "category": "Outdoor Accents",
+    "qty": 2,
+    "listEur": 3500,
+    "outletEur": 2450,
+    "saleEur": 1900,
+    "discountPct": 46,
+    "dims": "58 x 62 cm H:37 cm",
+    "dekupe": "photos/dekupe/paola-lenti-portofino-stool-2.png",
+    "lifes": [
+      "photos/life/paola-lenti-portofino-stool-life.webp"
+    ]
+  },
+  {
+    "id": 196,
+    "brand": "Roda",
+    "name": "Sunglass Low Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 2436,
+    "outletEur": 1500,
+    "saleEur": 1500,
+    "discountPct": 38,
+    "dims": "125 x 85 cm H:40 cm",
+    "dekupe": "photos/dekupe/roda-sunglass-low-3.png",
+    "lifes": [
+      "photos/dekupe/roda-sunglass-low-2.jpg"
+    ]
+  },
+  {
+    "id": 197,
+    "brand": "B&B Italia",
+    "name": "Mirto Chaise Longue",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 2,
+    "listEur": 3982,
+    "outletEur": 2787,
+    "saleEur": 2000,
+    "discountPct": 50,
+    "dims": "h:37/95cm",
+    "dekupe": "photos/dekupe/bb-mirto-chaise-longue.webp",
+    "lifes": []
+  },
+  {
+    "id": 198,
+    "brand": "Exteta",
+    "name": "Vertical Garden High",
+    "section": "OUTDOOR",
+    "category": "Outdoor Architecture",
+    "qty": 1,
+    "listEur": 8404,
+    "outletEur": 5883,
+    "saleEur": 4600,
+    "discountPct": 45,
+    "dims": "h:240cm · Steel_Bronze finish",
+    "dekupe": "photos/dekupe/exteta-vertical-garden-new.jpg",
+    "lifes": [
+      "photos/life/exteta-vertical-garden-life.webp"
+    ]
+  },
+  {
+    "id": 199,
+    "brand": "Exteta",
+    "name": "Vertical Garden Low",
+    "section": "OUTDOOR",
+    "category": "Outdoor Architecture",
+    "qty": 1,
+    "listEur": 8077,
+    "outletEur": 5654,
+    "saleEur": 4400,
+    "discountPct": 46,
+    "dims": "h: 185cm · Steel_Bronze finish",
+    "dekupe": "photos/dekupe/exteta-vertical-garden-new.jpg",
+    "lifes": [
+      "photos/life/exteta-vertical-garden-life.webp"
+    ]
+  },
+  {
+    "id": 217,
+    "brand": "Cassina",
+    "name": "Cassina 9 Oval Lounge Table — Walnut",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 7824,
+    "outletEur": 3250,
+    "saleEur": 3250,
+    "discountPct": 58,
+    "dims": "140x90cm H:64cm",
+    "dekupe": "photos/dekupe/cassina-9-walnut-dekupe.png",
+    "lifes": [
+      "photos/dekupe/cassina-9-walnut.png",
+      "photos/life/cassina-9-oval-walnut-life1.png"
+    ]
+  },
+  {
+    "id": 218,
+    "brand": "B&B Italia",
+    "name": "Button Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 3550,
+    "outletEur": 2485,
+    "saleEur": 1955,
+    "discountPct": 45,
+    "dims": "Ø80cm H:40cm",
+    "dekupe": "photos/dekupe/bb-button-coffee-table.png",
+    "lifes": [
+      "photos/life/bb-button-coffee-table-life.webp"
+    ]
+  },
+  {
+    "id": 219,
+    "brand": "B&B Italia",
+    "name": "Mirto Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 1167,
+    "outletEur": 1167,
+    "saleEur": 1167,
+    "discountPct": 0,
+    "dims": "55 x 40cm H:29cm",
+    "dekupe": "photos/dekupe/bb-mirto-coffee-table-dekupe.png",
+    "lifes": [
+      "photos/dekupe/bb-mirto-coffee-table-new.png",
+      "photos/life/bb-mirto-coffee-table-life1.png",
+      "photos/life/bb-mirto-coffee-table-life2.png",
+      "photos/dekupe/bb-mirto-chaise-longue.webp",
+      "photos/life/bb-mirto-coffee-table-life3.png",
+      "photos/life/bb-mirto-coffee-table-life4.png",
+      "photos/life/bb-mirto-coffee-table-life5.png",
+      "photos/life/bb-mirto-coffee-life-a.png",
+      "photos/life/bb-mirto-coffee-life-b.png",
+      "photos/life/bb-mirto-coffee-life-c.png"
+    ]
+  },
+  {
+    "id": 220,
+    "brand": "B&B Italia",
+    "name": "Cutter Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 2279,
+    "outletEur": 9500,
+    "saleEur": 7500,
+    "discountPct": 0,
+    "dims": "46 x 58 cm H:49/84cm",
+    "dekupe": "photos/dekupe/bb-cutter-chair.png",
+    "lifes": [
+      "photos/life/bb-cutter-chair.png"
+    ]
+  },
+  {
+    "id": 221,
+    "brand": "Vitra",
+    "name": "Hal Wood Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 588,
+    "outletEur": 412,
+    "saleEur": 325,
+    "discountPct": 45,
+    "dims": "44 x 44cm H:80cm",
+    "dekupe": "photos/dekupe/vitra-halwood.jpg",
+    "lifes": []
+  }
+]
