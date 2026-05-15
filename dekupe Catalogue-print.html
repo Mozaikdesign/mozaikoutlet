@@ -1,0 +1,5123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Mozaikdesign — Outlet Catalogue (Print)</title>
+  <template id="__bundler_thumbnail">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+      <rect width="200" height="200" fill="#f7f4ed"/>
+      <rect x="60" y="60" width="80" height="80" fill="none" stroke="#4a2a3a" stroke-width="2"/>
+      <text x="100" y="108" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#4a2a3a" font-style="italic">M</text>
+    </svg>
+  </template>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="styles.css"/>
+
+  <style>
+    /* ============ PRINT-OPTIMIZED OVERRIDES ============ */
+
+    @page {
+      size: A4 portrait;
+      margin: 14mm 12mm 14mm 12mm;
+    }
+
+    html, body {
+      background: #fff !important;
+      color: var(--ink);
+      font-size: 10pt;
+    }
+
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    * {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+
+    /* ============ COVER ============ */
+    .cover {
+      page-break-after: always;
+      break-after: page;
+      min-height: calc(297mm - 28mm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20mm 8mm 12mm;
+      background: #f7f4ed;
+      margin: -14mm -12mm;
+      padding: 20mm 20mm 20mm 20mm;
+    }
+    .cover__top {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      font-size: 9pt; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--ink-2);
+    }
+    .cover__logo {
+      font-family: var(--serif); font-weight: 400;
+      font-size: 22pt; letter-spacing: -0.01em; color: var(--ink);
+      line-height: 1;
+    }
+    .cover__logo em {
+      display: block;
+      font-family: var(--sans); font-weight: 500;
+      font-size: 9pt; letter-spacing: 0.24em; text-transform: uppercase;
+      color: var(--ink-2); margin-top: 6pt;
+      font-style: normal;
+    }
+    .cover__title {
+      font-family: var(--serif); font-weight: 300;
+      font-size: 58pt; line-height: 0.96; letter-spacing: -0.035em;
+      color: var(--ink);
+      max-width: 12ch;
+    }
+    .cover__title em {
+      font-style: italic; color: var(--accent); font-weight: 300;
+    }
+    .cover__sub {
+      font-family: var(--sans); font-size: 11pt; line-height: 1.5;
+      color: var(--ink-2); max-width: 55ch; margin-top: 18pt;
+    }
+    .cover__sub em { font-family: var(--serif); font-style: italic; color: var(--ink); }
+
+    .cover__stats {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      border-top: 1px solid var(--rule);
+      margin-top: 24pt;
+    }
+    .cover__stat {
+      padding: 12pt 14pt 0 0;
+      border-right: 1px solid var(--rule);
+    }
+    .cover__stat:last-child { border-right: 0; }
+    .cover__stat:not(:first-child) { padding-left: 14pt; }
+    .cover__stat span {
+      display: block;
+      font-family: var(--serif); font-weight: 300; font-size: 32pt;
+      line-height: 1; color: var(--accent);
+      letter-spacing: -0.03em;
+      margin-bottom: 4pt;
+    }
+    .cover__stat label {
+      font-size: 7pt; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--ink-2);
+    }
+    .cover__foot {
+      display: flex; justify-content: space-between; align-items: flex-end;
+      font-size: 8pt; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--ink-2);
+      padding-top: 20pt;
+      border-top: 1px solid var(--rule);
+      margin-top: 30pt;
+    }
+
+    /* ============ SECTION DIVIDERS ============ */
+    .section-divider {
+      page-break-before: always;
+      break-before: page;
+      page-break-after: always;
+      break-after: page;
+      min-height: calc(297mm - 28mm);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: var(--bg-deep);
+      color: #f5ead8;
+      margin: -14mm -12mm;
+      padding: 30mm 24mm;
+    }
+    .section-divider h1 {
+      font-family: var(--serif); font-weight: 300;
+      font-size: 72pt; letter-spacing: -0.04em; line-height: 0.96;
+      margin: 0;
+      color: #f5ead8;
+    }
+    .section-divider h1 em { font-style: italic; color: #c9a860; font-weight: 300; }
+    .section-divider__meta {
+      margin-top: 32pt;
+      display: flex; gap: 24pt;
+      font-size: 10pt; letter-spacing: 0.14em; text-transform: uppercase;
+    }
+    .section-divider__meta span { border-top: 1px solid #c9a860; padding-top: 10pt; }
+
+    /* ============ CATEGORY OPENER (small) ============ */
+    .category-header {
+      page-break-before: always;
+      break-before: page;
+      padding-bottom: 12pt;
+      border-bottom: 1px solid var(--ink);
+      margin-bottom: 18pt;
+    }
+    .category-header__eyebrow {
+      font-size: 8pt; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--ink-2); margin-bottom: 8pt;
+    }
+    .category-header h2 {
+      font-family: var(--serif); font-weight: 300;
+      font-size: 42pt; letter-spacing: -0.03em; line-height: 1;
+      margin: 0; color: var(--ink);
+    }
+    .category-header__count {
+      margin-top: 8pt;
+      font-family: var(--serif); font-style: italic; font-size: 12pt;
+      color: var(--ink-2);
+    }
+
+    /* ============ PRODUCT GRID (print) ============ */
+    .print-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14pt 12pt;
+    }
+    .p-card {
+      display: flex; flex-direction: column;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .p-card__image {
+      aspect-ratio: 1 / 1;
+      background: #f7f4ed;
+      display: grid; place-items: center;
+      overflow: hidden; position: relative;
+      margin-bottom: 8pt;
+      border: 1px solid var(--hair);
+    }
+    .p-card__image img {
+      max-width: 100%; max-height: 100%;
+      width: 100%; height: 100%;
+      object-fit: contain; padding: 10%;
+    }
+    .p-card__discount {
+      position: absolute; top: 4pt; left: 4pt;
+      font-family: var(--serif); font-style: italic;
+      font-size: 8pt; color: var(--accent);
+      background: #fff; padding: 2pt 5pt;
+      border: 0.5pt solid var(--accent);
+    }
+    .p-card__brand {
+      font-size: 7pt; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--ink-2); font-weight: 500; margin-bottom: 2pt;
+    }
+    .p-card__name {
+      font-family: var(--serif); font-weight: 400; font-size: 10pt;
+      line-height: 1.15; color: var(--ink); margin-bottom: 4pt;
+      min-height: 2.3em;
+    }
+    .p-card__prices {
+      display: flex; align-items: baseline; gap: 6pt;
+      font-variant-numeric: tabular-nums;
+    }
+    .p-card__sale {
+      font-family: var(--sans); font-weight: 600; font-size: 10pt;
+      color: var(--accent);
+    }
+    .p-card__list {
+      font-size: 8pt; color: var(--ink-3);
+      text-decoration: line-through;
+    }
+    .p-card__qty {
+      font-size: 7pt; color: var(--ink-3); margin-top: 2pt;
+      font-style: italic; font-family: var(--serif);
+    }
+
+    /* ============ PAGE HEADER / FOOTER ============ */
+    .running-header {
+      position: fixed;
+      top: -12mm;
+      left: 0; right: 0;
+      display: flex; justify-content: space-between;
+      font-size: 7pt; letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--ink-3);
+      padding: 0 2mm;
+    }
+    @media print {
+      .running-header { position: running(rh); }
+      @page { @top-left { content: "Mozaikdesign · Outlet Catalogue 2026"; font-family: 'Inter', sans-serif; font-size: 7pt; letter-spacing: 0.2em; text-transform: uppercase; color: #8c867b; }
+              @top-right { content: "Lot 04"; font-family: 'Inter', sans-serif; font-size: 7pt; letter-spacing: 0.2em; text-transform: uppercase; color: #8c867b; }
+              @bottom-center { content: counter(page); font-family: 'Inter', sans-serif; font-size: 8pt; color: #8c867b; }
+      }
+    }
+
+    /* ============ PRICE INDEX TABLE (final pages) ============ */
+    .index-page {
+      page-break-before: always;
+      break-before: page;
+      padding-top: 4mm;
+    }
+    .index-page h2 {
+      font-family: var(--serif); font-weight: 300;
+      font-size: 32pt; letter-spacing: -0.03em;
+      margin-bottom: 16pt;
+      padding-bottom: 10pt; border-bottom: 1px solid var(--ink);
+    }
+    .index-table {
+      width: 100%; border-collapse: collapse;
+      font-variant-numeric: tabular-nums;
+    }
+    .index-table th {
+      text-align: left; padding: 6pt 8pt;
+      font-size: 7pt; letter-spacing: 0.16em; text-transform: uppercase;
+      font-weight: 500; color: var(--ink-2);
+      border-bottom: 1px solid var(--ink);
+    }
+    .index-table th.r, .index-table td.r { text-align: right; }
+    .index-table td {
+      padding: 5pt 8pt; border-bottom: 0.5pt solid var(--hair);
+      font-size: 8.5pt; vertical-align: top;
+    }
+    .index-table .brand { font-size: 7pt; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); }
+    .index-table .name { font-family: var(--serif); font-size: 9pt; }
+    .index-table .sale { color: var(--accent); font-weight: 600; }
+    .index-table .list { color: var(--ink-3); text-decoration: line-through; }
+    .index-table .pct  { color: var(--red); font-family: var(--serif); font-style: italic; font-size: 8pt; }
+
+    .backcover {
+      page-break-before: always;
+      break-before: page;
+      min-height: calc(297mm - 28mm);
+      display: flex; flex-direction: column; justify-content: space-between;
+      background: var(--bg-deep); color: #f5ead8;
+      margin: -14mm -12mm;
+      padding: 24mm 20mm;
+    }
+    .backcover h2 {
+      font-family: var(--serif); font-weight: 300; font-size: 44pt;
+      letter-spacing: -0.03em; line-height: 1; color: #f5ead8; max-width: 14ch;
+    }
+    .backcover h2 em { font-style: italic; color: #c9a860; font-weight: 300; }
+    .backcover p { font-size: 11pt; line-height: 1.6; color: #c9bfa8; max-width: 50ch; margin-top: 16pt; }
+    .backcover__contact {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 20pt;
+      border-top: 1px solid rgba(245,234,216,0.2); padding-top: 20pt; margin-top: 30pt;
+    }
+    .backcover__contact h4 {
+      font-size: 8pt; letter-spacing: 0.2em; text-transform: uppercase;
+      color: #c9a860; font-weight: 500; margin-bottom: 8pt;
+    }
+    .backcover__contact p { font-size: 10pt; color: #f5ead8; margin: 0; line-height: 1.5; }
+  </style>
+</head>
+<body data-accent="aubergine">
+
+  <!-- ============ COVER ============ -->
+  <section class="cover">
+    <div class="cover__top">
+      <span>outlet · milano · istanbul</span>
+      <span>Lot 04 / 2026</span>
+    </div>
+
+    <div>
+      <div class="cover__logo">
+        Mozaikdesign
+        <em>Outlet Catalogue</em>
+      </div>
+
+      <h1 class="cover__title" style="margin-top: 40pt;">
+        The showroom <em>empties.</em><br/>
+        Italian design, one of one.
+      </h1>
+
+      <p class="cover__sub">
+        Two hundred ex-display pieces from B&amp;B Italia, Cassina, Maxalto,
+        Flexform, Paola Lenti, Vitra, Knoll and more. Each listed with its
+        original price, our outlet price, and the one discount you cannot
+        haggle: <em>we only have one.</em>
+      </p>
+
+      <div class="cover__stats">
+        <div class="cover__stat"><span>200</span><label>pieces in this lot</label></div>
+        <div class="cover__stat"><span>42</span><label>Italian houses</label></div>
+        <div class="cover__stat"><span>−55%</span><label>average off list</label></div>
+        <div class="cover__stat"><span>1</span><label>of each. always.</label></div>
+      </div>
+    </div>
+
+    <div class="cover__foot">
+      <span>Priced in EUR incl. VAT · all ex-display</span>
+      <span>Mozaikdesign · Istanbul</span>
+    </div>
+  </section>
+
+  <!-- Print grid content will be generated by JS from catalogue.json -->
+  <main id="print-root">
+  <section class="section-divider">
+    <h1>Indoor<em>.</em></h1>
+    <p style="font-family: var(--sans); font-size: 11pt; line-height: 1.6; color: #c9bfa8; max-width: 50ch; margin-top: 20pt;">Sofas, armchairs, tables, storage and objects from the world's most serious Italian houses — lived with briefly, priced at outlet.</p>
+    <div class="section-divider__meta">
+      <span>147 pieces</span>
+      <span>10 categories</span>
+    </div>
+  </section>
+  
+    <div class="category-header">
+      <div class="category-header__eyebrow">Indoor · 20 pieces</div>
+      <h2>Sofas</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fendicasa.png" alt="Fun Fendi Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Fendi Casa</div>
+        <div class="p-card__name">Fun Fendi Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€20,495</span>
+          <span class="p-card__list">€37,260</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-groundpiece.png" alt="Groundpiece Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Groundpiece Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€19,190</span>
+          <span class="p-card__list">€34,890</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-fulgens.png" alt="Apollo Curved Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">Apollo Curved Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€8,815</span>
+          <span class="p-card__list">€16,029</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gallotti-radice-evolis-next-sofa.png" alt="Evolis Next Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Gallotti Radice</div>
+        <div class="p-card__name">Evolis Next Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€8,120</span>
+          <span class="p-card__list">€14,760</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gallotti-evolis.png" alt="Evolis Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Gallotti Radice</div>
+        <div class="p-card__name">Evolis Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,190</span>
+          <span class="p-card__list">€11,256</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gallotti-radice-stami.png" alt="Stami Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Gallotti Radice</div>
+        <div class="p-card__name">Stami Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€8,530</span>
+          <span class="p-card__list">€15,504</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/edra-cipria-sofa.png" alt="Cipria Sofa"/>
+          <span class="p-card__discount">−43%</span>
+        </div>
+        <div class="p-card__brand">Edra</div>
+        <div class="p-card__name">Cipria Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€11,000</span>
+          <span class="p-card__list">€19,398</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-cornaro-sofa.png" alt="Cornaro Sofa"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Cornaro Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€11,000</span>
+          <span class="p-card__list">€20,280</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/andreu-world-maria-sofa.png" alt="Mariya Sofa"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Andreu World</div>
+        <div class="p-card__name">Mariya Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,000</span>
+          <span class="p-card__list">€11,160</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/knoll-womb-sette.png" alt="Womb Sette"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Knoll</div>
+        <div class="p-card__name">Womb Sette</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,500</span>
+          <span class="p-card__list">€8,124</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/7e176893-525a-48b8-a2c5-483295bb0a96.png" alt="Guscio Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Guscio Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€7,500</span>
+          <span class="p-card__list">€13,559</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-gregory-sofa.png" alt="Gregory Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Gregory Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€8,700</span>
+          <span class="p-card__list">€15,828</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-zeus.png" alt="Zeus Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Zeus Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€10,500</span>
+          <span class="p-card__list">€18,980</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/vitra-polder.png" alt="Polder Compact Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Vitra</div>
+        <div class="p-card__name">Polder Compact Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,500</span>
+          <span class="p-card__list">€6,360</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/carl-hansen.png" alt="Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Carl Hansen</div>
+        <div class="p-card__name">Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,500</span>
+          <span class="p-card__list">€11,800</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/vitra-abalon-sofa.png" alt="Abalon Sofa"/>
+          <span class="p-card__discount">−44%</span>
+        </div>
+        <div class="p-card__brand">Vitra</div>
+        <div class="p-card__name">Abalon Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,500</span>
+          <span class="p-card__list">€6,276</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-red-moon.png" alt="Sunset Basket Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Exteta</div>
+        <div class="p-card__name">Sunset Basket Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€11,360</span>
+          <span class="p-card__list">€20,651</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/exteta-sunset-basket-sofa.png" alt="Piper Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Piper Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€7,565</span>
+          <span class="p-card__list">€13,750</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-piper.jpg" alt="Softcage Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Softcage Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,700</span>
+          <span class="p-card__list">€12,179</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-softcage-sofa.webp" alt="Supermax Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Supermax Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€7,250</span>
+          <span class="p-card__list">€13,147</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Indoor · 10 pieces</div>
+      <h2>Armchairs</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/mariya-armchair.png" alt="Mariya Armchair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Andreu World</div>
+        <div class="p-card__name">Mariya Armchair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,600</span>
+          <span class="p-card__list">€12,000</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/ceccotti-collezioni.png" alt="Collezioni Pigra Armchair &amp; Ottoman"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Ceccotti</div>
+        <div class="p-card__name">Collezioni Pigra Armchair &amp; Ottoman</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€7,510</span>
+          <span class="p-card__list">€13,654</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-feltri-armchair.png" alt="Feltri Armchair (highback)"/>
+          <span class="p-card__discount">−44%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Feltri Armchair (highback)</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,500</span>
+          <span class="p-card__list">€6,259</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/zanotta-gilda-armchair.png" alt="Gilda Armchair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Zanotta</div>
+        <div class="p-card__name">Gilda Armchair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€8,700</span>
+          <span class="p-card__list">€15,813</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/living-divani-greene.png" alt="Greene Armchair"/>
+          
+        </div>
+        <div class="p-card__brand">Living Divani</div>
+        <div class="p-card__name">Greene Armchair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€7,500</span>
+          
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-fat-armchair.png" alt="Magnum Armchair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Magnum Armchair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,620</span>
+          <span class="p-card__list">€10,204</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-feel-good-ottoman.png" alt="Feel Good Armchair"/>
+          
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Feel Good Armchair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,500</span>
+          
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-ortigia-sh.png" alt="Ortigia S.H. Armchair"/>
+          
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Ortigia S.H. Armchair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,000</span>
+          
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-ortigia-armchair.png" alt="Ortigia Armchair without Armrest"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Ortigia Armchair without Armrest</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,800</span>
+          <span class="p-card__list">€5,081</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/santacole-digamma.png" alt="Digamma Armchair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Santacole</div>
+        <div class="p-card__name">Digamma Armchair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,466</span>
+          <span class="p-card__list">€6,302</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Indoor · 19 pieces</div>
+      <h2>Chairs</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/knoll-barcelona-chair-classic.png" alt="Barcelona Chair Classic"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Knoll</div>
+        <div class="p-card__name">Barcelona Chair Classic</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,590</span>
+          <span class="p-card__list">€8,340</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-ortigia-chair.webp" alt="Ortigia Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Ortigia Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,820</span>
+          <span class="p-card__list">€5,120</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-ortigia.png" alt="Ortigia Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Ortigia Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,820</span>
+          <span class="p-card__list">€5,120</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/e15-habibi.png" alt="Caratos Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">Caratos Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€10,245</span>
+          <span class="p-card__list">€18,624</span>
+        </div>
+        <div class="p-card__qty">6 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-caratos.png" alt="Heri' O Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Heri' O Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,230</span>
+          <span class="p-card__list">€7,684</span>
+        </div>
+        <div class="p-card__qty">4 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-heri-o.png" alt="Akiko Chair"/>
+          <span class="p-card__discount">−47%</span>
+        </div>
+        <div class="p-card__brand">Gallotti Radice</div>
+        <div class="p-card__name">Akiko Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€12,500</span>
+          <span class="p-card__list">€23,472</span>
+        </div>
+        <div class="p-card__qty">6 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/andreu-world-oru.png" alt="Akiko Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Edra</div>
+        <div class="p-card__name">Akiko Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,130</span>
+          <span class="p-card__list">€5,688</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-heri-o.png" alt="Blue Velvet Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Knoll</div>
+        <div class="p-card__name">Blue Velvet Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,015</span>
+          <span class="p-card__list">€10,930</span>
+        </div>
+        <div class="p-card__qty">6 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/knoll-kn06.jpg" alt="Cutter Chair"/>
+          
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Cutter Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€7,500</span>
+          
+        </div>
+        <div class="p-card__qty">6 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-cutter-chair.png" alt="Goteborg 1 Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Goteborg 1 Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,495</span>
+          <span class="p-card__list">€9,988</span>
+        </div>
+        <div class="p-card__qty">4 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-goteborg.png" alt="Saarinen Conference Chair"/>
+          <span class="p-card__discount">−47%</span>
+        </div>
+        <div class="p-card__brand">Knoll</div>
+        <div class="p-card__name">Saarinen Conference Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,000</span>
+          <span class="p-card__list">€1,872</span>
+        </div>
+        <div class="p-card__qty">6 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fritz-hansen.png" alt="Febo Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">Febo Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€930</span>
+          <span class="p-card__list">€1,688</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-febo.png" alt="Febo Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">Febo Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€885</span>
+          <span class="p-card__list">€1,606</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-febo-2.png" alt="Hola Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Hola Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€715</span>
+          <span class="p-card__list">€1,300</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-hola.png" alt="Gio Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Knoll</div>
+        <div class="p-card__name">Gio Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€975</span>
+          <span class="p-card__list">€1,768</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/knoll-gio.png" alt="Standard Chair Wood"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Vitra</div>
+        <div class="p-card__name">Standard Chair Wood</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€465</span>
+          <span class="p-card__list">€846</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/vitra-standard-chair-wood.png" alt="Drop Chair"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Fritz Hansen</div>
+        <div class="p-card__name">Drop Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€412</span>
+          <span class="p-card__list">€760</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fritz-hansen-drop-chair.png" alt="Hal Wood Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Other</div>
+        <div class="p-card__name">Hal Wood Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€325</span>
+          <span class="p-card__list">€588</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/hal-wood-chair.png" alt="Hal Wood Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Hal Wood Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,275</span>
+          <span class="p-card__list">€2,312</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Indoor · 6 pieces</div>
+      <h2>Beds &amp; Daybeds</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/promemoria-komodo-daybed.png" alt="Komodo Daybed"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Promemoria</div>
+        <div class="p-card__name">Komodo Daybed</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€16,500</span>
+          <span class="p-card__list">€30,030</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/knoll-klismos-day-bed.png" alt="Klismos Day Bed"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Knoll</div>
+        <div class="p-card__name">Klismos Day Bed</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,180</span>
+          <span class="p-card__list">€11,232</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-febo-daybed.png" alt="Febo Day Bed"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">Febo Day Bed</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,300</span>
+          <span class="p-card__list">€5,978</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-bed-side-coffee-table.png" alt="Bed Side Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Bed Side Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,390</span>
+          <span class="p-card__list">€2,520</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-nuage.png" alt="Dragonfly Bed"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Dragonfly Bed</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€9,500</span>
+          <span class="p-card__list">€17,221</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-dragonfly.png" alt="Yuki Bed"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Gallotti &amp; Radice</div>
+        <div class="p-card__name">Yuki Bed</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€9,000</span>
+          <span class="p-card__list">€16,536</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Indoor · 10 pieces</div>
+      <h2>Tables &amp; Consoles</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fendi-casa-icaro.png" alt="Icaro Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Fendi Casa</div>
+        <div class="p-card__name">Icaro Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€12,160</span>
+          <span class="p-card__list">€22,103</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-fulgens.png" alt="Lucullo Table"/>
+          <span class="p-card__discount">−40%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">Lucullo Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,700</span>
+          <span class="p-card__list">€11,113</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gallotti-radice-haumea-table.png" alt="Haumea Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Gallotti Radice</div>
+        <div class="p-card__name">Haumea Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,300</span>
+          <span class="p-card__list">€9,575</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/mdf-italia-nvl-table.png" alt="NVL Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Mdf Italia</div>
+        <div class="p-card__name">NVL Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€8,720</span>
+          <span class="p-card__list">€15,856</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/moooi-two-tops-table.png" alt="Two Tops Table"/>
+          <span class="p-card__discount">−47%</span>
+        </div>
+        <div class="p-card__brand">Moooi</div>
+        <div class="p-card__name">Two Tops Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,000</span>
+          <span class="p-card__list">€7,494</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/vitra-em-table.png" alt="EM table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Vitra</div>
+        <div class="p-card__name">EM table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,250</span>
+          <span class="p-card__list">€9,540</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/vitra-em-table-walnut.png" alt="EM table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Vitra</div>
+        <div class="p-card__name">EM table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,250</span>
+          <span class="p-card__list">€9,540</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-9-oval.png" alt="9 Oval Lounge Table"/>
+          <span class="p-card__discount">−44%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">9 Oval Lounge Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,350</span>
+          <span class="p-card__list">€7,824</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-9-table.png" alt="9 Table"/>
+          <span class="p-card__discount">−44%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">9 Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,250</span>
+          <span class="p-card__list">€5,844</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/usm-kitos-table.png" alt="Kitos Table 90 cm"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">USM</div>
+        <div class="p-card__name">Kitos Table 90 cm</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€950</span>
+          <span class="p-card__list">€1,740</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Indoor · 24 pieces</div>
+      <h2>Coffee &amp; Side Tables</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-pianura-coffee-table.png" alt="Pianura Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Pianura Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,630</span>
+          <span class="p-card__list">€8,411</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-tobi-ishi-coffee-table.avif" alt="Tobi Ishi Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Tobi Ishi Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€12,355</span>
+          <span class="p-card__list">€22,462</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-pico.png" alt="Pico Small Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Pico Small Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,910</span>
+          <span class="p-card__list">€7,107</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-caratos.png" alt="Alcor Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">Alcor Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€8,800</span>
+          <span class="p-card__list">€16,095</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bnb-atoll.png" alt="Area Coffee Table"/>
+          
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Area Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€9,700</span>
+          
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-fulgens.png" alt="Xilos Coffee Table"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">Xilos Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€7,500</span>
+          <span class="p-card__list">€13,796</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/classicon-bow-buyuk.png" alt="-Bow Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Classicon</div>
+        <div class="p-card__name">-Bow Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,175</span>
+          <span class="p-card__list">€3,954</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/classicon-bow-table.png" alt="-Bow Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Classicon</div>
+        <div class="p-card__name">-Bow Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,625</span>
+          <span class="p-card__list">€2,955</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/walter-knoll-ishino-wood-low-table.png" alt="Ishino Wood Low Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Knoll</div>
+        <div class="p-card__name">Ishino Wood Low Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,800</span>
+          <span class="p-card__list">€5,135</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/vitra-em-table.png" alt="Eames Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Vitra</div>
+        <div class="p-card__name">Eames Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,185</span>
+          <span class="p-card__list">€2,148</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-button-coffee-table.png" alt="Button Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Button Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,955</span>
+          <span class="p-card__list">€3,550</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-colosseo-side-table.png" alt="Pli Side Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Classicon</div>
+        <div class="p-card__name">Pli Side Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,125</span>
+          <span class="p-card__list">€2,045</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-fly-side-table.png" alt="Fly Side Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Fly Side Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,000</span>
+          <span class="p-card__list">€3,653</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gallotti-radice-arch-low-table.png" alt="Arch Low Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Gallotti Radice</div>
+        <div class="p-card__name">Arch Low Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,085</span>
+          <span class="p-card__list">€1,968</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-mirto-coffee-table.png" alt="Michel Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Michel Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,175</span>
+          <span class="p-card__list">€2,130</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-michel-coffee.png" alt="Zigo Coffee table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Miniforms</div>
+        <div class="p-card__name">Zigo Coffee table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,460</span>
+          <span class="p-card__list">€2,656</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/miniforms-zigo.png" alt="Uves Coffee Table"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Andreu World</div>
+        <div class="p-card__name">Uves Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€800</span>
+          <span class="p-card__list">€1,470</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/andreu-world-cof.png" alt="Fat Fat Low Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Fat Fat Low Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€370</span>
+          <span class="p-card__list">€671</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bnb-atoll.png" alt="Fat Fat Low Table Ø42"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Fat Fat Low Table Ø42</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€455</span>
+          <span class="p-card__list">€823</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bnb-atoll.png" alt="Fat Fat Low Table Ø62"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Fat Fat Low Table Ø62</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€370</span>
+          <span class="p-card__list">€671</span>
+        </div>
+        <div class="p-card__qty">4 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bnb-atoll.png" alt="Fat Fat Low Table Ø42 (set of 4)"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Fat Fat Low Table Ø42 (set of 4)</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€370</span>
+          <span class="p-card__list">€671</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bnb-atoll.png" alt="Elios Round Small Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">Elios Round Small Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€575</span>
+          <span class="p-card__list">€1,044</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-elios.png" alt="Moon Satellite Coffee Table"/>
+          
+        </div>
+        <div class="p-card__brand">Living Divani</div>
+        <div class="p-card__name">Moon Satellite Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,250</span>
+          
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/living-divani-moon-satellite-coffee-table.png" alt="CM05 E-15 | Habibi Low Table"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Other</div>
+        <div class="p-card__name">CM05 E-15 | Habibi Low Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€750</span>
+          <span class="p-card__list">€1,379</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Indoor · 9 pieces</div>
+      <h2>Storage &amp; Bookcases</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-karakter-console.webp" alt="Unit"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">Unit</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€7,500</span>
+          <span class="p-card__list">€13,650</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-windscreen.png" alt="Maxalto Unit"/>
+          <span class="p-card__discount">−85%</span>
+        </div>
+        <div class="p-card__brand">Knoll</div>
+        <div class="p-card__name">Maxalto Unit</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,928</span>
+          <span class="p-card__list">€13,196</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/knoll-florence-credenza.png" alt="ESU Shelf"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Vitra</div>
+        <div class="p-card__name">ESU Shelf</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,515</span>
+          <span class="p-card__list">€2,754</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/vitra-esu-shelf.jpg" alt="Liago Storage Unit"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Liago Storage Unit</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,900</span>
+          <span class="p-card__list">€10,768</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-liago-storage-unit.png" alt="| Pab Wall Unit"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">| Pab Wall Unit</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€9,800</span>
+          <span class="p-card__list">€17,868</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-pab-wall-unit.png" alt="Pab Wall Unit"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Pab Wall Unit</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€19,750</span>
+          <span class="p-card__list">€35,886</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-pab-wall-unit.png" alt="-Windscreen In 3 Elements"/>
+          <span class="p-card__discount">−48%</span>
+        </div>
+        <div class="p-card__brand">MAXALTO</div>
+        <div class="p-card__name">-Windscreen In 3 Elements</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,500</span>
+          <span class="p-card__list">€2,884</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maxalto-windscreen.png" alt="Nuvola Rossa Bookcase"/>
+          
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Nuvola Rossa Bookcase</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€12,000</span>
+          
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-nuvola-rossa-black.webp" alt="Nuage Bookcase"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Nuage Bookcase</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€9,250</span>
+          <span class="p-card__list">€16,884</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Indoor · 2 pieces</div>
+      <h2>Poufs &amp; Ottomans</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/walter-knoll-isanka-pouf.png" alt="Isanka Pouf"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Knoll</div>
+        <div class="p-card__name">Isanka Pouf</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,750</span>
+          <span class="p-card__list">€5,000</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/vitra-freeform-ottoman.png" alt="Feel Good Ottoman"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Feel Good Ottoman</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,330</span>
+          <span class="p-card__list">€7,868</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Indoor · 46 pieces</div>
+      <h2>Objects &amp; Vases</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gallotti-radice-yuki.png" alt="Mademoiselle Georges No4"/>
+          <span class="p-card__discount">−41%</span>
+        </div>
+        <div class="p-card__brand">Maison dada</div>
+        <div class="p-card__name">Mademoiselle Georges No4</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€100</span>
+          <span class="p-card__list">€169</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maison-dada-mademoiselle-no4.png" alt="Mademoiselle Georges No1"/>
+          
+        </div>
+        <div class="p-card__brand">Maison dada</div>
+        <div class="p-card__name">Mademoiselle Georges No1</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€245</span>
+          
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maison-dada-mademoiselle-no1.png" alt="Tray Blue"/>
+          
+        </div>
+        <div class="p-card__brand">Maison dada</div>
+        <div class="p-card__name">Tray Blue</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€273</span>
+          <span class="p-card__list">€350</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maison-dada-tray-blue.webp" alt="Red Portrait"/>
+          
+        </div>
+        <div class="p-card__brand">Maison dada</div>
+        <div class="p-card__name">Red Portrait</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€591</span>
+          
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maison-dada-red-portrait.webp" alt="Of The Moon No3"/>
+          <span class="p-card__discount">−49%</span>
+        </div>
+        <div class="p-card__brand">Maison dada</div>
+        <div class="p-card__name">Of The Moon No3</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€432</span>
+          <span class="p-card__list">€844</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maison-dada-moon3.webp" alt="Du Roy Pink"/>
+          
+        </div>
+        <div class="p-card__brand">Maison dada</div>
+        <div class="p-card__name">Du Roy Pink</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€477</span>
+          <span class="p-card__list">€617</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/maison-dada-du-roy-pink.jpg" alt="Ordini"/>
+          <span class="p-card__discount">−52%</span>
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Ordini</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€329</span>
+          <span class="p-card__list">€681</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-ordini.webp" alt="Ordini Bowl"/>
+          <span class="p-card__discount">−49%</span>
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Ordini Bowl</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€241</span>
+          <span class="p-card__list">€470</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-ordini-bowl.png" alt="Root Vase"/>
+          <span class="p-card__discount">−39%</span>
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Root Vase</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€211</span>
+          <span class="p-card__list">€344</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-root-vase.gif" alt="Root Vase Small"/>
+          
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Root Vase Small</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€221</span>
+          <span class="p-card__list">€302</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-root-small.webp" alt="Roques"/>
+          
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Roques</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€285</span>
+          <span class="p-card__list">€316</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-roques.jpg" alt="Reinach"/>
+          
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Reinach</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€368</span>
+          <span class="p-card__list">€407</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-reinach.png" alt="Ordini"/>
+          
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Ordini</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€477</span>
+          <span class="p-card__list">€526</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-ordini.webp" alt="Ordini"/>
+          <span class="p-card__discount">−38%</span>
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Ordini</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€423</span>
+          <span class="p-card__list">€681</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-ordini.webp" alt="Gear"/>
+          
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Gear</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€467</span>
+          <span class="p-card__list">€604</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-gear.webp" alt="Gear"/>
+          <span class="p-card__discount">−30%</span>
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Gear</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€467</span>
+          <span class="p-card__list">€667</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-gear.webp" alt="Gear"/>
+          <span class="p-card__discount">−65%</span>
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Gear</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€231</span>
+          <span class="p-card__list">€667</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-gear.webp" alt="Gear"/>
+          
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Gear</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€275</span>
+          <span class="p-card__list">€330</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-gear.webp" alt="Tenochtitlan"/>
+          
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Tenochtitlan</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€433</span>
+          
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-tenochtitlan.webp" alt="Ordini"/>
+          <span class="p-card__discount">−30%</span>
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Ordini</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€433</span>
+          <span class="p-card__list">€618</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-ordini.webp" alt="Ordini"/>
+          <span class="p-card__discount">−64%</span>
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Ordini</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€221</span>
+          <span class="p-card__list">€618</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-ordini.webp" alt="Regnard II"/>
+          
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Regnard II</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€231</span>
+          <span class="p-card__list">€316</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-regnard-ii-vase.webp" alt="Regnard II"/>
+          <span class="p-card__discount">−52%</span>
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Regnard II</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€158</span>
+          <span class="p-card__list">€330</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-regnard-ii-vase.webp" alt="Rolland I"/>
+          
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Rolland I</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€192</span>
+          <span class="p-card__list">€225</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-rolland-i.avif" alt="Rolland II"/>
+          
+        </div>
+        <div class="p-card__brand">Driade</div>
+        <div class="p-card__name">Rolland II</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€269</span>
+          <span class="p-card__list">€274</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/driade-rolland-ii.webp" alt="Small Titus III Blue Glass Vase"/>
+          <span class="p-card__discount">−67%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Small Titus III Blue Glass Vase</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€126</span>
+          <span class="p-card__list">€384</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-titus-blue.jpg" alt="Longi"/>
+          <span class="p-card__discount">−30%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Longi</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€126</span>
+          <span class="p-card__list">€180</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-longi.png" alt="Longi"/>
+          <span class="p-card__discount">−30%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Longi</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€126</span>
+          <span class="p-card__list">€180</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-longi.png" alt="Longi"/>
+          <span class="p-card__discount">−30%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Longi</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€126</span>
+          <span class="p-card__list">€180</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-longi-blue.png" alt="Longi"/>
+          
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Longi</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€504</span>
+          
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-longi-2.png" alt="Riflessi"/>
+          
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Riflessi</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€521</span>
+          <span class="p-card__list">€720</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-riflessi.jpg" alt="Cuppone"/>
+          
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Cuppone</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€630</span>
+          <span class="p-card__list">€744</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-cuppone.jpg" alt="The Flat"/>
+          <span class="p-card__discount">−71%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">The Flat</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€260</span>
+          <span class="p-card__list">€900</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-the-flat.jpg" alt="Gambone"/>
+          <span class="p-card__discount">−59%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Gambone</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€151</span>
+          <span class="p-card__list">€372</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-gambone.png" alt="Gambino"/>
+          
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Gambino</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€720</span>
+          
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-gambino.jpg" alt="New Moon"/>
+          <span class="p-card__discount">−42%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">New Moon</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€840</span>
+          <span class="p-card__list">€1,440</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-red-moon.png" alt="New Moon"/>
+          <span class="p-card__discount">−62%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">New Moon</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€462</span>
+          <span class="p-card__list">€1,200</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-red-moon.png" alt="Tiberius I"/>
+          
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Tiberius I</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€580</span>
+          <span class="p-card__list">€660</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-titus-blue.jpg" alt="Titus II"/>
+          
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Titus II</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€672</span>
+          <span class="p-card__list">€828</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-short-vase.webp" alt="The Tall Vase Blue"/>
+          <span class="p-card__discount">−74%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">The Tall Vase Blue</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€252</span>
+          <span class="p-card__list">€960</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-tall-vase.webp" alt="Gambino"/>
+          
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Gambino</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€504</span>
+          
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-gambino.jpg" alt="Gambone"/>
+          <span class="p-card__discount">−36%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Gambone</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€462</span>
+          <span class="p-card__list">€720</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-gambone.png" alt="Silver-Plated Titus"/>
+          
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Silver-Plated Titus</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€605</span>
+          <span class="p-card__list">€660</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-silver-titus.png" alt="Silver-Plated Titus"/>
+          <span class="p-card__discount">−51%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Silver-Plated Titus</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€420</span>
+          <span class="p-card__list">€864</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-silver-titus.png" alt="Red Moon"/>
+          <span class="p-card__discount">−78%</span>
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Red Moon</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€134</span>
+          <span class="p-card__list">€600</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-c-red-moon.png" alt="Red Moon"/>
+          
+        </div>
+        <div class="p-card__brand">Paola C</div>
+        <div class="p-card__name">Red Moon</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€14,455</span>
+          
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Indoor · 1 pieces</div>
+      <h2>Indoor</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/knoll-saarinen-conference-chair.png" alt="Series 7"/>
+          
+        </div>
+        <div class="p-card__brand">Fritz Hansen</div>
+        <div class="p-card__name">Series 7</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,250</span>
+          
+        </div>
+        <div class="p-card__qty">8 available</div>
+      </div>
+      </div>
+  <section class="section-divider">
+    <h1>Outdoor<em>.</em></h1>
+    <p style="font-family: var(--sans); font-size: 11pt; line-height: 1.6; color: #c9bfa8; max-width: 50ch; margin-top: 20pt;">Terrace, garden, poolside. Weather-ready pieces from Paola Lenti, Roda, B&B Italia Outdoor, Cassina, Exteta — all ex-display.</p>
+    <div class="section-divider__meta">
+      <span>53 pieces</span>
+      <span>6 categories</span>
+    </div>
+  </section>
+  
+    <div class="category-header">
+      <div class="category-header__eyebrow">Outdoor · 6 pieces</div>
+      <h2>Outdoor Seating</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-supermax-sofa.png" alt="Trampoline Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Trampoline Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,130</span>
+          <span class="p-card__list">€9,324</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-esosoft-3-seater-sofa.png" alt="Trampoline Sofa"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Trampoline Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€8,500</span>
+          <span class="p-card__list">€15,718</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-esosoft-3-seater-sofa.png" alt="Orbitry Sofa"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Paola Lenti</div>
+        <div class="p-card__name">Orbitry Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€13,500</span>
+          <span class="p-card__list">€24,494</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-lenti-orbitry-sofa.png" alt="Isla Arosa Sofa"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Gandia Blasco</div>
+        <div class="p-card__name">Isla Arosa Sofa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,000</span>
+          <span class="p-card__list">€5,538</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gandia-blasco-isla-arosa-sofa.webp" alt="Hybrid Chaise Longue"/>
+          <span class="p-card__discount">−47%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Hybrid Chaise Longue</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,000</span>
+          <span class="p-card__list">€7,507</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-sunglass-low.png" alt="Mirto Chaise Longue"/>
+          <span class="p-card__discount">−50%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Mirto Chaise Longue</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,000</span>
+          <span class="p-card__list">€3,982</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Outdoor · 13 pieces</div>
+      <h2>Outdoor Chairs</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-lenti-portofino-chair.jpg" alt="Borea Armchair"/>
+          
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Borea Armchair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,850</span>
+          
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-fauteuil-grand-confort.png" alt="Ortigia Armchair"/>
+          
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Ortigia Armchair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,750</span>
+          
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-ortigia.png" alt="Ortigia Armchair (Outdoor)"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Paola Lenti</div>
+        <div class="p-card__name">Ortigia Armchair (Outdoor)</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,535</span>
+          <span class="p-card__list">€6,426</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-lenti-ami-armchair.png" alt="Fat Armchair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Fat Armchair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,350</span>
+          <span class="p-card__list">€6,123</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-fat-armchair.png" alt="Astra 002 Loung Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Astra 002 Loung Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,350</span>
+          <span class="p-card__list">€11,556</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-double-011.png" alt="Double Outdoor Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Double Outdoor Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€990</span>
+          <span class="p-card__list">€1,800</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fendi-ohe-table.jpg" alt="CASA Ohe Chair"/>
+          
+        </div>
+        <div class="p-card__brand">Fendi Casa</div>
+        <div class="p-card__name">CASA Ohe Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€14,500</span>
+          
+        </div>
+        <div class="p-card__qty">6 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fendi-casa-ohe-chair.jpg" alt="Kathy Outdoor Chair"/>
+          <span class="p-card__discount">−44%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Kathy Outdoor Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,500</span>
+          <span class="p-card__list">€8,087</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fermob-outdoor.png" alt="Ortigia Dining Chair"/>
+          
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Ortigia Dining Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€12,800</span>
+          
+        </div>
+        <div class="p-card__qty">6 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-ortigia.png" alt="Ortigia Dining Chair"/>
+          
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Ortigia Dining Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,500</span>
+          
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-double.png" alt="Double 011 Chair"/>
+          <span class="p-card__discount">−47%</span>
+        </div>
+        <div class="p-card__brand">Other</div>
+        <div class="p-card__name">Double 011 Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€11,000</span>
+          <span class="p-card__list">€20,639</span>
+        </div>
+        <div class="p-card__qty">62 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/exteta-sunset-outdoor-chair.png" alt="Mirto Chair"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Mirto Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€900</span>
+          <span class="p-card__list">€1,632</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-mirto-chair.webp" alt="Chair"/>
+          <span class="p-card__discount">−47%</span>
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Chair</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€9,000</span>
+          <span class="p-card__list">€16,992</span>
+        </div>
+        <div class="p-card__qty">8 available</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Outdoor · 19 pieces</div>
+      <h2>Outdoor Tables</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fendi-casa-ohe-chair.jpg" alt="Ginestra Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Ginestra Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,800</span>
+          <span class="p-card__list">€10,599</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-ginestra-table.webp" alt="Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Coro</div>
+        <div class="p-card__name">Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,850</span>
+          <span class="p-card__list">€5,192</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fermob-table.png" alt="Coro Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Fermob</div>
+        <div class="p-card__name">Coro Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€990</span>
+          <span class="p-card__list">€1,800</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-italia-mirto-table.png" alt="Kathy Outdoor Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Fendi Casa</div>
+        <div class="p-card__name">Kathy Outdoor Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€10,700</span>
+          <span class="p-card__list">€19,504</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fendi-ohe-table.jpg" alt="Kathy Outdoor Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Fendi Casa</div>
+        <div class="p-card__name">Kathy Outdoor Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€15,750</span>
+          <span class="p-card__list">€28,704</span>
+        </div>
+        <div class="p-card__qty">6 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-esosoft-3-seater-sofa.png" alt="Trampoline Table"/>
+          
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Trampoline Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,800</span>
+          
+        </div>
+        <div class="p-card__qty">6 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-piper.jpg" alt="Piper Table"/>
+          <span class="p-card__discount">−51%</span>
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Piper Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,000</span>
+          <span class="p-card__list">€10,221</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-piper.jpg" alt="Roda Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Fermob</div>
+        <div class="p-card__name">Roda Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€550</span>
+          <span class="p-card__list">€1,000</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-lenti-puf.png" alt="Brise 46 Low Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Gervasoni</div>
+        <div class="p-card__name">Brise 46 Low Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,380</span>
+          <span class="p-card__list">€2,502</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gervasoni-brise-46-low-table.png" alt="Ohe Coffee Table"/>
+          <span class="p-card__discount">−47%</span>
+        </div>
+        <div class="p-card__brand">Fendi Casa</div>
+        <div class="p-card__name">Ohe Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€5,000</span>
+          <span class="p-card__list">€9,389</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fendi-ohe-table.jpg" alt="Ohe Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Ohe Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€495</span>
+          <span class="p-card__list">€901</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-colosseo-side-table.png" alt="Colosseo Side Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Colosseo Side Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€545</span>
+          <span class="p-card__list">€989</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-colosseo-side-table.png" alt="Fly Side Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Flexform</div>
+        <div class="p-card__name">Fly Side Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,280</span>
+          <span class="p-card__list">€2,325</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/flexform-fly-side-table.png" alt="Heiko Outdoor Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Gervasoni</div>
+        <div class="p-card__name">Heiko Outdoor Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€814</span>
+          <span class="p-card__list">€1,480</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gervasoni-heiko-outdoor-coffee-table.webp" alt="Heiko Outdoor Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Gervasoni</div>
+        <div class="p-card__name">Heiko Outdoor Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€720</span>
+          <span class="p-card__list">€1,310</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gervasoni-heiko-outdoor-coffee-table.webp" alt="Heiko Outdoor Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Gervasoni</div>
+        <div class="p-card__name">Heiko Outdoor Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€630</span>
+          <span class="p-card__list">€1,140</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/gervasoni-heiko-outdoor-coffee-table.webp" alt="-Outdoor Canasta Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">-Outdoor Canasta Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€490</span>
+          <span class="p-card__list">€883</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-outdoor-canasta.png" alt="Venice Coffee Table"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Talenti</div>
+        <div class="p-card__name">Venice Coffee Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,950</span>
+          <span class="p-card__list">€5,390</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/paola-lenti-portofino-stool.png" alt="Sunglass Low Table"/>
+          <span class="p-card__discount">−49%</span>
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Sunglass Low Table</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,250</span>
+          <span class="p-card__list">€2,436</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Outdoor · 9 pieces</div>
+      <h2>Outdoor Accents</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-hybrid-chaise-longue.png" alt="Nooch Ottoman"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Nooch Ottoman</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,300</span>
+          <span class="p-card__list">€7,788</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-mirto-chaise-longue.webp" alt="Nooch Ottoman"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Paola Lenti</div>
+        <div class="p-card__name">Nooch Ottoman</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€8,750</span>
+          <span class="p-card__list">€15,913</span>
+        </div>
+        <div class="p-card__qty">4 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-lawrence.webp" alt="Lawrence Stool"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Lawrence Stool</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€865</span>
+          <span class="p-card__list">€1,572</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-lawrence.webp" alt="Lawrence Stool"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Fendi Casa</div>
+        <div class="p-card__name">Lawrence Stool</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,700</span>
+          <span class="p-card__list">€12,213</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-chair.png" alt="Sail Out Pouf"/>
+          <span class="p-card__discount">−48%</span>
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Sail Out Pouf</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€650</span>
+          <span class="p-card__list">€1,248</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-sail-out-pouf.webp" alt="Double 35 Pouf"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Double 35 Pouf</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,350</span>
+          <span class="p-card__list">€2,460</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-double.png" alt="Double 35 Pouf"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Double 35 Pouf</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,700</span>
+          <span class="p-card__list">€3,122</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-double.png" alt="Double 36 Pouf"/>
+          <span class="p-card__discount">−43%</span>
+        </div>
+        <div class="p-card__brand">Paola Lenti</div>
+        <div class="p-card__name">Double 36 Pouf</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€650</span>
+          <span class="p-card__list">€1,150</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/talenti-venice-coffee-table.jpg" alt="Portofino Stool"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Paola Lenti</div>
+        <div class="p-card__name">Portofino Stool</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€1,900</span>
+          <span class="p-card__list">€3,500</span>
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Outdoor · 2 pieces</div>
+      <h2>Outdoor Architecture</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-sunglass-low.png" alt="Vertical Garden_ High"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">Exteta</div>
+        <div class="p-card__name">Vertical Garden_ High</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,600</span>
+          <span class="p-card__list">€8,404</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-mirto-chaise-longue.webp" alt="Vertical Garden_ Low"/>
+          <span class="p-card__discount">−46%</span>
+        </div>
+        <div class="p-card__brand">Exteta</div>
+        <div class="p-card__name">Vertical Garden_ Low</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€4,400</span>
+          <span class="p-card__list">€8,077</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      </div>
+    <div class="category-header">
+      <div class="category-header__eyebrow">Outdoor · 4 pieces</div>
+      <h2>Outdoor</h2>
+      <div class="category-header__count">priced ex-display · all ex-VAT negotiable for trade</div>
+    </div>
+    <div class="print-grid">
+    
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/bb-borea-armchair.webp" alt="Fauteuil Grand Confort, grand modèle, Outdoor"/>
+          
+        </div>
+        <div class="p-card__brand">Cassina</div>
+        <div class="p-card__name">Fauteuil Grand Confort, grand modèle, Outdoor</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€6,800</span>
+          
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/roda-astra.png" alt="| DOUBLE Dış Mekan Tekli Koltuk"/>
+          
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">| DOUBLE Dış Mekan Tekli Koltuk</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€3,950</span>
+          
+        </div>
+        <div class="p-card__qty">2 available</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/fermob-table.png" alt="Mirto Outdoor"/>
+          <span class="p-card__discount">−45%</span>
+        </div>
+        <div class="p-card__brand">B&amp;B Italia</div>
+        <div class="p-card__name">Mirto Outdoor</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€2,700</span>
+          <span class="p-card__list">€4,912</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      
+      <div class="p-card">
+        <div class="p-card__image">
+          <img src="photos/dekupe/cassina-trampoline-chair.jpg" alt="Piper Masa"/>
+          <span class="p-card__discount">−32%</span>
+        </div>
+        <div class="p-card__brand">Roda</div>
+        <div class="p-card__name">Piper Masa</div>
+        <div class="p-card__prices">
+          <span class="p-card__sale">€7,000</span>
+          <span class="p-card__list">€10,221</span>
+        </div>
+        <div class="p-card__qty">one only</div>
+      </div>
+      </div>
+<section class="index-page">
+  <h2>Price index</h2>
+  <table class="index-table">
+    <thead>
+      <tr><th>House</th><th>Piece</th><th>Category</th><th class="r">Qty</th><th class="r">List</th><th class="r">Outlet</th><th class="r">Off</th></tr>
+    </thead>
+    <tbody>
+
+    <tr>
+      <td class="brand">Andreu World</td>
+      <td class="name">Mariya Armchair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Armchairs</td>
+      <td class="r">2</td>
+      <td class="r list">€12,000</td>
+      <td class="r sale">€6,600</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Andreu World</td>
+      <td class="name">Mariya Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€11,160</td>
+      <td class="r sale">€6,000</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Andreu World</td>
+      <td class="name">Uves Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€1,470</td>
+      <td class="r sale">€800</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">-Outdoor Canasta Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€883</td>
+      <td class="r sale">€490</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">| Pab Wall Unit</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Storage &amp; Bookcases</td>
+      <td class="r">1</td>
+      <td class="r list">€17,868</td>
+      <td class="r sale">€9,800</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Area Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€5,080</td>
+      <td class="r sale">€9,700</td>
+      <td class="r pct">−-91%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Borea Armchair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">2</td>
+      <td class="r list">€5,327</td>
+      <td class="r sale">€5,850</td>
+      <td class="r pct">−-10%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Button Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€3,550</td>
+      <td class="r sale">€1,955</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Colosseo Side Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">2</td>
+      <td class="r list">€989</td>
+      <td class="r sale">€545</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Cutter Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">6</td>
+      <td class="r list">€2,279</td>
+      <td class="r sale">€7,500</td>
+      <td class="r pct">−-229%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Fat Armchair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">2</td>
+      <td class="r list">€6,123</td>
+      <td class="r sale">€3,350</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Fat Fat Low Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€671</td>
+      <td class="r sale">€370</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Fat Fat Low Table Ø42</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€823</td>
+      <td class="r sale">€455</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Fat Fat Low Table Ø42 (set of 4)</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€671</td>
+      <td class="r sale">€370</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Fat Fat Low Table Ø62</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">4</td>
+      <td class="r list">€671</td>
+      <td class="r sale">€370</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Ginestra Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€10,599</td>
+      <td class="r sale">€5,800</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Heri' O Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">4</td>
+      <td class="r list">€7,684</td>
+      <td class="r sale">€4,230</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Hybrid Chaise Longue</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Seating</td>
+      <td class="r">1</td>
+      <td class="r list">€7,507</td>
+      <td class="r sale">€4,000</td>
+      <td class="r pct">−47%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Liago Storage Unit</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Storage &amp; Bookcases</td>
+      <td class="r">1</td>
+      <td class="r list">€10,768</td>
+      <td class="r sale">€5,900</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Michel Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€2,130</td>
+      <td class="r sale">€1,175</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Mirto Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€1,632</td>
+      <td class="r sale">€900</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Mirto Chaise Longue</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Seating</td>
+      <td class="r">2</td>
+      <td class="r list">€3,982</td>
+      <td class="r sale">€2,000</td>
+      <td class="r pct">−50%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Mirto Outdoor</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor</td>
+      <td class="r">1</td>
+      <td class="r list">€4,912</td>
+      <td class="r sale">€2,700</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Nooch Ottoman</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Accents</td>
+      <td class="r">1</td>
+      <td class="r list">€7,788</td>
+      <td class="r sale">€4,300</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Ohe Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">2</td>
+      <td class="r list">€901</td>
+      <td class="r sale">€495</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Pab Wall Unit</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Storage &amp; Bookcases</td>
+      <td class="r">1</td>
+      <td class="r list">€35,886</td>
+      <td class="r sale">€19,750</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Pianura Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€8,411</td>
+      <td class="r sale">€4,630</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Softcage Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€12,179</td>
+      <td class="r sale">€6,700</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">B&amp;B Italia</td>
+      <td class="name">Tobi Ishi Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€22,462</td>
+      <td class="r sale">€12,355</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Carl Hansen</td>
+      <td class="name">Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€11,800</td>
+      <td class="r sale">€6,500</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">9 Oval Lounge Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Tables &amp; Consoles</td>
+      <td class="r">1</td>
+      <td class="r list">€7,824</td>
+      <td class="r sale">€4,350</td>
+      <td class="r pct">−44%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">9 Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Tables &amp; Consoles</td>
+      <td class="r">1</td>
+      <td class="r list">€5,844</td>
+      <td class="r sale">€3,250</td>
+      <td class="r pct">−44%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Bed Side Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Beds &amp; Daybeds</td>
+      <td class="r">2</td>
+      <td class="r list">€2,520</td>
+      <td class="r sale">€1,390</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Cornaro Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€20,280</td>
+      <td class="r sale">€11,000</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Fauteuil Grand Confort, grand modèle, Outdoor</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor</td>
+      <td class="r">2</td>
+      <td class="r list">€6,203</td>
+      <td class="r sale">€6,800</td>
+      <td class="r pct">−-10%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Feel Good Ottoman</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Poufs &amp; Ottomans</td>
+      <td class="r">1</td>
+      <td class="r list">€7,868</td>
+      <td class="r sale">€4,330</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Feltri Armchair (highback)</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Armchairs</td>
+      <td class="r">1</td>
+      <td class="r list">€6,259</td>
+      <td class="r sale">€3,500</td>
+      <td class="r pct">−44%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Goteborg 1 Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">4</td>
+      <td class="r list">€9,988</td>
+      <td class="r sale">€5,495</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Hola Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€1,300</td>
+      <td class="r sale">€715</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Kathy Outdoor Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€8,087</td>
+      <td class="r sale">€4,500</td>
+      <td class="r pct">−44%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Nuage Bookcase</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Storage &amp; Bookcases</td>
+      <td class="r">1</td>
+      <td class="r list">€16,884</td>
+      <td class="r sale">€9,250</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Nuvola Rossa Bookcase</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Storage &amp; Bookcases</td>
+      <td class="r">1</td>
+      <td class="r list">€5,136</td>
+      <td class="r sale">€12,000</td>
+      <td class="r pct">−-134%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Sail Out Pouf</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Accents</td>
+      <td class="r">1</td>
+      <td class="r list">€1,248</td>
+      <td class="r sale">€650</td>
+      <td class="r pct">−48%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Trampoline Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Seating</td>
+      <td class="r">1</td>
+      <td class="r list">€9,324</td>
+      <td class="r sale">€5,130</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Trampoline Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Seating</td>
+      <td class="r">1</td>
+      <td class="r list">€15,718</td>
+      <td class="r sale">€8,500</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Cassina</td>
+      <td class="name">Trampoline Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">6</td>
+      <td class="r list">€2,065</td>
+      <td class="r sale">€6,800</td>
+      <td class="r pct">−-229%</td>
+    </tr>
+    <tr>
+      <td class="brand">Ceccotti</td>
+      <td class="name">Collezioni Pigra Armchair &amp; Ottoman</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Armchairs</td>
+      <td class="r">1</td>
+      <td class="r list">€13,654</td>
+      <td class="r sale">€7,510</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Classicon</td>
+      <td class="name">-Bow Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€3,954</td>
+      <td class="r sale">€2,175</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Classicon</td>
+      <td class="name">-Bow Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€2,955</td>
+      <td class="r sale">€1,625</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Classicon</td>
+      <td class="name">Pli Side Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€2,045</td>
+      <td class="r sale">€1,125</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Coro</td>
+      <td class="name">Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€5,192</td>
+      <td class="r sale">€2,850</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Gear</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€604</td>
+      <td class="r sale">€467</td>
+      <td class="r pct">−23%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Gear</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€667</td>
+      <td class="r sale">€467</td>
+      <td class="r pct">−30%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Gear</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€667</td>
+      <td class="r sale">€231</td>
+      <td class="r pct">−65%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Gear</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€330</td>
+      <td class="r sale">€275</td>
+      <td class="r pct">−17%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Ordini</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€681</td>
+      <td class="r sale">€329</td>
+      <td class="r pct">−52%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Ordini</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€526</td>
+      <td class="r sale">€477</td>
+      <td class="r pct">−9%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Ordini</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€681</td>
+      <td class="r sale">€423</td>
+      <td class="r pct">−38%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Ordini</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€618</td>
+      <td class="r sale">€433</td>
+      <td class="r pct">−30%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Ordini</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€618</td>
+      <td class="r sale">€221</td>
+      <td class="r pct">−64%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Ordini Bowl</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€470</td>
+      <td class="r sale">€241</td>
+      <td class="r pct">−49%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Regnard II</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€316</td>
+      <td class="r sale">€231</td>
+      <td class="r pct">−27%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Regnard II</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€330</td>
+      <td class="r sale">€158</td>
+      <td class="r pct">−52%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Reinach</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€407</td>
+      <td class="r sale">€368</td>
+      <td class="r pct">−10%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Rolland I</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€225</td>
+      <td class="r sale">€192</td>
+      <td class="r pct">−15%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Rolland II</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€274</td>
+      <td class="r sale">€269</td>
+      <td class="r pct">−2%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Root Vase</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€344</td>
+      <td class="r sale">€211</td>
+      <td class="r pct">−39%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Root Vase Small</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€302</td>
+      <td class="r sale">€221</td>
+      <td class="r pct">−27%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Roques</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€316</td>
+      <td class="r sale">€285</td>
+      <td class="r pct">−10%</td>
+    </tr>
+    <tr>
+      <td class="brand">Driade</td>
+      <td class="name">Tenochtitlan</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€393</td>
+      <td class="r sale">€433</td>
+      <td class="r pct">−-10%</td>
+    </tr>
+    <tr>
+      <td class="brand">Edra</td>
+      <td class="name">Akiko Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">2</td>
+      <td class="r list">€5,688</td>
+      <td class="r sale">€3,130</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Edra</td>
+      <td class="name">Cipria Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€19,398</td>
+      <td class="r sale">€11,000</td>
+      <td class="r pct">−43%</td>
+    </tr>
+    <tr>
+      <td class="brand">Exteta</td>
+      <td class="name">Sunset Basket Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€20,651</td>
+      <td class="r sale">€11,360</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Exteta</td>
+      <td class="name">Vertical Garden_ High</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Architecture</td>
+      <td class="r">1</td>
+      <td class="r list">€8,404</td>
+      <td class="r sale">€4,600</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Exteta</td>
+      <td class="name">Vertical Garden_ Low</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Architecture</td>
+      <td class="r">1</td>
+      <td class="r list">€8,077</td>
+      <td class="r sale">€4,400</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fendi Casa</td>
+      <td class="name">CASA Ohe Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">6</td>
+      <td class="r list">€4,485</td>
+      <td class="r sale">€14,500</td>
+      <td class="r pct">−-223%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fendi Casa</td>
+      <td class="name">Fun Fendi Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€37,260</td>
+      <td class="r sale">€20,495</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fendi Casa</td>
+      <td class="name">Icaro Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Tables &amp; Consoles</td>
+      <td class="r">1</td>
+      <td class="r list">€22,103</td>
+      <td class="r sale">€12,160</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fendi Casa</td>
+      <td class="name">Kathy Outdoor Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€19,504</td>
+      <td class="r sale">€10,700</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fendi Casa</td>
+      <td class="name">Kathy Outdoor Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">6</td>
+      <td class="r list">€28,704</td>
+      <td class="r sale">€15,750</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fendi Casa</td>
+      <td class="name">Lawrence Stool</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Accents</td>
+      <td class="r">1</td>
+      <td class="r list">€12,213</td>
+      <td class="r sale">€6,700</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fendi Casa</td>
+      <td class="name">Ohe Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€9,389</td>
+      <td class="r sale">€5,000</td>
+      <td class="r pct">−47%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fermob</td>
+      <td class="name">Coro Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€1,800</td>
+      <td class="r sale">€990</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fermob</td>
+      <td class="name">Roda Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€1,000</td>
+      <td class="r sale">€550</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Dragonfly Bed</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Beds &amp; Daybeds</td>
+      <td class="r">1</td>
+      <td class="r list">€17,221</td>
+      <td class="r sale">€9,500</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Feel Good Armchair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Armchairs</td>
+      <td class="r">2</td>
+      <td class="r list">€5,043</td>
+      <td class="r sale">€5,500</td>
+      <td class="r pct">−-9%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Fly Side Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€3,653</td>
+      <td class="r sale">€2,000</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Fly Side Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">2</td>
+      <td class="r list">€2,325</td>
+      <td class="r sale">€1,280</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Gregory Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€15,828</td>
+      <td class="r sale">€8,700</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Groundpiece Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€34,890</td>
+      <td class="r sale">€19,190</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Guscio Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€13,559</td>
+      <td class="r sale">€7,500</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Hal Wood Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">2</td>
+      <td class="r list">€2,312</td>
+      <td class="r sale">€1,275</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Magnum Armchair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Armchairs</td>
+      <td class="r">2</td>
+      <td class="r list">€10,204</td>
+      <td class="r sale">€5,620</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Ortigia Armchair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">2</td>
+      <td class="r list">€4,327</td>
+      <td class="r sale">€4,750</td>
+      <td class="r pct">−-10%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Ortigia Armchair without Armrest</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Armchairs</td>
+      <td class="r">2</td>
+      <td class="r list">€5,081</td>
+      <td class="r sale">€2,800</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Ortigia Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€5,120</td>
+      <td class="r sale">€2,820</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Ortigia Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€5,120</td>
+      <td class="r sale">€2,820</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Ortigia Dining Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">6</td>
+      <td class="r list">€3,907</td>
+      <td class="r sale">€12,800</td>
+      <td class="r pct">−-228%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Ortigia S.H. Armchair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Armchairs</td>
+      <td class="r">2</td>
+      <td class="r list">€4,820</td>
+      <td class="r sale">€5,000</td>
+      <td class="r pct">−-4%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Pico Small Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€7,107</td>
+      <td class="r sale">€3,910</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Supermax Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€13,147</td>
+      <td class="r sale">€7,250</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Flexform</td>
+      <td class="name">Zeus Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€18,980</td>
+      <td class="r sale">€10,500</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fritz Hansen</td>
+      <td class="name">Drop Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">2</td>
+      <td class="r list">€760</td>
+      <td class="r sale">€412</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Fritz Hansen</td>
+      <td class="name">Series 7</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Indoor</td>
+      <td class="r">8</td>
+      <td class="r list">€512</td>
+      <td class="r sale">€2,250</td>
+      <td class="r pct">−-339%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gallotti &amp; Radice</td>
+      <td class="name">Yuki Bed</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Beds &amp; Daybeds</td>
+      <td class="r">1</td>
+      <td class="r list">€16,536</td>
+      <td class="r sale">€9,000</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gallotti Radice</td>
+      <td class="name">Akiko Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">6</td>
+      <td class="r list">€23,472</td>
+      <td class="r sale">€12,500</td>
+      <td class="r pct">−47%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gallotti Radice</td>
+      <td class="name">Arch Low Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€1,968</td>
+      <td class="r sale">€1,085</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gallotti Radice</td>
+      <td class="name">Evolis Next Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€14,760</td>
+      <td class="r sale">€8,120</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gallotti Radice</td>
+      <td class="name">Evolis Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€11,256</td>
+      <td class="r sale">€6,190</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gallotti Radice</td>
+      <td class="name">Haumea Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Tables &amp; Consoles</td>
+      <td class="r">1</td>
+      <td class="r list">€9,575</td>
+      <td class="r sale">€5,300</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gallotti Radice</td>
+      <td class="name">Stami Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€15,504</td>
+      <td class="r sale">€8,530</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gandia Blasco</td>
+      <td class="name">Isla Arosa Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Seating</td>
+      <td class="r">1</td>
+      <td class="r list">€5,538</td>
+      <td class="r sale">€3,000</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gervasoni</td>
+      <td class="name">Brise 46 Low Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€2,502</td>
+      <td class="r sale">€1,380</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gervasoni</td>
+      <td class="name">Heiko Outdoor Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€1,480</td>
+      <td class="r sale">€814</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gervasoni</td>
+      <td class="name">Heiko Outdoor Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€1,310</td>
+      <td class="r sale">€720</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Gervasoni</td>
+      <td class="name">Heiko Outdoor Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€1,140</td>
+      <td class="r sale">€630</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Knoll</td>
+      <td class="name">Barcelona Chair Classic</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€8,340</td>
+      <td class="r sale">€4,590</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Knoll</td>
+      <td class="name">Blue Velvet Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">6</td>
+      <td class="r list">€10,930</td>
+      <td class="r sale">€6,015</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Knoll</td>
+      <td class="name">Gio Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€1,768</td>
+      <td class="r sale">€975</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Knoll</td>
+      <td class="name">Isanka Pouf</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Poufs &amp; Ottomans</td>
+      <td class="r">1</td>
+      <td class="r list">€5,000</td>
+      <td class="r sale">€2,750</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Knoll</td>
+      <td class="name">Ishino Wood Low Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€5,135</td>
+      <td class="r sale">€2,800</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Knoll</td>
+      <td class="name">Klismos Day Bed</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Beds &amp; Daybeds</td>
+      <td class="r">1</td>
+      <td class="r list">€11,232</td>
+      <td class="r sale">€6,180</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Knoll</td>
+      <td class="name">Maxalto Unit</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Storage &amp; Bookcases</td>
+      <td class="r">1</td>
+      <td class="r list">€13,196</td>
+      <td class="r sale">€1,928</td>
+      <td class="r pct">−85%</td>
+    </tr>
+    <tr>
+      <td class="brand">Knoll</td>
+      <td class="name">Saarinen Conference Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">6</td>
+      <td class="r list">€1,872</td>
+      <td class="r sale">€1,000</td>
+      <td class="r pct">−47%</td>
+    </tr>
+    <tr>
+      <td class="brand">Knoll</td>
+      <td class="name">Womb Sette</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€8,124</td>
+      <td class="r sale">€4,500</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Living Divani</td>
+      <td class="name">Greene Armchair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Armchairs</td>
+      <td class="r">2</td>
+      <td class="r list">€6,830</td>
+      <td class="r sale">€7,500</td>
+      <td class="r pct">−-10%</td>
+    </tr>
+    <tr>
+      <td class="brand">Living Divani</td>
+      <td class="name">Moon Satellite Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">2</td>
+      <td class="r list">€3,858</td>
+      <td class="r sale">€4,250</td>
+      <td class="r pct">−-10%</td>
+    </tr>
+    <tr>
+      <td class="brand">Maison dada</td>
+      <td class="name">Du Roy Pink</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€617</td>
+      <td class="r sale">€477</td>
+      <td class="r pct">−23%</td>
+    </tr>
+    <tr>
+      <td class="brand">Maison dada</td>
+      <td class="name">Mademoiselle Georges No1</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€143</td>
+      <td class="r sale">€245</td>
+      <td class="r pct">−-71%</td>
+    </tr>
+    <tr>
+      <td class="brand">Maison dada</td>
+      <td class="name">Mademoiselle Georges No4</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€169</td>
+      <td class="r sale">€100</td>
+      <td class="r pct">−41%</td>
+    </tr>
+    <tr>
+      <td class="brand">Maison dada</td>
+      <td class="name">Of The Moon No3</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">2</td>
+      <td class="r list">€844</td>
+      <td class="r sale">€432</td>
+      <td class="r pct">−49%</td>
+    </tr>
+    <tr>
+      <td class="brand">Maison dada</td>
+      <td class="name">Red Portrait</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€389</td>
+      <td class="r sale">€591</td>
+      <td class="r pct">−-52%</td>
+    </tr>
+    <tr>
+      <td class="brand">Maison dada</td>
+      <td class="name">Tray Blue</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€350</td>
+      <td class="r sale">€273</td>
+      <td class="r pct">−22%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">-Windscreen In 3 Elements</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Storage &amp; Bookcases</td>
+      <td class="r">1</td>
+      <td class="r list">€2,884</td>
+      <td class="r sale">€1,500</td>
+      <td class="r pct">−48%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">Alcor Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€16,095</td>
+      <td class="r sale">€8,800</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">Apollo Curved Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">2</td>
+      <td class="r list">€16,029</td>
+      <td class="r sale">€8,815</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">Caratos Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">6</td>
+      <td class="r list">€18,624</td>
+      <td class="r sale">€10,245</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">Elios Round Small Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">2</td>
+      <td class="r list">€1,044</td>
+      <td class="r sale">€575</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">Febo Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€1,688</td>
+      <td class="r sale">€930</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">Febo Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€1,606</td>
+      <td class="r sale">€885</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">Febo Day Bed</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Beds &amp; Daybeds</td>
+      <td class="r">1</td>
+      <td class="r list">€5,978</td>
+      <td class="r sale">€3,300</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">Lucullo Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Tables &amp; Consoles</td>
+      <td class="r">1</td>
+      <td class="r list">€11,113</td>
+      <td class="r sale">€6,700</td>
+      <td class="r pct">−40%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">Unit</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Storage &amp; Bookcases</td>
+      <td class="r">1</td>
+      <td class="r list">€13,650</td>
+      <td class="r sale">€7,500</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">MAXALTO</td>
+      <td class="name">Xilos Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€13,796</td>
+      <td class="r sale">€7,500</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Mdf Italia</td>
+      <td class="name">NVL Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Tables &amp; Consoles</td>
+      <td class="r">1</td>
+      <td class="r list">€15,856</td>
+      <td class="r sale">€8,720</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Miniforms</td>
+      <td class="name">Zigo Coffee table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€2,656</td>
+      <td class="r sale">€1,460</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Moooi</td>
+      <td class="name">Two Tops Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Tables &amp; Consoles</td>
+      <td class="r">1</td>
+      <td class="r list">€7,494</td>
+      <td class="r sale">€4,000</td>
+      <td class="r pct">−47%</td>
+    </tr>
+    <tr>
+      <td class="brand">Other</td>
+      <td class="name">CM05 E-15 | Habibi Low Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€1,379</td>
+      <td class="r sale">€750</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Other</td>
+      <td class="name">Double 011 Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">62</td>
+      <td class="r list">€20,639</td>
+      <td class="r sale">€11,000</td>
+      <td class="r pct">−47%</td>
+    </tr>
+    <tr>
+      <td class="brand">Other</td>
+      <td class="name">Hal Wood Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€588</td>
+      <td class="r sale">€325</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Cuppone</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€744</td>
+      <td class="r sale">€630</td>
+      <td class="r pct">−15%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Gambino</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€216</td>
+      <td class="r sale">€720</td>
+      <td class="r pct">−-233%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Gambino</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€360</td>
+      <td class="r sale">€504</td>
+      <td class="r pct">−-40%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Gambone</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€372</td>
+      <td class="r sale">€151</td>
+      <td class="r pct">−59%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Gambone</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€720</td>
+      <td class="r sale">€462</td>
+      <td class="r pct">−36%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Longi</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€180</td>
+      <td class="r sale">€126</td>
+      <td class="r pct">−30%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Longi</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€180</td>
+      <td class="r sale">€126</td>
+      <td class="r pct">−30%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Longi</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€180</td>
+      <td class="r sale">€126</td>
+      <td class="r pct">−30%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Longi</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€180</td>
+      <td class="r sale">€504</td>
+      <td class="r pct">−-180%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">New Moon</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€1,440</td>
+      <td class="r sale">€840</td>
+      <td class="r pct">−42%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">New Moon</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€1,200</td>
+      <td class="r sale">€462</td>
+      <td class="r pct">−62%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Red Moon</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€600</td>
+      <td class="r sale">€134</td>
+      <td class="r pct">−78%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Red Moon</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€192</td>
+      <td class="r sale">€14,455</td>
+      <td class="r pct">−-7429%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Riflessi</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€720</td>
+      <td class="r sale">€521</td>
+      <td class="r pct">−28%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Silver-Plated Titus</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€660</td>
+      <td class="r sale">€605</td>
+      <td class="r pct">−8%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Silver-Plated Titus</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€864</td>
+      <td class="r sale">€420</td>
+      <td class="r pct">−51%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Small Titus III Blue Glass Vase</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€384</td>
+      <td class="r sale">€126</td>
+      <td class="r pct">−67%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">The Flat</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€900</td>
+      <td class="r sale">€260</td>
+      <td class="r pct">−71%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">The Tall Vase Blue</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€960</td>
+      <td class="r sale">€252</td>
+      <td class="r pct">−74%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Tiberius I</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€660</td>
+      <td class="r sale">€580</td>
+      <td class="r pct">−12%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola C</td>
+      <td class="name">Titus II</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Objects &amp; Vases</td>
+      <td class="r">1</td>
+      <td class="r list">€828</td>
+      <td class="r sale">€672</td>
+      <td class="r pct">−19%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola Lenti</td>
+      <td class="name">Double 36 Pouf</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Accents</td>
+      <td class="r">2</td>
+      <td class="r list">€1,150</td>
+      <td class="r sale">€650</td>
+      <td class="r pct">−43%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola Lenti</td>
+      <td class="name">Nooch Ottoman</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Accents</td>
+      <td class="r">4</td>
+      <td class="r list">€15,913</td>
+      <td class="r sale">€8,750</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola Lenti</td>
+      <td class="name">Orbitry Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Seating</td>
+      <td class="r">1</td>
+      <td class="r list">€24,494</td>
+      <td class="r sale">€13,500</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola Lenti</td>
+      <td class="name">Ortigia Armchair (Outdoor)</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">2</td>
+      <td class="r list">€6,426</td>
+      <td class="r sale">€3,535</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Paola Lenti</td>
+      <td class="name">Portofino Stool</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Accents</td>
+      <td class="r">2</td>
+      <td class="r list">€3,500</td>
+      <td class="r sale">€1,900</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Promemoria</td>
+      <td class="name">Komodo Daybed</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Beds &amp; Daybeds</td>
+      <td class="r">1</td>
+      <td class="r list">€30,030</td>
+      <td class="r sale">€16,500</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">| DOUBLE Dış Mekan Tekli Koltuk</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor</td>
+      <td class="r">2</td>
+      <td class="r list">€3,600</td>
+      <td class="r sale">€3,950</td>
+      <td class="r pct">−-10%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Astra 002 Loung Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">2</td>
+      <td class="r list">€11,556</td>
+      <td class="r sale">€6,350</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">8</td>
+      <td class="r list">€16,992</td>
+      <td class="r sale">€9,000</td>
+      <td class="r pct">−47%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Double 35 Pouf</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Accents</td>
+      <td class="r">1</td>
+      <td class="r list">€2,460</td>
+      <td class="r sale">€1,350</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Double 35 Pouf</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Accents</td>
+      <td class="r">1</td>
+      <td class="r list">€3,122</td>
+      <td class="r sale">€1,700</td>
+      <td class="r pct">−46%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Double Outdoor Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€1,800</td>
+      <td class="r sale">€990</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Lawrence Stool</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Accents</td>
+      <td class="r">1</td>
+      <td class="r list">€1,572</td>
+      <td class="r sale">€865</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Ortigia Dining Chair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Chairs</td>
+      <td class="r">2</td>
+      <td class="r list">€2,260</td>
+      <td class="r sale">€2,500</td>
+      <td class="r pct">−-11%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Piper Masa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor</td>
+      <td class="r">1</td>
+      <td class="r list">€10,221</td>
+      <td class="r sale">€7,000</td>
+      <td class="r pct">−32%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Piper Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€13,750</td>
+      <td class="r sale">€7,565</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Piper Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€10,221</td>
+      <td class="r sale">€5,000</td>
+      <td class="r pct">−51%</td>
+    </tr>
+    <tr>
+      <td class="brand">Roda</td>
+      <td class="name">Sunglass Low Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€2,436</td>
+      <td class="r sale">€1,250</td>
+      <td class="r pct">−49%</td>
+    </tr>
+    <tr>
+      <td class="brand">Santacole</td>
+      <td class="name">Digamma Armchair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Armchairs</td>
+      <td class="r">2</td>
+      <td class="r list">€6,302</td>
+      <td class="r sale">€3,466</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Talenti</td>
+      <td class="name">Venice Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Outdoor Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€5,390</td>
+      <td class="r sale">€2,950</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">USM</td>
+      <td class="name">Kitos Table 90 cm</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Tables &amp; Consoles</td>
+      <td class="r">1</td>
+      <td class="r list">€1,740</td>
+      <td class="r sale">€950</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Vitra</td>
+      <td class="name">Abalon Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€6,276</td>
+      <td class="r sale">€3,500</td>
+      <td class="r pct">−44%</td>
+    </tr>
+    <tr>
+      <td class="brand">Vitra</td>
+      <td class="name">Eames Coffee Table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Coffee &amp; Side Tables</td>
+      <td class="r">1</td>
+      <td class="r list">€2,148</td>
+      <td class="r sale">€1,185</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Vitra</td>
+      <td class="name">EM table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Tables &amp; Consoles</td>
+      <td class="r">1</td>
+      <td class="r list">€9,540</td>
+      <td class="r sale">€5,250</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Vitra</td>
+      <td class="name">EM table</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Tables &amp; Consoles</td>
+      <td class="r">1</td>
+      <td class="r list">€9,540</td>
+      <td class="r sale">€5,250</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Vitra</td>
+      <td class="name">ESU Shelf</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Storage &amp; Bookcases</td>
+      <td class="r">1</td>
+      <td class="r list">€2,754</td>
+      <td class="r sale">€1,515</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Vitra</td>
+      <td class="name">Polder Compact Sofa</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Sofas</td>
+      <td class="r">1</td>
+      <td class="r list">€6,360</td>
+      <td class="r sale">€3,500</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Vitra</td>
+      <td class="name">Standard Chair Wood</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Chairs</td>
+      <td class="r">1</td>
+      <td class="r list">€846</td>
+      <td class="r sale">€465</td>
+      <td class="r pct">−45%</td>
+    </tr>
+    <tr>
+      <td class="brand">Zanotta</td>
+      <td class="name">Gilda Armchair</td>
+      <td style="color: var(--ink-3); font-size: 7.5pt;">Armchairs</td>
+      <td class="r">2</td>
+      <td class="r list">€15,813</td>
+      <td class="r sale">€8,700</td>
+      <td class="r pct">−45%</td>
+    </tr></tbody></table></section></main>
+
+  <!-- ============ BACK COVER ============ -->
+  <section class="backcover">
+    <div>
+      <h2>Every piece <em>sold</em> is retired within the hour.</h2>
+      <p>
+        Call for condition reports, full dimensions, and to reserve.
+        White-glove delivery worldwide. Crating and export documentation
+        handled by our team. Pieces shown may no longer be available.
+      </p>
+    </div>
+
+    <div class="backcover__contact">
+      <div>
+        <h4>Showroom</h4>
+        <p>Cumhuriyet Cad. 87<br/>Harbiye, Istanbul<br/>By appointment</p>
+      </div>
+      <div>
+        <h4>Reservations</h4>
+        <p>+90 212 000 00 00<br/>outlet@mozaikdesign.com</p>
+      </div>
+      <div>
+        <h4>Trade</h4>
+        <p>Architect &amp; designer<br/>program available<br/>trade@mozaikdesign.com</p>
+      </div>
+    </div>
+  </section>
+
+  
+  
+  
+<script>
+  // Auto-print when loaded (fonts + images ready)
+  window.addEventListener('load', async () => {
+    await document.fonts.ready;
+    await new Promise(r => setTimeout(r, 600));
+    window.print();
+  });
+</script>
+</body>
+</html>
