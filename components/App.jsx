@@ -7,9 +7,9 @@ const { QuickView } = MODAL;
 const { I18nProvider, useI18n } = I18N;
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
-  "cardStyle": "quiet",
-  "accent": "aubergine",
-  "typography": "editorial",
+  "cardStyle": "framed",
+  "accent": "cognac",
+  "typography": "modern",
   "density": "roomy",
   "showLifeOnHover": true
 }/*EDITMODE-END*/;
@@ -41,6 +41,8 @@ function App() {
   const [infoPanel, setInfoPanel] = useState(null); // { group: 'services'|'house', idx }
   const [savedTrayOpen, setSavedTrayOpen] = useState(false);
   const [toast, setToast] = useState(null); // { msg, action?: { label, onClick } }
+  const [page, setPage] = useState(1);
+  const PAGE_SIZE = 24;
 
   // Load catalogue
   useEffect(() => {
@@ -118,6 +120,23 @@ function App() {
     }
     return list;
   }, [catalogue, filters, searchQuery]);
+
+  // Reset to page 1 whenever filters/search/sort change
+  useEffect(() => { setPage(1); }, [filters, searchQuery]);
+
+  const totalPages = Math.max(1, Math.ceil(visible.length / PAGE_SIZE));
+  const pageItems = useMemo(
+    () => visible.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE),
+    [visible, page]
+  );
+
+  const goToPage = (n) => {
+    const next = Math.min(Math.max(1, n), totalPages);
+    setPage(next);
+    setTimeout(() => {
+      document.querySelector('.catalogue-main__grid-wrap')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+  };
 
   const showToast = (msg, action) => {
     setToast({ msg, action });
@@ -238,7 +257,7 @@ function App() {
 
             {view === 'grid' && (
               <div className={'grid grid--' + tweaks.density}>
-                {visible.map(p => (
+                {pageItems.map(p => (
                   <GridCard
                     key={p.id}
                     product={p}
@@ -253,7 +272,7 @@ function App() {
 
             {view === 'editorial' && (
               <div className="ed-grid">
-                {visible.map((p, i) => (
+                {pageItems.map((p, i) => (
                   <EditorialCard
                     key={p.id}
                     product={p}
@@ -280,7 +299,7 @@ function App() {
                   </tr>
                 </thead>
                 <tbody>
-                  {visible.map(p => (
+                  {pageItems.map(p => (
                     <ListRow
                       key={p.id}
                       product={p}
@@ -291,6 +310,16 @@ function App() {
                   ))}
                 </tbody>
               </table>
+            )}
+
+            {visible.length > 0 && totalPages > 1 && (
+              <Pagination
+                page={page}
+                totalPages={totalPages}
+                onGoTo={goToPage}
+                total={visible.length}
+                pageSize={PAGE_SIZE}
+              />
             )}
 
             {visible.length === 0 && (
@@ -424,6 +453,56 @@ function App() {
   );
 }
 
+function Pagination({ page, totalPages, onGoTo, total, pageSize }) {
+  const from = (page - 1) * pageSize + 1;
+  const to = Math.min(page * pageSize, total);
+
+  // Build a compact page list: 1 … (p-1) p (p+1) … N
+  const pages = [];
+  const push = (v) => { if (!pages.includes(v)) pages.push(v); };
+  push(1);
+  for (let i = page - 1; i <= page + 1; i++) {
+    if (i > 1 && i < totalPages) push(i);
+  }
+  if (totalPages > 1) push(totalPages);
+
+  return (
+    <nav className="pagination" aria-label="Catalogue pages">
+      <div className="pagination__count">
+        Showing <strong>{from}–{to}</strong> of <strong>{total}</strong>
+      </div>
+      <div className="pagination__controls">
+        <button
+          className="pagination__btn pagination__btn--arrow"
+          onClick={() => onGoTo(page - 1)}
+          disabled={page === 1}
+          aria-label="Previous page"
+        >← Prev</button>
+        {pages.map((p, i) => {
+          const prev = pages[i - 1];
+          const gap = prev && p - prev > 1;
+          return (
+            <React.Fragment key={p}>
+              {gap && <span className="pagination__dots">…</span>}
+              <button
+                className={'pagination__btn' + (p === page ? ' is-active' : '')}
+                onClick={() => onGoTo(p)}
+                aria-current={p === page ? 'page' : undefined}
+              >{p}</button>
+            </React.Fragment>
+          );
+        })}
+        <button
+          className="pagination__btn pagination__btn--arrow"
+          onClick={() => onGoTo(page + 1)}
+          disabled={page === totalPages}
+          aria-label="Next page"
+        >Next →</button>
+      </div>
+    </nav>
+  );
+}
+
 function TweakPanel({ tweaks, update, onClose }) {
   return (
     <div className="tweaks">
@@ -492,7 +571,6 @@ function TweakGroup({ label, children }) {
   );
 }
 
-ReactDOM.render(
-  <I18nProvider><App/></I18nProvider>,
-  document.getElementById('root')
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <I18nProvider><App/></I18nProvider>
 );

@@ -1,41 +1,77 @@
 # Mozaikdesign — Outlet Catalogue
 
-Interactive catalogue for the Mozaik Design Istanbul outlet — 200 ex-display pieces from B&B Italia, Cassina, Maxalto, Flexform, Paola Lenti, Vitra, Knoll and other Italian houses.
+Interactive catalogue for the Mozaik Design Istanbul outlet. Italian and Northern European pieces from B&B Italia, Cassina, Maxalto, Flexform, Paola Lenti, Vitra, Knoll, Driade, Paola C, Roda and others.
+
+Live at **[mozaikoutlet.com](https://mozaikoutlet.com)**.
 
 ## Files
 
-- `index.html` — the interactive web catalogue (open in any browser)
-- `Mozaikdesign Outlet Catalogue.html` — self-contained print-ready version (standalone, single file, ~900KB — good for email / sharing)
-- `dekupe Catalogue-print.html` — source of the print version (depends on `photos/` and `styles.css`)
-- `styles.css` — shared stylesheet
-- `components/` — React components for the interactive catalogue
-- `data/catalogue.json` — product data (200 items: brand, name, prices, dimensions, photo paths)
-- `photos/dekupe/` — cutout (découpé) product photos
-- `photos/life/` — lifestyle / in-situ product photos
+```
+index.html              Entry point — loads React/Babel + components
+styles.css              All styling
+components/             React components (loaded as Babel JSX)
+  App.jsx               App shell + state + filtering + pagination
+  Card.jsx              Product cards (grid / editorial / list)
+  Chrome.jsx            Header / hero / brand strip / footer
+  Data.jsx              Image helper + EUR formatter
+  Filters.jsx           Sidebar filters
+  I18n.jsx              EN / TR copy
+  Modal.jsx             Product quick-view dialog
+data/catalogue.json     All product entries
+photos/                 Product imagery
+  dekupe/               Cut-out cover photos
+  life/                 Lifestyle / in-situ photos
+assets/                 Logo & brand assets
+CNAME                   Custom domain for GitHub Pages
+.nojekyll               Tells GitHub Pages to skip Jekyll processing
+```
 
-## Running locally
+## Deploying to GitHub Pages
 
-Just open `index.html` in a browser. No build step. No server needed (unless the browser blocks local `fetch()` for JSON — in which case use any static server, e.g. `python3 -m http.server` in this folder).
+1. **Create a public GitHub repo** (e.g. `mozaikoutlet`).
+2. **Upload all files** from this folder to the repo root.
+3. **Settings → Pages**: Source = `Deploy from a branch`, Branch = `main`, Folder = `/ (root)` → Save.
+4. **Custom domain**: enter `mozaikoutlet.com` on the same Pages page.
+5. **DNS** (at your GitHub Domains DNS settings, or wherever the domain is registered): add 4 A-records to:
+   - `185.199.108.153`
+   - `185.199.109.153`
+   - `185.199.110.153`
+   - `185.199.111.153`
+   And a `CNAME` for `www` → `<your-username>.github.io`.
+6. Wait 5 min–24 h for DNS, then tick **Enforce HTTPS** on the Pages page.
 
-## Deploying
+## Editing the catalogue
 
-This is a static site. Deploy anywhere:
-- **GitHub Pages**: Settings → Pages → Source: `main` / root → live at `https://<user>.github.io/outlet-catalogue/`
-- **Netlify / Vercel / Cloudflare Pages**: drag-and-drop the folder
-- **Any static host**: upload the whole folder as-is
+Product data lives in `data/catalogue.json`. Each entry:
 
-## Printing the catalogue as a PDF
+```json
+{
+  "id": 162,
+  "brand": "Roda",
+  "name": "Lawrence Stool",
+  "section": "OUTDOOR",
+  "category": "Stools",
+  "qty": 1,
+  "listEur": 1572,
+  "outletEur": 1100,
+  "saleEur": 865,
+  "discountPct": 45,
+  "dims": "76 x 50cm H:45cm",
+  "dekupe": "photos/dekupe/roda-lawrence-stool.webp",
+  "lifes": ["photos/life/roda-lawrence-stool-life.webp"]
+}
+```
 
-Open `dekupe Catalogue-print.html` (or the bundled standalone version). It auto-triggers the print dialog — choose "Save as PDF".
+Add new photos to `photos/dekupe/` and `photos/life/`. WebP is preferred (smaller); PNG/JPG also work.
 
-## Features (interactive version)
+## Local preview
 
-- 3 views: Grid, Editorial (magazine-style), List (table)
-- Filters: section (Indoor / Outdoor), category, brand/house, minimum-discount slider, search, sort
-- Quick-view modal per product: gallery, condition report, pricing breakdown, reserve
-- Save list + cart, persists to localStorage
-- Tweakable accent color, typography, density, card style (toggle Tweaks in toolbar)
+It's plain HTML — open `index.html` in any browser. To avoid CORS issues when fetching `catalogue.json` locally, serve via:
 
-## Data source
+```bash
+python3 -m http.server 8000
+# or
+npx serve .
+```
 
-Products extracted from the Spring 2026 outlet price list PDF. Prices in EUR, VAT included. All pieces are ex-display — one of each available.
+Then visit `http://localhost:8000`.

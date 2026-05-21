@@ -36,24 +36,6 @@
     ]
   },
   {
-    "id": 1,
-    "brand": "Flexform",
-    "name": "Groundpiece Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 34890,
-    "outletEur": 24425,
-    "saleEur": 19190,
-    "discountPct": 45,
-    "dims": "401 x 122 cm H:40/56cm · 011M79 Manila N.751 fabric · 011MB5 Suede Olive 6003 leather detailed armrest · 122x122cm h:39cm",
-    "dekupe": "photos/dekupe/flexform-groundpiece.webp",
-    "lifes": [
-      "photos/life/flexform-groundpiece-life1.webp",
-      "photos/life/flexform-groundpiece-life2.webp"
-    ]
-  },
-  {
     "id": 3,
     "brand": "Gallotti & Radice",
     "name": "evolis next sofa",
@@ -149,7 +131,7 @@
     "outletEur": 7800,
     "saleEur": 6000,
     "discountPct": 46,
-    "dims": "245 x 85,5cm H:53/88cm · İndirimli 2 adet fiyatı:",
+    "dims": "245 x 85,5cm H:53/88cm · İndirimli tek adet fiyatı:",
     "dekupe": "photos/dekupe/andreu-world-maria-sofa.webp",
     "lifes": [
       "photos/life/andreu-world-maria.webp"
@@ -166,7 +148,7 @@
     "outletEur": 8400,
     "saleEur": 6600,
     "discountPct": 45,
-    "dims": "90 x 85,5cm H:53/88cm",
+    "dims": "90 x 85,5cm H:53/88cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/mariya-armchair-2.webp",
     "lifes": [
       "photos/life/mariya-armchair-life2.webp"
@@ -205,39 +187,6 @@
     "lifes": [
       "photos/life/flexform-gregory-sofa.webp"
     ]
-  },
-  {
-    "id": 13,
-    "brand": "Flexform",
-    "name": "Zeus Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 18980,
-    "outletEur": 13250,
-    "saleEur": 10500,
-    "discountPct": 45,
-    "dims": "246 x 90 cm H:36/68 cm",
-    "dekupe": "photos/dekupe/flexform-zeus.webp",
-    "lifes": [
-      "photos/life/flexform-zeus.webp"
-    ]
-  },
-  {
-    "id": 223,
-    "brand": "Flexform",
-    "name": "Flexform Supermax Sofa",
-    "saleEur": 7250,
-    "listEur": 13182,
-    "dekupe": "photos/dekupe/flexform-supermax.webp",
-    "lifes": [
-      "photos/life/flexform-supermax-life1.webp",
-      "photos/life/flexform-supermax-life2.webp",
-      "photos/life/flexform-supermax-life3.webp"
-    ],
-    "category": "Sofas",
-    "description": "",
-    "dimensions": ""
   },
   {
     "id": 14,
@@ -285,7 +234,7 @@
     "outletEur": 21000,
     "saleEur": 16500,
     "discountPct": 45,
-    "dims": "H: 40/72cm",
+    "dims": "206x102cm H:40/72cm",
     "dekupe": "photos/dekupe/promemoria-komodo-daybed-main.webp",
     "lifes": [
       "photos/dekupe/promemoria-komodo-daybed-new.webp",
@@ -303,7 +252,7 @@
     "outletEur": 3500,
     "saleEur": 3500,
     "discountPct": 44,
-    "dims": "3.500 €",
+    "dims": "218x90cm H:110cm",
     "dekupe": "photos/dekupe/vitra-abalon-sofa.webp",
     "lifes": [
       "photos/dekupe/vitra-abalon-new.webp",
@@ -321,7 +270,7 @@
     "outletEur": 7865,
     "saleEur": 6180,
     "discountPct": 45,
-    "dims": "187,5 x 78,5cm H:42/92cm",
+    "dims": "155x85cm H:87cm",
     "dekupe": "photos/dekupe/knoll-klismos-day-bed-2.webp",
     "lifes": [
       "photos/dekupe/knoll-klismos-daybed-3.webp"
@@ -380,23 +329,6 @@
     ]
   },
   {
-    "id": 22,
-    "brand": "Cassina",
-    "name": "Feltri Armchair (highback)",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 1,
-    "listEur": 6259,
-    "outletEur": 4250,
-    "saleEur": 3500,
-    "discountPct": 44,
-    "dims": "73 x 66 cm H:45/130 cm · grey inner and outer body, grey seat · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/cassina-feltri-armchair.webp",
-    "lifes": [
-      "photos/life/cassina-feltri.webp"
-    ]
-  },
-  {
     "id": 23,
     "brand": "Zanotta",
     "name": "Gilda Armchair",
@@ -414,24 +346,6 @@
     ]
   },
   {
-    "id": 24,
-    "brand": "Living Divani",
-    "name": "Greene Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 6830,
-    "outletEur": 9500,
-    "saleEur": 7500,
-    "discountPct": -10,
-    "dims": "101 x 96 cm H:40/72cm",
-    "dekupe": "photos/dekupe/living-divani-greene.webp",
-    "lifes": [
-      "photos/life/living-divani-greene-life1.webp",
-      "photos/life/living-divani-greene-life2.webp"
-    ]
-  },
-  {
     "id": 25,
     "brand": "Flexform",
     "name": "Magnum Armchair",
@@ -442,7 +356,7 @@
     "outletEur": 7145,
     "saleEur": 5620,
     "discountPct": 45,
-    "dims": "H:64cm",
+    "dims": "90x95cm H:64cm",
     "dekupe": "photos/dekupe/flexform-magnum-armchair.webp",
     "lifes": [
       "photos/life/flexform-magnum-armchair-life.webp"
@@ -503,25 +417,6 @@
     ]
   },
   {
-    "id": 30,
-    "brand": "Flexform",
-    "name": "Ortigia Armchair without Armrest",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 5081,
-    "outletEur": 3500,
-    "saleEur": 2800,
-    "discountPct": 45,
-    "dims": "78 x 63 cm H:42/76cm · İndirimli adet fiyatı:",
-    "dekupe": "photos/dekupe/flexform-ortigia-no-armrest-cover.webp",
-    "lifes": [
-      "photos/life/flexform-ortigia-no-armrest-life1.webp",
-      "photos/life/flexform-ortigia-no-armrest-life2.webp",
-      "photos/dekupe/flexform-ortigia-no-armrest.webp"
-    ]
-  },
-  {
     "id": 31,
     "brand": "Santa&Cole",
     "name": "Digamma Armchair",
@@ -532,7 +427,7 @@
     "outletEur": 4412,
     "saleEur": 3466,
     "discountPct": 45,
-    "dims": "58 cm x 80 cm h:38/70 cm",
+    "dims": "58 cm x 80 cm h:38/70 cm · İndirimli tek adet fiyatı:",
     "dekupe": "photos/dekupe/santacole-digamma.webp",
     "lifes": [
       "photos/life/santacole-digamma-life1.webp",
@@ -568,7 +463,7 @@
     "outletEur": 15475,
     "saleEur": 12160,
     "discountPct": 45,
-    "dims": "H:75cm",
+    "dims": "300x110cm H:75cm",
     "dekupe": "photos/dekupe/fendi-casa-icaro.webp",
     "lifes": [
       "photos/life/fendi-casa-icaro-table.webp"
@@ -585,7 +480,7 @@
     "outletEur": 7500,
     "saleEur": 7500,
     "discountPct": 33,
-    "dims": "H:74cm",
+    "dims": "290x110cm H:74cm",
     "dekupe": "photos/life/maxalto-lucullo-table-life.webp",
     "lifes": [
       "photos/dekupe/maxalto-lucullo-table.webp"
@@ -639,8 +534,10 @@
     "saleEur": 3610,
     "discountPct": 45,
     "dims": "220 x 100 h:75 cm",
-    "dekupe": null,
-    "lifes": []
+    "dekupe": "photos/dekupe/bb-hans-table.webp",
+    "lifes": [
+      "photos/life/bb-hans-table-life.webp"
+    ]
   },
   {
     "id": 37,
@@ -686,7 +583,7 @@
     "outletEur": 6700,
     "saleEur": 5250,
     "discountPct": 45,
-    "dims": "2400*900MM -H740MM",
+    "dims": "240x90cm H:74cm",
     "dekupe": "photos/dekupe/vitra-em-walnut.webp",
     "lifes": [
       "photos/life/vitra-em-walnut-life.webp"
@@ -739,27 +636,10 @@
     "outletEur": 5890,
     "saleEur": 4630,
     "discountPct": 45,
-    "dims": "H:49cm",
+    "dims": "130x130cm H:49cm",
     "dekupe": "photos/dekupe/bb-pianura-coffee-table.webp",
     "lifes": [
       "photos/life/bb-pianura-coffee-table.webp"
-    ]
-  },
-  {
-    "id": 44,
-    "brand": "B&B Italia",
-    "name": "Tobi Ishi Coffee Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 22462,
-    "outletEur": 15723,
-    "saleEur": 12355,
-    "discountPct": 45,
-    "dims": "145 x 90cm H:30cm",
-    "dekupe": "photos/dekupe/bb-tobi-ishi-coffee-table.avif",
-    "lifes": [
-      "photos/life/bb-tobi-ishi.webp"
     ]
   },
   {
@@ -790,7 +670,7 @@
     "outletEur": 11250,
     "saleEur": 8800,
     "discountPct": 45,
-    "dims": "h:38cm",
+    "dims": "180x130cm H:38cm",
     "dekupe": "photos/dekupe/maxalto-alcor-coffee-table.webp",
     "lifes": [
       "photos/life/maxalto-alcor-coffee-table-life.webp"
@@ -813,25 +693,6 @@
       "photos/life/bb-area-coffee-table-life1.webp",
       "photos/life/bb-area-coffee-table-life2.webp",
       "photos/life/bb-area-coffee-table-life3.webp"
-    ]
-  },
-  {
-    "id": 48,
-    "brand": "Maxalto",
-    "name": "Xilos Coffee Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 13796,
-    "outletEur": 9700,
-    "saleEur": 7500,
-    "discountPct": 46,
-    "dims": "Ø150 cm H:41 cm",
-    "dekupe": "photos/dekupe/maxalto-xilos-coffee-table.webp",
-    "lifes": [
-      "photos/life/maxalto-xilos-coffee-table-life1.webp",
-      "photos/life/maxalto-xilos-coffee-table-life2.webp",
-      "photos/life/maxalto-xilos-coffee-table-life3.webp"
     ]
   },
   {
@@ -864,7 +725,7 @@
     "outletEur": 1505,
     "saleEur": 1185,
     "discountPct": 45,
-    "dims": "h:39cm · Carrara marble top · Black ash base",
+    "dims": "76x76cm H:39cm · Carrara marble top · Black ash base",
     "dekupe": "photos/dekupe/vitra-eames-coffee-table.webp",
     "lifes": [
       "photos/life/vitra-eames-coffee-table-life1.webp",
@@ -883,8 +744,8 @@
     "outletEur": 1705,
     "saleEur": 1705,
     "discountPct": 30,
-    "dims": "H: 53cm · Kösele deri",
-    "dekupe": null,
+    "dims": "34x43cm H:53cm · Kösele deri",
+    "dekupe": "photos/dekupe/flexform-plain-side-table.webp",
     "lifes": []
   },
   {
@@ -933,7 +794,7 @@
     "saleEur": 1345,
     "discountPct": 45,
     "dims": "Ø50cm H:40cm · indirimli adet fiyatı",
-    "dekupe": null,
+    "dekupe": "photos/dekupe/bb-planck-small-table.webp",
     "lifes": []
   },
   {
@@ -989,23 +850,6 @@
     ]
   },
   {
-    "id": 59,
-    "brand": "Miniforms",
-    "name": "Zigo Coffee table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 2656,
-    "outletEur": 1860,
-    "saleEur": 1460,
-    "discountPct": 45,
-    "dims": "Ø69cm H:25,5cm",
-    "dekupe": "photos/dekupe/miniforms-zigo.webp",
-    "lifes": [
-      "photos/life/miniforms-zigo-life.webp"
-    ]
-  },
-  {
     "id": 60,
     "brand": "Andreu World",
     "name": "Uves Coffee Table",
@@ -1052,15 +896,14 @@
     "saleEur": 455,
     "discountPct": 45,
     "dims": "Ø62cm H:32cm · indirimli adet fiyatı",
-    "dekupe": "photos/dekupe/bb-fat-fat-low-white.webp",
+    "dekupe": "photos/dekupe/bb-fat-fat-low-table.webp",
     "lifes": [
-      "photos/life/bb-fat-fat-low-white-life.webp",
-      "photos/life/bb-fat-fat-low-white-life2.webp"
+      "photos/life/bb-fat-fat-low-black-life.webp"
     ]
   },
   {
     "id": 65,
-    "brand": "Maxalto",
+    "brand": "B&B Italia",
     "name": "Elios Round Small Table",
     "section": "INDOOR",
     "category": "Coffee & Side Tables",
@@ -1069,7 +912,7 @@
     "outletEur": 730,
     "saleEur": 575,
     "discountPct": 45,
-    "dims": "Ø 35 cm H:47 cm · İndirimli 2 adet fiyatı:",
+    "dims": "Ø35cm H:47cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/maxalto-elios-2.webp",
     "lifes": [
       "photos/life/maxalto-elios-life.webp"
@@ -1086,7 +929,7 @@
     "outletEur": 5400,
     "saleEur": 4250,
     "discountPct": -10,
-    "dims": "Ø40cm h:57cm",
+    "dims": "Ø40cm h:57cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/living-divani-moon-satellite.webp",
     "lifes": [
       "photos/life/living-divani-moon-satellite-life.webp"
@@ -1120,7 +963,7 @@
     "outletEur": 13040,
     "saleEur": 10245,
     "discountPct": 45,
-    "dims": "60 x 60,5 cm H:48/65/80,5cm · İndirimli 4 adet fiyatı:",
+    "dims": "60 x 60,5 cm H:48/65/80,5cm · İndirimli 6 adet fiyatı:",
     "dekupe": "photos/dekupe/maxalto-caratos.webp",
     "lifes": [
       "photos/life/maxalto-caratos-life.webp",
@@ -1139,7 +982,7 @@
     "outletEur": 5380,
     "saleEur": 4230,
     "discountPct": 45,
-    "dims": "H:47/78cm · İndirimli 6 adet fiyatı:",
+    "dims": "H:47/78cm · İndirimli 4 adet fiyatı:",
     "dekupe": "photos/dekupe/bb-heri-o.webp",
     "lifes": [
       "photos/life/bb-heri-o-life2.webp",
@@ -1157,7 +1000,7 @@
     "outletEur": 16500,
     "saleEur": 12500,
     "discountPct": 47,
-    "dims": "h:77cm · L2 cat Nabuk_warm grey · Metal feet · fixed version · İndirimli 2 adet fiyatı:",
+    "dims": "h:77cm · L2 cat Nabuk_warm grey · Metal feet · fixed version · İndirimli 6 adet fiyatı:",
     "dekupe": "photos/dekupe/gallotti-radice-akiko.webp",
     "lifes": [
       "photos/life/gallotti-radice-akiko-life.webp"
@@ -1174,27 +1017,10 @@
     "outletEur": 3985,
     "saleEur": 3130,
     "discountPct": 45,
-    "dims": "H:43/80cm",
+    "dims": "H:43/80cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/edra-blue-velvet.webp",
     "lifes": [
       "photos/life/edra-blue-velvet-life.webp"
-    ]
-  },
-  {
-    "id": 72,
-    "brand": "Knoll",
-    "name": "KN06 Sandalye",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 6,
-    "listEur": 10930,
-    "outletEur": 7655,
-    "saleEur": 6015,
-    "discountPct": 45,
-    "dims": "63x56 cm h:47/79 cm · İndirimli 4 adet fiyatı:",
-    "dekupe": "photos/dekupe/knoll-kn06.webp",
-    "lifes": [
-      "photos/life/knoll-kn06-life.webp"
     ]
   },
   {
@@ -1208,7 +1034,7 @@
     "outletEur": 5495,
     "saleEur": 5495,
     "discountPct": 45,
-    "dims": "5.495 € · İndirimli adet fiyatı:",
+    "dims": "5.495 € · İndirimli 4 adet fiyatı:",
     "dekupe": "photos/dekupe/cassina-goteborg-1.webp",
     "lifes": [
       "photos/life/cassina-goteborg-1-life2.webp"
@@ -1225,7 +1051,7 @@
     "outletEur": 1000,
     "saleEur": 1000,
     "discountPct": 47,
-    "dims": "1.000 € · İndirimli 8 adet fiyatı:",
+    "dims": "1.000 € · İndirimli 1 adet fiyatı:",
     "dekupe": "photos/dekupe/knoll-saarinen-conference-chair-2.webp",
     "lifes": [
       "photos/life/knoll-saarinen-conference-chair-life.webp"
@@ -1238,10 +1064,10 @@
     "section": "INDOOR",
     "category": "Indoor",
     "qty": 8,
-    "listEur": 2900,
+    "listEur": 4096,
     "outletEur": 512,
     "saleEur": 2250,
-    "discountPct": 22,
+    "discountPct": 45,
     "dims": "45 x 42cm H:78cm",
     "dekupe": "photos/dekupe/fritz-hansen-1.webp",
     "lifes": [
@@ -1285,7 +1111,7 @@
     "outletEur": 1965,
     "saleEur": 1545,
     "discountPct": 45,
-    "dims": "h:45,5/80cm",
+    "dims": "58x57cm H:45,5/80cm",
     "dekupe": "photos/dekupe/maxalto-fulgens-2.webp",
     "lifes": [
       "photos/life/maxalto-fulgens-life.webp",
@@ -1371,7 +1197,7 @@
     "outletEur": 465,
     "saleEur": 465,
     "discountPct": 45,
-    "dims": "465 € · indirimli 2 adet fiyatı",
+    "dims": "465 € · İndirimli 1 adet fiyatı:",
     "dekupe": "photos/dekupe/vitra-standard-chair-wood.webp",
     "lifes": [
       "photos/life/vitra-standard-chair-wood-life.webp"
@@ -1388,7 +1214,7 @@
     "outletEur": 535,
     "saleEur": 535,
     "discountPct": 30,
-    "dims": "",
+    "dims": "İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/fritz-hansen-drop-chair.webp",
     "lifes": [
       "photos/life/fritz-hansen-drop-life.webp"
@@ -1444,24 +1270,6 @@
     "lifes": [
       "photos/life/flexform-feel-good-ottoman-1.webp",
       "photos/life/flexform-feel-good-ottoman-2.webp"
-    ]
-  },
-  {
-    "id": 85,
-    "brand": "Cassina",
-    "name": "x Karakter Console",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 1,
-    "listEur": 7868,
-    "outletEur": 5510,
-    "saleEur": 4330,
-    "discountPct": 45,
-    "dims": "190 x 43 cm H:76 cm",
-    "dekupe": "photos/dekupe/cassina-karakter-console.webp",
-    "lifes": [
-      "photos/life/cassina-karakter-console-1.webp",
-      "photos/life/cassina-karakter-console-2.webp"
     ]
   },
   {
@@ -1544,11 +1352,9 @@
     "outletEur": 12500,
     "saleEur": 9800,
     "discountPct": 45,
-    "dims": "h:121cm",
-    "dekupe": "photos/dekupe/bb-pab-wall-unit.webp",
-    "lifes": [
-      "photos/dekupe/bb-pab-storage.webp"
-    ]
+    "dims": "540x55cm H:121cm",
+    "dekupe": "photos/dekupe/bb-pab-storage.webp",
+    "lifes": []
   },
   {
     "id": 91,
@@ -1583,26 +1389,6 @@
     ]
   },
   {
-    "id": 93,
-    "brand": "Cassina",
-    "name": "Nuvola Rossa Bookcase",
-    "section": "INDOOR",
-    "category": "Storage & Bookcases",
-    "qty": 1,
-    "listEur": 5136,
-    "outletEur": 4109,
-    "saleEur": 4109,
-    "discountPct": 20,
-    "dims": "100 x 39,5cm H:192cm",
-    "dekupe": "photos/dekupe/cassina-nuvola-rossa-black.webp",
-    "lifes": [
-      "photos/life/cassina-nuvola-rossa-1.webp",
-      "photos/life/cassina-nuvola-rossa-2.webp",
-      "photos/life/cassina-nuvola-rossa-3.webp",
-      "photos/life/cassina-nuvola.webp"
-    ]
-  },
-  {
     "id": 94,
     "brand": "Cassina",
     "name": "Nuage Bookcase",
@@ -1613,7 +1399,7 @@
     "outletEur": 12000,
     "saleEur": 9250,
     "discountPct": 45,
-    "dims": "H: 177cm",
+    "dims": "215x46cm H:177cm",
     "dekupe": "photos/dekupe/cassina-nuage.webp",
     "lifes": [
       "photos/life/cassina-nuage-1.webp",
@@ -1703,29 +1489,11 @@
     "outletEur": 245,
     "saleEur": 245,
     "discountPct": 30,
-    "dims": "Ø42cm H:6cm",
+    "dims": "Ø42cm H:64cm",
     "dekupe": "photos/dekupe/maison-dada-tray-blue-cover.webp",
     "lifes": [
       "photos/life/maison-dada-tray-blue-life.webp",
       "photos/life/maison-dada-tray-blue-life-b.webp"
-    ]
-  },
-  {
-    "id": 100,
-    "brand": "Maison Dada",
-    "name": "Red Portrait",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 389,
-    "outletEur": 273,
-    "saleEur": 273,
-    "discountPct": 30,
-    "dims": "26,5 x 24cm H:63cm",
-    "dekupe": "photos/dekupe/maison-dada-red-portrait.webp",
-    "lifes": [
-      "photos/life/maison-dada-red-portrait-life.webp",
-      "photos/dekupe/maison-dada-red-portrait-2.webp"
     ]
   },
   {
@@ -1916,7 +1684,7 @@
     "saleEur": 423,
     "discountPct": 30,
     "dims": "Ø34cm H:12cm",
-    "dekupe": "photos/dekupe/driade-gear-423.webp",
+    "dekupe": "photos/dekupe/driade-gear-34x12.webp",
     "lifes": [
       "photos/life/driade-gear-gold-life.webp"
     ]
@@ -1950,7 +1718,7 @@
     "saleEur": 467,
     "discountPct": 30,
     "dims": "Ø24cm H:20cm",
-    "dekupe": "photos/dekupe/driade-gear-gold.webp",
+    "dekupe": "photos/dekupe/driade-gear-24x20.webp",
     "lifes": [
       "photos/life/driade-gear-gold-life.webp"
     ]
@@ -2057,30 +1825,12 @@
     "saleEur": 231,
     "discountPct": 30,
     "dims": "Ø8,5cm H:31cm",
-    "dekupe": "photos/dekupe/driade-regnard-ii.webp",
+    "dekupe": "photos/dekupe/driade-regnard-white.webp",
     "lifes": [
       "photos/life/driade-regnard-1.webp",
       "photos/life/driade-regnard-2.webp",
       "photos/life/driade-regnard-ii-life.webp",
       "photos/dekupe/driade-regnard-ii-834281-new.webp"
-    ]
-  },
-  {
-    "id": 120,
-    "brand": "Driade",
-    "name": "Rolland I",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 225,
-    "outletEur": 158,
-    "saleEur": 158,
-    "discountPct": 30,
-    "dims": "Ø28cm H:17cm",
-    "dekupe": "photos/dekupe/driade-rolland-i.avif",
-    "lifes": [
-      "photos/dekupe/driade-rolland-i-ii.webp",
-      "photos/dekupe/driade-rolland-i-ii-new.webp"
     ]
   },
   {
@@ -2415,7 +2165,9 @@
     "lifes": [],
     "category": "Objects & Vases",
     "description": "",
-    "dimensions": ""
+    "dimensions": "",
+    "dims": "Ø15cm H:6cm",
+    "section": "INDOOR"
   },
   {
     "id": 143,
@@ -2451,7 +2203,9 @@
     ],
     "category": "Sofas",
     "description": "",
-    "dimensions": ""
+    "dimensions": "",
+    "dims": "62x63cm H:45/85cm · İndirimli 6 adet fiyatı:",
+    "section": "OUTDOOR"
   },
   {
     "id": 144,
@@ -2536,7 +2290,7 @@
     "outletEur": 17000,
     "saleEur": 13500,
     "discountPct": 45,
-    "dims": "H: 40/80cm",
+    "dims": "202x117cm H:40/80cm",
     "dekupe": "photos/dekupe/paola-lenti-orbitry-sofa.webp",
     "lifes": [
       "photos/dekupe/paola-lenti-orbitry-sofa-1.webp",
@@ -2555,9 +2309,11 @@
     "outletEur": 1900,
     "saleEur": 1500,
     "discountPct": 45,
-    "dims": "H:67cm · (2 adet fiyatıdır)",
-    "dekupe": null,
-    "lifes": []
+    "dims": "133x75cm H:67cm · (1 adet fiyatıdır)",
+    "dekupe": "photos/dekupe/carl-hansen-bk12-sofa.webp",
+    "lifes": [
+      "photos/life/carl-hansen-bk12-sofa-life.webp"
+    ]
   },
   {
     "id": 212,
@@ -2570,8 +2326,8 @@
     "outletEur": 2465,
     "saleEur": 1940,
     "discountPct": 45,
-    "dims": "H:67cm",
-    "dekupe": null,
+    "dims": "71x75cm H:67cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/carl-hansen-bk11-armchair.webp",
     "lifes": []
   },
   {
@@ -2585,7 +2341,7 @@
     "outletEur": 3900,
     "saleEur": 3000,
     "discountPct": 46,
-    "dims": "H:80cm",
+    "dims": "140x117cm H:80cm",
     "dekupe": "photos/dekupe/gandia-blasco-isla-arosa.webp",
     "lifes": [
       "photos/life/gandia-blasco-isla-chair.webp"
@@ -2602,7 +2358,7 @@
     "outletEur": 5255,
     "saleEur": 4000,
     "discountPct": 47,
-    "dims": "h:38/59cm",
+    "dims": "134x144cm H:38/59cm",
     "dekupe": "photos/dekupe/bb-hybrid-chaise-longue-new.webp",
     "lifes": [
       "photos/life/bb-hybrid-chaise-longue-life3.webp",
@@ -2639,7 +2395,7 @@
     "outletEur": 11000,
     "saleEur": 8750,
     "discountPct": 45,
-    "dims": "86 x 96 cm H:44/71 cm",
+    "dims": "86 x 96 cm H:44/71 cm · İndirimli 1 adet fiyatı:",
     "dekupe": "photos/dekupe/paola-lenti-portofino-armchair.webp",
     "lifes": [
       "photos/dekupe/paola-lenti-portofino-armchair-2.webp"
@@ -2693,7 +2449,7 @@
     "outletEur": 4500,
     "saleEur": 3535,
     "discountPct": 45,
-    "dims": "70 x 64cm H:40cm · İndirimli adet fiyatı:",
+    "dims": "70 x 64cm H:40cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/paola-lenti-ami-armchair.webp",
     "lifes": [
       "photos/life/paola-lenti-ami-1.webp",
@@ -2711,8 +2467,8 @@
     "qty": 2,
     "listEur": 6123,
     "outletEur": 4250,
-    "saleEur": 4250,
-    "discountPct": 31,
+    "saleEur": 3350,
+    "discountPct": 45,
     "dims": "3.350 €",
     "dekupe": "photos/dekupe/bb-fat-armchair.webp",
     "lifes": [
@@ -2722,20 +2478,6 @@
       "photos/life/bb-fat-armchair-4.webp",
       "photos/life/bb-fat-armchair-5.webp"
     ]
-  },
-  {
-    "id": 224,
-    "brand": "B&B Italia",
-    "name": "B&B Italia Borea Armchair",
-    "saleEur": 5850,
-    "listEur": 7500,
-    "dekupe": "photos/dekupe/bb-borea-armchair.webp",
-    "lifes": [
-      "photos/life/bb-borea-armchair-1.webp"
-    ],
-    "category": "Sofas",
-    "description": "",
-    "dimensions": ""
   },
   {
     "id": 159,
@@ -2766,7 +2508,7 @@
     "outletEur": 5000,
     "saleEur": 3950,
     "discountPct": -10,
-    "dims": "77 x 75 h: 42/79 cm",
+    "dims": "77 x 75 h: 42/79 cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/roda-double-cover.webp",
     "lifes": [
       "photos/life/roda-double-life.webp",
@@ -2785,7 +2527,7 @@
     "saleEur": 990,
     "discountPct": 45,
     "dims": "76 x 80cm H:45/99cm",
-    "dekupe": "",
+    "dekupe": "photos/dekupe/roda-lawrence-lounge-chair.webp",
     "lifes": []
   },
   {
@@ -2800,7 +2542,7 @@
     "saleEur": 865,
     "discountPct": 45,
     "dims": "76 x 50cm H:45cm",
-    "dekupe": "photos/dekupe/roda-lawrence.webp",
+    "dekupe": "photos/dekupe/roda-lawrence-stool.webp",
     "lifes": [
       "photos/life/roda-lawrence.webp"
     ]
@@ -2829,10 +2571,10 @@
     "section": "OUTDOOR",
     "category": "Outdoor Chairs",
     "qty": 6,
-    "listEur": 18850,
+    "listEur": 26910,
     "outletEur": 18850,
     "saleEur": 14500,
-    "discountPct": -223,
+    "discountPct": 46,
     "dims": "70 x 60 cm H:44/73 cm · Black coffee bambou structure · Koror gold fabric seat",
     "dekupe": "photos/dekupe/fendi-casa-ohe-chair.webp",
     "lifes": [
@@ -2850,28 +2592,10 @@
     "outletEur": 7400,
     "saleEur": 5800,
     "discountPct": 45,
-    "dims": "Ø 180cm h:73,5cm · 1 Coro Table · Ø135cm H:75cm · f",
+    "dims": "Ø180cm H:73,5cm · 1 Coro Table · Ø135cm H:75cm · f",
     "dekupe": "photos/dekupe/bb-ginestra-table.webp",
     "lifes": [
       "photos/life/bb-ginestra-table.webp"
-    ]
-  },
-  {
-    "id": 166,
-    "brand": "Coro",
-    "name": "Table",
-    "section": "OUTDOOR",
-    "category": "Outdoor Tables",
-    "qty": 1,
-    "listEur": 5192,
-    "outletEur": 3650,
-    "saleEur": 2850,
-    "discountPct": 45,
-    "dims": "255x90cm H:73,5cm",
-    "dekupe": "photos/dekupe/coro-table-long-new.webp",
-    "lifes": [
-      "photos/life/coro-table-long-life.webp",
-      "photos/life/coro-table-long-life2.webp"
     ]
   },
   {
@@ -2953,7 +2677,7 @@
     "outletEur": 20000,
     "saleEur": 15750,
     "discountPct": 45,
-    "dims": "53,5 x 60,5 cm H:47,5/83 cm",
+    "dims": "53,5 x 60,5 cm H:47,5/83 cm · İndirimli 6 adet fiyatı:",
     "dekupe": "photos/dekupe/fendi-kathy-chair-dekupe.webp",
     "lifes": [
       "photos/dekupe/fendi-kathy-outdoor-chair.webp",
@@ -2971,7 +2695,7 @@
     "outletEur": 5661,
     "saleEur": 4500,
     "discountPct": 44,
-    "dims": "240 x 110 cm H:74cm · İndirimli 6 adet fiyatı:",
+    "dims": "240 x 110 cm H:74cm · İndirimli 1 adet fiyatı:",
     "dekupe": "photos/dekupe/cassina-trampoline-table-dekupe.webp",
     "lifes": [
       "photos/dekupe/cassina-trampoline-table.webp",
@@ -2986,10 +2710,10 @@
     "section": "OUTDOOR",
     "category": "Outdoor Tables",
     "qty": 6,
-    "listEur": 8765,
+    "listEur": 12390,
     "outletEur": 8675,
     "saleEur": 6800,
-    "discountPct": -229,
+    "discountPct": 45,
     "dims": "10 58 x 63 cm H:45/68/80cm",
     "dekupe": "photos/dekupe/cassina-trampoline-chair.webp",
     "lifes": []
@@ -3025,7 +2749,7 @@
     "outletEur": 700,
     "saleEur": 550,
     "discountPct": 45,
-    "dims": "77 x 77cm H:75cm · indirimli 4 adet fiyatı",
+    "dims": "77 x 77cm H:75cm · İndirimli 1 adet fiyatı:",
     "dekupe": "photos/dekupe/fermob-outdoor.webp",
     "lifes": [
       "photos/life/fermob-outdoor-1.webp",
@@ -3057,10 +2781,10 @@
     "section": "OUTDOOR",
     "category": "Outdoor Chairs",
     "qty": 6,
-    "listEur": 3907,
+    "listEur": 23442,
     "outletEur": 16408,
     "saleEur": 12800,
-    "discountPct": 0,
+    "discountPct": 45,
     "dims": "55 x 54 h:46/83 cm · İndirimli 6 adet fiyatı:",
     "dekupe": "photos/dekupe/flexform-ortigia-chair.webp",
     "lifes": [
@@ -3079,7 +2803,7 @@
     "outletEur": 1582,
     "saleEur": 2500,
     "discountPct": -11,
-    "dims": "52 x 70 cm H:48/60 cm",
+    "dims": "52 x 70 cm H:48/60 cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/roda-double-011.webp",
     "lifes": [
       "photos/life/roda-double-011-life1.webp",
@@ -3097,7 +2821,7 @@
     "outletEur": 1320,
     "saleEur": 1320,
     "discountPct": 30,
-    "dims": "52,5 x 52,5cm H:64/81cm",
+    "dims": "52,5 x 52,5cm H:64/81cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/andreu-world-trenza-chair.webp",
     "lifes": [
       "photos/life/andreu-world-trenza-chair-life-a.webp",
@@ -3115,7 +2839,7 @@
     "outletEur": 1145,
     "saleEur": 900,
     "discountPct": 45,
-    "dims": "H:46/80,5cm · İndirimli 8 adet fiyatı:",
+    "dims": "58,5x53,5cm H:46/80,5cm · İndirimli 8 adet fiyatı:",
     "lifes": [],
     "dekupe": "photos/dekupe/bb-mirto-chair.webp"
   },
@@ -3130,7 +2854,7 @@
     "outletEur": 12000,
     "saleEur": 9000,
     "discountPct": 47,
-    "dims": "52 x 58cm H:80,5cm",
+    "dims": "52 x 58cm H:80,5cm · İndirimli 8 adet fiyatı:",
     "dekupe": "photos/dekupe/roda-chair-new.webp",
     "lifes": [
       "photos/life/roda-chair-life.webp"
@@ -3160,8 +2884,8 @@
     "qty": 1,
     "listEur": 2460,
     "outletEur": 1700,
-    "saleEur": 1700,
-    "discountPct": 31,
+    "saleEur": 1350,
+    "discountPct": 45,
     "dims": "1.350 €",
     "dekupe": "photos/dekupe/roda-double-35-36-pouf.webp",
     "lifes": []
@@ -3175,8 +2899,8 @@
     "qty": 1,
     "listEur": 3122,
     "outletEur": 2185,
-    "saleEur": 2185,
-    "discountPct": 30,
+    "saleEur": 1700,
+    "discountPct": 46,
     "dims": "1.700 € · indirimli adet fiyatı",
     "dekupe": "photos/dekupe/roda-double-35-36-pouf.webp",
     "lifes": []
@@ -3203,9 +2927,9 @@
     "section": "OUTDOOR",
     "category": "Outdoor Tables",
     "qty": 1,
-    "listEur": 12213,
+    "listEur": 9389,
     "outletEur": 6500,
-    "saleEur": 6700,
+    "saleEur": 5000,
     "discountPct": 47,
     "dims": "Ø100 cm H:21 cm · Marquiana matte marble top · Black Bambu",
     "dekupe": "photos/dekupe/fendi-ohe-table.webp",
@@ -3287,65 +3011,6 @@
     ]
   },
   {
-    "id": 190,
-    "brand": "Gervasoni",
-    "name": "Heiko Outdoor Coffee Table",
-    "section": "OUTDOOR",
-    "category": "Outdoor Tables",
-    "qty": 1,
-    "listEur": 1480,
-    "outletEur": 1036,
-    "saleEur": 814,
-    "discountPct": 45,
-    "dims": "Ø90cm H:30cm",
-    "dekupe": "photos/dekupe/gervasoni-heiko-814.webp",
-    "lifes": [
-      "photos/dekupe/gervasoni-heiko-outdoor-2.webp",
-      "photos/life/gervasoni-heiko-outdoor-life.webp",
-      "photos/life/gervasoni-heiko-outdoor-life2.webp",
-      "photos/life/gervasoni-heiko-814-life-b.webp",
-      "photos/life/gervasoni-heiko-814-life-c.webp"
-    ]
-  },
-  {
-    "id": 191,
-    "brand": "Gervasoni",
-    "name": "Heiko Outdoor Coffee Table",
-    "section": "OUTDOOR",
-    "category": "Outdoor Tables",
-    "qty": 1,
-    "listEur": 1310,
-    "outletEur": 917,
-    "saleEur": 720,
-    "discountPct": 45,
-    "dims": "Ø60cm H:41cm",
-    "dekupe": "photos/dekupe/gervasoni-heiko-720.webp",
-    "lifes": [
-      "photos/dekupe/gervasoni-heiko-outdoor-3.webp",
-      "photos/life/gervasoni-heiko-outdoor-life.webp",
-      "photos/life/gervasoni-heiko-outdoor-life4.webp",
-      "photos/life/gervasoni-heiko-outdoor-life5.webp"
-    ]
-  },
-  {
-    "id": 192,
-    "brand": "Gervasoni",
-    "name": "Heiko Outdoor Coffee Table",
-    "section": "OUTDOOR",
-    "category": "Outdoor Tables",
-    "qty": 1,
-    "listEur": 1140,
-    "outletEur": 800,
-    "saleEur": 630,
-    "discountPct": 45,
-    "dims": "Ø40cm H:50cm",
-    "dekupe": "photos/dekupe/gervasoni-heiko-630.webp",
-    "lifes": [
-      "photos/dekupe/gervasoni-heiko-outdoor-4.webp",
-      "photos/life/gervasoni-heiko-outdoor-life.webp"
-    ]
-  },
-  {
     "id": 193,
     "brand": "B&B Italia",
     "name": "Outdoor Canasta Coffee Table",
@@ -3372,8 +3037,8 @@
     "qty": 1,
     "listEur": 5390,
     "outletEur": 3773,
-    "saleEur": 3773,
-    "discountPct": 30,
+    "saleEur": 2950,
+    "discountPct": 45,
     "dims": "2.950 € · indirimli adet fiyatı",
     "dekupe": "photos/dekupe/talenti-venice-coffee-table-new.webp",
     "lifes": [
@@ -3425,7 +3090,7 @@
     "outletEur": 2787,
     "saleEur": 2000,
     "discountPct": 50,
-    "dims": "h:37/95cm",
+    "dims": "73,5x200cm H:37/95cm",
     "dekupe": "photos/dekupe/bb-mirto-chaise-longue.webp",
     "lifes": []
   },
@@ -3464,41 +3129,6 @@
     ]
   },
   {
-    "id": 217,
-    "brand": "Cassina",
-    "name": "Cassina 9 Oval Lounge Table — Walnut",
-    "section": "INDOOR",
-    "category": "Tables & Consoles",
-    "qty": 1,
-    "listEur": 7824,
-    "outletEur": 3250,
-    "saleEur": 3250,
-    "discountPct": 58,
-    "dims": "140x90cm H:64cm",
-    "dekupe": "photos/dekupe/cassina-9-walnut-dekupe.webp",
-    "lifes": [
-      "photos/dekupe/cassina-9-walnut.webp",
-      "photos/life/cassina-9-oval-walnut-life1.webp"
-    ]
-  },
-  {
-    "id": 218,
-    "brand": "B&B Italia",
-    "name": "Button Coffee Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 3550,
-    "outletEur": 2485,
-    "saleEur": 1955,
-    "discountPct": 45,
-    "dims": "Ø80cm H:40cm",
-    "dekupe": "photos/dekupe/bb-button-coffee-table.webp",
-    "lifes": [
-      "photos/life/bb-button-coffee-table-life.webp"
-    ]
-  },
-  {
     "id": 219,
     "brand": "B&B Italia",
     "name": "Mirto Coffee Table",
@@ -3522,23 +3152,6 @@
       "photos/life/bb-mirto-coffee-life-a.webp",
       "photos/life/bb-mirto-coffee-life-b.webp",
       "photos/life/bb-mirto-coffee-life-c.webp"
-    ]
-  },
-  {
-    "id": 220,
-    "brand": "B&B Italia",
-    "name": "Cutter Chair",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 6,
-    "listEur": 2279,
-    "outletEur": 9500,
-    "saleEur": 7500,
-    "discountPct": 0,
-    "dims": "46 x 58 cm H:49/84cm",
-    "dekupe": "photos/dekupe/bb-cutter-chair.webp",
-    "lifes": [
-      "photos/life/bb-cutter-chair.webp"
     ]
   },
   {

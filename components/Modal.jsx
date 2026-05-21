@@ -82,7 +82,7 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
           </div>
 
           <div className="modal__tabs">
-            {['details', 'dimensions', 'condition', 'delivery'].map(key => (
+            {['details', 'dimensions', 'condition'].map(key => (
               <button
                 key={key}
                 onClick={() => setTab(key)}
@@ -114,12 +114,6 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
                 <ul className="modal__condition">
                   {m.condition.map((line, i) => <li key={i}>{line}</li>)}
                 </ul>
-              </div>
-            )}
-            {tab === 'delivery' && (
-              <div>
-                <p>{m.deliveryP1}</p>
-                <p className="modal__muted">{m.deliveryP2}</p>
               </div>
             )}
           </div>

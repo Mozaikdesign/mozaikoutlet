@@ -32,6 +32,7 @@ function Img({ src, alt, style, className }) {
       src={err || !src ? PLACEHOLDER_SVG : src}
       alt={alt || ''}
       loading="lazy"
+      decoding="async"
       onError={() => setErr(true)}
       style={style}
       className={className}
