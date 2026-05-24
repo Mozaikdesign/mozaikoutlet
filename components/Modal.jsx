@@ -6,7 +6,6 @@ const { useI18n } = I18N;
 function QuickView({ product, onClose, onSave, saved, onAdd }) {
   const { t } = useI18n();
   const m = t.modal;
-  const [tab, setTab] = useState('details');
   const [imgIdx, setImgIdx] = useState(0);
 
   useEffect(() => {
@@ -81,41 +80,12 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
             </div>
           </div>
 
-          <div className="modal__tabs">
-            {['details', 'dimensions', 'condition'].map(key => (
-              <button
-                key={key}
-                onClick={() => setTab(key)}
-                className={tab === key ? 'is-active' : ''}
-              >
-                {m.tabs[key]}
-              </button>
-            ))}
-          </div>
-
           <div className="modal__tab-body">
-            {tab === 'details' && (
-              <div>
-                <p>{m.detailsP1(product.brand, product.category, product.qty === 1 ? m.detailsP1Singular : m.detailsP1Limited)}</p>
-                <p className="modal__muted">{m.detailsP2}</p>
-              </div>
-            )}
-            {tab === 'dimensions' && (
-              <div>
-                <div className="modal__dim-row">
-                  <span>{m.asCatalogued}</span>
-                  <strong>{product.dims || '—'}</strong>
-                </div>
-                <p className="modal__muted">{m.dimsTolerance}</p>
-              </div>
-            )}
-            {tab === 'condition' && (
-              <div>
-                <ul className="modal__condition">
-                  {m.condition.map((line, i) => <li key={i}>{line}</li>)}
-                </ul>
-              </div>
-            )}
+            <div className="modal__dim-row">
+              <span>{m.asCatalogued}</span>
+              <strong>{product.dims || '—'}</strong>
+            </div>
+            <p className="modal__muted">{m.dimsTolerance}</p>
           </div>
 
           <div className="modal__actions">
@@ -145,7 +115,6 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
             </button>
           </div>
 
-          <p className="modal__microcopy">{m.microcopy}</p>
         </div>
       </div>
     </div>
