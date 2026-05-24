@@ -1191,8 +1191,17 @@ em { font-style: italic; }
 }
 
 @media (max-width: 720px) {
-  .grid, .grid--compact { grid-template-columns: 1fr; }
-  .ed-grid { grid-template-columns: 1fr; gap: 40px 0; }
+  /* Hide marketing text on mobile - jump straight to products */
+  .hero { padding: 16px 20px 12px; border-bottom: 0; }
+  .hero__meta,
+  .hero__title,
+  .hero__sub,
+  .hero__stats,
+  .hero__controls { display: none; }
+  .hero__picker { margin: 0 auto 20px; }
+
+  .grid, .grid--compact { grid-template-columns: repeat(2, 1fr); gap: 32px 14px; }
+  .ed-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 14px; }
   .site-footer { padding: 56px 20px 32px; }
   .site-footer__grid { grid-template-columns: 1fr; gap: 36px; margin-bottom: 40px; }
   .site-footer__col h4 { margin-bottom: 14px; }
