@@ -40,6 +40,7 @@ function App() {
   const [tweakOpen, setTweakOpen] = useState(false);
   const [infoPanel, setInfoPanel] = useState(null); // { group: 'services'|'house', idx }
   const [savedTrayOpen, setSavedTrayOpen] = useState(false);
+  const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [toast, setToast] = useState(null); // { msg, action?: { label, onClick } }
   const [page, setPage] = useState(1);
   const PAGE_SIZE = 24;
@@ -245,7 +246,29 @@ function App() {
 
       <main className="catalogue-main">
         <div className="catalogue-main__layout">
-          <Filters products={catalogue} filters={filters} setFilters={setFilters} resetFilters={resetFilters}/>
+          <button
+            className="filters__mobile-toggle"
+            onClick={() => setMobileFiltersOpen(true)}
+          >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              <line x1="4" y1="7" x2="20" y2="7"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="10" y1="17" x2="14" y2="17"/>
+            </svg>
+            {lang === 'tr' ? 'Filtrele & Sırala' : 'Filter & Sort'}
+          </button>
+
+          <div className={'catalogue-main__filters' + (mobileFiltersOpen ? ' is-open' : '')}>
+            <div className="filters__backdrop" onClick={() => setMobileFiltersOpen(false)}/>
+            <div className="filters__drawer">
+              <div className="filters__drawer-head">
+                <span>{lang === 'tr' ? 'Filtrele & Sırala' : 'Filter & Sort'}</span>
+                <button onClick={() => setMobileFiltersOpen(false)} aria-label="Close">×</button>
+              </div>
+              <Filters products={catalogue} filters={filters} setFilters={setFilters} resetFilters={resetFilters}/>
+              <button className="filters__drawer-apply" onClick={() => setMobileFiltersOpen(false)}>
+                {lang === 'tr' ? `${visible.length} ürünü göster` : `Show ${visible.length} pieces`}
+              </button>
+            </div>
+          </div>
 
           <section className="catalogue-main__grid-wrap">
             <div className="catalogue-main__breadcrumb">

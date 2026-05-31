@@ -282,6 +282,14 @@ em { font-style: italic; }
   display: grid; grid-template-columns: 240px 1fr; gap: 48px;
   align-items: start;
 }
+/* Mobile filter drawer chrome — hidden on desktop; wrappers stay transparent
+   so the sticky .filters aside fills the 240px column as before. */
+.catalogue-main__filters,
+.filters__drawer { display: contents; }
+.filters__mobile-toggle,
+.filters__backdrop,
+.filters__drawer-head,
+.filters__drawer-apply { display: none; }
 .catalogue-main__breadcrumb {
   display: flex; align-items: baseline; gap: 4px;
   padding-bottom: 20px; border-bottom: 1px solid var(--rule);
@@ -1191,14 +1199,8 @@ em { font-style: italic; }
 }
 
 @media (max-width: 720px) {
-  /* Hide marketing text on mobile - jump straight to products */
-  .hero { padding: 16px 20px 12px; border-bottom: 0; }
-  .hero__meta,
-  .hero__title,
-  .hero__sub,
-  .hero__stats,
-  .hero__controls { display: none; }
-  .hero__picker { margin: 0 auto 20px; }
+  /* Land straight on the products: no hero at all on mobile */
+  .hero { display: none; }
 
   .grid, .grid--compact { grid-template-columns: repeat(2, 1fr); gap: 32px 14px; }
   .ed-grid { grid-template-columns: repeat(2, 1fr); gap: 40px 14px; }
@@ -1224,18 +1226,69 @@ em { font-style: italic; }
   .site-header__logo .logo-img { max-height: 28px; }
   .site-header__announce { font-size: 10px; padding: 7px 16px; letter-spacing: 0.14em; }
 
-  /* Hero mobile */
-  .hero { padding: 48px 20px 36px; }
-  .hero__title { font-size: clamp(32px, 9vw, 44px); margin-bottom: 24px; }
-  .hero__sub { font-size: 15px; margin-bottom: 32px; }
-  .hero__picker-btn { padding: 22px 22px 20px; }
-  .hero__stats { grid-template-columns: 1fr 1fr; }
-
   /* Catalogue / filters / cards */
-  .catalogue-main { padding: 0 20px; }
-  .catalogue-main__layout { gap: 32px; }
-  .filters { padding: 0; }
+  .catalogue-main { padding: 10px 16px 0; }
+  .catalogue-main__layout { gap: 0; display: block; }
   .editorial-section { padding: 56px 20px; }
+
+  /* Compact breadcrumb so products sit near the top */
+  .catalogue-main__breadcrumb {
+    padding-bottom: 12px; margin-bottom: 16px; font-size: 12px;
+  }
+
+  /* Filter & Sort toggle button (mobile only) */
+  .filters__mobile-toggle {
+    display: inline-flex; align-items: center; gap: 7px;
+    margin: 0 0 12px; padding: 9px 15px;
+    background: var(--ink); color: var(--paper, #f5ead8);
+    border: 0; border-radius: 3px;
+    font-family: var(--sans); font-size: 11px; font-weight: 500;
+    letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer;
+  }
+
+  /* Safety: if the old markup is live (filters sitting directly in the
+     layout, not inside the drawer wrapper), don't let it bury the grid. */
+  .catalogue-main__layout > .filters { display: none; }
+
+  /* Drawer container */
+  .catalogue-main__filters { display: none; }
+  .catalogue-main__filters.is-open {
+    display: block; position: fixed; inset: 0; z-index: 1150;
+  }
+  .filters__backdrop {
+    display: block; position: absolute; inset: 0;
+    background: rgba(0,0,0,0.45);
+    animation: fadeIn 200ms ease;
+  }
+  .filters__drawer {
+    display: flex; flex-direction: column;
+    position: absolute; top: 0; right: 0; bottom: 0;
+    width: min(88%, 360px);
+    background: var(--bg, #faf6ef);
+    box-shadow: -12px 0 40px rgba(0,0,0,0.2);
+    animation: drawerIn 260ms cubic-bezier(.2,.7,.2,1);
+  }
+  .filters__drawer-head {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 20px 22px; border-bottom: 1px solid var(--rule);
+    font-family: var(--sans); font-size: 12px; font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase; flex-shrink: 0;
+  }
+  .filters__drawer-head button {
+    background: none; border: 0; font-size: 28px; line-height: 1;
+    cursor: pointer; color: var(--ink); padding: 0 4px;
+  }
+  .catalogue-main__filters .filters {
+    position: static; max-height: none; overflow-y: auto;
+    flex: 1; padding: 20px 22px;
+  }
+  .filters__drawer-apply {
+    display: block; flex-shrink: 0;
+    margin: 0; padding: 18px; border: 0; border-top: 1px solid var(--rule);
+    background: var(--accent); color: #f5ead8;
+    font-family: var(--sans); font-size: 13px; font-weight: 500;
+    letter-spacing: 0.08em; text-transform: uppercase; cursor: pointer;
+  }
 
   /* Modals & trays */
   .modal { padding: 0; }
@@ -1268,6 +1321,14 @@ em { font-style: italic; }
 @keyframes toastIn {
   from { opacity: 0; transform: translate(-50%, 12px); }
   to   { opacity: 1; transform: translate(-50%, 0); }
+}
+@keyframes drawerIn {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 .toast__msg { flex: 1; line-height: 1.4; }
 .toast__action {
