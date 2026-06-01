@@ -68,14 +68,19 @@ const DICT = {
       address: 'Outlet Store: Istanbul, Kağıthane, Ulubaş Cad., 37A',
       appt: 'Phone: +90 212 327 05 95',
       shop: 'Catalogue', services: '', house: 'Customer Service',
-      shopLinks: ['Online Outlet Store', 'Online Stock', 'Products', 'Brands', 'Designers', 'Explore Award-Winning Products'],
+      shopLinks: ['Online Outlet Store', 'Online Stock', 'Products', 'Brands'],
       servicesLinks: [],
-      houseLinks: ['My Account', 'Order Tracking', 'Frequently Asked Questions', 'Delivery & Returns', 'Agreements', 'Terms of Use'],
+      houseLinks: ['Frequently Asked Questions'],
       newsletter: {
         title: 'Subscribe to our newsletter',
         body: 'Don\'t miss new products, news, and campaigns!',
         placeholder: 'Email address',
+        phonePlaceholder: 'Phone number (optional)',
+        addressPlaceholder: 'Address (optional)',
         submit: 'Subscribe',
+        sending: 'Sending…',
+        success: 'Thank you — you\'re on the list.',
+        error: 'Something went wrong. Please try again or email hello@mozaikdesign.com.',
         consent: 'I have read, understood, and approve the Clarification Text regarding my personal data to be processed.',
       },
       infoPanels: {
@@ -83,12 +88,42 @@ const DICT = {
           { title: 'Award-winning Products', body: 'A curated selection of pieces honoured at the Compasso d\'Oro, Red Dot, iF Design and EDIDA awards. From Le Corbusier and Charlotte Perriand at Cassina to Patricia Urquiola at B&B Italia — design history, in stock at outlet pricing. Filter the catalogue or ask our team for the full award list.' },
         ],
         house: [
-          { title: 'My Account', body: 'Sign in to view your saved pieces, order history, and reservation status. Don\'t have an account yet? Create one at checkout — it takes thirty seconds and lets you reserve outlet pieces for 24 hours while we confirm condition and dispatch.' },
-          { title: 'Order Tracking', body: 'Every order receives a tracking link by email the moment it dispatches from our Istanbul warehouse. White-glove deliveries are scheduled directly with you by phone. For status on a current order, contact orders@mozaikdesign.com with your order number.' },
-          { title: 'Frequently Asked Questions', body: 'Are outlet pieces authentic? Yes — every piece comes directly from our showroom or from the manufacturer. Are they returnable? Yes, within 14 days for unused condition. Do you ship internationally? Yes, white-glove worldwide. For everything else, write to hello@mozaikdesign.com.' },
-          { title: 'Delivery & Returns', body: 'White-glove delivery worldwide, handled by our team. Istanbul & Milano: 5–10 days. Europe: 2–4 weeks. Rest of world: 4–8 weeks. Returns accepted within 14 days for unused pieces in original condition. Outlet pieces are sold as-described — see each listing\'s condition report.' },
-          { title: 'Agreements', body: 'Distance Sales Agreement, Pre-Information Form, and KVKK personal data processing agreements are presented and accepted at checkout. Copies are emailed to you with your order confirmation. For prior review, write to legal@mozaikdesign.com.' },
-          { title: 'Terms of Use', body: 'Use of this catalogue is subject to our Terms of Use and Privacy Notice. Outlet listings reflect a single physical piece per SKU; pricing is in EUR including VAT; availability changes in real time. Full terms at mozaikdesign.com/terms.' },
+          {
+            title: 'Frequently Asked Questions',
+            qa: [
+              {
+                q: 'Shipping fees',
+                a: ['Shipping fees vary depending on the weight of the product and the delivery destination. All orders are carefully packaged by the Mozaik Delivery Team in accordance with our shipping standards to ensure safe transportation. Shipping rates for deliveries outside the city may also vary depending on the destination.'],
+              },
+              {
+                q: 'My order hasn\'t arrived — what should I do?',
+                a: ['If your order has not arrived, or if you experience any issues regarding delivery, please contact us at info@mozaikdesign.com.'],
+              },
+              {
+                q: 'How can I return a product?',
+                a: [
+                  'You may request a return within 14 days from the delivery date by contacting our Customer Relations team. To be eligible for a return, products must:',
+                  ['Be unused', 'Be returned in their original packaging', 'Be free from any damage', 'Retain their original condition and resale quality'],
+                  'Returns cannot be accepted for products that have been used, damaged, altered, or returned without their original packaging. Products must be returned in the same condition in which they were delivered.',
+                  'The return policy above applies only to purchases made through our online store. Personalized or made-to-order products cannot be returned.',
+                ],
+              },
+              {
+                q: 'What should I do if my product arrives damaged?',
+                a: [
+                  'If you notice any signs of damage, impact, or tampering on the package at the time of delivery, please do not accept the shipment before requesting a damage report from the courier representative.',
+                  'Once the report has been completed, please contact our Customer Service team and provide the necessary information regarding the issue.',
+                ],
+              },
+              {
+                q: 'How are refunds processed?',
+                a: [
+                  'Once the returned product reaches our warehouse, it will be inspected to ensure that it meets the return conditions. Approved refunds will be processed within 5 business days.',
+                  'After the refund has been issued, the time required for the amount to appear in your account may vary depending on your bank\'s processing procedures. For updates regarding your refund status, please contact your bank directly.',
+                ],
+              },
+            ],
+          },
         ],
       },
       copyright: '© 2026 Mozaikdesign · all pieces ex-display · priced in EUR incl. VAT',
@@ -198,15 +233,20 @@ const DICT = {
       desc: 'Mozaik\'in ilham veren özel seçkileriyle dolu ürün koleksiyonlarını keşfedin.',
       address: 'Outlet Mağaza: İstanbul, Kağıthane, Ulubaş Cad., 37A',
       appt: 'Telefon: +90 212 327 05 95',
-      shop: 'Online Outlet Mağaza', services: 'Keşfet', house: 'Müşteri Hizmetleri',
-      shopLinks: ['Online Stok', 'Ürünler', 'Markalar', 'Tasarımcılar'],
-      servicesLinks: ['Ödüllü Ürünler'],
-      houseLinks: ['Hesabım', 'Sipariş Takibi', 'Sıkça Sorulan Sorular', 'Teslimat ve İade', 'Sözleşmeler', 'Kullanım Koşulları'],
+      shop: 'Online Outlet Mağaza', services: '', house: 'Müşteri Hizmetleri',
+      shopLinks: ['Online Stok', 'Ürünler', 'Markalar'],
+      servicesLinks: [],
+      houseLinks: ['Sıkça Sorulan Sorular'],
       newsletter: {
         title: 'E-bültene kayıt olun',
         body: 'Yeni ürünler, haberler ve kampanyalar kaçırmayın!',
         placeholder: 'e-posta adresi',
+        phonePlaceholder: 'Telefon numarası (isteğe bağlı)',
+        addressPlaceholder: 'Adres (isteğe bağlı)',
         submit: 'Kayıt ol',
+        sending: 'Gönderiliyor…',
+        success: 'Teşekkürler — listeye eklendiniz.',
+        error: 'Bir şeyler ters gitti. Lütfen tekrar deneyin veya hello@mozaikdesign.com adresine yazın.',
         consent: 'İşlenecek kişisel verilerime ilişkin Aydınlatma Metnini okudum, anladım ve onaylıyorum.',
       },
       infoPanels: {
@@ -214,12 +254,42 @@ const DICT = {
           { title: 'Ödüllü Ürünler', body: 'Compasso d\'Oro, Red Dot, iF Design ve EDIDA ödüllerine layık görülmüş seçkin parçalar. Cassina\'da Le Corbusier ve Charlotte Perriand\'dan B&B Italia\'da Patricia Urquiola\'ya — tasarım tarihi, outlet fiyatlarıyla stoklarımızda. Katalogu filtrelemek veya tam ödül listesi için ekibimizle iletişime geçin.' },
         ],
         house: [
-          { title: 'Hesabım', body: 'Kaydettiğiniz parçaları, sipariş geçmişinizi ve rezervasyon durumunuzu görmek için giriş yapın. Hesabınız yok mu? Ödeme adımında otuz saniyede oluşturabilirsiniz — outlet parçalarını biz durum ve sevkiyatı onaylarken 24 saat süreyle rezerve edebilirsiniz.' },
-          { title: 'Sipariş Takibi', body: 'Siparişiniz İstanbul depomuzdan çıkar çıkmaz size e-posta ile takip linki gönderilir. Özel teslimatlar telefonla doğrudan sizinle planlanır. Mevcut siparişinizin durumu için sipariş numaranızla orders@mozaikdesign.com adresine yazın.' },
-          { title: 'Sıkça Sorulan Sorular', body: 'Outlet parçalar orijinal mi? Evet — her parça doğrudan showroom\'umuzdan ya da üreticiden gelir. İade edilebilir mi? Kullanılmamış halde 14 gün içinde, evet. Yurt dışına gönderiyor musunuz? Evet, dünya çapında özel teslimat. Diğer sorularınız için: hello@mozaikdesign.com.' },
-          { title: 'Teslimat ve İade', body: 'Tüm dünyaya kendi ekibimizle özel teslimat. İstanbul ve Milano: 5–10 gün. Avrupa: 2–4 hafta. Dünyanın geri kalanı: 4–8 hafta. Kullanılmamış ve orijinal halinde olan parçalar için 14 gün içinde iade kabul edilir. Outlet parçalar tariflendiği gibi satılır — her ilanın durum raporuna bakınız.' },
-          { title: 'Sözleşmeler', body: 'Mesafeli Satış Sözleşmesi, Ön Bilgilendirme Formu ve KVKK kişisel veri işleme onayları ödeme aşamasında sunulur ve onaylanır. Onay kopyalarınız sipariş onayınızla birlikte e-posta ile iletilir. Önceden incelemek için: legal@mozaikdesign.com.' },
-          { title: 'Kullanım Koşulları', body: 'Bu katalogun kullanımı Kullanım Koşulları ve Aydınlatma Metnimize tabidir. Outlet ilanları her SKU için tek bir fiziksel parçayı yansıtır; fiyatlar KDV dahil EUR cinsindendir; stok gerçek zamanlı değişir. Tam koşullar: mozaikdesign.com/terms.' },
+          {
+            title: 'Sıkça Sorulan Sorular',
+            qa: [
+              {
+                q: 'Kargo ücretleri',
+                a: ['Kargo ücretleri ürünün ağırlığına ve teslimat adresine göre değişiklik gösterir. Tüm siparişler, güvenli taşıma için Mozaik Teslimat Ekibi tarafından kargo standartlarımıza uygun şekilde özenle paketlenir. Şehir dışı teslimatlarda kargo ücretleri varış noktasına göre de değişebilir.'],
+              },
+              {
+                q: 'Siparişim gelmedi — ne yapmalıyım?',
+                a: ['Siparişiniz ulaşmadıysa veya teslimatla ilgili herhangi bir sorun yaşarsanız lütfen info@mozaikdesign.com adresinden bizimle iletişime geçin.'],
+              },
+              {
+                q: 'Bir ürünü nasıl iade edebilirim?',
+                a: [
+                  'Teslimat tarihinden itibaren 14 gün içinde Müşteri İlişkileri ekibimizle iletişime geçerek iade talebinde bulunabilirsiniz. İade için ürünlerin:',
+                  ['Kullanılmamış olması', 'Orijinal ambalajında iade edilmesi', 'Herhangi bir hasar içermemesi', 'Orijinal durumunu ve yeniden satılabilir kalitesini koruması'],
+                  'Kullanılmış, hasar görmüş, değiştirilmiş veya orijinal ambalajı olmadan iade edilen ürünler kabul edilemez. Ürünler teslim edildiği durumla aynı şekilde iade edilmelidir.',
+                  'Yukarıdaki iade politikası yalnızca online mağazamızdan yapılan alışverişler için geçerlidir. Kişiye özel veya siparişe özel üretilen ürünler iade edilemez.',
+                ],
+              },
+              {
+                q: 'Ürünüm hasarlı gelirse ne yapmalıyım?',
+                a: [
+                  'Teslimat sırasında pakette herhangi bir hasar, darbe veya müdahale izi fark ederseniz, lütfen kurye yetkilisinden hasar tespit tutanağı talep etmeden gönderiyi teslim almayın.',
+                  'Tutanak tamamlandıktan sonra lütfen Müşteri Hizmetleri ekibimizle iletişime geçerek konuyla ilgili gerekli bilgileri iletin.',
+                ],
+              },
+              {
+                q: 'İadeler nasıl işleme alınır?',
+                a: [
+                  'İade edilen ürün depomuza ulaştığında, iade koşullarını karşıladığından emin olmak için incelenir. Onaylanan iadeler 5 iş günü içinde işleme alınır.',
+                  'İade işleme alındıktan sonra tutarın hesabınıza yansıması, bankanızın işlem süreçlerine göre değişebilir. İade durumunuzla ilgili güncellemeler için lütfen doğrudan bankanızla iletişime geçin.',
+                ],
+              },
+            ],
+          },
         ],
       },
       copyright: '© 2026 Mozaikdesign · tüm parçalar teşhir · KDV dahil EUR',

@@ -6,6 +6,16 @@ const { GridCard, EditorialCard, ListRow } = CARDS;
 const { QuickView } = MODAL;
 const { I18nProvider, useI18n } = I18N;
 
+// Render a string, turning any email address into a mailto: link.
+function linkifyEmail(text) {
+  const parts = String(text).split(/([\w.+-]+@[\w.-]+\.\w+)/g);
+  return parts.map((p, i) =>
+    /^[\w.+-]+@[\w.-]+\.\w+$/.test(p)
+      ? <a key={i} href={'mailto:' + p} className="faq-item__mail">{p}</a>
+      : p
+  );
+}
+
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "cardStyle": "framed",
   "accent": "cognac",
@@ -383,11 +393,26 @@ function App() {
         if (!data) return null;
         return (
           <div className="info-panel" onClick={() => setInfoPanel(null)}>
-            <div className="info-panel__dialog" onClick={(e) => e.stopPropagation()}>
+            <div className={'info-panel__dialog' + (data.qa ? ' info-panel__dialog--faq' : '')} onClick={(e) => e.stopPropagation()}>
               <button className="info-panel__close" onClick={() => setInfoPanel(null)}>×</button>
               <div className="info-panel__eyebrow">{infoPanel.group === 'services' ? t.footer.services : t.footer.house}</div>
               <h2 className="info-panel__title">{data.title}</h2>
-              <p className="info-panel__body">{data.body}</p>
+              {data.qa ? (
+                <div className="info-panel__faq">
+                  {data.qa.map((item, qi) => (
+                    <div className="faq-item" key={qi}>
+                      <h3 className="faq-item__q">{item.q}</h3>
+                      {item.a.map((block, bi) => (
+                        Array.isArray(block)
+                          ? <ul className="faq-item__list" key={bi}>{block.map((li, li2) => <li key={li2}>{li}</li>)}</ul>
+                          : <p className="faq-item__a" key={bi}>{linkifyEmail(block)}</p>
+                      ))}
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="info-panel__body">{data.body}</p>
+              )}
             </div>
           </div>
         );

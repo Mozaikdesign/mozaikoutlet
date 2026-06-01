@@ -2,6 +2,14 @@
 const { useState } = React;
 const { useI18n } = I18N;
 
+/* --------------------------------------------------------------------
+   Newsletter delivery — Formspree.
+   Subscriber details are POSTed here; recipients (basak@, zeynepb@,
+   cerena@mozaikdesign.com) are configured in the Formspree dashboard.
+   ⬇️ Replace {form_id} with the real form ID from your Formspree form.
+-------------------------------------------------------------------- */
+const NEWSLETTER_ENDPOINT = 'https://formspree.io/f/xredwlqk';
+
 function LangToggle() {
   const { lang, setLang } = useI18n();
   return (
@@ -153,17 +161,50 @@ function BrandStrip({ products }) {
 }
 
 function NewsletterCol() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [address, setAddress] = useState('');
   const [consent, setConsent] = useState(false);
-  const [done, setDone] = useState(false);
+  const [status, setStatus] = useState('idle'); // idle | sending | done | error
   const n = t.footer.newsletter;
-  const submit = (e) => {
+
+  const submit = async (e) => {
     e.preventDefault();
-    if (!email || !consent) return;
-    setDone(true);
-    setEmail('');
+    if (!email || !consent || status === 'sending') return;
+
+    // If the endpoint hasn't been configured yet, fail gracefully.
+    if (NEWSLETTER_ENDPOINT.includes('{form_id}')) {
+      console.warn('Newsletter endpoint not configured — replace {form_id} in NEWSLETTER_ENDPOINT.');
+      setStatus('error');
+      return;
+    }
+
+    setStatus('sending');
+    const data = new FormData();
+    data.append('Email', email);
+    if (phone.trim()) data.append('Phone', phone.trim());
+    if (address.trim()) data.append('Address', address.trim());
+    data.append('Language', lang.toUpperCase());
+    data.append('_subject', 'New outlet newsletter subscriber');
+
+    try {
+      const res = await fetch(NEWSLETTER_ENDPOINT, {
+        method: 'POST',
+        body: data,
+        headers: { Accept: 'application/json' },
+      });
+      if (res.ok) {
+        setStatus('done');
+        setEmail(''); setPhone(''); setAddress(''); setConsent(false);
+      } else {
+        setStatus('error');
+      }
+    } catch (err) {
+      setStatus('error');
+    }
   };
+
   return (
     <div className="site-footer__col site-footer__col--newsletter">
       <div className="site-footer__logo">
@@ -171,18 +212,35 @@ function NewsletterCol() {
       </div>
       <h4>{n.title}</h4>
       <p className="newsletter__body">{n.body}</p>
-      <form className="newsletter__form" onSubmit={submit}>
-        <input
-          type="email"
-          placeholder={n.placeholder}
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-        <button type="submit" disabled={!email || !consent}>
-          {done ? '✓' : n.submit}
-        </button>
-      </form>
+      {status === 'done' ? (
+        <p className="newsletter__success">{n.success}</p>
+      ) : (
+        <form className="newsletter__form" onSubmit={submit}>
+          <input
+            type="email"
+            placeholder={n.placeholder}
+            value={email}
+            onChange={(e) => { setEmail(e.target.value); if (status === 'error') setStatus('idle'); }}
+            required
+          />
+          <input
+            type="tel"
+            placeholder={n.phonePlaceholder}
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+          />
+          <input
+            type="text"
+            placeholder={n.addressPlaceholder}
+            value={address}
+            onChange={(e) => setAddress(e.target.value)}
+          />
+          <button type="submit" disabled={!email || !consent || status === 'sending'}>
+            {status === 'sending' ? n.sending : n.submit}
+          </button>
+          {status === 'error' && <p className="newsletter__error">{n.error}</p>}
+        </form>
+      )}
       <label className="newsletter__consent">
         <input
           type="checkbox"
@@ -241,10 +299,12 @@ function Footer({ onShopFilter, onInfo }) {
             {t.footer.servicesLinks.map((l, i) => <a key={i} href="#" onClick={(e) => handleInfo('services', i, e)}>{l}</a>)}
           </div>
         )}
-        <div className="site-footer__col">
-          <h4>{t.footer.house}</h4>
-          {t.footer.houseLinks.map((l, i) => <a key={i} href="#" onClick={(e) => handleInfo('house', i, e)}>{l}</a>)}
-        </div>
+        {t.footer.houseLinks?.length > 0 && (
+          <div className="site-footer__col">
+            <h4>{t.footer.house}</h4>
+            {t.footer.houseLinks.map((l, i) => <a key={i} href="#" onClick={(e) => handleInfo('house', i, e)}>{l}</a>)}
+          </div>
+        )}
         <NewsletterCol/>
       </div>
       <div className="site-footer__rule"/>
