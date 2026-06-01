@@ -3,7 +3,16 @@
 <head>
   <meta charset="utf-8"/>
   <title>Mozaikdesign — Outlet Catalogue</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" id="viewport"/>
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem('mozaik.viewmode') === 'desktop') {
+          document.getElementById('viewport').setAttribute('content', 'width=1280');
+        }
+      } catch (e) {}
+    })();
+  </script>
   <link rel="stylesheet" href="styles.css"/>
 
   <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
@@ -16,6 +25,7 @@
   <script type="text/babel" src="components/Data.jsx"></script>
   <script type="text/babel" src="components/I18n.jsx"></script>
   <script type="text/babel" src="components/Chrome.jsx"></script>
+  <script type="text/babel" src="components/CubeHero.jsx"></script>
   <script type="text/babel" src="components/Filters.jsx"></script>
   <script type="text/babel" src="components/Card.jsx"></script>
   <script type="text/babel" src="components/Modal.jsx"></script>

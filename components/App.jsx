@@ -36,7 +36,10 @@ function App() {
     sort: 'featured',
   });
   const [searchQuery, setSearchQuery] = useState('');
-  const [view, setView] = useState(() => localStorage.getItem('dekupe.view') || 'grid');
+  const [view, setView] = useState(() => {
+    const v = localStorage.getItem('dekupe.view');
+    return (v === 'grid' || v === 'list') ? v : 'grid';
+  });
   const [openProduct, setOpenProduct] = useState(null);
   const [savedIds, setSavedIds] = useState(() => {
     try { return new Set(JSON.parse(localStorage.getItem('dekupe.saved') || '[]')); }
@@ -51,6 +54,7 @@ function App() {
   const [infoPanel, setInfoPanel] = useState(null); // { group: 'services'|'house', idx }
   const [savedTrayOpen, setSavedTrayOpen] = useState(false);
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [brandsOpen, setBrandsOpen] = useState(false);
   const [toast, setToast] = useState(null); // { msg, action?: { label, onClick } }
   const [page, setPage] = useState(1);
   const PAGE_SIZE = 24;
@@ -131,6 +135,38 @@ function App() {
     }
     return list;
   }, [catalogue, filters, searchQuery]);
+
+  // Flat list of lifestyle/product images for the 3D hero cube.
+  const cubeImages = useMemo(() => {
+    const seen = new Set();
+    const out = [];
+    catalogue.forEach(p => {
+      (p.lifes || []).forEach(src => {
+        if (src && !seen.has(src)) { seen.add(src); out.push(src); }
+      });
+    });
+    catalogue.forEach(p => {
+      if (p.dekupe && !seen.has(p.dekupe)) { seen.add(p.dekupe); out.push(p.dekupe); }
+    });
+    return out;
+  }, [catalogue]);
+
+  // Two full-bleed lifestyle images per section card (base + hover swap).
+  const pickerImages = useMemo(() => {
+    const imgsFor = (pred, n = 2) => {
+      const out = [];
+      const push = (s) => { if (s && out.indexOf(s) === -1) out.push(s); };
+      catalogue.forEach(p => { if (out.length < n && pred(p)) (p.lifes || []).forEach(s => { if (out.length < n) push(s); }); });
+      catalogue.forEach(p => { if (out.length < n && pred(p) && p.dekupe) push(p.dekupe); });
+      return out.slice(0, n);
+    };
+    const objects = imgsFor(p => /vase|object|lamp|light|bowl|console|shelf|table/i.test((p.category || '') + ' ' + (p.name || '')));
+    return {
+      indoor: imgsFor(p => p.section === 'INDOOR'),
+      outdoor: imgsFor(p => p.section === 'OUTDOOR'),
+      all: objects.length >= 2 ? objects : imgsFor(() => true),
+    };
+  }, [catalogue]);
 
   // Reset to page 1 whenever filters/search/sort change
   useEffect(() => { setPage(1); }, [filters, searchQuery]);
@@ -229,7 +265,7 @@ function App() {
             setFilters({ ...filters, section: 'All', category: 'Objects & Vases', categories: null });
             scrollToCatalogue();
           } else if (key === 'brands') {
-            document.getElementById('brands')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            setBrandsOpen(true);
           } else if (key === 'home') {
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }
@@ -239,6 +275,8 @@ function App() {
       <Hero
         view={view}
         setView={setView}
+        cubeImages={cubeImages}
+        pickerImages={pickerImages}
         section={filters.section}
         setSection={(s) => {
           setFilters({ ...filters, section: s, category: null });
@@ -385,7 +423,7 @@ function App() {
         setTimeout(() => {
           document.querySelector('.catalogue-main')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }, 50);
-      }} onInfo={(group, idx) => setInfoPanel({ group, idx })}/>
+      }} onInfo={(group, idx) => setInfoPanel({ group, idx })} onBrands={() => setBrandsOpen(true)}/>
 
       {infoPanel && (() => {
         const panels = t.footer.infoPanels?.[infoPanel.group] || [];
@@ -413,6 +451,39 @@ function App() {
               ) : (
                 <p className="info-panel__body">{data.body}</p>
               )}
+            </div>
+          </div>
+        );
+      })()}
+
+      {brandsOpen && (() => {
+        const counts = {};
+        catalogue.forEach(p => { counts[p.brand] = (counts[p.brand] || 0) + 1; });
+        const brandList = Object.keys(counts).sort((a, b) => a.localeCompare(b));
+        return (
+          <div className="info-panel" onClick={() => setBrandsOpen(false)}>
+            <div className="info-panel__dialog info-panel__dialog--faq" onClick={(e) => e.stopPropagation()}>
+              <button className="info-panel__close" onClick={() => setBrandsOpen(false)}>×</button>
+              <div className="info-panel__eyebrow">{t.nav.brands}</div>
+              <h2 className="info-panel__title">{t.filters.allHouses}</h2>
+              <div className="brand-list">
+                {brandList.map(b => (
+                  <button
+                    key={b}
+                    type="button"
+                    className="brand-list__brand"
+                    onClick={() => {
+                      setFilters({ ...filters, section: 'All', category: null, categories: null, brand: b });
+                      setBrandsOpen(false);
+                      setTimeout(() => {
+                        document.querySelector('.catalogue-main')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                      }, 50);
+                    }}
+                  >
+                    {b} <em>{counts[b]}</em>
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         );
