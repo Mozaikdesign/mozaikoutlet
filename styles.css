@@ -1389,15 +1389,16 @@ em { font-style: italic; }
   .hero__picker-grid {
     display: flex; grid-template-columns: none;
     gap: 12px; overflow-x: auto;
-    scroll-snap-type: x mandatory;
+    scroll-snap-type: x proximity;
     -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
     margin: 0 -18px; padding: 0 18px 10px;
     scrollbar-width: none;
   }
   .hero__picker-grid::-webkit-scrollbar { display: none; }
   .pick-card {
-    flex: 0 0 80%; scroll-snap-align: center;
-    min-height: 360px;
+    flex: 0 0 70%; scroll-snap-align: center;
+    min-height: 280px;
   }
   .pick-card:last-child { margin-right: 4px; }
 
