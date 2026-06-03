@@ -206,7 +206,9 @@ em { font-style: italic; }
 /* ----- Picker (indoor / outdoor / all) ----- */
 .hero__picker {
   max-width: 1000px; margin: 0 auto 56px;
+  position: relative;
 }
+.hero__picker-arrows { display: none; }
 .hero__picker-label {
   display: block;
   font-family: var(--display-font, var(--serif)); font-style: italic;
@@ -1386,10 +1388,23 @@ em { font-style: italic; }
 
   /* Section cards become a horizontal swipe carousel on mobile */
   .hero__picker { max-width: none; margin-bottom: 8px; }
+  .hero__picker-arrows {
+    display: flex; justify-content: space-between; align-items: center;
+    margin: 0 0 12px; padding: 0 4px;
+  }
+  .hero__picker-arrow {
+    display: flex; align-items: center; justify-content: center;
+    width: 32px; height: 32px; border-radius: 999px;
+    border: 0; cursor: pointer;
+    background: rgba(26, 23, 20, 0.82); color: #f5ead8;
+    font-size: 18px; line-height: 1; padding-bottom: 2px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.22);
+    -webkit-tap-highlight-color: transparent;
+  }
+  .hero__picker-arrow:active { background: var(--accent); }
   .hero__picker-grid {
     display: flex; grid-template-columns: none;
     gap: 12px; overflow-x: auto;
-    scroll-snap-type: x proximity;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior-x: contain;
     margin: 0 -18px; padding: 0 18px 10px;
@@ -1397,8 +1412,8 @@ em { font-style: italic; }
   }
   .hero__picker-grid::-webkit-scrollbar { display: none; }
   .pick-card {
-    flex: 0 0 70%; scroll-snap-align: center;
-    min-height: 280px;
+    flex: 0 0 66%;
+    min-height: 260px;
   }
   .pick-card:last-child { margin-right: 4px; }
 
