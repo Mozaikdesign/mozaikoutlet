@@ -170,6 +170,22 @@ const DICT = {
       clearAll: 'Clear all',
       clearConfirm: 'Remove all saved pieces?',
     },
+    reserveMail: {
+      subject: (p) => `Reserve: ${p.brand} ${p.name}`,
+      bodyModal: (p) =>
+        `Hello Mozaikdesign team,\n\nI'd like to reserve the piece below:\n\n` +
+        `• ${p.brand} — ${p.name}\n` +
+        `• Category: ${p.category}\n` +
+        `• Dimensions: ${p.dims || '—'}\n` +
+        `• Outlet price: €${p.saleEur?.toLocaleString('de-DE')}\n\n` +
+        `Please confirm availability and condition.\n\nThank you.`,
+      bodySaved: (p) =>
+        `Hello Mozaikdesign team,\n\nI'd like to reserve:\n\n` +
+        `• ${p.brand} — ${p.name}\n` +
+        `• Dimensions: ${p.dims || '—'}\n` +
+        `• Outlet price: €${p.saleEur?.toLocaleString('de-DE')}\n\nThank you.`,
+      toast: (p) => `Reservation email opened for ${p.brand} ${p.name}. If nothing happened, write to simge@mozaikdesign.com.`,
+    },
   },
   tr: {
     announce: 'SON GÜNLER · OUTLET KAPANIYOR — TEŞHİR ÜRÜNLERİ %70\'E VARAN İNDİRİM',
@@ -338,6 +354,22 @@ const DICT = {
       remove: 'Kaldır',
       clearAll: 'Tümünü temizle',
       clearConfirm: 'Tüm kayıtlı parçalar kaldırılsın mı?',
+    },
+    reserveMail: {
+      subject: (p) => `Rezervasyon: ${p.brand} ${p.name}`,
+      bodyModal: (p) =>
+        `Merhaba Mozaikdesign ekibi,\n\nAşağıdaki parçayı rezerve etmek istiyorum:\n\n` +
+        `• ${p.brand} — ${p.name}\n` +
+        `• Kategori: ${p.category}\n` +
+        `• Ölçüler: ${p.dims || '—'}\n` +
+        `• Outlet fiyatı: €${p.saleEur?.toLocaleString('de-DE')}\n\n` +
+        `Lütfen uygunluğu ve ürün durumunu teyit edebilir misiniz?\n\nTeşekkürler.`,
+      bodySaved: (p) =>
+        `Merhaba Mozaikdesign ekibi,\n\nŞu parçayı rezerve etmek istiyorum:\n\n` +
+        `• ${p.brand} — ${p.name}\n` +
+        `• Ölçüler: ${p.dims || '—'}\n` +
+        `• Outlet fiyatı: €${p.saleEur?.toLocaleString('de-DE')}\n\nTeşekkürler.`,
+      toast: (p) => `${p.brand} ${p.name} için rezervasyon e-postası açıldı. Bir şey olmadıysa simge@mozaikdesign.com adresine yazın.`,
     },
   },
 };

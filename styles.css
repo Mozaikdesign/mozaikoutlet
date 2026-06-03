@@ -178,11 +178,11 @@ em { font-style: italic; }
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "cube title" "cube sub";
   align-items: center; align-content: center;
-  column-gap: clamp(44px, 6vw, 104px); row-gap: 0;
+  column-gap: clamp(32px, 4vw, 72px); row-gap: 0;
   text-align: left;
   margin-bottom: 44px;
 }
-.hero__lead .cube-stage { grid-area: cube; --cube: 296px; width: 100%; margin: 0; padding: 24px 12px; }
+.hero__lead .cube-stage { grid-area: cube; --cube: 256px; width: 100%; margin: 0; padding: 24px 28px; }
 .hero__lead .hero__title {
   grid-area: title; align-self: end;
   margin: 0 0 16px; max-width: 14ch;
@@ -190,7 +190,7 @@ em { font-style: italic; }
 }
 .hero__lead .hero__sub { grid-area: sub; align-self: start; margin: 0; max-width: 46ch; }
 @media (min-width: 861px) and (max-width: 1120px) {
-  .hero__lead .cube-stage { --cube: 232px; }
+  .hero__lead .cube-stage { --cube: 216px; }
 }
 @media (max-width: 860px) {
   .hero__lead {
@@ -878,7 +878,6 @@ em { font-style: italic; }
   transform: rotateX(-24deg) rotateY(0deg);
   animation: cube-spin 22s linear infinite;
 }
-.cube-stage:hover .cube { animation-play-state: paused; }
 .cube__face {
   position: absolute; top: 0; left: 0;
   width: var(--cube); height: var(--cube);

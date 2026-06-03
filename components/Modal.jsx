@@ -93,15 +93,8 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
               className="btn btn--primary"
               href={
                 'mailto:simge@mozaikdesign.com' +
-                '?subject=' + encodeURIComponent(`Reserve: ${product.brand} ${product.name}`) +
-                '&body=' + encodeURIComponent(
-                  `Hello Mozaikdesign team,\n\nI'd like to reserve the piece below:\n\n` +
-                  `• ${product.brand} — ${product.name}\n` +
-                  `• Category: ${product.category}\n` +
-                  `• Dimensions: ${product.dims || '—'}\n` +
-                  `• Outlet price: €${product.saleEur?.toLocaleString('de-DE')}\n\n` +
-                  `Please confirm availability and condition.\n\nThank you.`
-                )
+                '?subject=' + encodeURIComponent(t.reserveMail.subject(product)) +
+                '&body=' + encodeURIComponent(t.reserveMail.bodyModal(product))
               }
               onClick={() => onAdd(product)}
             >

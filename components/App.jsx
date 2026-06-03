@@ -211,7 +211,7 @@ function App() {
   const addToCart = (product) => {
     setCartIds(prev => new Set([...prev, product.id]));
     setOpenProduct(null);
-    showToast(`Reservation email opened for ${product.brand} ${product.name}. If nothing happened, write to simge@mozaikdesign.com.`);
+    showToast(t.reserveMail.toast(product));
   };
 
   const resetFilters = () => {
@@ -535,13 +535,8 @@ function App() {
                         className="btn btn--primary btn--sm"
                         href={
                           'mailto:simge@mozaikdesign.com' +
-                          '?subject=' + encodeURIComponent(`Reserve: ${p.brand} ${p.name}`) +
-                          '&body=' + encodeURIComponent(
-                            `Hello Mozaikdesign team,\n\nI'd like to reserve:\n\n` +
-                            `• ${p.brand} — ${p.name}\n` +
-                            `• Dimensions: ${p.dims || '—'}\n` +
-                            `• Outlet price: €${p.saleEur?.toLocaleString('de-DE')}\n\nThank you.`
-                          )
+                          '?subject=' + encodeURIComponent(t.reserveMail.subject(p)) +
+                          '&body=' + encodeURIComponent(t.reserveMail.bodySaved(p))
                         }
                       >{t.savedTray.reserve}</a>
                       <button className="btn btn--ghost btn--sm" onClick={() => toggleSave(p)}>{t.savedTray.remove}</button>

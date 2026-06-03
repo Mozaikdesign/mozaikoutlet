@@ -426,8 +426,6 @@ function Footer({ onShopFilter, onInfo, onBrands }) {
       <div className="site-footer__rule"/>
       <div className="site-footer__base">
         <span>{t.footer.copyright}</span>
-        <ViewModeToggle/>
-        <span>{t.footer.tagline}</span>
       </div>
     </footer>
   );
