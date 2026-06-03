@@ -1,5 +1,5 @@
 /* global React, I18N */
-const { useState } = React;
+const { useState, useRef } = React;
 const { useI18n } = I18N;
 
 /* --------------------------------------------------------------------
@@ -102,6 +102,14 @@ function TopBar({ onSearch, searchQuery, cartCount, onBagClick, onOpenFilters, o
 function Hero({ view, setView, section, setSection, counts, cubeImages, pickerImages }) {
   const { t } = useI18n();
   const Cube = window.CUBE && window.CUBE.Cube;
+  const pickerRef = useRef(null);
+  const scrollPicker = (dir) => {
+    const el = pickerRef.current;
+    if (!el) return;
+    const card = el.querySelector('.pick-card');
+    const step = card ? card.getBoundingClientRect().width + 12 : el.clientWidth * 0.6;
+    el.scrollBy({ left: dir * step, behavior: 'smooth' });
+  };
   return (
     <section className="hero">
       <div className="hero__meta">
@@ -129,7 +137,7 @@ function Hero({ view, setView, section, setSection, counts, cubeImages, pickerIm
 
       <div className="hero__picker">
 
-        <div className="hero__picker-grid">
+        <div className="hero__picker-grid" ref={pickerRef}>
           <button
             className={'pick-card ' + (section === 'INDOOR' ? 'is-active' : '')}
             onClick={() => setSection('INDOOR')}
@@ -175,6 +183,10 @@ function Hero({ view, setView, section, setSection, counts, cubeImages, pickerIm
               <span className="pick-card__cta">{t.hero.enter} →</span>
             </span>
           </button>
+        </div>
+        <div className="hero__picker-arrows">
+          <button className="hero__picker-arrow hero__picker-arrow--prev" onClick={() => scrollPicker(-1)} aria-label="Previous">‹</button>
+          <button className="hero__picker-arrow hero__picker-arrow--next" onClick={() => scrollPicker(1)} aria-label="Next">›</button>
         </div>
       </div>
 
