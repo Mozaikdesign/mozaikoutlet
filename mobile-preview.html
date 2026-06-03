@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Mobile preview — Mozaik Outlet</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    :root { --bg: #2a2622; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; }
+    body {
+      background: #2a2622;
+      color: #efeadd;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      display: flex; flex-direction: column; align-items: center;
+      gap: 22px; padding: 32px 16px 48px; min-height: 100%;
+    }
+    h1 { font-size: 15px; font-weight: 500; letter-spacing: 0.04em; margin: 0; opacity: 0.8; }
+    .controls { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+    .controls button {
+      background: rgba(255,255,255,0.08); color: #efeadd; border: 1px solid rgba(255,255,255,0.18);
+      padding: 8px 14px; border-radius: 999px; font-size: 12px; letter-spacing: 0.04em; cursor: pointer;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .controls button.is-active { background: #efeadd; color: #2a2622; border-color: #efeadd; }
+    .phone {
+      position: relative;
+      width: 390px; height: 844px;
+      background: #000; border-radius: 52px;
+      padding: 13px;
+      box-shadow: 0 40px 90px -30px rgba(0,0,0,0.8), 0 0 0 2px rgba(255,255,255,0.06);
+      flex-shrink: 0;
+      transition: width 0.25s ease, height 0.25s ease;
+    }
+    .phone__notch {
+      position: absolute; top: 13px; left: 50%; transform: translateX(-50%);
+      width: 130px; height: 30px; background: #000; border-radius: 0 0 18px 18px; z-index: 3;
+    }
+    .phone__screen {
+      width: 100%; height: 100%; border-radius: 40px; overflow: hidden; background: #fff;
+    }
+    iframe { width: 100%; height: 100%; border: 0; display: block; }
+    .hint { font-size: 12px; opacity: 0.55; max-width: 360px; text-align: center; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <h1>Mozaik Outlet — mobile preview</h1>
+  <div class="controls">
+    <button data-w="390" data-h="844" class="is-active">iPhone 14 · 390×844</button>
+    <button data-w="360" data-h="800">Android · 360×800</button>
+    <button data-w="430" data-h="932">iPhone Max · 430×932</button>
+  </div>
+  <div class="phone" id="phone">
+    <div class="phone__notch"></div>
+    <div class="phone__screen">
+      <iframe src="index.html" title="Mozaik Outlet mobile"></iframe>
+    </div>
+  </div>
+  <p class="hint">This is your real site running at phone width. Scroll inside the frame, tap around, switch sizes above. Tip: you can also just narrow your browser window to see it respond.</p>
+
+  <script>
+    const phone = document.getElementById('phone');
+    document.querySelectorAll('.controls button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.controls button').forEach(b => b.classList.remove('is-active'));
+        btn.classList.add('is-active');
+        phone.style.width = btn.dataset.w + 'px';
+        phone.style.height = btn.dataset.h + 'px';
+      });
+    });
+  </script>
+</body>
+</html>

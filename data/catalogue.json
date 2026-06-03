@@ -464,8 +464,8 @@
     "dims": "290x110cm H:74cm",
     "dekupe": "photos/life/maxalto-lucullo-table-life.webp",
     "lifes": [
-      "photos/life/maxalto-lucullo-2.png",
-      "photos/life/maxalto-lucullo-3.png"
+      "photos/life/maxalto-lucullo-2.webp",
+      "photos/life/maxalto-lucullo-3.webp"
     ]
   },
   {
@@ -547,9 +547,9 @@
     "saleEur": 5250,
     "discountPct": 45,
     "dims": "2600*900MM -H740MM",
-    "dekupe": "photos/dekupe/vitra-em-dark-new.png",
+    "dekupe": "photos/dekupe/vitra-em-dark-new.webp",
     "lifes": [
-      "photos/life/vitra-em-dark-life-new.png",
+      "photos/life/vitra-em-dark-life-new.webp",
       "photos/life/vitra-em-dark-table-life2.webp"
     ]
   },
@@ -565,9 +565,9 @@
     "saleEur": 5250,
     "discountPct": 45,
     "dims": "240x90cm H:74cm",
-    "dekupe": "photos/dekupe/vitra-em-walnut-new.png",
+    "dekupe": "photos/dekupe/vitra-em-walnut-new.webp",
     "lifes": [
-      "photos/life/vitra-em-walnut-life-2.png"
+      "photos/life/vitra-em-walnut-life-2.webp"
     ]
   },
   {
@@ -809,8 +809,8 @@
     "dims": "80 x 80 cm H:46,5 cm",
     "dekupe": "photos/dekupe/flexform-fly-side-table-new.webp",
     "lifes": [
-      "photos/life/flexform-fly-side-life-new-1.png",
-      "photos/life/flexform-fly-side-life-new-2.png"
+      "photos/life/flexform-fly-side-life-new-1.webp",
+      "photos/life/flexform-fly-side-life-new-2.webp"
     ]
   },
   {
