@@ -38,7 +38,7 @@
   {
     "id": 3,
     "brand": "Gallotti & Radice",
-    "name": "evolis next sofa",
+    "name": "Evolis Next Sofa",
     "section": "INDOOR",
     "category": "Sofas",
     "qty": 1,
@@ -55,7 +55,7 @@
   {
     "id": 4,
     "brand": "Gallotti & Radice",
-    "name": "evolis sofa",
+    "name": "Evolis Sofa",
     "section": "INDOOR",
     "category": "Sofas",
     "qty": 1,
@@ -72,7 +72,7 @@
   {
     "id": 5,
     "brand": "Gallotti & Radice",
-    "name": "stami sofa",
+    "name": "Stami Sofa",
     "section": "INDOOR",
     "category": "Sofas",
     "qty": 1,
@@ -417,25 +417,6 @@
     ]
   },
   {
-    "id": 31,
-    "brand": "Santa&Cole",
-    "name": "Digamma Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 6302,
-    "outletEur": 4412,
-    "saleEur": 3466,
-    "discountPct": 45,
-    "dims": "58 cm x 80 cm h:38/70 cm · İndirimli tek adet fiyatı:",
-    "dekupe": "photos/dekupe/santacole-digamma.webp",
-    "lifes": [
-      "photos/life/santacole-digamma-life1.webp",
-      "photos/life/santacole-digamma-life2.webp",
-      "photos/life/santacole-digamma-life3.webp"
-    ]
-  },
-  {
     "id": 32,
     "brand": "Walter Knoll",
     "name": "Isanka Pouf",
@@ -483,13 +464,14 @@
     "dims": "290x110cm H:74cm",
     "dekupe": "photos/life/maxalto-lucullo-table-life.webp",
     "lifes": [
-      "photos/dekupe/maxalto-lucullo-table.webp"
+      "photos/life/maxalto-lucullo-2.png",
+      "photos/life/maxalto-lucullo-3.png"
     ]
   },
   {
     "id": 35,
     "brand": "Gallotti & Radice",
-    "name": "haumea table",
+    "name": "Haumea Table",
     "section": "INDOOR",
     "category": "Tables & Consoles",
     "qty": 1,
@@ -500,7 +482,6 @@
     "dims": "180x110 cm H:74cm",
     "dekupe": "photos/dekupe/gallotti-radice-haumea-cover.webp",
     "lifes": [
-      "photos/dekupe/gallotti-radice-haumea-table.webp",
       "photos/life/gallotti-radice-haumea-table-life.webp"
     ]
   },
@@ -557,7 +538,7 @@
   {
     "id": 38,
     "brand": "Vitra",
-    "name": "EM table",
+    "name": "EM Table",
     "section": "INDOOR",
     "category": "Tables & Consoles",
     "qty": 1,
@@ -566,16 +547,16 @@
     "saleEur": 5250,
     "discountPct": 45,
     "dims": "2600*900MM -H740MM",
-    "dekupe": "photos/dekupe/vitra-em-table.webp",
+    "dekupe": "photos/dekupe/vitra-em-dark-new.png",
     "lifes": [
-      "photos/life/vitra-em-dark-table-life1.webp",
+      "photos/life/vitra-em-dark-life-new.png",
       "photos/life/vitra-em-dark-table-life2.webp"
     ]
   },
   {
     "id": 39,
     "brand": "Vitra",
-    "name": "EM table",
+    "name": "EM Table",
     "section": "INDOOR",
     "category": "Tables & Consoles",
     "qty": 1,
@@ -584,9 +565,9 @@
     "saleEur": 5250,
     "discountPct": 45,
     "dims": "240x90cm H:74cm",
-    "dekupe": "photos/dekupe/vitra-em-walnut.webp",
+    "dekupe": "photos/dekupe/vitra-em-walnut-new.png",
     "lifes": [
-      "photos/life/vitra-em-walnut-life.webp"
+      "photos/life/vitra-em-walnut-life-2.png"
     ]
   },
   {
@@ -826,16 +807,16 @@
     "saleEur": 2000,
     "discountPct": 45,
     "dims": "80 x 80 cm H:46,5 cm",
-    "dekupe": "photos/dekupe/flexform-fly-side-table.webp",
+    "dekupe": "photos/dekupe/flexform-fly-side-table-new.webp",
     "lifes": [
-      "photos/life/flexform-fly-side-life-1.webp",
-      "photos/life/flexform-fly-side-life-2.webp"
+      "photos/life/flexform-fly-side-life-new-1.png",
+      "photos/life/flexform-fly-side-life-new-2.png"
     ]
   },
   {
     "id": 57,
     "brand": "Gallotti & Radice",
-    "name": "arch low table",
+    "name": "Arch Low Table",
     "section": "INDOOR",
     "category": "Coffee & Side Tables",
     "qty": 1,
@@ -921,7 +902,7 @@
   {
     "id": 66,
     "brand": "Living Divani",
-    "name": "Moon Satellite Coffee Table",
+    "name": "Moon Satellite Side Table",
     "section": "INDOOR",
     "category": "Coffee & Side Tables",
     "qty": 2,
@@ -932,6 +913,7 @@
     "dims": "Ø40cm h:57cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/living-divani-moon-satellite.webp",
     "lifes": [
+      "photos/life/living-divani-moon-satellite-2.webp",
       "photos/life/living-divani-moon-satellite-life.webp"
     ]
   },
@@ -992,7 +974,7 @@
   {
     "id": 70,
     "brand": "Gallotti & Radice",
-    "name": "akiko chair",
+    "name": "Akiko Chair",
     "section": "INDOOR",
     "category": "Chairs",
     "qty": 6,
@@ -2172,7 +2154,7 @@
   {
     "id": 143,
     "brand": "Exteta",
-    "name": "Sunset Basket Sofa",
+    "name": "Sunset Basket Outdoor Sofa",
     "section": "INDOOR",
     "category": "Sofas",
     "qty": 1,
@@ -2183,8 +2165,6 @@
     "dims": "265 x 105 cm H:38/70cm · CS60PR x2 · CS60S",
     "dekupe": "photos/dekupe/exteta-sunset-basket-sofa-new.webp",
     "lifes": [
-      "photos/life/exteta-sunset-basket-sofa-life.webp",
-      "photos/life/exteta-basket-sofa-outdoor-life.webp",
       "photos/life/exteta-sunset-basket-sofa-life-new.webp"
     ]
   },
@@ -2404,7 +2384,7 @@
   {
     "id": 155,
     "brand": "Cassina",
-    "name": "Fauteuil Grand Confort, grand modèle, Outdoor",
+    "name": "Fauteuil Grand Confort, Grand Modèle, Outdoor",
     "section": "OUTDOOR",
     "category": "Outdoor",
     "qty": 2,
@@ -2741,7 +2721,7 @@
   {
     "id": 175,
     "brand": "Fermob",
-    "name": "Outdoor masa",
+    "name": "Outdoor Masa",
     "section": "OUTDOOR",
     "category": "Outdoor Tables",
     "qty": 1,
@@ -2768,7 +2748,7 @@
     "outletEur": 7660,
     "saleEur": 7660,
     "discountPct": 30,
-    "dims": "73 x 73cm H:48/80cm · indirimli 6 adet fiyatı:",
+    "dims": "73 x 73cm H:48/80cm · indirimli 4 adet fiyatı:",
     "dekupe": "photos/dekupe/gandia-blasco-isla-chair.webp",
     "lifes": [
       "photos/dekupe/gandia-blasco-isla-chair-2.webp"
@@ -2795,7 +2775,7 @@
   {
     "id": 177,
     "brand": "Roda",
-    "name": "DOUBLE 011 chair",
+    "name": "DOUBLE 011 Chair",
     "section": "OUTDOOR",
     "category": "Outdoor Chairs",
     "qty": 2,
@@ -3024,7 +3004,6 @@
     "dims": "30 x 33 cm H:30cm",
     "dekupe": "photos/dekupe/bb-outdoor-canasta-new.webp",
     "lifes": [
-      "photos/life/gervasoni-heiko.webp",
       "photos/life/bb-outdoor-canasta-life.webp"
     ]
   },

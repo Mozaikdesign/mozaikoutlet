@@ -12,7 +12,8 @@ const { useI18n } = I18N;
    To also capture phone/address, add a Phone field and a plain-text
    "Address" field to your audience (merge tags PHONE and ADDRESS).
 -------------------------------------------------------------------- */
-const MAILCHIMP_ACTION = 'https://YOUR_DC.list-manage.com/subscribe/post?u=YOUR_U&id=YOUR_ID';
+const MAILCHIMP_ACTION = 'https://mozaikdesign.us4.list-manage.com/subscribe/post?u=fff1bb6bc3f90be73b5465817&id=374a302464&f_id=00d03beaf0';
+const MAILCHIMP_BOT_FIELD = 'b_fff1bb6bc3f90be73b5465817_374a302464';
 
 function LangToggle() {
   const { lang, setLang } = useI18n();
@@ -31,8 +32,8 @@ function LangToggle() {
   );
 }
 
-function TopBar({ onSearch, searchQuery, cartCount, onBagClick, onNav }) {
-  const { t } = useI18n();
+function TopBar({ onSearch, searchQuery, cartCount, onBagClick, onOpenFilters, onNav }) {
+  const { t, lang } = useI18n();
   const handleNav = (key) => (e) => {
     e.preventDefault();
     onNav && onNav(key);
@@ -75,6 +76,24 @@ function TopBar({ onSearch, searchQuery, cartCount, onBagClick, onNav }) {
             {t.bag} <span className="site-header__cart-badge">{cartCount}</span>
           </a>
         </div>
+      </div>
+      <div className="site-header__mobile-toolbar">
+        <div className="site-header__search site-header__search--mobile">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+          </svg>
+          <input
+            value={searchQuery}
+            onChange={e => onSearch(e.target.value)}
+            placeholder={t.searchPlaceholder}
+          />
+        </div>
+        <button className="site-header__mobile-filter" onClick={() => onOpenFilters && onOpenFilters()}>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            <line x1="4" y1="7" x2="20" y2="7"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="10" y1="17" x2="14" y2="17"/>
+          </svg>
+          {lang === 'tr' ? 'Filtrele & Sırala' : 'Filter & Sort'}
+        </button>
       </div>
     </header>
   );
@@ -220,6 +239,7 @@ function NewsletterCol() {
     if (phone.trim()) params.set('PHONE', phone.trim());
     if (address.trim()) params.set('ADDRESS', address.trim());
     params.set('LANG', lang.toUpperCase()); // only stored if a LANG field exists
+    params.set(MAILCHIMP_BOT_FIELD, ''); // anti-bot honeypot — must stay empty
     params.set('c', cb);
 
     const url = MAILCHIMP_ACTION.replace('/post?', '/post-json?') + '&' + params.toString();
@@ -249,7 +269,7 @@ function NewsletterCol() {
   return (
     <div className="site-footer__col site-footer__col--newsletter">
       <div className="site-footer__logo">
-        <img src="assets/mozaik-logo-trimmed.png" alt="Mozaik" className="logo-img logo-img--footer"/>
+        <img src="assets/mozaik-logo-footer.png" alt="Mozaik" className="logo-img logo-img--footer"/>
       </div>
       <h4>{n.title}</h4>
       <p className="newsletter__body">{n.body}</p>
@@ -349,7 +369,7 @@ function Footer({ onShopFilter, onInfo, onBrands }) {
       <div className="site-footer__grid">
         <div className="site-footer__col site-footer__col--wide">
           <div className="site-footer__logo">
-            <img src="assets/mozaik-logo-trimmed.png" alt="Mozaik" className="logo-img logo-img--footer"/>
+            <img src="assets/mozaik-logo-footer.png" alt="Mozaik" className="logo-img logo-img--footer"/>
             <span className="logo-tag">Outlet Catalogue</span>
           </div>
           <p>
@@ -370,6 +390,11 @@ function Footer({ onShopFilter, onInfo, onBrands }) {
               <a href="https://www.facebook.com/mozaikdesigncom/?locale=tr_TR" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                   <path d="M14 8.5V6.8c0-.8.2-1.3 1.4-1.3H17V2.6c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v1.9H8v3h2.6V21H14v-9.5h2.5l.4-3H14z"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/company/mozaikdesign" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M6.94 5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0zM3.4 8.4h3.1V21H3.4V8.4zm5.06 0h2.97v1.72h.04c.41-.78 1.42-1.6 2.93-1.6 3.13 0 3.71 2.06 3.71 4.74V21h-3.1v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94V21H8.46V8.4z"/>
                 </svg>
               </a>
               <a href="https://wa.me/905395761800" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">

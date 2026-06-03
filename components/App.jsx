@@ -251,6 +251,7 @@ function App() {
         searchQuery={searchQuery}
         cartCount={savedIds.size}
         onBagClick={() => setSavedTrayOpen(true)}
+        onOpenFilters={() => setMobileFiltersOpen(true)}
         onNav={(key) => {
           const scrollToCatalogue = () => setTimeout(() => {
             document.querySelector('.catalogue-main')?.scrollIntoView({ behavior: 'smooth', block: 'start' });

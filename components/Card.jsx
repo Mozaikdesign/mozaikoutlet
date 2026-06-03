@@ -21,9 +21,11 @@ function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
         {product.discountPct >= 15 && (
           <span className="card__discount">−{product.discountPct}%</span>
         )}
-        <span className={'card__qty card__qty--' + (product.qty === 1 ? 'one' : product.qty === 2 ? 'two' : 'many')}>
-          {product.qty === 1 ? 'one of one' : product.qty === 2 ? '2 left' : product.qty + ' available'}
-        </span>
+        {product.qty !== 1 && (
+          <span className={'card__qty card__qty--' + (product.qty === 2 ? 'two' : 'many')}>
+            {product.qty === 2 ? '2 left' : product.qty + ' available'}
+          </span>
+        )}
         {firstLife && product.dekupe && (
           <div className="card__photo-flip" aria-hidden="true">
             <Img src={showLife ? product.dekupe : firstLife} alt=""/>
