@@ -1,10 +1,19 @@
-/* global React, DATA */
+/* global React, DATA, I18N */
 const { useState } = React;
 const { Img, eurFmt } = DATA;
+const { useI18n } = I18N;
+
+// Localized quantity label: TR "N adet fiyatı", EN "price for two"
+const QTY_WORDS_EN = { 2: 'two', 3: 'three', 4: 'four', 5: 'five', 6: 'six', 7: 'seven', 8: 'eight' };
+function qtyLabel(qty, lang) {
+  if (lang === 'tr') return qty + ' adet fiyatı';
+  return 'price for ' + (QTY_WORDS_EN[qty] || qty);
+}
 
 // ------- Grid card — clean, neutral, showroom-catalogue style -------
 function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
   const [hover, setHover] = useState(false);
+  const { lang } = useI18n();
   const lifes = Array.isArray(product.lifes) ? product.lifes : (product.life ? [product.life] : []);
   const firstLife = lifes[0];
   const showLife = hover && firstLife;
@@ -23,7 +32,7 @@ function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
         )}
         {product.qty !== 1 && (
           <span className={'card__qty card__qty--' + (product.qty === 2 ? 'two' : 'many')}>
-            {product.qty === 2 ? '2 left' : product.qty + ' available'}
+            {qtyLabel(product.qty, lang)}
           </span>
         )}
         {firstLife && product.dekupe && (
@@ -60,6 +69,7 @@ function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
 
 // ------- Editorial card — larger, magazine-style, with copywriting -------
 function EditorialCard({ product, onOpen, onSave, saved, index }) {
+  const { lang } = useI18n();
   // vary size based on index for rhythm
   const sizes = ['span-1', 'span-1', 'span-2', 'span-1', 'span-1', 'span-1'];
   const size = sizes[index % sizes.length];
@@ -83,7 +93,7 @@ function EditorialCard({ product, onOpen, onSave, saved, index }) {
       <div className="ed-card__body">
         <div className="ed-card__line">
           <span className="ed-card__brand">— {product.brand}</span>
-          <span className="ed-card__qty">{product.qty === 1 ? 'one only' : product.qty + ' available'}</span>
+          <span className="ed-card__qty">{product.qty === 1 ? (lang === 'tr' ? 'tek adet' : 'one only') : qtyLabel(product.qty, lang)}</span>
         </div>
         <h3 className="ed-card__name">{product.name}</h3>
         <div className="ed-card__meta">{product.category}</div>

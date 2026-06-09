@@ -163,7 +163,10 @@ function App() {
     const objects = imgsFor(p => /vase|object|lamp|light|bowl|console|shelf|table/i.test((p.category || '') + ' ' + (p.name || '')));
     return {
       indoor: imgsFor(p => p.section === 'INDOOR'),
-      outdoor: imgsFor(p => p.section === 'OUTDOOR'),
+      outdoor: [
+        'photos/life/bb-bay-small-armchair-life-2.webp',
+        'photos/life/bb-mirto-outdoor-life1.webp',
+      ],
       all: objects.length >= 2 ? objects : imgsFor(() => true),
     };
   }, [catalogue]);

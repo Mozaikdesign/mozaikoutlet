@@ -147,7 +147,6 @@ function Hero({ view, setView, section, setSection, counts, cubeImages, pickerIm
               {(pickerImages && pickerImages.indoor || [])[1] && <img className="pick-card__img pick-card__img--hover" src={pickerImages.indoor[1]} alt="" loading="lazy"/>}
             </span>
             <span className="pick-card__label">{t.hero.indoorTitle}</span>
-            <span className="pick-card__badge">{counts.indoor} {t.hero.pieces}</span>
             <span className="pick-card__foot">
               <span className="pick-card__sub">{t.hero.indoorSub}</span>
               <span className="pick-card__cta">{t.hero.enter} →</span>
@@ -162,7 +161,6 @@ function Hero({ view, setView, section, setSection, counts, cubeImages, pickerIm
               {(pickerImages && pickerImages.outdoor || [])[1] && <img className="pick-card__img pick-card__img--hover" src={pickerImages.outdoor[1]} alt="" loading="lazy"/>}
             </span>
             <span className="pick-card__label">{t.hero.outdoorTitle}</span>
-            <span className="pick-card__badge">{counts.outdoor} {t.hero.pieces}</span>
             <span className="pick-card__foot">
               <span className="pick-card__sub">{t.hero.outdoorSub}</span>
               <span className="pick-card__cta">{t.hero.enter} →</span>
@@ -177,7 +175,6 @@ function Hero({ view, setView, section, setSection, counts, cubeImages, pickerIm
               {(pickerImages && pickerImages.all || [])[1] && <img className="pick-card__img pick-card__img--hover" src={pickerImages.all[1]} alt="" loading="lazy"/>}
             </span>
             <span className="pick-card__label">{t.hero.allTitle}</span>
-            <span className="pick-card__badge">{counts.total} {t.hero.pieces}</span>
             <span className="pick-card__foot">
               <span className="pick-card__sub">{t.hero.allSub}</span>
               <span className="pick-card__cta">{t.hero.enter} →</span>
