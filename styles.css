@@ -1277,6 +1277,16 @@ em { font-style: italic; }
 .modal__tab-body p + p { margin-top: 12px; }
 .modal__tab-body strong { color: var(--ink); font-weight: 500; }
 .modal__muted { color: var(--ink-3); font-style: italic; font-size: 13px; }
+.modal__note {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-left: 2px solid var(--ink);
+  background: var(--paper-2, rgba(0,0,0,0.03));
+  color: var(--ink);
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
+}
 .modal__condition { list-style: none; }
 .modal__condition li {
   padding: 6px 0; padding-left: 16px; position: relative;

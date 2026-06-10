@@ -4,7 +4,7 @@ const { Img, eurFmt } = DATA;
 const { useI18n } = I18N;
 
 function QuickView({ product, onClose, onSave, saved, onAdd }) {
-  const { t, lang } = useI18n();
+  const { t } = useI18n();
   const m = t.modal;
   const [imgIdx, setImgIdx] = useState(0);
 
@@ -86,9 +86,6 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
               <strong>{product.dims || '—'}</strong>
             </div>
             <p className="modal__muted">{m.dimsTolerance}</p>
-            {product.note && (
-              <p className="modal__note">{typeof product.note === 'string' ? product.note : (product.note[lang] || product.note.en)}</p>
-            )}
           </div>
 
           <div className="modal__actions">

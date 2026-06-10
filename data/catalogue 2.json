@@ -358,23 +358,6 @@
     ]
   },
   {
-    "id": 241,
-    "brand": "USM",
-    "name": "Haller Armando Cabral Side Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 2037,
-    "outletEur": 1120,
-    "saleEur": 1120,
-    "discountPct": 45,
-    "dims": "50 x 39,5 cm",
-    "dekupe": "photos/dekupe/usm-haller-armando-cabral-side-table.webp",
-    "lifes": [
-      "photos/life/usm-haller-armando-cabral-side-table-life.webp"
-    ]
-  },
-  {
     "id": 12,
     "brand": "Flexform",
     "name": "Gregory Sofa",
@@ -1587,7 +1570,7 @@
     "saleEur": 241,
     "discountPct": 30,
     "dims": "Ø12cm H:35cm",
-    "dekupe": "photos/dekupe/driade-root-vase-new.webp",
+    "dekupe": "photos/dekupe/driade-root-vase-new.gif",
     "lifes": [
       "photos/dekupe/driade-root-vase.webp",
       "photos/life/driade-root-vase-life.webp"
@@ -2374,7 +2357,7 @@
   {
     "id": 240,
     "brand": "Walter Knoll",
-    "name": "Liz Wood Chair — Set of 6",
+    "name": "Liz Wood Chair",
     "section": "INDOOR",
     "category": "Chairs",
     "qty": 1,
@@ -2383,10 +2366,6 @@
     "saleEur": 1317,
     "discountPct": 45,
     "dims": "",
-    "note": {
-      "en": "Sold only as a set of six — individual chairs are not available separately.",
-      "tr": "Yalnızca altılı set olarak satılır — sandalyeler tek tek satışa sunulmamaktadır."
-    },
     "dekupe": "photos/dekupe/walter-knoll-liz-wood-chair.webp",
     "lifes": [
       "photos/life/walter-knoll-liz-wood-chair-life.webp"
