@@ -3176,5 +3176,90 @@
     "dims": "44 x 44cm H:80cm",
     "dekupe": "photos/dekupe/vitra-halwood.webp",
     "lifes": []
+  },
+  {
+    "id": 242,
+    "brand": "B&amp;B Italia",
+    "name": "Atoll Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 13336,
+    "outletEur": 6000,
+    "saleEur": 6000,
+    "discountPct": 55,
+    "dims": "354 x 97,5 cm H:45/86 cm",
+    "dekupe": "photos/dekupe/bb-atoll-354-sofa.webp",
+    "lifes": [
+      "photos/life/bb-atoll-354-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 243,
+    "brand": "Gallotti &amp; Radice",
+    "name": "Audrey Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 17650,
+    "outletEur": 12250,
+    "saleEur": 12250,
+    "discountPct": 31,
+    "dims": "102 x 84 cm h:38/68 cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/gallotti-radice-audrey-armchair.webp",
+    "lifes": [
+      "photos/life/gallotti-radice-audrey-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 244,
+    "brand": "Moroso",
+    "name": "Gogan Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee &amp; Side Tables",
+    "qty": 1,
+    "listEur": 3371,
+    "outletEur": 1850,
+    "saleEur": 1850,
+    "discountPct": 45,
+    "dims": "127 x 99 cm H:33 cm",
+    "dekupe": "photos/dekupe/moroso-gogan-coffee-table.webp",
+    "lifes": [
+      "photos/life/moroso-gogan-coffee-table-life.webp"
+    ]
+  },
+  {
+    "id": 246,
+    "brand": "B&amp;B Italia",
+    "name": "Softcage Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 4920,
+    "outletEur": 3000,
+    "saleEur": 3000,
+    "discountPct": 39,
+    "dims": "100 x 85 cm h:40/65 cm · 1 adet mevcut",
+    "dekupe": "photos/dekupe/bb-softcage-armchair.webp",
+    "lifes": [
+      "photos/life/bb-softcage-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 247,
+    "brand": "Maxalto",
+    "name": "Apollo Curved Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 16029,
+    "outletEur": 7000,
+    "saleEur": 7000,
+    "discountPct": 56,
+    "dims": "285 x 134,5 cm H:42/87 cm",
+    "dekupe": "photos/dekupe/maxalto-apollo-curved-sofa.webp",
+    "lifes": [
+      "photos/life/maxalto-apollo-curved-sofa-life.webp"
+    ]
   }
 ]
