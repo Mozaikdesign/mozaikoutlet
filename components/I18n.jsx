@@ -3,7 +3,7 @@ const { createContext, useContext, useState, useEffect } = React;
 
 const DICT = {
   en: {
-    announce: 'FINAL DAYS · OUTLET CLOSING — SHOWROOM PIECES UP TO 70% OFF',
+    announce: 'FINAL DAYS · OUTLET CLOSING — SHOWROOM PIECES UP TO 75% OFF',
     nav: { indoor: 'Indoor', outdoor: 'Outdoor', objects: 'Objects', brands: 'Brands' },
     searchPlaceholder: 'Search 200 pieces…',
     account: 'Account',
@@ -30,7 +30,7 @@ const DICT = {
       stats: [
         ['200', 'pieces in this lot'],
         ['42', 'brands'],
-        ['−55%', 'average off list'],
+        ['−75%', 'up to off list'],
         ['1', 'iconic pieces. always'],
       ],
       view: 'view',
@@ -188,7 +188,7 @@ const DICT = {
     },
   },
   tr: {
-    announce: 'SON GÜNLER · OUTLET KAPANIYOR — TEŞHİR ÜRÜNLERİ %70\'E VARAN İNDİRİM',
+    announce: 'SON GÜNLER · OUTLET KAPANIYOR — TEŞHİR ÜRÜNLERİ %75\'E VARAN İNDİRİM',
     nav: { indoor: 'İç Mekan', outdoor: 'Dış Mekan', objects: 'Objeler', brands: 'Markalar' },
     searchPlaceholder: '200 parça içinde ara…',
     account: 'Hesap',
@@ -215,7 +215,7 @@ const DICT = {
       stats: [
         ['200', 'ürün'],
         ['42', 'marka'],
-        ['%55', "'e varan indirim"],
+        ['%75', "'e varan indirim"],
         ['1', 'ikonik parça. her zaman'],
       ],
       view: 'görünüm',
