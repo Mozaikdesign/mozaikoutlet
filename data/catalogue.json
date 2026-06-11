@@ -608,11 +608,11 @@
     "section": "INDOOR",
     "category": "Armchairs",
     "qty": 2,
-    "listEur": 4820,
-    "outletEur": 1750,
-    "saleEur": 1750,
+    "listEur": 9640,
+    "outletEur": 3500,
+    "saleEur": 3500,
     "discountPct": 64,
-    "dims": "55 x 54 h:46/83 cm",
+    "dims": "55 x 54 h:46/83 cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/flexform-ortigia-sh.webp",
     "lifes": [
       "photos/life/flexform-ortigia-sh-life1.webp",
@@ -1284,12 +1284,12 @@
     "name": "Feel Good Ottoman",
     "section": "INDOOR",
     "category": "Chairs",
-    "qty": 2,
+    "qty": 1,
     "listEur": 2312,
     "outletEur": 1000,
     "saleEur": 1000,
     "discountPct": 57,
-    "dims": "76 x 74cm H:38/76cm",
+    "dims": "76 x 74cm H:38/76cm · 2 adet mevcut",
     "dekupe": "photos/dekupe/flexform-feel-good-ottoman.webp",
     "lifes": [
       "photos/life/flexform-feel-good-ottoman-1.webp",
@@ -2588,40 +2588,6 @@
     "dekupe": "photos/dekupe/roda-lawrence-stool.webp",
     "lifes": [
       "photos/life/roda-lawrence.webp"
-    ]
-  },
-  {
-    "id": 163,
-    "brand": "Fendi",
-    "name": "Ohe Table",
-    "section": "OUTDOOR",
-    "category": "Outdoor Accents",
-    "qty": 1,
-    "listEur": 12213,
-    "outletEur": 6000,
-    "saleEur": 6000,
-    "discountPct": 51,
-    "dims": "Ø180cm H:72cm",
-    "dekupe": "photos/dekupe/fendi-ohe-table-new.webp",
-    "lifes": [
-      "photos/life/fendi-ohe-table-life.webp"
-    ]
-  },
-  {
-    "id": 164,
-    "brand": "Fendi Casa",
-    "name": "Ohe Chair",
-    "section": "OUTDOOR",
-    "category": "Outdoor Chairs",
-    "qty": 6,
-    "listEur": 26910,
-    "outletEur": 18850,
-    "saleEur": 14500,
-    "discountPct": 46,
-    "dims": "70 x 60 cm H:44/73 cm · Black coffee bambou structure · Koror gold fabric seat",
-    "dekupe": "photos/dekupe/fendi-casa-ohe-chair.webp",
-    "lifes": [
-      "photos/dekupe/fendi-ohe-chair-new.webp"
     ]
   },
   {
