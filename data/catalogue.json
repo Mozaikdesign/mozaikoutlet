@@ -2337,24 +2337,6 @@
     "lifes": []
   },
   {
-    "id": 238,
-    "brand": "B&B Italia",
-    "name": "Bay Small Armchair",
-    "section": "OUTDOOR",
-    "category": "Outdoor Seating",
-    "qty": 2,
-    "listEur": 8212,
-    "outletEur": 3000,
-    "saleEur": 3000,
-    "discountPct": 63,
-    "dims": "92,5 x 82cm h:42,5/75cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/bb-bay-small-armchair.webp",
-    "lifes": [
-      "photos/life/bb-bay-small-armchair-life-1.webp",
-      "photos/life/bb-bay-small-armchair-life-2.webp"
-    ]
-  },
-  {
     "id": 239,
     "brand": "B&B Italia",
     "name": "Heri O Chair",

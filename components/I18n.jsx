@@ -3,7 +3,7 @@ const { createContext, useContext, useState, useEffect } = React;
 
 const DICT = {
   en: {
-    announce: 'FINAL DAYS · OUTLET CLOSING — SHOWROOM PIECES UP TO 75% OFF',
+    announce: 'FINAL DAYS · BEFORE THESE PIECES FIND A NEW HOME — SHOWROOM PIECES UP TO 75% OFF',
     nav: { indoor: 'Indoor', outdoor: 'Outdoor', objects: 'Objects', brands: 'Brands' },
     searchPlaceholder: 'Search 200 pieces…',
     account: 'Account',
@@ -188,7 +188,7 @@ const DICT = {
     },
   },
   tr: {
-    announce: 'SON GÜNLER · OUTLET KAPANIYOR — TEŞHİR ÜRÜNLERİ %75\'E VARAN İNDİRİM',
+    announce: 'SON GÜNLER · BU PARÇALAR YENİ SAHİBİNİ BULMADAN — TEŞHİR ÜRÜNLERİ %75\'E VARAN İNDİRİM',
     nav: { indoor: 'İç Mekan', outdoor: 'Dış Mekan', objects: 'Objeler', brands: 'Markalar' },
     searchPlaceholder: '200 parça içinde ara…',
     account: 'Hesap',
