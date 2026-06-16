@@ -1,24 +1,5 @@
 [
   {
-    "id": 0,
-    "brand": "Fendi Casa",
-    "name": "Fun Fendi Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 26085,
-    "outletEur": 16000,
-    "saleEur": 16000,
-    "discountPct": 39,
-    "dims": "362 x 264 cm H:42/72,5cm · 7090 x4",
-    "dekupe": "photos/dekupe/fendicasa.webp",
-    "lifes": [
-      "photos/life/fendi-fun-1.webp",
-      "photos/life/fendi-fun-2.webp",
-      "photos/life/fendi-fun-3.webp"
-    ]
-  },
-  {
     "id": 226,
     "brand": "Hay",
     "name": "Amanta Sofa",
