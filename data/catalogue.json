@@ -289,23 +289,6 @@
     ]
   },
   {
-    "id": 235,
-    "brand": "B&B Italia",
-    "name": "Allure O Dot Small Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 2455,
-    "outletEur": 1000,
-    "saleEur": 1000,
-    "discountPct": 59,
-    "dims": "80 x 80 cm H:33cm",
-    "dekupe": "photos/dekupe/bb-allure-o-dot-small-table.webp",
-    "lifes": [
-      "photos/life/bb-allure-o-dot-small-table-life.webp"
-    ]
-  },
-  {
     "id": 236,
     "brand": "Maxalto",
     "name": "Elios Oval Side Table",
@@ -476,23 +459,6 @@
     "lifes": [
       "photos/life/maxalto-febo-daybed-life.webp",
       "photos/dekupe/maxalto-febo-daybed-new.webp"
-    ]
-  },
-  {
-    "id": 20,
-    "brand": "Knoll",
-    "name": "Barcelona Chair Classic",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 1,
-    "listEur": 8340,
-    "outletEur": 5840,
-    "saleEur": 4590,
-    "discountPct": 45,
-    "dims": "77x75x77 h:43cm",
-    "dekupe": "photos/dekupe/knoll-barcelona-chair-classic.webp",
-    "lifes": [
-      "photos/life/knoll-barcelona-life.webp"
     ]
   },
   {
@@ -2232,24 +2198,6 @@
     ]
   },
   {
-    "id": 147,
-    "brand": "Cassina",
-    "name": "Trampoline Sofa",
-    "section": "INDOOR",
-    "category": "Outdoor Seating",
-    "qty": 1,
-    "listEur": 9324,
-    "outletEur": 4500,
-    "saleEur": 4500,
-    "discountPct": 52,
-    "dims": "245 x 100cm H:70cm",
-    "dekupe": "photos/dekupe/cassina-trampoline-sofa.webp",
-    "lifes": [
-      "photos/life/cassina-trampoline-sofa-life.webp",
-      "photos/life/cassina-trampoline-sofa-life2.webp"
-    ]
-  },
-  {
     "id": 148,
     "brand": "Cassina",
     "name": "Esosoft 3 Seater Sofa",
@@ -2370,25 +2318,6 @@
     "dekupe": "photos/dekupe/gandia-blasco-isla-arosa.webp",
     "lifes": [
       "photos/life/gandia-blasco-isla-chair.webp"
-    ]
-  },
-  {
-    "id": 151,
-    "brand": "B&B Italia",
-    "name": "Hybrid Chaise Longue",
-    "section": "OUTDOOR",
-    "category": "Outdoor Seating",
-    "qty": 1,
-    "listEur": 7507,
-    "outletEur": 3000,
-    "saleEur": 3000,
-    "discountPct": 60,
-    "dims": "134x144cm H:38/59cm",
-    "dekupe": "photos/dekupe/bb-hybrid-chaise-longue-new.webp",
-    "lifes": [
-      "photos/life/bb-hybrid-chaise-longue-life3.webp",
-      "photos/life/bb-hybrid-chaise-longue-life4.webp",
-      "photos/life/bb-hybrid-chaise-longue-life5.webp"
     ]
   },
   {
@@ -2876,23 +2805,6 @@
     "dims": "Ø 48cm h: 46 cm",
     "dekupe": "photos/dekupe/paola-lenti-otto-cylindrical-pouf.webp",
     "lifes": []
-  },
-  {
-    "id": 187,
-    "brand": "B&B Italia",
-    "name": "Colosseo Side Table",
-    "section": "OUTDOOR",
-    "category": "Outdoor Tables",
-    "qty": 1,
-    "listEur": 901,
-    "outletEur": 400,
-    "saleEur": 400,
-    "discountPct": 56,
-    "dims": "Ø40cm h:45cm · naturel taş · indirimli adet fiyatı",
-    "dekupe": "photos/dekupe/bb-colosseo-orange.webp",
-    "lifes": [
-      "photos/dekupe/bb-colosseo-side-table-new.webp"
-    ]
   },
   {
     "id": 188,
