@@ -163,6 +163,7 @@ function App() {
     const objects = imgsFor(p => /vase|object|lamp|light|bowl|console|shelf|table/i.test((p.category || '') + ' ' + (p.name || '')));
     return {
       indoor: imgsFor(p => p.section === 'INDOOR'),
+      lighting: ['photos/life/flos-overlap-s2-life.webp', 'photos/life/dcw-here-comes-the-sun-life.webp'],
       outdoor: [
         'photos/life/bb-bay-small-armchair-life-2.webp',
         'photos/life/bb-mirto-outdoor-life1.webp',
@@ -265,6 +266,9 @@ function App() {
           } else if (key === 'outdoor') {
             setFilters({ ...filters, section: 'OUTDOOR', category: null, categories: null });
             scrollToCatalogue();
+          } else if (key === 'lighting') {
+            setFilters({ ...filters, section: 'LIGHTING', category: null, categories: null });
+            scrollToCatalogue();
           } else if (key === 'objects') {
             setFilters({ ...filters, section: 'All', category: 'Objects & Vases', categories: null });
             scrollToCatalogue();
@@ -292,6 +296,7 @@ function App() {
         counts={{
           indoor: catalogue.filter(p => p.section === 'INDOOR').length,
           outdoor: catalogue.filter(p => p.section === 'OUTDOOR').length,
+          lighting: catalogue.filter(p => p.section === 'LIGHTING').length,
           total: catalogue.length,
         }}
       />
@@ -324,7 +329,7 @@ function App() {
 
           <section className="catalogue-main__grid-wrap">
             <div className="catalogue-main__breadcrumb">
-              <span>{filters.section === 'All' ? t.breadcrumb.whole : (filters.section === 'INDOOR' ? t.hero.indoorTitle : t.hero.outdoorTitle)}</span>
+              <span>{filters.section === 'All' ? t.breadcrumb.whole : (filters.section === 'INDOOR' ? t.hero.indoorTitle : (filters.section === 'LIGHTING' ? t.hero.lightingTitle : t.hero.outdoorTitle))}</span>
               {filters.category && <span> · {filters.category}</span>}
               {filters.brand && <span> · {filters.brand}</span>}
               <strong>{visible.length} {t.breadcrumb.pieces}</strong>

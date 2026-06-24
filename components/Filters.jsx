@@ -70,7 +70,7 @@ function Filters({ products, filters, setFilters, resetFilters }) {
               onClick={() => setFilters({ ...filters, section: s, category: null })}
               className={'chip ' + (section === s ? 'is-active' : '')}
             >
-              {s === 'All' ? t.breadcrumb.whole.toLowerCase() : (s === 'INDOOR' ? t.hero.indoorTitle.toLowerCase() : t.hero.outdoorTitle.toLowerCase())}
+              {s === 'All' ? t.breadcrumb.whole.toLowerCase() : (s === 'INDOOR' ? t.hero.indoorTitle.toLowerCase() : (s === 'LIGHTING' ? t.hero.lightingTitle.toLowerCase() : t.hero.outdoorTitle.toLowerCase()))}
             </button>
           ))}
         </div>

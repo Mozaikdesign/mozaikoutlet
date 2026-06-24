@@ -216,7 +216,7 @@ em { font-style: italic; }
   margin-bottom: 16px;
 }
 .hero__picker-grid {
-  display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px;
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
 }
 
 /* Rhode-style section cards — full-bleed image with overlay */

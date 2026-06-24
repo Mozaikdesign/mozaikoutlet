@@ -3102,5 +3102,1466 @@
     "lifes": [
       "photos/life/maxalto-apollo-curved-sofa-life.webp"
     ]
+  },
+  {
+    "id": 248,
+    "brand": "Edra",
+    "name": "Scrigno Cabinet",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 19634,
+    "outletEur": 10800,
+    "saleEur": 10800,
+    "discountPct": 45,
+    "dims": "199 x 47 cm H:73 cm",
+    "dekupe": "photos/dekupe/edra-scrigno-cabinet.webp",
+    "lifes": [
+      "photos/life/edra-scrigno-cabinet-life.webp"
+    ]
+  },
+  {
+    "id": 249,
+    "brand": "Maxalto",
+    "name": "Xilos Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 13796,
+    "outletEur": 7500,
+    "saleEur": 7500,
+    "discountPct": 46,
+    "dims": "Ø150cm H:41cm",
+    "dekupe": "photos/dekupe/maxalto-xilos-coffee-table.webp",
+    "lifes": [
+      "photos/life/maxalto-xilos-coffee-table-life.webp"
+    ]
+  },
+  {
+    "id": 253,
+    "brand": "Edra",
+    "name": "Alice Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 15422,
+    "outletEur": 8485,
+    "saleEur": 8485,
+    "discountPct": 45,
+    "dims": "114 x 98cm H:41/80cm",
+    "dekupe": "photos/dekupe/edra-alice-armchair.webp",
+    "lifes": [
+      "photos/life/edra-alice-armchair-life-1.webp",
+      "photos/life/edra-alice-armchair-life-2.webp"
+    ]
+  },
+  {
+    "id": 254,
+    "brand": "ClassiCon",
+    "name": "Mars Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 26712,
+    "outletEur": 18700,
+    "saleEur": 18700,
+    "discountPct": 30,
+    "dims": "48 x 55 cm H:75cm · İndirimli 6 adet fiyatı:",
+    "dekupe": "photos/dekupe/classicon-mars-chair.webp",
+    "lifes": [
+      "photos/life/classicon-mars-chair-life.webp"
+    ]
+  },
+  {
+    "id": 258,
+    "brand": "B&B Italia",
+    "name": "Overscale Flames",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 2258,
+    "outletEur": 1245,
+    "saleEur": 1245,
+    "discountPct": 45,
+    "dims": "88 x 23cm H:40cm",
+    "dekupe": "photos/dekupe/bb-overscale-flames.webp",
+    "lifes": []
+  },
+  {
+    "id": 259,
+    "brand": "E15",
+    "name": "Calvert Low Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 903,
+    "outletEur": 600,
+    "saleEur": 600,
+    "discountPct": 34,
+    "dims": "55 x 55cm H:40cm",
+    "dekupe": "photos/dekupe/e15-calvert-low-table.webp",
+    "lifes": [
+      "photos/life/e15-calvert-low-table-life.webp"
+    ]
+  },
+  {
+    "id": 261,
+    "brand": "Roda",
+    "name": "Orson Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 6,
+    "listEur": 10509,
+    "outletEur": 5780,
+    "saleEur": 5780,
+    "discountPct": 45,
+    "dims": "57 x 50 cm H:47/84cm · İndirimli 6 adet fiyatı:",
+    "dekupe": "photos/dekupe/roda-orson-chair.webp",
+    "lifes": [
+      "photos/life/roda-orson-chair-life.webp"
+    ]
+  },
+  {
+    "id": 262,
+    "brand": "Roda",
+    "name": "Mistral Armchair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 4680,
+    "outletEur": 2000,
+    "saleEur": 2000,
+    "discountPct": 57,
+    "dims": "103 x 90 cm H:28/64cm",
+    "dekupe": "photos/dekupe/roda-mistral-armchair.webp",
+    "lifes": [
+      "photos/life/roda-mistral-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 263,
+    "brand": "B&B Italia",
+    "name": "Tramae Ottoman",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 2358,
+    "outletEur": 1300,
+    "saleEur": 1300,
+    "discountPct": 45,
+    "dims": "90 x 76 cm h:32 cm",
+    "dekupe": "photos/dekupe/bb-tramae-ottoman.webp",
+    "lifes": [
+      "photos/life/bb-tramae-ottoman-life.webp"
+    ]
+  },
+  {
+    "id": 264,
+    "brand": "B&B Italia",
+    "name": "Husk Side Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 1267,
+    "outletEur": 700,
+    "saleEur": 700,
+    "discountPct": 45,
+    "dims": "Ø45cm h:48,5cm",
+    "dekupe": "photos/dekupe/bb-husk-side-table.webp",
+    "lifes": []
+  },
+  {
+    "id": 265,
+    "brand": "Roda",
+    "name": "Calla Armchair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 2,
+    "listEur": 5148,
+    "outletEur": 2835,
+    "saleEur": 2835,
+    "discountPct": 45,
+    "dims": "İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/roda-calla-armchair.webp",
+    "lifes": []
+  },
+  {
+    "id": 266,
+    "brand": "Exteta",
+    "name": "Modernista Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 6,
+    "listEur": 27600,
+    "outletEur": 15180,
+    "saleEur": 15180,
+    "discountPct": 45,
+    "dims": "54 x 63cm H:79cm · İndirimli 6 adet fiyatı:",
+    "dekupe": "photos/dekupe/exteta-modernista-chair.webp",
+    "lifes": [
+      "photos/life/exteta-modernista-chair-life.webp"
+    ]
+  },
+  {
+    "id": 269,
+    "brand": "Roda",
+    "name": "Double Ottoman Ø90",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 2796,
+    "outletEur": 1540,
+    "saleEur": 1540,
+    "discountPct": 45,
+    "dims": "Ø90cm H:36cm",
+    "dekupe": "photos/dekupe/roda-double-ottoman-90.webp",
+    "lifes": []
+  },
+  {
+    "id": 270,
+    "brand": "Roda",
+    "name": "Double Ottoman Ø120",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 3594,
+    "outletEur": 1980,
+    "saleEur": 1980,
+    "discountPct": 45,
+    "dims": "Ø120cm H:30cm",
+    "dekupe": "photos/dekupe/roda-double-ottoman-120.webp",
+    "lifes": []
+  },
+  {
+    "id": 271,
+    "brand": "Paola Lenti",
+    "name": "Heron Coffee Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 5700,
+    "outletEur": 3990,
+    "saleEur": 3990,
+    "discountPct": 30,
+    "dims": "Ø66cm H:43cm",
+    "dekupe": "photos/dekupe/paola-lenti-heron-coffee-table.webp",
+    "lifes": []
+  },
+  {
+    "id": 273,
+    "brand": "Exteta",
+    "name": "Sunset Sun Lounger",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 2,
+    "listEur": 23209,
+    "outletEur": 12765,
+    "saleEur": 12765,
+    "discountPct": 45,
+    "dims": "242 x 113cm H:32/84cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/exteta-sunset-sun-lounger.webp",
+    "lifes": []
+  },
+  {
+    "id": 274,
+    "brand": "Oluce",
+    "name": "Outdoor Stone",
+    "section": "LIGHTING",
+    "category": "Wall & Outdoor",
+    "qty": 1,
+    "listEur": 535,
+    "outletEur": 321,
+    "saleEur": 321,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/oluce-outdoor-stone.webp",
+    "lifes": [
+      "photos/life/oluce-outdoor-stone-life.webp"
+    ]
+  },
+  {
+    "id": 275,
+    "brand": "DCW",
+    "name": "Here Comes the Sun Pendant Ø45",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 1455,
+    "outletEur": 1095,
+    "saleEur": 1095,
+    "discountPct": 25,
+    "dims": "Ø45cm",
+    "dekupe": "photos/dekupe/dcw-here-comes-the-sun.webp",
+    "lifes": [
+      "photos/life/dcw-here-comes-the-sun-life.webp"
+    ]
+  },
+  {
+    "id": 276,
+    "brand": "DCW",
+    "name": "Here Comes the Sun Pendant Ø25",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 630,
+    "outletEur": 475,
+    "saleEur": 475,
+    "discountPct": 25,
+    "dims": "Ø25cm",
+    "dekupe": "photos/dekupe/dcw-here-comes-the-sun.webp",
+    "lifes": [
+      "photos/life/dcw-here-comes-the-sun-life.webp"
+    ]
+  },
+  {
+    "id": 277,
+    "brand": "Tobias Grau",
+    "name": "Chandelier Six",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 5755,
+    "outletEur": 4605,
+    "saleEur": 4605,
+    "discountPct": 20,
+    "dims": "",
+    "dekupe": "photos/dekupe/tobias-grau-chandelier-six.webp",
+    "lifes": []
+  },
+  {
+    "id": 279,
+    "brand": "Marset",
+    "name": "The W",
+    "section": "LIGHTING",
+    "category": "Wall & Outdoor",
+    "qty": 1,
+    "listEur": 5420,
+    "outletEur": 3252,
+    "saleEur": 3252,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/marset-the-w.webp",
+    "lifes": [
+      "photos/life/marset-the-w-life-1.webp",
+      "photos/life/marset-the-w-life-2.webp"
+    ]
+  },
+  {
+    "id": 280,
+    "brand": "Santa & Cole",
+    "name": "Vaghe Stelle",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 5950,
+    "outletEur": 4465,
+    "saleEur": 4465,
+    "discountPct": 25,
+    "dims": "",
+    "dekupe": "photos/dekupe/santa-cole-vaghe-stelle.webp",
+    "lifes": [
+      "photos/life/santa-cole-vaghe-stelle-life.webp"
+    ]
+  },
+  {
+    "id": 281,
+    "brand": "Flos",
+    "name": "Overlap S2",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 3450,
+    "outletEur": 2935,
+    "saleEur": 2935,
+    "discountPct": 15,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-overlap-s2.webp",
+    "lifes": [
+      "photos/life/flos-overlap-s2-life.webp"
+    ]
+  },
+  {
+    "id": 282,
+    "brand": "Santa & Cole",
+    "name": "Gira Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 720,
+    "outletEur": 432,
+    "saleEur": 432,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/santa-cole-gira-table-lamp.webp",
+    "lifes": [
+      "photos/life/santa-cole-gira-table-lamp-life.webp"
+    ]
+  },
+  {
+    "id": 283,
+    "brand": "Brokis",
+    "name": "Mona Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 3095,
+    "outletEur": 2475,
+    "saleEur": 2475,
+    "discountPct": 20,
+    "dims": "",
+    "dekupe": "photos/dekupe/brokis-mona-table-lamp.webp",
+    "lifes": [
+      "photos/life/brokis-mona-table-lamp-life.webp"
+    ]
+  },
+  {
+    "id": 284,
+    "brand": "Kalmar",
+    "name": "Fliegenbein Table",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 2500,
+    "outletEur": 1500,
+    "saleEur": 1500,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/kalmar-fliegenbein-table.webp",
+    "lifes": [
+      "photos/life/kalmar-fliegenbein-table-life.webp"
+    ]
+  },
+  {
+    "id": 285,
+    "brand": "Axolight",
+    "name": "Float Table Lamp (Black)",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 400,
+    "outletEur": 240,
+    "saleEur": 240,
+    "discountPct": 40,
+    "dims": "4 adet mevcut",
+    "dekupe": "photos/dekupe/axolight-float-black.webp",
+    "lifes": [
+      "photos/life/axolight-float-black-life.webp"
+    ]
+  },
+  {
+    "id": 286,
+    "brand": "Axolight",
+    "name": "Float Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 400,
+    "outletEur": 240,
+    "saleEur": 240,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/axolight-float.webp",
+    "lifes": []
+  },
+  {
+    "id": 287,
+    "brand": "Santa & Cole",
+    "name": "Tatu Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 530,
+    "outletEur": 400,
+    "saleEur": 400,
+    "discountPct": 25,
+    "dims": "",
+    "dekupe": "photos/dekupe/santa-cole-tatu-table-lamp.webp",
+    "lifes": [
+      "photos/life/santa-cole-tatu-table-lamp-life.webp"
+    ]
+  },
+  {
+    "id": 289,
+    "brand": "FontanaArte",
+    "name": "Setareh Medium Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 1495,
+    "outletEur": 897,
+    "saleEur": 897,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/fontanaarte-setareh-medium.webp",
+    "lifes": []
+  },
+  {
+    "id": 290,
+    "brand": "FontanaArte",
+    "name": "Pinecone",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 3140,
+    "outletEur": 1884,
+    "saleEur": 1884,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/fontanaarte-pinecone.webp",
+    "lifes": [
+      "photos/life/fontanaarte-pinecone-life.webp"
+    ]
+  },
+  {
+    "id": 291,
+    "brand": "Santa & Cole",
+    "name": "Basica Table Lamp H71",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 695,
+    "outletEur": 520,
+    "saleEur": 520,
+    "discountPct": 25,
+    "dims": "H71cm",
+    "dekupe": "photos/dekupe/santa-cole-basica-h71.webp",
+    "lifes": []
+  },
+  {
+    "id": 292,
+    "brand": "Flos",
+    "name": "Kelvin T (White)",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 480,
+    "outletEur": 408,
+    "saleEur": 408,
+    "discountPct": 15,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-kelvin-t.webp",
+    "lifes": []
+  },
+  {
+    "id": 293,
+    "brand": "Nemo",
+    "name": "Pivotante à Poser Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 275,
+    "outletEur": 210,
+    "saleEur": 210,
+    "discountPct": 24,
+    "dims": "",
+    "dekupe": "photos/dekupe/nemo-pivotante-table-lamp.webp",
+    "lifes": [
+      "photos/life/nemo-pivotante-table-lamp-life.webp"
+    ]
+  },
+  {
+    "id": 294,
+    "brand": "Belux",
+    "name": "Scope",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 400,
+    "outletEur": 80,
+    "saleEur": 80,
+    "discountPct": 80,
+    "dims": "",
+    "dekupe": "photos/dekupe/belux-scope.webp",
+    "lifes": [
+      "photos/life/belux-scope-life.webp"
+    ]
+  },
+  {
+    "id": 295,
+    "brand": "Tobias Grau",
+    "name": "Bill",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 300,
+    "outletEur": 80,
+    "saleEur": 80,
+    "discountPct": 73,
+    "dims": "",
+    "dekupe": "photos/dekupe/tobias-grau-bill.webp",
+    "lifes": []
+  },
+  {
+    "id": 296,
+    "brand": "Moooi",
+    "name": "Kroon",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 2000,
+    "outletEur": 1600,
+    "saleEur": 1600,
+    "discountPct": 20,
+    "dims": "",
+    "dekupe": "photos/dekupe/moooi-kroon.webp",
+    "lifes": []
+  },
+  {
+    "id": 297,
+    "brand": "Axolight",
+    "name": "Alysoid Big",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 1150,
+    "outletEur": 690,
+    "saleEur": 690,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/axolight-alysoid-big.webp",
+    "lifes": [
+      "photos/life/axolight-alysoid-big-life-1.webp",
+      "photos/life/axolight-alysoid-big-life-2.webp"
+    ]
+  },
+  {
+    "id": 298,
+    "brand": "Axolight",
+    "name": "Alysoid Small",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 1075,
+    "outletEur": 645,
+    "saleEur": 645,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/axolight-alysoid-big.webp",
+    "lifes": [
+      "photos/life/axolight-alysoid-big-life-1.webp",
+      "photos/life/axolight-alysoid-big-life-2.webp"
+    ]
+  },
+  {
+    "id": 299,
+    "brand": "Flos",
+    "name": "Ktribe S3",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 845,
+    "outletEur": 264,
+    "saleEur": 264,
+    "discountPct": 69,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-ktribe-s3.webp",
+    "lifes": [
+      "photos/life/flos-ktribe-life.webp"
+    ]
+  },
+  {
+    "id": 300,
+    "brand": "Flos",
+    "name": "Ktribe S1",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 365,
+    "outletEur": 120,
+    "saleEur": 120,
+    "discountPct": 67,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-ktribe-s1.webp",
+    "lifes": [
+      "photos/life/flos-ktribe-life.webp"
+    ]
+  },
+  {
+    "id": 301,
+    "brand": "Tom Dixon",
+    "name": "Stone LED Pendant",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 600,
+    "outletEur": 360,
+    "saleEur": 360,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/tom-dixon-stone-led-pendant.webp",
+    "lifes": [
+      "photos/life/tom-dixon-stone-led-pendant-life.webp"
+    ]
+  },
+  {
+    "id": 302,
+    "brand": "Tom Dixon",
+    "name": "Pipe Wall Light (White-Pink)",
+    "section": "LIGHTING",
+    "category": "Wall & Outdoor",
+    "qty": 1,
+    "listEur": 410,
+    "outletEur": 200,
+    "saleEur": 200,
+    "discountPct": 51,
+    "dims": "2 adet mevcut",
+    "dekupe": "photos/dekupe/tom-dixon-pipe-wall-white-pink.webp",
+    "lifes": []
+  },
+  {
+    "id": 304,
+    "brand": "Rotaliana",
+    "name": "Diva (Grey)",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 650,
+    "outletEur": 75,
+    "saleEur": 75,
+    "discountPct": 88,
+    "dims": "2 adet mevcut",
+    "dekupe": "photos/dekupe/rotaliana-diva.webp",
+    "lifes": []
+  },
+  {
+    "id": 305,
+    "brand": "Tobias Grau",
+    "name": "Niceone Hanging Lamp (3'lü)",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 2325,
+    "outletEur": 1630,
+    "saleEur": 1630,
+    "discountPct": 30,
+    "dims": "",
+    "dekupe": "photos/dekupe/tobias-grau-niceone-3.webp",
+    "lifes": [
+      "photos/life/tobias-grau-niceone-3-life.webp"
+    ]
+  },
+  {
+    "id": 306,
+    "brand": "Moooi",
+    "name": "Raimond II (R89)",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 3910,
+    "outletEur": 2346,
+    "saleEur": 2346,
+    "discountPct": 40,
+    "dims": "Kablosu kısa",
+    "dekupe": "photos/dekupe/moooi-raimond-ii-r89.webp",
+    "lifes": [
+      "photos/life/moooi-raimond-ii-r89-life-1.webp",
+      "photos/life/moooi-raimond-ii-r89-life-2.webp"
+    ]
+  },
+  {
+    "id": 307,
+    "brand": "Italamp",
+    "name": "Brigitta",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 2395,
+    "outletEur": 1437,
+    "saleEur": 1437,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/italamp-brigitta.webp",
+    "lifes": [
+      "photos/life/italamp-brigitta-life.webp"
+    ]
+  },
+  {
+    "id": 308,
+    "brand": "Santa & Cole",
+    "name": "Fad Menor",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 605,
+    "outletEur": 363,
+    "saleEur": 363,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/santa-cole-fad-menor.webp",
+    "lifes": [
+      "photos/life/santa-cole-fad-menor-life.webp"
+    ]
+  },
+  {
+    "id": 309,
+    "brand": "Santa & Cole",
+    "name": "Sylvestrina Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 520,
+    "outletEur": 390,
+    "saleEur": 390,
+    "discountPct": 25,
+    "dims": "",
+    "dekupe": "photos/dekupe/santa-cole-sylvestrina.webp",
+    "lifes": [
+      "photos/life/santa-cole-sylvestrina-life-1.webp",
+      "photos/life/santa-cole-sylvestrina-life-2.webp",
+      "photos/life/santa-cole-sylvestrina-life-3.webp"
+    ]
+  },
+  {
+    "id": 310,
+    "brand": "Ingo Maurer",
+    "name": "Birdie Lamp",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 2605,
+    "outletEur": 1955,
+    "saleEur": 1955,
+    "discountPct": 25,
+    "dims": "",
+    "dekupe": "photos/dekupe/ingo-maurer-birdie.webp",
+    "lifes": [
+      "photos/life/ingo-maurer-birdie-life.webp"
+    ]
+  },
+  {
+    "id": 311,
+    "brand": "Flos",
+    "name": "Cicatrices De Luxe 8",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 7150,
+    "outletEur": 4290,
+    "saleEur": 4290,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-cicatrices-de-luxe-8.webp",
+    "lifes": []
+  },
+  {
+    "id": 312,
+    "brand": "Flos",
+    "name": "Gaku",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 595,
+    "outletEur": 420,
+    "saleEur": 420,
+    "discountPct": 29,
+    "dims": "2 adet mevcut",
+    "dekupe": "photos/dekupe/flos-gaku.webp",
+    "lifes": [
+      "photos/life/flos-gaku-life-1.webp",
+      "photos/life/flos-gaku-life-2.webp"
+    ]
+  },
+  {
+    "id": 313,
+    "brand": "Tom Dixon",
+    "name": "Beat Tall (Black)",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 400,
+    "outletEur": 160,
+    "saleEur": 160,
+    "discountPct": 60,
+    "dims": "",
+    "dekupe": "photos/dekupe/tom-dixon-beat-tall-black.webp",
+    "lifes": [
+      "photos/life/tom-dixon-beat-tall-life.webp"
+    ]
+  },
+  {
+    "id": 314,
+    "brand": "Tom Dixon",
+    "name": "Beat Tall (Gold)",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 400,
+    "outletEur": 160,
+    "saleEur": 160,
+    "discountPct": 60,
+    "dims": "",
+    "dekupe": "photos/dekupe/tom-dixon-beat-tall-gold.webp",
+    "lifes": [
+      "photos/life/tom-dixon-beat-gold-life.webp"
+    ]
+  },
+  {
+    "id": 315,
+    "brand": "Tom Dixon",
+    "name": "Beat Stout (Gold)",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 700,
+    "outletEur": 240,
+    "saleEur": 240,
+    "discountPct": 66,
+    "dims": "",
+    "dekupe": "photos/dekupe/tom-dixon-beat-stout-gold.webp",
+    "lifes": [
+      "photos/life/tom-dixon-beat-stout-gold-life.webp"
+    ]
+  },
+  {
+    "id": 316,
+    "brand": "Tom Dixon",
+    "name": "Beat Wide (Gold)",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 400,
+    "outletEur": 160,
+    "saleEur": 160,
+    "discountPct": 60,
+    "dims": "",
+    "dekupe": "photos/dekupe/tom-dixon-beat-wide-gold.webp",
+    "lifes": [
+      "photos/life/tom-dixon-beat-wide-gold-life.webp"
+    ]
+  },
+  {
+    "id": 317,
+    "brand": "Moooi",
+    "name": "Dandelion 80cm",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 3000,
+    "outletEur": 1120,
+    "saleEur": 1120,
+    "discountPct": 63,
+    "dims": "Ø80cm",
+    "dekupe": "photos/dekupe/moooi-dandelion-80.webp",
+    "lifes": [
+      "photos/life/moooi-dandelion-80-life.webp"
+    ]
+  },
+  {
+    "id": 318,
+    "brand": "Moooi",
+    "name": "Double Round Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 545,
+    "outletEur": 120,
+    "saleEur": 120,
+    "discountPct": 78,
+    "dims": "",
+    "dekupe": "photos/dekupe/moooi-double-round-table.webp",
+    "lifes": []
+  },
+  {
+    "id": 319,
+    "brand": "Cappellini",
+    "name": "Melt Down (3'lü)",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 1800,
+    "outletEur": 680,
+    "saleEur": 680,
+    "discountPct": 62,
+    "dims": "",
+    "dekupe": "photos/dekupe/cappellini-melt-down-3.webp",
+    "lifes": []
+  },
+  {
+    "id": 320,
+    "brand": "Pallucco",
+    "name": "Baby Gilda White",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 610,
+    "outletEur": 300,
+    "saleEur": 300,
+    "discountPct": 51,
+    "dims": "",
+    "dekupe": "photos/dekupe/pallucco-baby-gilda-white.webp",
+    "lifes": []
+  },
+  {
+    "id": 321,
+    "brand": "Flos",
+    "name": "Goldman Black/Fumé",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 700,
+    "outletEur": 420,
+    "saleEur": 420,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-goldman-black-fume.webp",
+    "lifes": [
+      "photos/life/flos-goldman-black-fume-life.webp"
+    ]
+  },
+  {
+    "id": 322,
+    "brand": "Luceplan",
+    "name": "GlassGlass",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 840,
+    "outletEur": 504,
+    "saleEur": 504,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/luceplan-glassglass.webp",
+    "lifes": [
+      "photos/life/luceplan-glassglass-life.webp"
+    ]
+  },
+  {
+    "id": 323,
+    "brand": "Azucena",
+    "name": "Base Ghisa",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 1380,
+    "outletEur": 828,
+    "saleEur": 828,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/azucena-base-ghisa.webp",
+    "lifes": [
+      "photos/life/azucena-base-ghisa-life.webp"
+    ]
+  },
+  {
+    "id": 324,
+    "brand": "Flos",
+    "name": "Lampadina",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 145,
+    "outletEur": 60,
+    "saleEur": 60,
+    "discountPct": 59,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-lampadina.webp",
+    "lifes": [
+      "photos/life/flos-lampadina-life.webp"
+    ]
+  },
+  {
+    "id": 325,
+    "brand": "Axolight",
+    "name": "Bul-bo Aluminium",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 3155,
+    "outletEur": 1893,
+    "saleEur": 1893,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/axolight-bulbo-aluminium.webp",
+    "lifes": []
+  },
+  {
+    "id": 326,
+    "brand": "Maxalto",
+    "name": "Leukon Floor Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 3140,
+    "outletEur": 1884,
+    "saleEur": 1884,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/maxalto-leukon-floor-lamp.webp",
+    "lifes": []
+  },
+  {
+    "id": 327,
+    "brand": "Marset",
+    "name": "LaFlaca 90",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 1170,
+    "outletEur": 702,
+    "saleEur": 702,
+    "discountPct": 40,
+    "dims": "3 adet mevcut",
+    "dekupe": "photos/dekupe/marset-laflaca-90.webp",
+    "lifes": [
+      "photos/life/marset-laflaca-90-life.webp"
+    ]
+  },
+  {
+    "id": 328,
+    "brand": "Oluce",
+    "name": "Spider White",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 1065,
+    "outletEur": 639,
+    "saleEur": 639,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/oluce-spider-white.webp",
+    "lifes": []
+  },
+  {
+    "id": 329,
+    "brand": "Oluce",
+    "name": "Spider Black",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 1065,
+    "outletEur": 639,
+    "saleEur": 639,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/oluce-spider-black.webp",
+    "lifes": []
+  },
+  {
+    "id": 330,
+    "brand": "Lumina",
+    "name": "Flo Desk Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 760,
+    "outletEur": 570,
+    "saleEur": 570,
+    "discountPct": 25,
+    "dims": "",
+    "dekupe": "photos/dekupe/lumina-flo-desk.webp",
+    "lifes": [
+      "photos/life/lumina-flo-desk-life.webp"
+    ]
+  },
+  {
+    "id": 331,
+    "brand": "Flos",
+    "name": "Heco Square Outdoor Table Lamp",
+    "section": "LIGHTING",
+    "category": "Wall & Outdoor",
+    "qty": 1,
+    "listEur": 2485,
+    "outletEur": 1000,
+    "saleEur": 1000,
+    "discountPct": 60,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-heco-square-outdoor.webp",
+    "lifes": [
+      "photos/life/flos-heco-square-outdoor-life.webp"
+    ]
+  },
+  {
+    "id": 333,
+    "brand": "Moooi",
+    "name": "Paper Floor Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 3260,
+    "outletEur": 1200,
+    "saleEur": 1200,
+    "discountPct": 63,
+    "dims": "",
+    "dekupe": "photos/dekupe/moooi-paper-floor-lamp.webp",
+    "lifes": []
+  },
+  {
+    "id": 334,
+    "brand": "Flos",
+    "name": "Romeo Moon T1 Glass",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 960,
+    "outletEur": 460,
+    "saleEur": 460,
+    "discountPct": 52,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-romeo-moon-t1.webp",
+    "lifes": [
+      "photos/life/flos-romeo-moon-t1-life.webp"
+    ]
+  },
+  {
+    "id": 336,
+    "brand": "FontanaArte",
+    "name": "Bilia Chrome",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 530,
+    "outletEur": 318,
+    "saleEur": 318,
+    "discountPct": 40,
+    "dims": "",
+    "dekupe": "photos/dekupe/fontanaarte-bilia-chrome.webp",
+    "lifes": [
+      "photos/life/fontanaarte-bilia-chrome-life.webp"
+    ]
+  },
+  {
+    "id": 337,
+    "brand": "Moooi",
+    "name": "Dandelion Floor Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 3200,
+    "outletEur": 1200,
+    "saleEur": 1200,
+    "discountPct": 63,
+    "dims": "",
+    "dekupe": "photos/dekupe/moooi-dandelion-floor.webp",
+    "lifes": [
+      "photos/life/moooi-dandelion-floor-life.webp"
+    ]
+  },
+  {
+    "id": 338,
+    "brand": "Moooi",
+    "name": "Double Shade Floor Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 950,
+    "outletEur": 360,
+    "saleEur": 360,
+    "discountPct": 62,
+    "dims": "",
+    "dekupe": "photos/dekupe/moooi-double-shade-floor.webp",
+    "lifes": []
+  },
+  {
+    "id": 339,
+    "brand": "Flos",
+    "name": "Metropolitan Round Floor",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 1950,
+    "outletEur": 600,
+    "saleEur": 600,
+    "discountPct": 69,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-metropolitan-floor.webp",
+    "lifes": []
+  },
+  {
+    "id": 340,
+    "brand": "Flos",
+    "name": "Metropolitan Square Floor",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 1950,
+    "outletEur": 600,
+    "saleEur": 600,
+    "discountPct": 69,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-metropolitan-floor.webp",
+    "lifes": []
+  },
+  {
+    "id": 341,
+    "brand": "Flos",
+    "name": "Piani Black Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 550,
+    "outletEur": 200,
+    "saleEur": 200,
+    "discountPct": 64,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-piani-black.webp",
+    "lifes": [
+      "photos/life/flos-piani-black-life.webp"
+    ]
+  },
+  {
+    "id": 342,
+    "brand": "Ingo Maurer",
+    "name": "Hot Hot",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 4219,
+    "outletEur": 1440,
+    "saleEur": 1440,
+    "discountPct": 66,
+    "dims": "",
+    "dekupe": "photos/dekupe/ingo-maurer-hot-hot.webp",
+    "lifes": [
+      "photos/life/ingo-maurer-hot-hot-life.webp",
+      "photos/life/ingo-maurer-hot-hot-life-2.webp"
+    ]
+  },
+  {
+    "id": 343,
+    "brand": "Flos",
+    "name": "Tab Table Lamp (Matte Blue)",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 300,
+    "outletEur": 240,
+    "saleEur": 240,
+    "discountPct": 20,
+    "dims": "2 adet mevcut",
+    "dekupe": "photos/dekupe/flos-tab-matte-blue.webp",
+    "lifes": [
+      "photos/life/flos-tab-matte-blue-life.webp"
+    ]
+  },
+  {
+    "id": 344,
+    "brand": "Ingo Maurer",
+    "name": "Lucellino Touch Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 950,
+    "outletEur": 400,
+    "saleEur": 400,
+    "discountPct": 58,
+    "dims": "",
+    "dekupe": "photos/dekupe/ingo-maurer-lucellino-touch.webp",
+    "lifes": [
+      "photos/life/ingo-maurer-lucellino-touch-life-1.webp",
+      "photos/life/ingo-maurer-lucellino-touch-life-2.webp"
+    ]
+  },
+  {
+    "id": 345,
+    "brand": "Flos",
+    "name": "Cicatrices De Luxe Floor Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 2500,
+    "outletEur": 780,
+    "saleEur": 780,
+    "discountPct": 69,
+    "dims": "2 adet mevcut",
+    "dekupe": "photos/dekupe/flos-cicatrices-floor.webp",
+    "lifes": []
+  },
+  {
+    "id": 346,
+    "brand": "Pallucco",
+    "name": "Faro Black Floor Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 3395,
+    "outletEur": 2500,
+    "saleEur": 2500,
+    "discountPct": 26,
+    "dims": "",
+    "dekupe": "photos/dekupe/pallucco-faro-black.webp",
+    "lifes": [
+      "photos/life/pallucco-faro-black-life.webp"
+    ]
+  },
+  {
+    "id": 347,
+    "brand": "Flos",
+    "name": "Spun Light Floor",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 2000,
+    "outletEur": 1120,
+    "saleEur": 1120,
+    "discountPct": 44,
+    "dims": "",
+    "dekupe": "photos/dekupe/flos-spun-light-floor.webp",
+    "lifes": []
+  },
+  {
+    "id": 348,
+    "brand": "Belux",
+    "name": "Disk LED Floor Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 2950,
+    "outletEur": 1200,
+    "saleEur": 1200,
+    "discountPct": 59,
+    "dims": "2 adet mevcut",
+    "dekupe": "photos/dekupe/belux-disk-led-floor.webp",
+    "lifes": [
+      "photos/life/belux-disk-led-floor-life.webp"
+    ]
+  },
+  {
+    "id": 349,
+    "brand": "Tobias Grau",
+    "name": "XT Floor Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 1800,
+    "outletEur": 640,
+    "saleEur": 640,
+    "discountPct": 64,
+    "dims": "",
+    "dekupe": "photos/dekupe/tobias-grau-xt-floor.webp",
+    "lifes": []
+  },
+  {
+    "id": 351,
+    "brand": "Tobias Grau",
+    "name": "George Pendant",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 0,
+    "outletEur": 0,
+    "saleEur": 0,
+    "discountPct": 0,
+    "dims": "",
+    "dekupe": "photos/dekupe/tobias-grau-george-pendant.webp",
+    "lifes": [
+      "photos/life/tobias-grau-george-pendant-life.webp"
+    ]
+  },
+  {
+    "id": 352,
+    "brand": "Artek",
+    "name": "A110 Pendant",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 1,
+    "listEur": 0,
+    "outletEur": 0,
+    "saleEur": 0,
+    "discountPct": 0,
+    "dims": "",
+    "dekupe": "photos/dekupe/artek-a110-pendant.webp",
+    "lifes": [
+      "photos/life/artek-a110-pendant-life.webp"
+    ]
   }
 ]
