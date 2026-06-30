@@ -1,4 +1,4 @@
-/* global React, DATA, I18N */
+/* global React, DATA, I18N, TRYINROOM */
 const { useState, useEffect } = React;
 const { Img, eurFmt } = DATA;
 const { useI18n } = I18N;
@@ -7,6 +7,8 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
   const { t, lang } = useI18n();
   const m = t.modal;
   const [imgIdx, setImgIdx] = useState(0);
+  const [showTryRoom, setShowTryRoom] = useState(false);
+  const { TryInRoom } = TRYINROOM;
 
   useEffect(() => {
     const handler = (e) => { if (e.key === 'Escape') onClose(); };
@@ -26,7 +28,7 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
 
   const savings = product.listEur - product.saleEur;
 
-  return (
+  return (<>
     <div className="modal" onClick={onClose}>
       <div className="modal__dialog" onClick={e => e.stopPropagation()}>
         <button className="modal__close" onClick={onClose}>{m.close}</button>
@@ -109,12 +111,23 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
             >
               {saved ? m.saved : m.save}
             </button>
+            <button
+              className="btn btn--try-room"
+              onClick={() => setShowTryRoom(true)}
+            >
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                <circle cx="12" cy="13" r="4"/>
+              </svg>
+              Try in your room
+            </button>
           </div>
 
         </div>
       </div>
     </div>
-  );
+    {showTryRoom && <TryInRoom product={product} onClose={() => setShowTryRoom(false)}/>}
+  </>);
 }
 
 window.MODAL = { QuickView };
