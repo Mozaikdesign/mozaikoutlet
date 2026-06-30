@@ -103,6 +103,7 @@ function TopBar({ onSearch, searchQuery, cartCount, onBagClick, onOpenFilters, o
 function Hero({ view, setView, section, setSection, counts, cubeImages, pickerImages }) {
   const { t } = useI18n();
   const Cube = window.CUBE && window.CUBE.Cube;
+  const ShowroomGallery = window.CUBE && window.CUBE.ShowroomGallery;
   const pickerRef = useRef(null);
   const scrollPicker = (dir) => {
     const el = pickerRef.current;
@@ -124,7 +125,7 @@ function Hero({ view, setView, section, setSection, counts, cubeImages, pickerIm
           {t.hero.titlePart2 ? <><br/>{t.hero.titlePart2}</> : null}
           {t.hero.titleU ? <> <u>{t.hero.titleU}</u></> : null}
         </h1>
-        {Cube && cubeImages && cubeImages.length > 0 && <Cube images={cubeImages}/>}
+        {ShowroomGallery && <ShowroomGallery/>}
         <p className="hero__sub">
           {t.hero.sub}<em>{t.hero.subEm}</em>
         </p>

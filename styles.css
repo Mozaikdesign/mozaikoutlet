@@ -865,6 +865,49 @@ em { font-style: italic; }
 .btn--ghost:hover { background: var(--ink); color: var(--bg); }
 .btn--ghost.is-saved { color: var(--accent); border-color: var(--accent); }
 
+/* ── Showroom gallery (cube replacement) ── */
+.showroom-gallery {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #e8e4de;
+  aspect-ratio: 16 / 10;
+  width: 100%;
+  height: auto;
+  padding: 0 !important; /* override cube-stage padding */
+}
+.showroom-gallery__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+}
+.showroom-gallery__img.is-active { opacity: 1; }
+.showroom-gallery__dots {
+  position: absolute;
+  bottom: 12px;
+  left: 0; right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  pointer-events: none;
+  z-index: 2;
+}
+.showroom-gallery__dot {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.4);
+  transition: background 0.3s, transform 0.3s;
+}
+.showroom-gallery__dot.is-active {
+  background: #fff;
+  transform: scale(1.4);
+}
+
 /* ---------- 3D photo cube (hero) ---------- */
 .cube-stage {
   --cube: 300px;
@@ -1529,7 +1572,14 @@ em { font-style: italic; }
 
   /* Modals & trays */
   .modal { padding: 0; }
-  .modal__dialog { max-width: 100%; max-height: 100vh; border: 0; }
+  .modal__dialog {
+    max-width: 100%;
+    max-height: 100vh;
+    border: 0;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
   .saved-tray, .info-panel__dialog, .tweaks { width: 100%; max-width: 100%; }
   .tweaks { right: 0; left: 0; bottom: 0; width: 100%; }
 }
@@ -1838,31 +1888,26 @@ em { font-style: italic; }
   border: 1px solid rgba(255,255,255,0.2);
 }
 
-/* Modal "Try in your room" button — mobile only */
+/* Modal "Try in your room" button */
 .btn--try-room {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 12px 20px;
+  border: 1.5px solid var(--rule);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink-2);
+  font-size: 14px;
+  font-weight: 500;
+  font-family: var(--sans);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
-@media (max-width: 767px) {
-  .btn--try-room {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    width: 100%;
-    padding: 12px 20px;
-    border: 1.5px solid var(--rule);
-    border-radius: 6px;
-    background: transparent;
-    color: var(--ink-2);
-    font-size: 14px;
-    font-weight: 500;
-    font-family: var(--sans);
-    cursor: pointer;
-    transition: border-color 0.15s, color 0.15s, background 0.15s;
-  }
-  .btn--try-room:active {
-    border-color: var(--accent);
-    color: var(--accent);
-    background: var(--accent-soft);
-  }
+.btn--try-room:active {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
 }

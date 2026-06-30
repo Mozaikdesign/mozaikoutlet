@@ -9,6 +9,7 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
   const [imgIdx, setImgIdx] = useState(0);
   const [showTryRoom, setShowTryRoom] = useState(false);
   const { TryInRoom } = TRYINROOM;
+  const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
 
   useEffect(() => {
     const handler = (e) => { if (e.key === 'Escape') onClose(); };
@@ -111,6 +112,7 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
             >
               {saved ? m.saved : m.save}
             </button>
+            {isTouchDevice && (
             <button
               className="btn btn--try-room"
               onClick={() => setShowTryRoom(true)}
@@ -121,6 +123,7 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
               </svg>
               Try in your room
             </button>
+            )}
           </div>
 
         </div>
