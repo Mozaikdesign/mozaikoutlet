@@ -51,8 +51,6 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
           )}
         </div>
 
-        <button className="modal__close modal__close--below-img" onClick={onClose}>{m.close}</button>
-
         <div className="modal__body">
           {isTouchDevice && (
             <button
@@ -66,6 +64,8 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
               {m.tryRoom}
             </button>
           )}
+
+          <button className="modal__close modal__close--below-img" onClick={onClose}>{m.close}</button>
 
           <div className="modal__eyebrow">
             <span>{product.brand}</span>
