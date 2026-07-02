@@ -65,15 +65,16 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
             </button>
           )}
 
-          <button className="modal__close modal__close--below-img" onClick={onClose}>{m.close}</button>
-
           <div className="modal__eyebrow">
             <span>{product.brand}</span>
             <span className="modal__eyebrow-dot">·</span>
             <span>{product.category}</span>
           </div>
 
-          <h2 className="modal__title">{product.name}</h2>
+          <div className="modal__title-row">
+            <h2 className="modal__title">{product.name}</h2>
+            <button className="modal__close modal__close--title" onClick={onClose}>✕</button>
+          </div>
 
           <div className="modal__scarcity">
             <span className="modal__scarcity-dot"/>
