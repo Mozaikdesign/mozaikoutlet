@@ -1911,3 +1911,11 @@ em { font-style: italic; }
   color: var(--accent);
   background: var(--accent-soft);
 }
+/* Top placement — smaller, right-aligned, before the title */
+.btn--try-room-top {
+  width: auto;
+  align-self: flex-start;
+  padding: 8px 14px;
+  font-size: 12px;
+  margin-bottom: 12px;
+}

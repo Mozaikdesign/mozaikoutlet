@@ -1,57 +1,5 @@
 [
   {
-    "id": 226,
-    "brand": "Hay",
-    "name": "Amanta Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 3505,
-    "outletEur": 1600,
-    "saleEur": 1600,
-    "discountPct": 54,
-    "dims": "79 x 79,5 cm H:43/69 cm",
-    "dekupe": "photos/dekupe/hay-amanta-sofa.webp",
-    "lifes": [
-      "photos/life/hay-amanta-life.webp"
-    ]
-  },
-  {
-    "id": 227,
-    "brand": "Hay",
-    "name": "Amanta Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 3365,
-    "outletEur": 1500,
-    "saleEur": 1500,
-    "discountPct": 55,
-    "dims": "79 x 79,5 cm H:43/69 cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/hay-amanta-cream.webp",
-    "lifes": [
-      "photos/life/hay-amanta-cream-life-1.webp",
-      "photos/life/hay-amanta-cream-life-2.webp"
-    ]
-  },
-  {
-    "id": 200,
-    "brand": "B&B Italia",
-    "name": "Atoll Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 25080,
-    "outletEur": 11000,
-    "saleEur": 11000,
-    "discountPct": 56,
-    "dims": "344 x 147,5cm h:45/86 cm",
-    "dekupe": "photos/dekupe/bnb-atoll.webp",
-    "lifes": [
-      "photos/life/bb-atoll.webp"
-    ]
-  },
-  {
     "id": 3,
     "brand": "Gallotti & Radice",
     "name": "Evolis Next Sofa",
@@ -171,40 +119,6 @@
     ]
   },
   {
-    "id": 10,
-    "brand": "Knoll",
-    "name": "Womb Sette",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 8124,
-    "outletEur": 4000,
-    "saleEur": 4000,
-    "discountPct": 51,
-    "dims": "159 x 94 cm H:43,5/92cm",
-    "dekupe": "photos/dekupe/knoll-womb-sette.webp",
-    "lifes": [
-      "photos/life/knoll-womb-sette-life.webp"
-    ]
-  },
-  {
-    "id": 228,
-    "brand": "Knoll",
-    "name": "Womb Sette",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 8124,
-    "outletEur": 4000,
-    "saleEur": 4000,
-    "discountPct": 51,
-    "dims": "159 x 94 cm H:43,5/92cm",
-    "dekupe": "photos/dekupe/knoll-womb-sette-2.webp",
-    "lifes": [
-      "photos/life/knoll-womb-sette-2-life.webp"
-    ]
-  },
-  {
     "id": 229,
     "brand": "Cassina",
     "name": "Tre Pezzi Armchair",
@@ -319,23 +233,6 @@
     "lifes": [
       "photos/life/knoll-saarinen-side-table-life-1.webp",
       "photos/life/knoll-saarinen-side-table-life-2.webp"
-    ]
-  },
-  {
-    "id": 241,
-    "brand": "USM",
-    "name": "Haller Armando Cabral Side Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 2037,
-    "outletEur": 1120,
-    "saleEur": 1120,
-    "discountPct": 45,
-    "dims": "50 x 39,5 cm",
-    "dekupe": "photos/dekupe/usm-haller-armando-cabral-side-table.webp",
-    "lifes": [
-      "photos/life/usm-haller-armando-cabral-side-table-life.webp"
     ]
   },
   {
@@ -549,24 +446,6 @@
     ]
   },
   {
-    "id": 29,
-    "brand": "Flexform",
-    "name": "Ortigia S.H. Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 9640,
-    "outletEur": 3500,
-    "saleEur": 3500,
-    "discountPct": 64,
-    "dims": "55 x 54 h:46/83 cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/flexform-ortigia-sh.webp",
-    "lifes": [
-      "photos/life/flexform-ortigia-sh-life1.webp",
-      "photos/life/flexform-ortigia-sh-life2.webp"
-    ]
-  },
-  {
     "id": 32,
     "brand": "Walter Knoll",
     "name": "Isanka Pouf",
@@ -595,7 +474,7 @@
     "saleEur": 5000,
     "discountPct": 55,
     "dims": "290x110cm H:74cm",
-    "dekupe": "photos/life/maxalto-lucullo-table-life.webp",
+    "dekupe": "photos/dekupe/maxalto-lucullo-table.webp",
     "lifes": [
       "photos/life/maxalto-lucullo-2.webp",
       "photos/life/maxalto-lucullo-3.webp"
@@ -704,23 +583,6 @@
     "dekupe": "photos/dekupe/bb-pianura-coffee-table.webp",
     "lifes": [
       "photos/life/bb-pianura-coffee-table.webp"
-    ]
-  },
-  {
-    "id": 45,
-    "brand": "Flexform",
-    "name": "Pico Small Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 7107,
-    "outletEur": 3000,
-    "saleEur": 3000,
-    "discountPct": 58,
-    "dims": "194 x 100 cm H:23 cm",
-    "dekupe": "photos/dekupe/flexform-pico.webp",
-    "lifes": [
-      "photos/life/flexform-pico-life.webp"
     ]
   },
   {
@@ -914,23 +776,6 @@
     ]
   },
   {
-    "id": 60,
-    "brand": "Andreu World",
-    "name": "Uves Coffee Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 1470,
-    "outletEur": 600,
-    "saleEur": 600,
-    "discountPct": 59,
-    "dims": "Ø60cm H:41cm",
-    "dekupe": "photos/dekupe/andreu-world-uves-coffee-table.webp",
-    "lifes": [
-      "photos/life/andreu-world-uves-coffee-life.webp"
-    ]
-  },
-  {
     "id": 61,
     "brand": "B&B Italia",
     "name": "Fat Fat Low Table",
@@ -1001,23 +846,6 @@
     ]
   },
   {
-    "id": 67,
-    "brand": "e-15",
-    "name": "Habibi Low Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 1379,
-    "outletEur": 700,
-    "saleEur": 700,
-    "discountPct": 49,
-    "dims": "Ø37 h:47 cm · Pirinç",
-    "dekupe": "photos/dekupe/e15-habibi-final.webp",
-    "lifes": [
-      "photos/dekupe/e15-habibi-new.webp"
-    ]
-  },
-  {
     "id": 68,
     "brand": "Maxalto",
     "name": "Caratos Chair",
@@ -1069,23 +897,6 @@
     "dekupe": "photos/dekupe/gallotti-radice-akiko.webp",
     "lifes": [
       "photos/life/gallotti-radice-akiko-life.webp"
-    ]
-  },
-  {
-    "id": 71,
-    "brand": "Edra",
-    "name": "Blue Velvet Chair",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 2,
-    "listEur": 5688,
-    "outletEur": 2500,
-    "saleEur": 2500,
-    "discountPct": 56,
-    "dims": "H:43/80cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/edra-blue-velvet.webp",
-    "lifes": [
-      "photos/life/edra-blue-velvet-life.webp"
     ]
   },
   {
@@ -1360,24 +1171,6 @@
     ]
   },
   {
-    "id": 95,
-    "brand": "Flexform",
-    "name": "Dragonfly Bed",
-    "section": "INDOOR",
-    "category": "Beds & Daybeds",
-    "qty": 1,
-    "listEur": 17221,
-    "outletEur": 8000,
-    "saleEur": 8000,
-    "discountPct": 54,
-    "dims": "220 x 250 cm H:34/138cm · 180x200 mattress_ *not included · Pelle leather headboard and bed frame · Ashwood stained wenge base · Grossgrain 049",
-    "dekupe": "photos/dekupe/flexform-dragonfly.webp",
-    "lifes": [
-      "photos/life/dragonfly-bed-1.webp",
-      "photos/life/dragonfly-bed-2.webp"
-    ]
-  },
-  {
     "id": 96,
     "brand": "Gallotti & Radice",
     "name": "Yuki Bed",
@@ -1447,24 +1240,6 @@
     "lifes": [
       "photos/life/maison-dada-tray-blue-life.webp",
       "photos/life/maison-dada-tray-blue-life-b.webp"
-    ]
-  },
-  {
-    "id": 101,
-    "brand": "Maison Dada",
-    "name": "Of The Moon No3",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 844,
-    "outletEur": 591,
-    "saleEur": 591,
-    "discountPct": 30,
-    "dims": "Ø35cm H:79,6cm",
-    "dekupe": "photos/dekupe/maison-dada-moon3.webp",
-    "lifes": [
-      "photos/life/maison-dada-moon3-life1.webp",
-      "photos/life/maison-dada-moon3-life2.webp"
     ]
   },
   {
@@ -2694,24 +2469,6 @@
     ]
   },
   {
-    "id": 177,
-    "brand": "Roda",
-    "name": "DOUBLE 011 Chair",
-    "section": "OUTDOOR",
-    "category": "Outdoor Chairs",
-    "qty": 2,
-    "listEur": 2260,
-    "outletEur": 1000,
-    "saleEur": 1000,
-    "discountPct": 56,
-    "dims": "52 x 70 cm H:48/60 cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/roda-double-011.webp",
-    "lifes": [
-      "photos/life/roda-double-011-life1.webp",
-      "photos/life/roda-double-011-life2.webp"
-    ]
-  },
-  {
     "id": 215,
     "brand": "Andreu World",
     "name": "Trenza Chair",
@@ -2728,21 +2485,6 @@
       "photos/life/andreu-world-trenza-chair-life-a.webp",
       "photos/life/andreu-world-trenza-chair-life-b.webp"
     ]
-  },
-  {
-    "id": 179,
-    "brand": "B&B Italia",
-    "name": "Mirto Chair",
-    "section": "OUTDOOR",
-    "category": "Outdoor Chairs",
-    "qty": 1,
-    "listEur": 1632,
-    "outletEur": 800,
-    "saleEur": 800,
-    "discountPct": 51,
-    "dims": "58,5x53,5cm H:46/80,5cm · İndirimli 8 adet fiyatı:",
-    "lifes": [],
-    "dekupe": "photos/dekupe/bb-mirto-chair.webp"
   },
   {
     "id": 180,
@@ -2805,25 +2547,6 @@
     "dims": "Ø 48cm h: 46 cm",
     "dekupe": "photos/dekupe/paola-lenti-otto-cylindrical-pouf.webp",
     "lifes": []
-  },
-  {
-    "id": 188,
-    "brand": "B&B Italia",
-    "name": "Colosseo Side Table",
-    "section": "OUTDOOR",
-    "category": "Outdoor Tables",
-    "qty": 2,
-    "listEur": 989,
-    "outletEur": 400,
-    "saleEur": 400,
-    "discountPct": 60,
-    "dims": "Ø45cm h:49cm · naturel taş",
-    "dekupe": "photos/dekupe/bb-colosseo-green.webp",
-    "lifes": [
-      "photos/dekupe/bb-colosseo-side-table-new.webp",
-      "photos/life/bb-colosseo-side-table-life.webp",
-      "photos/life/bb-colosseo-side-table-green.webp"
-    ]
   },
   {
     "id": 216,
@@ -3017,23 +2740,6 @@
     "dims": "44 x 44cm H:80cm",
     "dekupe": "photos/dekupe/vitra-halwood.webp",
     "lifes": []
-  },
-  {
-    "id": 242,
-    "brand": "B&amp;B Italia",
-    "name": "Atoll Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 13336,
-    "outletEur": 6000,
-    "saleEur": 6000,
-    "discountPct": 55,
-    "dims": "354 x 97,5 cm H:45/86 cm",
-    "dekupe": "photos/dekupe/bb-atoll-354-sofa.webp",
-    "lifes": [
-      "photos/life/bb-atoll-354-sofa-life.webp"
-    ]
   },
   {
     "id": 243,
@@ -3345,7 +3051,9 @@
     "discountPct": 30,
     "dims": "Ø66cm H:43cm",
     "dekupe": "photos/dekupe/paola-lenti-heron-coffee-table.webp",
-    "lifes": []
+    "lifes": [
+      "photos/life/paola-lenti-heron-coffee-table-life.webp"
+    ]
   },
   {
     "id": 273,
@@ -3532,23 +3240,6 @@
     ]
   },
   {
-    "id": 285,
-    "brand": "Axolight",
-    "name": "Float Table Lamp (Black)",
-    "section": "LIGHTING",
-    "category": "Table Lamps",
-    "qty": 1,
-    "listEur": 400,
-    "outletEur": 240,
-    "saleEur": 240,
-    "discountPct": 40,
-    "dims": "4 adet mevcut",
-    "dekupe": "photos/dekupe/axolight-float-black.webp",
-    "lifes": [
-      "photos/life/axolight-float-black-life.webp"
-    ]
-  },
-  {
     "id": 286,
     "brand": "Axolight",
     "name": "Float Table Lamp",
@@ -3641,23 +3332,6 @@
     "dims": "",
     "dekupe": "photos/dekupe/flos-kelvin-t.webp",
     "lifes": []
-  },
-  {
-    "id": 293,
-    "brand": "Nemo",
-    "name": "Pivotante à Poser Table Lamp",
-    "section": "LIGHTING",
-    "category": "Table Lamps",
-    "qty": 1,
-    "listEur": 275,
-    "outletEur": 210,
-    "saleEur": 210,
-    "discountPct": 24,
-    "dims": "",
-    "dekupe": "photos/dekupe/nemo-pivotante-table-lamp.webp",
-    "lifes": [
-      "photos/life/nemo-pivotante-table-lamp-life.webp"
-    ]
   },
   {
     "id": 294,
@@ -3906,9 +3580,8 @@
     "dims": "",
     "dekupe": "photos/dekupe/santa-cole-sylvestrina.webp",
     "lifes": [
-      "photos/life/santa-cole-sylvestrina-life-1.webp",
-      "photos/life/santa-cole-sylvestrina-life-2.webp",
-      "photos/life/santa-cole-sylvestrina-life-3.webp"
+      "photos/life/santa-cole-sylvestrina-life1.webp",
+      "photos/life/santa-cole-sylvestrina-life2.webp"
     ]
   },
   {
@@ -4143,23 +3816,6 @@
     ]
   },
   {
-    "id": 324,
-    "brand": "Flos",
-    "name": "Lampadina",
-    "section": "LIGHTING",
-    "category": "Table Lamps",
-    "qty": 1,
-    "listEur": 145,
-    "outletEur": 60,
-    "saleEur": 60,
-    "discountPct": 59,
-    "dims": "",
-    "dekupe": "photos/dekupe/flos-lampadina.webp",
-    "lifes": [
-      "photos/life/flos-lampadina-life.webp"
-    ]
-  },
-  {
     "id": 325,
     "brand": "Axolight",
     "name": "Bul-bo Aluminium",
@@ -4300,23 +3956,6 @@
     "dekupe": "photos/dekupe/flos-romeo-moon-t1.webp",
     "lifes": [
       "photos/life/flos-romeo-moon-t1-life.webp"
-    ]
-  },
-  {
-    "id": 336,
-    "brand": "FontanaArte",
-    "name": "Bilia Chrome",
-    "section": "LIGHTING",
-    "category": "Table Lamps",
-    "qty": 1,
-    "listEur": 530,
-    "outletEur": 318,
-    "saleEur": 318,
-    "discountPct": 40,
-    "dims": "",
-    "dekupe": "photos/dekupe/fontanaarte-bilia-chrome.webp",
-    "lifes": [
-      "photos/life/fontanaarte-bilia-chrome-life.webp"
     ]
   },
   {
@@ -4563,5 +4202,447 @@
     "lifes": [
       "photos/life/artek-a110-pendant-life.webp"
     ]
+  },
+  {
+    "id": 353,
+    "brand": "B&B Italia",
+    "name": "Borea Rect. Low Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 5661,
+    "outletEur": 3115,
+    "saleEur": 3115,
+    "discountPct": 45,
+    "dims": "71 x 105 cm H:32cm",
+    "dekupe": "photos/dekupe/bb-italia-borea-low-table.webp",
+    "lifes": [
+      "photos/life/bb-italia-borea-low-table-life.webp"
+    ]
+  },
+  {
+    "id": 354,
+    "brand": "Flexform",
+    "name": "A.B.C Ottoman",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 2,
+    "listEur": 1916,
+    "outletEur": 1055,
+    "saleEur": 1055,
+    "discountPct": 45,
+    "dims": "80 x 50 cm H:34cm",
+    "dekupe": "photos/dekupe/flexform-abc-ottoman.webp",
+    "lifes": []
+  },
+  {
+    "id": 355,
+    "brand": "Flexform",
+    "name": "Zefiro Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 1850,
+    "outletEur": 1000,
+    "saleEur": 1000,
+    "discountPct": 46,
+    "dims": "Ø50 cm H:41cm",
+    "dekupe": "photos/dekupe/flexform-zefiro-coffee-table.webp",
+    "lifes": []
+  },
+  {
+    "id": 356,
+    "brand": "B&B Italia",
+    "name": "Erica Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 7267,
+    "outletEur": 4000,
+    "saleEur": 4000,
+    "discountPct": 45,
+    "dims": "170 x 76 cm H:40/65cm",
+    "dekupe": "photos/dekupe/bb-italia-erica-sofa-1.webp",
+    "lifes": [
+      "photos/life/bb-italia-erica-sofa-1-life.webp"
+    ]
+  },
+  {
+    "id": 357,
+    "brand": "B&B Italia",
+    "name": "Erica Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 7267,
+    "outletEur": 4000,
+    "saleEur": 4000,
+    "discountPct": 45,
+    "dims": "170 x 76 cm H:40/65cm",
+    "dekupe": "photos/dekupe/bb-italia-erica-sofa-2.webp",
+    "lifes": []
+  },
+  {
+    "id": 358,
+    "brand": "B&B Italia",
+    "name": "Erica Daybed",
+    "section": "INDOOR",
+    "category": "Beds & Daybeds",
+    "qty": 1,
+    "listEur": 9800,
+    "outletEur": 5390,
+    "saleEur": 5390,
+    "discountPct": 45,
+    "dims": "153 x 140 cm H:37.5/65.5cm",
+    "dekupe": "photos/dekupe/bb-italia-erica-daybed.webp",
+    "lifes": [
+      "photos/life/bb-italia-erica-daybed-life.webp"
+    ]
+  },
+  {
+    "id": 359,
+    "brand": "B&B Italia",
+    "name": "Erica Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 3757,
+    "outletEur": 2070,
+    "saleEur": 2070,
+    "discountPct": 45,
+    "dims": "80 x 78 cm H:37.5/65.5cm",
+    "dekupe": "photos/dekupe/bb-italia-erica-armchair.webp",
+    "lifes": []
+  },
+  {
+    "id": 360,
+    "brand": "B&B Italia",
+    "name": "Erica Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 7514,
+    "outletEur": 4135,
+    "saleEur": 4135,
+    "discountPct": 45,
+    "dims": "80 x 78 cm H:37.5/65.5cm",
+    "dekupe": "photos/dekupe/bb-italia-erica-armchair-pair2.webp",
+    "lifes": []
+  },
+  {
+    "id": 361,
+    "brand": "B&B Italia",
+    "name": "Michel Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 20100,
+    "outletEur": 11055,
+    "saleEur": 11055,
+    "discountPct": 45,
+    "dims": "320 x 220 cm H:42/67cm",
+    "dekupe": "photos/dekupe/bb-italia-michel-sofa.webp",
+    "lifes": []
+  },
+  {
+    "id": 362,
+    "brand": "Gallotti & Radice",
+    "name": "Stami Pouf",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 1,
+    "listEur": 2256,
+    "outletEur": 1240,
+    "saleEur": 1240,
+    "discountPct": 45,
+    "dims": "",
+    "dekupe": "photos/dekupe/gallotti-radice-stami-pouf.webp",
+    "lifes": [
+      "photos/life/gallotti-radice-stami-pouf-life.webp"
+    ]
+  },
+  {
+    "id": 363,
+    "brand": "Gallotti & Radice",
+    "name": "Stami Vanity Desk",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 9324,
+    "outletEur": 5130,
+    "saleEur": 5130,
+    "discountPct": 45,
+    "dims": "140 x 60 cm H:76cm",
+    "dekupe": "photos/dekupe/gallotti-radice-stami-vanity-desk.webp",
+    "lifes": [
+      "photos/life/gallotti-radice-stami-vanity-desk-life.webp",
+      "photos/life/gallotti-radice-stami-vanity-desk-life2.webp"
+    ]
+  },
+  {
+    "id": 364,
+    "brand": "Flexform",
+    "name": "Eaton Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 2100,
+    "outletEur": 1155,
+    "saleEur": 1155,
+    "discountPct": 45,
+    "dims": "Ø36 cm H:46cm",
+    "dekupe": "photos/dekupe/flexform-eaton-coffee-table-36.webp",
+    "lifes": []
+  },
+  {
+    "id": 365,
+    "brand": "Flexform",
+    "name": "Eaton Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 2800,
+    "outletEur": 1540,
+    "saleEur": 1540,
+    "discountPct": 45,
+    "dims": "70 x 50 cm H:27cm",
+    "dekupe": "photos/dekupe/flexform-eaton-coffee-table-70b.webp",
+    "lifes": []
+  },
+  {
+    "id": 366,
+    "brand": "Louis Poulsen",
+    "name": "Panthella 250 Portable",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 3,
+    "listEur": 950,
+    "outletEur": 760,
+    "saleEur": 760,
+    "discountPct": 20,
+    "dims": "Ø25 cm H:33.5cm",
+    "dekupe": "photos/dekupe/louis-poulsen-panthella-250.webp",
+    "lifes": [
+      "photos/life/louis-poulsen-panthella-250-life1.webp",
+      "photos/life/louis-poulsen-panthella-250-life2.webp"
+    ]
+  },
+  {
+    "id": 367,
+    "brand": "Nemo",
+    "name": "Portofino Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 276,
+    "outletEur": 235,
+    "saleEur": 235,
+    "discountPct": 15,
+    "dims": "Ø10 cm H:31cm",
+    "dekupe": "photos/dekupe/nemo-portofino.webp",
+    "lifes": [
+      "photos/life/nemo-portofino-life.webp"
+    ]
+  },
+  {
+    "id": 368,
+    "brand": "Davide Groppi",
+    "name": "TeTaTet Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 455,
+    "outletEur": 365,
+    "saleEur": 365,
+    "discountPct": 20,
+    "dims": "Ø9 cm H:35cm",
+    "dekupe": "photos/dekupe/davide-groppi-tetatet.webp",
+    "lifes": [
+      "photos/life/davide-groppi-tetatet-life.webp"
+    ]
+  },
+  {
+    "id": 369,
+    "brand": "Davide Groppi",
+    "name": "TeTaTet Flute Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 545,
+    "outletEur": 410,
+    "saleEur": 410,
+    "discountPct": 25,
+    "dims": "Ø11 cm H:25.5cm",
+    "dekupe": "photos/dekupe/davide-groppi-tetatet-flute.webp",
+    "lifes": [
+      "photos/life/davide-groppi-tetatet-flute-life.webp"
+    ]
+  },
+  {
+    "id": 370,
+    "brand": "Ambientec",
+    "name": "Bottled Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 780,
+    "outletEur": 665,
+    "saleEur": 665,
+    "discountPct": 15,
+    "dims": "Ø10 cm H:25cm",
+    "dekupe": "photos/dekupe/ambientec-bottled.webp",
+    "lifes": [
+      "photos/life/ambientec-bottled-life1.webp",
+      "photos/life/ambientec-bottled-life2.webp"
+    ]
+  },
+  {
+    "id": 371,
+    "brand": "Tobias Grau",
+    "name": "Salt Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 482,
+    "outletEur": 410,
+    "saleEur": 410,
+    "discountPct": 15,
+    "dims": "Ø12.8 cm H:19cm",
+    "dekupe": "photos/dekupe/tobias-grau-salt.webp",
+    "lifes": []
+  },
+  {
+    "id": 372,
+    "brand": "Marset",
+    "name": "Dipping Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 525,
+    "outletEur": 420,
+    "saleEur": 420,
+    "discountPct": 20,
+    "dims": "Ø12.5 cm H:22cm",
+    "dekupe": "photos/dekupe/marset-dipping.webp",
+    "lifes": [
+      "photos/life/marset-dipping-life.webp"
+    ]
+  },
+  {
+    "id": 373,
+    "brand": "Marset",
+    "name": "FollowMe Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 305,
+    "outletEur": 260,
+    "saleEur": 260,
+    "discountPct": 15,
+    "dims": "Ø12.5 cm H:28.8cm",
+    "dekupe": "photos/dekupe/marset-followme.webp",
+    "lifes": [
+      "photos/life/marset-followme-life.webp"
+    ]
+  },
+  {
+    "id": 374,
+    "brand": "Contardi",
+    "name": "Claretta Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 290,
+    "outletEur": 250,
+    "saleEur": 250,
+    "discountPct": 14,
+    "dims": "Ø11.2 cm H:28.4cm",
+    "dekupe": "photos/dekupe/contardi-claretta.webp",
+    "lifes": [
+      "photos/life/contardi-claretta-life.webp"
+    ]
+  },
+  {
+    "id": 375,
+    "brand": "LucePlan",
+    "name": "Nui Mini Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 375,
+    "outletEur": 320,
+    "saleEur": 320,
+    "discountPct": 15,
+    "dims": "Ø11 cm H:28cm",
+    "dekupe": "photos/dekupe/luceplan-nui-mini.webp",
+    "lifes": [
+      "photos/life/luceplan-nui-mini-life.webp"
+    ]
+  },
+  {
+    "id": 376,
+    "brand": "Foscarini",
+    "name": "Fleur Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 260,
+    "outletEur": 225,
+    "saleEur": 225,
+    "discountPct": 13,
+    "dims": "Ø11 cm H:24cm",
+    "dekupe": "photos/dekupe/foscarini-fleur.webp",
+    "lifes": [
+      "photos/life/foscarini-fleur-life.webp"
+    ]
+  },
+  {
+    "id": 377,
+    "brand": "Flos",
+    "name": "Bellhop Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 295,
+    "outletEur": 250,
+    "saleEur": 250,
+    "discountPct": 15,
+    "dims": "Ø12.5 x H:21cm",
+    "dekupe": "photos/dekupe/flos-bellhop.webp",
+    "lifes": [
+      "photos/life/flos-bellhop-life.webp"
+    ]
+  },
+  {
+    "id": 378,
+    "brand": "Bomma",
+    "name": "Umbra Wall Light",
+    "section": "LIGHTING",
+    "category": "Wall & Outdoor",
+    "qty": 1,
+    "listEur": 1976,
+    "outletEur": 1680,
+    "saleEur": 1680,
+    "discountPct": 15,
+    "dims": "Ø25 cm H:35cm",
+    "dekupe": "photos/dekupe/bomma-umbra.webp",
+    "lifes": [
+      "photos/life/bomma-umbra-life.webp"
+    ]
+  },
+  {
+    "id": 379,
+    "brand": "B&B Italia",
+    "name": "Atoll Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 12140,
+    "outletEur": 6680,
+    "saleEur": 6680,
+    "discountPct": 45,
+    "dims": "230 x 95 cm H:41/66cm",
+    "dekupe": "photos/dekupe/bb-italia-atoll-sofa.webp",
+    "lifes": []
   }
 ]

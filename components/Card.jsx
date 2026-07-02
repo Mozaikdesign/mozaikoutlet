@@ -13,15 +13,18 @@ function qtyLabel(qty, lang) {
 // ------- Grid card — clean, neutral, showroom-catalogue style -------
 function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
   const [hover, setHover] = useState(false);
+  const [hasHovered, setHasHovered] = useState(false);
   const { lang } = useI18n();
   const lifes = Array.isArray(product.lifes) ? product.lifes : (product.life ? [product.life] : []);
   const firstLife = lifes[0];
   const showLife = hover && firstLife;
 
+  const handleEnter = () => { setHover(true); setHasHovered(true); };
+
   return (
     <article
       className={'card card--' + cardStyle}
-      onMouseEnter={() => setHover(true)}
+      onMouseEnter={handleEnter}
       onMouseLeave={() => setHover(false)}
       onClick={() => onOpen(product)}
     >
@@ -35,7 +38,7 @@ function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
             {qtyLabel(product.qty, lang)}
           </span>
         )}
-        {firstLife && product.dekupe && (
+        {hasHovered && firstLife && product.dekupe && (
           <div className="card__photo-flip" aria-hidden="true">
             <Img src={showLife ? product.dekupe : firstLife} alt=""/>
             {lifes.length > 1 && (
@@ -70,18 +73,28 @@ function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
 // ------- Editorial card — larger, magazine-style, with copywriting -------
 function EditorialCard({ product, onOpen, onSave, saved, index }) {
   const { lang } = useI18n();
+  const [inView, setInView] = React.useState(false);
+  const ref = React.useRef(null);
+  React.useEffect(() => {
+    if (!ref.current) return;
+    const obs = new IntersectionObserver(([e]) => { if (e.isIntersecting) { setInView(true); obs.disconnect(); } }, { rootMargin: '200px' });
+    obs.observe(ref.current);
+    return () => obs.disconnect();
+  }, []);
   // vary size based on index for rhythm
   const sizes = ['span-1', 'span-1', 'span-2', 'span-1', 'span-1', 'span-1'];
   const size = sizes[index % sizes.length];
 
   return (
     <article
+      ref={ref}
       className={'ed-card ed-card--' + size}
       onClick={() => onOpen(product)}
     >
       <div className="ed-card__image">
         <Img src={product.dekupe} alt={product.name}/>
         {(() => {
+          if (!inView) return null;
           const lifes = Array.isArray(product.lifes) ? product.lifes : (product.life ? [product.life] : []);
           return lifes[0] ? (
             <div className="ed-card__life">
