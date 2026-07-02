@@ -1214,9 +1214,21 @@ em { font-style: italic; }
 .modal__close {
   position: absolute; top: 16px; right: 20px; z-index: 10;
   font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+  background: none; border: none; cursor: pointer; font-family: var(--sans);
   color: var(--ink-2);
 }
 .modal__close:hover { color: var(--ink); }
+.modal__close--below-img {
+  position: static;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  width: 100%; padding: 10px 0;
+  font-size: 12px; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  margin-bottom: 20px;
+}
+.modal__close--below-img::before { content: '←'; font-size: 14px; }
+@media (max-width: 700px) {
+  .modal__close:not(.modal__close--below-img) { display: none; }
+}
 
 .modal__gallery {
   background: var(--bg-warm);

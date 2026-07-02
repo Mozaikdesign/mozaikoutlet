@@ -136,6 +136,7 @@ const DICT = {
     },
     modal: {
       close: 'close ×',
+      tryRoom: 'Try in your room',
       tabs: { details: 'details', dimensions: 'dimensions', condition: 'condition', delivery: 'delivery' },
       asCatalogued: 'As catalogued',
       save: '○ save to list',
@@ -323,6 +324,7 @@ const DICT = {
     },
     modal: {
       close: 'kapat ×',
+      tryRoom: 'Evinizde Nasıl Durduğunu Görün',
       tabs: { details: 'detaylar', dimensions: 'ölçüler', condition: 'durum', delivery: 'teslimat' },
       asCatalogued: 'Katalogda',
       save: '○ listeye kaydet',

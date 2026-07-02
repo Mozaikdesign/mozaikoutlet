@@ -7,13 +7,14 @@ const TILES_PER_FACE = 9; // 3 × 3 mosaic per face
 
 // Showroom gallery — replaces the cube in the hero.
 const SHOWROOM_IMGS = [
-  'uploads/005_Mozaikoutlet0146_V01.jpg',
-  'uploads/Screenshot 2026-06-30 at 15.30.55.png',
-  'uploads/Screenshot 2026-06-30 at 15.31.21.png',
+  'uploads/hero-1.png',
+  'uploads/hero-2.png',
+  'uploads/hero-3.png',
 ];
 
 function ShowroomGallery() {
   const [current, setCurrent] = React.useState(0);
+  const [loaded, setLoaded] = React.useState([0]); // track which indices have been preloaded
   const total = SHOWROOM_IMGS.length;
 
   const next = () => setCurrent(c => (c + 1) % total);
@@ -23,6 +24,14 @@ function ShowroomGallery() {
     const t = setInterval(next, 2000);
     return () => clearInterval(t);
   }, []);
+
+  // Preload next image when current changes
+  React.useEffect(() => {
+    const nextIdx = (current + 1) % total;
+    if (!loaded.includes(nextIdx)) {
+      setLoaded(prev => [...prev, nextIdx]);
+    }
+  }, [current]);
 
   // Touch swipe support
   const touchStartX = React.useRef(0);
@@ -42,7 +51,9 @@ function ShowroomGallery() {
       aria-hidden="true"
     >
       {SHOWROOM_IMGS.map((src, i) => (
-        <img key={i} src={src} alt="" className={'showroom-gallery__img' + (i === current ? ' is-active' : '')}/>
+        loaded.includes(i) ? (
+          <img key={i} src={src} alt="" className={'showroom-gallery__img' + (i === current ? ' is-active' : '')}/>
+        ) : null
       ))}
       <div className="showroom-gallery__dots">
         {SHOWROOM_IMGS.map((_, i) => (

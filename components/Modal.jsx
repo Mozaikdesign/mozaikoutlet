@@ -32,8 +32,6 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
   return (<>
     <div className="modal" onClick={onClose}>
       <div className="modal__dialog" onClick={e => e.stopPropagation()}>
-        <button className="modal__close" onClick={onClose}>{m.close}</button>
-
         <div className="modal__gallery">
           <div className="modal__main-img">
             <Img src={currentImg} alt={product.name}/>
@@ -53,6 +51,8 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
           )}
         </div>
 
+        <button className="modal__close modal__close--below-img" onClick={onClose}>{m.close}</button>
+
         <div className="modal__body">
           {isTouchDevice && (
             <button
@@ -63,7 +63,7 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
                 <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
                 <circle cx="12" cy="13" r="4"/>
               </svg>
-              Try in your room
+              {m.tryRoom}
             </button>
           )}
 
