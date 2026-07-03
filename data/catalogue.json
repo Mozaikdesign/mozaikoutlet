@@ -498,24 +498,6 @@
     ]
   },
   {
-    "id": 36,
-    "brand": "Mdf Italia",
-    "name": "NVL Table",
-    "section": "INDOOR",
-    "category": "Tables & Consoles",
-    "qty": 1,
-    "listEur": 15856,
-    "outletEur": 6500,
-    "saleEur": 6500,
-    "discountPct": 59,
-    "dims": "250 x 130 cm H:74cm",
-    "dekupe": "photos/dekupe/mdf-italia-nvl-table.webp",
-    "lifes": [
-      "photos/life/mdf-italia-nvl-table-life.webp",
-      "photos/life/mdf-italia-nvl-table-life2.webp"
-    ]
-  },
-  {
     "id": 201,
     "brand": "B&B Italia",
     "name": "Hans Table",
@@ -583,23 +565,6 @@
     "dekupe": "photos/dekupe/bb-pianura-coffee-table.webp",
     "lifes": [
       "photos/life/bb-pianura-coffee-table.webp"
-    ]
-  },
-  {
-    "id": 46,
-    "brand": "Maxalto",
-    "name": "Alcor Coffee Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 16095,
-    "outletEur": 6500,
-    "saleEur": 6500,
-    "discountPct": 60,
-    "dims": "180x130cm H:38cm",
-    "dekupe": "photos/dekupe/maxalto-alcor-coffee-table.webp",
-    "lifes": [
-      "photos/life/maxalto-alcor-coffee-table-life.webp"
     ]
   },
   {
@@ -741,24 +706,6 @@
     ]
   },
   {
-    "id": 56,
-    "brand": "Flexform",
-    "name": "Fly Side Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 3653,
-    "outletEur": 2500,
-    "saleEur": 2000,
-    "discountPct": 45,
-    "dims": "80 x 80 cm H:46,5 cm",
-    "dekupe": "photos/dekupe/flexform-fly-side-table-new.webp",
-    "lifes": [
-      "photos/life/flexform-fly-side-life-new-1.webp",
-      "photos/life/flexform-fly-side-life-new-2.webp"
-    ]
-  },
-  {
     "id": 57,
     "brand": "Gallotti & Radice",
     "name": "Arch Low Table",
@@ -843,25 +790,6 @@
     "lifes": [
       "photos/life/living-divani-moon-satellite-2.webp",
       "photos/life/living-divani-moon-satellite-life.webp"
-    ]
-  },
-  {
-    "id": 68,
-    "brand": "Maxalto",
-    "name": "Caratos Chair",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 6,
-    "listEur": 18624,
-    "outletEur": 9000,
-    "saleEur": 9000,
-    "discountPct": 52,
-    "dims": "60 x 60,5 cm H:48/65/80,5cm · İndirimli 6 adet fiyatı:",
-    "dekupe": "photos/dekupe/maxalto-caratos.webp",
-    "lifes": [
-      "photos/life/maxalto-caratos-life.webp",
-      "photos/life/maxalto-caratos-life-2.webp",
-      "photos/dekupe/maxalto-caratos-2.webp"
     ]
   },
   {
@@ -1016,25 +944,6 @@
     "dims": "44 x 44cm H:80cm",
     "dekupe": "photos/dekupe/hal-wood-chair.webp",
     "lifes": []
-  },
-  {
-    "id": 207,
-    "brand": "Vitra",
-    "name": "Freeform Ottoman",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 1,
-    "listEur": 2712,
-    "outletEur": 1200,
-    "saleEur": 1200,
-    "discountPct": 56,
-    "dims": "120 x 65cm H:26cm · indirimli adet fiyatı",
-    "dekupe": "photos/dekupe/vitra-freeform-ottoman-2.webp",
-    "lifes": [
-      "photos/life/vitra-freeform-ottoman-life1.webp",
-      "photos/life/vitra-freeform-ottoman-life2.webp",
-      "photos/life/vitra-freeform-ottoman-life3.webp"
-    ]
   },
   {
     "id": 84,
@@ -2566,24 +2475,6 @@
     ]
   },
   {
-    "id": 189,
-    "brand": "Flexform",
-    "name": "Fly Side Table",
-    "section": "OUTDOOR",
-    "category": "Outdoor Tables",
-    "qty": 2,
-    "listEur": 2325,
-    "outletEur": 1630,
-    "saleEur": 1280,
-    "discountPct": 45,
-    "dims": "Ø40cm H: 46cm",
-    "dekupe": "photos/dekupe/flexform-fly-side-table-1280-new.avif",
-    "lifes": [
-      "photos/dekupe/flexform-fly-side-table-1280.webp",
-      "photos/life/flexform-fly-side-table-1280-life.webp"
-    ]
-  },
-  {
     "id": 193,
     "brand": "B&B Italia",
     "name": "Outdoor Canasta Coffee Table",
@@ -2742,40 +2633,6 @@
     "lifes": []
   },
   {
-    "id": 243,
-    "brand": "Gallotti &amp; Radice",
-    "name": "Audrey Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 17650,
-    "outletEur": 12250,
-    "saleEur": 12250,
-    "discountPct": 31,
-    "dims": "102 x 84 cm h:38/68 cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/gallotti-radice-audrey-armchair.webp",
-    "lifes": [
-      "photos/life/gallotti-radice-audrey-armchair-life.webp"
-    ]
-  },
-  {
-    "id": 244,
-    "brand": "Moroso",
-    "name": "Gogan Coffee Table",
-    "section": "INDOOR",
-    "category": "Coffee &amp; Side Tables",
-    "qty": 1,
-    "listEur": 3371,
-    "outletEur": 1850,
-    "saleEur": 1850,
-    "discountPct": 45,
-    "dims": "127 x 99 cm H:33 cm",
-    "dekupe": "photos/dekupe/moroso-gogan-coffee-table.webp",
-    "lifes": [
-      "photos/life/moroso-gogan-coffee-table-life.webp"
-    ]
-  },
-  {
     "id": 246,
     "brand": "B&amp;B Italia",
     "name": "Softcage Armchair",
@@ -2790,23 +2647,6 @@
     "dekupe": "photos/dekupe/bb-softcage-armchair.webp",
     "lifes": [
       "photos/life/bb-softcage-armchair-life.webp"
-    ]
-  },
-  {
-    "id": 247,
-    "brand": "Maxalto",
-    "name": "Apollo Curved Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 16029,
-    "outletEur": 7000,
-    "saleEur": 7000,
-    "discountPct": 56,
-    "dims": "285 x 134,5 cm H:42/87 cm",
-    "dekupe": "photos/dekupe/maxalto-apollo-curved-sofa.webp",
-    "lifes": [
-      "photos/life/maxalto-apollo-curved-sofa-life.webp"
     ]
   },
   {
@@ -2945,23 +2785,6 @@
     ]
   },
   {
-    "id": 263,
-    "brand": "B&B Italia",
-    "name": "Tramae Ottoman",
-    "section": "OUTDOOR",
-    "category": "Outdoor Seating",
-    "qty": 1,
-    "listEur": 2358,
-    "outletEur": 1300,
-    "saleEur": 1300,
-    "discountPct": 45,
-    "dims": "90 x 76 cm h:32 cm",
-    "dekupe": "photos/dekupe/bb-tramae-ottoman.webp",
-    "lifes": [
-      "photos/life/bb-tramae-ottoman-life.webp"
-    ]
-  },
-  {
     "id": 264,
     "brand": "B&B Italia",
     "name": "Husk Side Table",
@@ -2990,23 +2813,6 @@
     "dims": "İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/roda-calla-armchair.webp",
     "lifes": []
-  },
-  {
-    "id": 266,
-    "brand": "Exteta",
-    "name": "Modernista Chair",
-    "section": "OUTDOOR",
-    "category": "Outdoor Chairs",
-    "qty": 6,
-    "listEur": 27600,
-    "outletEur": 15180,
-    "saleEur": 15180,
-    "discountPct": 45,
-    "dims": "54 x 63cm H:79cm · İndirimli 6 adet fiyatı:",
-    "dekupe": "photos/dekupe/exteta-modernista-chair.webp",
-    "lifes": [
-      "photos/life/exteta-modernista-chair-life.webp"
-    ]
   },
   {
     "id": 269,
@@ -3414,40 +3220,6 @@
     "lifes": [
       "photos/life/axolight-alysoid-big-life-1.webp",
       "photos/life/axolight-alysoid-big-life-2.webp"
-    ]
-  },
-  {
-    "id": 299,
-    "brand": "Flos",
-    "name": "Ktribe S3",
-    "section": "LIGHTING",
-    "category": "Pendants & Chandeliers",
-    "qty": 1,
-    "listEur": 845,
-    "outletEur": 264,
-    "saleEur": 264,
-    "discountPct": 69,
-    "dims": "",
-    "dekupe": "photos/dekupe/flos-ktribe-s3.webp",
-    "lifes": [
-      "photos/life/flos-ktribe-life.webp"
-    ]
-  },
-  {
-    "id": 300,
-    "brand": "Flos",
-    "name": "Ktribe S1",
-    "section": "LIGHTING",
-    "category": "Pendants & Chandeliers",
-    "qty": 1,
-    "listEur": 365,
-    "outletEur": 120,
-    "saleEur": 120,
-    "discountPct": 67,
-    "dims": "",
-    "dekupe": "photos/dekupe/flos-ktribe-s1.webp",
-    "lifes": [
-      "photos/life/flos-ktribe-life.webp"
     ]
   },
   {
@@ -4219,21 +3991,6 @@
     "lifes": [
       "photos/life/bb-italia-borea-low-table-life.webp"
     ]
-  },
-  {
-    "id": 354,
-    "brand": "Flexform",
-    "name": "A.B.C Ottoman",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 2,
-    "listEur": 1916,
-    "outletEur": 1055,
-    "saleEur": 1055,
-    "discountPct": 45,
-    "dims": "80 x 50 cm H:34cm",
-    "dekupe": "photos/dekupe/flexform-abc-ottoman.webp",
-    "lifes": []
   },
   {
     "id": 355,

@@ -5,7 +5,7 @@ const DICT = {
   en: {
     announce: 'FINAL DAYS · BEFORE THESE PIECES FIND A NEW HOME — SHOWROOM PIECES UP TO 75% OFF',
     nav: { indoor: 'Indoor', outdoor: 'Outdoor', lighting: 'Lighting', objects: 'Objects', brands: 'Brands' },
-    searchPlaceholder: 'Search 274 pieces…',
+    searchPlaceholder: 'Search 260 pieces…',
     account: 'Account',
     bag: 'Bag',
     subscribe: 'Subscribe',
@@ -30,7 +30,7 @@ const DICT = {
       pieces: 'pieces',
       enter: 'View',
       stats: [
-        ['274', 'pieces in this lot'],
+        ['260', 'pieces in this lot'],
         ['42', 'brands'],
         ['−75%', 'up to off list'],
         ['1', 'iconic pieces. always'],
@@ -193,7 +193,7 @@ const DICT = {
   tr: {
     announce: 'SON GÜNLER · BU PARÇALAR YENİ SAHİBİNİ BULMADAN — TEŞHİR ÜRÜNLERİ %75\'E VARAN İNDİRİM',
     nav: { indoor: 'İç Mekan', outdoor: 'Dış Mekan', lighting: 'Aydınlatma', objects: 'Objeler', brands: 'Markalar' },
-    searchPlaceholder: '274 parça içinde ara…',
+    searchPlaceholder: '260 parça içinde ara…',
     account: 'Hesap',
     bag: 'Sepet',
     subscribe: 'Abone Ol',
@@ -218,7 +218,7 @@ const DICT = {
       pieces: 'parça',
       enter: 'Gör',
       stats: [
-        ['274', 'ürün'],
+        ['260', 'ürün'],
         ['42', 'marka'],
         ['%75', "'e varan indirim"],
         ['1', 'ikonik parça. her zaman'],
