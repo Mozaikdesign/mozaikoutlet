@@ -124,6 +124,25 @@ em { font-style: italic; }
 .site-header__subscribe:hover {
   background: var(--ink);
   color: var(--paper, #f5ead8);
+}
+.site-header__call-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--accent, #b87333);
+  background: var(--accent, #b87333); color: #fff;
+  padding: 7px 14px; border-radius: 2px;
+  font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase;
+  font-weight: 600; white-space: nowrap;
+  transition: opacity 0.15s;
+}
+.site-header__call-btn:hover { opacity: 0.85; color: #fff; }
+.btn--call {
+  display: inline-flex; align-items: center; justify-content: center; gap: 7px;
+  padding: 11px 16px; border-radius: 2px;
+  border: 1.5px solid var(--ink); background: transparent; color: var(--ink);
+  font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+  text-decoration: none; cursor: pointer; transition: background 0.15s, color 0.15s;
+}
+.btn--call:hover { background: var(--ink); color: #fff; }
   border-color: var(--ink);
 }
 .site-header__cart-badge {
@@ -1364,14 +1383,33 @@ em { font-style: italic; }
 .modal__dim-row strong { font-family: var(--mono); font-weight: 500; color: var(--ink); }
 
 .modal__actions {
-  display: flex; gap: 12px; flex-wrap: wrap;
+  display: flex; gap: 10px; flex-wrap: nowrap;
   margin-top: auto;
 }
-.modal__actions .btn--primary { flex: 1; justify-content: center; }
+.modal__actions .btn--primary,
+.modal__actions .btn--ghost,
+.modal__actions .btn--call {
+  flex: 1; justify-content: center; text-align: center;
+  padding-left: 8px; padding-right: 8px; font-size: 11px;
+}
 
 .modal__microcopy {
   font-family: var(--serif); font-style: italic; font-size: 12px;
   color: var(--ink-3); margin-top: 14px;
+}
+.modal__contact-row {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--rule);
+  gap: 12px;
+}
+.modal__phone {
+  font-size: 13px; font-weight: 600; color: var(--ink);
+  text-decoration: none;
+}
+.modal__phone:hover { text-decoration: underline; }
+.modal__no-return {
+  font-size: 11px; color: var(--ink-3); text-align: right;
+  font-style: italic;
 }
 
 /* ---------- Tweaks panel ---------- */

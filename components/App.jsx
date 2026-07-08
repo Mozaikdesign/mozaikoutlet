@@ -137,16 +137,18 @@ function App() {
   }, [catalogue, filters, searchQuery]);
 
   // Flat list of lifestyle/product images for the 3D hero cube.
+  // The cube has 6 faces × 9 tiles = 54 slots — cap at 54 so we don't
+  // trigger the browser to fetch hundreds of images on page load.
   const cubeImages = useMemo(() => {
     const seen = new Set();
     const out = [];
     catalogue.forEach(p => {
       (p.lifes || []).forEach(src => {
-        if (src && !seen.has(src)) { seen.add(src); out.push(src); }
+        if (out.length < 54 && src && !seen.has(src)) { seen.add(src); out.push(src); }
       });
     });
     catalogue.forEach(p => {
-      if (p.dekupe && !seen.has(p.dekupe)) { seen.add(p.dekupe); out.push(p.dekupe); }
+      if (out.length < 54 && p.dekupe && !seen.has(p.dekupe)) { seen.add(p.dekupe); out.push(p.dekupe); }
     });
     return out;
   }, [catalogue]);

@@ -3,15 +3,16 @@ const { createContext, useContext, useState, useEffect } = React;
 
 const DICT = {
   en: {
-    announce: 'FINAL DAYS · BEFORE THESE PIECES FIND A NEW HOME — SHOWROOM PIECES UP TO 75% OFF',
+    announce: 'FINAL DAYS · BEFORE THESE PIECES FIND A NEW HOME — SHOWROOM PIECES UP TO 55% OFF',
     nav: { indoor: 'Indoor', outdoor: 'Outdoor', lighting: 'Lighting', objects: 'Objects', brands: 'Brands' },
     searchPlaceholder: 'Search 260 pieces…',
     account: 'Account',
     bag: 'Bag',
     subscribe: 'Subscribe',
+    callBtn: 'Bize Ulaşın',
     hero: {
       eyebrowLeft: 'Mozaik Design Outlet Catalogue',
-      eyebrowRight: 'Istanbul · Kağıthane · +90 212 327 05 95',
+      eyebrowRight: 'Istanbul · Kağıthane · +90 212 327 05 95 · +90 539 576 18 00',
       titlePart1: 'The Showroom Collection is',
       titleEm: 'Now At the Outlet.',
       titlePart2: '',
@@ -32,7 +33,7 @@ const DICT = {
       stats: [
         ['260', 'pieces in this lot'],
         ['42', 'brands'],
-        ['−75%', 'up to off list'],
+        ['−55%', 'off list price'],
         ['1', 'iconic pieces. always'],
       ],
       view: 'view',
@@ -69,7 +70,7 @@ const DICT = {
     footer: {
       desc: 'Mozaik Design Outlet Catalog. Discover product collections full of Mozaik\'s inspiring curated selections.',
       address: 'Outlet Store: Istanbul, Kağıthane, Ulubaş Cad., 37A',
-      appt: 'Phone: +90 212 327 05 95',
+      appt: 'Phone: +90 212 327 05 95 · +90 539 576 18 00',
       follow: 'Follow us',
       shop: 'Catalogue', services: '', house: 'Customer Service',
       viewSite: 'View', mobile: 'Mobile', desktop: 'Desktop',
@@ -142,6 +143,7 @@ const DICT = {
       save: '○ save to list',
       saved: '● saved',
       reserve: 'Reserve this piece',
+      callBtn: 'Bize Ulaşın',
       oneOnly: 'One of one. When this piece leaves the showroom, the listing is retired.',
       manyAvail: (n) => `${n} available — each ex-display, each sold once.`,
       listPrice: 'Original list price',
@@ -163,6 +165,8 @@ const DICT = {
       deliveryP1: 'White-glove delivery worldwide. Istanbul & Milano pickup available by appointment. Crating and export documentation handled by our team.',
       deliveryP2: 'Typical lead time: 2–4 weeks within Europe, 4–8 weeks rest of world.',
       microcopy: 'Reserve holds the piece for 24 hours while our team confirms condition and dispatch. No charge until you approve.',
+      phone: '+90 539 576 18 00',
+      noReturn: 'No returns or exchanges.',
     },
     savedTray: {
       eyebrow: 'Your list',
@@ -197,9 +201,10 @@ const DICT = {
     account: 'Hesap',
     bag: 'Sepet',
     subscribe: 'Abone Ol',
+    callBtn: 'Bize Ulaşın',
     hero: {
       eyebrowLeft: 'Mozaik Design Outlet Katalog',
-      eyebrowRight: 'İstanbul · Kağıthane · +90 212 327 05 95',
+      eyebrowRight: 'İstanbul · Kağıthane · +90 212 327 05 95 · +90 539 576 18 00',
       titlePart1: 'Showroom seçkisi',
       titleEm: 'şimdi outlet\'te.',
       titlePart2: '',
@@ -220,7 +225,7 @@ const DICT = {
       stats: [
         ['260', 'ürün'],
         ['42', 'marka'],
-        ['%75', "'e varan indirim"],
+        ['%55', "'e varan indirim"],
         ['1', 'ikonik parça. her zaman'],
       ],
       view: 'görünüm',
@@ -257,7 +262,7 @@ const DICT = {
     footer: {
       desc: 'Mozaik\'in ilham veren özel seçkileriyle dolu ürün koleksiyonlarını keşfedin.',
       address: 'Outlet Mağaza: İstanbul, Kağıthane, Ulubaş Cad., 37A',
-      appt: 'Telefon: +90 212 327 05 95',
+      appt: 'Telefon: +90 212 327 05 95 · +90 539 576 18 00',
       follow: 'Bizi takip edin',
       shop: 'Online Outlet Mağaza', services: '', house: 'Müşteri Hizmetleri',
       viewSite: 'Görünüm', mobile: 'Mobil', desktop: 'Masaüstü',
@@ -330,6 +335,7 @@ const DICT = {
       save: '○ listeye kaydet',
       saved: '● kaydedildi',
       reserve: 'Bu parçayı rezerve et',
+      callBtn: 'Bize Ulaşın',
       oneOnly: 'Tek parça. Bu parça showroom\'dan ayrıldığında ilan kaldırılır.',
       manyAvail: (n) => `${n} adet mevcut — her biri teşhir, her biri bir kez satılır.`,
       listPrice: 'Orijinal liste fiyatı',
@@ -351,6 +357,8 @@ const DICT = {
       deliveryP1: 'Dünya çapında özel teslimat. İstanbul ve Milano\'dan randevuyla teslim alma mevcuttur. Sandıklama ve ihracat belgeleri ekibimiz tarafından yapılır.',
       deliveryP2: 'Tipik teslim süresi: Avrupa içinde 2–4 hafta, dünyanın geri kalanı 4–8 hafta.',
       microcopy: 'Rezervasyon, ekibimiz durumu ve sevkiyatı onaylarken parçayı 24 saat tutar. Onaylayana kadar ücret alınmaz.',
+      phone: '+90 539 576 18 00',
+      noReturn: 'İade ve değişim yoktur.',
     },
     savedTray: {
       eyebrow: 'Listeniz',

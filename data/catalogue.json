@@ -400,9 +400,9 @@
     "category": "Armchairs",
     "qty": 2,
     "listEur": 10204,
-    "outletEur": 4000,
-    "saleEur": 4000,
-    "discountPct": 61,
+    "outletEur": 2000,
+    "saleEur": 2000,
+    "discountPct": 80,
     "dims": "90x95cm H:64cm",
     "dekupe": "photos/dekupe/flexform-magnum-armchair.webp",
     "lifes": [
@@ -512,24 +512,6 @@
     "dekupe": "photos/dekupe/bb-hans-table.webp",
     "lifes": [
       "photos/life/bb-hans-table-life.webp"
-    ]
-  },
-  {
-    "id": 40,
-    "brand": "Cassina",
-    "name": "Cassina 9 Oval Lounge Table — Black Marble",
-    "section": "INDOOR",
-    "category": "Tables & Consoles",
-    "qty": 1,
-    "listEur": 7824,
-    "outletEur": 3500,
-    "saleEur": 3500,
-    "discountPct": 55,
-    "dims": "140x90cm H:64cm",
-    "dekupe": "photos/dekupe/cassina-9-oval-black-marble.webp",
-    "lifes": [
-      "photos/dekupe/cassina-9-oval.webp",
-      "photos/life/cassina-9-oval-black-marble-life.webp"
     ]
   },
   {
@@ -720,41 +702,6 @@
     "dekupe": "photos/dekupe/gallotti-radice-arch-low-table.webp",
     "lifes": [
       "photos/life/gallotti-radice-arc-low-table.webp"
-    ]
-  },
-  {
-    "id": 61,
-    "brand": "B&B Italia",
-    "name": "Fat Fat Low Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 6,
-    "listEur": 671,
-    "outletEur": 350,
-    "saleEur": 350,
-    "discountPct": 48,
-    "dims": "Ø42cm H:26cm",
-    "dekupe": "photos/dekupe/bb-fat-fat-low-table.webp",
-    "lifes": [
-      "photos/life/bb-fat-fat-low-black-life.webp",
-      "photos/life/bb-fat-fat-low-double-life.avif"
-    ]
-  },
-  {
-    "id": 62,
-    "brand": "B&B Italia",
-    "name": "Fat Fat Low Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 823,
-    "outletEur": 400,
-    "saleEur": 400,
-    "discountPct": 51,
-    "dims": "Ø62cm H:32cm · indirimli adet fiyatı",
-    "dekupe": "photos/dekupe/bb-fat-fat-low-table.webp",
-    "lifes": [
-      "photos/life/bb-fat-fat-low-black-life.webp"
     ]
   },
   {
@@ -1664,24 +1611,6 @@
     ]
   },
   {
-    "id": 134,
-    "brand": "Paola C",
-    "name": "Tiberius I",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 1200,
-    "outletEur": 840,
-    "saleEur": 840,
-    "discountPct": 30,
-    "dims": "Ø50cm H:18cm",
-    "dekupe": "photos/dekupe/paola-c-tiberius-i-840.webp",
-    "lifes": [
-      "photos/life/paola-c-gambone-life.webp",
-      "photos/life/paola-c-gambone-life2.webp"
-    ]
-  },
-  {
     "id": 135,
     "brand": "Paola C",
     "name": "Titus II",
@@ -1948,23 +1877,6 @@
     "dims": "71x75cm H:67cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/carl-hansen-bk11-armchair.webp",
     "lifes": []
-  },
-  {
-    "id": 239,
-    "brand": "B&B Italia",
-    "name": "Heri O Chair",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 3,
-    "listEur": 5763,
-    "outletEur": 4035,
-    "saleEur": 3170,
-    "discountPct": 45,
-    "dims": "60 x 62cm H:47/78cm · İndirimli 3 adet fiyatı:",
-    "dekupe": "photos/dekupe/bb-heri-o-cream.webp",
-    "lifes": [
-      "photos/life/bb-heri-o-cream-life.webp"
-    ]
   },
   {
     "id": 240,
@@ -3044,21 +2956,6 @@
     "lifes": [
       "photos/life/kalmar-fliegenbein-table-life.webp"
     ]
-  },
-  {
-    "id": 286,
-    "brand": "Axolight",
-    "name": "Float Table Lamp",
-    "section": "LIGHTING",
-    "category": "Table Lamps",
-    "qty": 1,
-    "listEur": 400,
-    "outletEur": 240,
-    "saleEur": 240,
-    "discountPct": 40,
-    "dims": "",
-    "dekupe": "photos/dekupe/axolight-float.webp",
-    "lifes": []
   },
   {
     "id": 287,
@@ -4401,5 +4298,106 @@
     "dims": "230 x 95 cm H:41/66cm",
     "dekupe": "photos/dekupe/bb-italia-atoll-sofa.webp",
     "lifes": []
+  },
+  {
+    "id": 380,
+    "brand": "B&B Italia",
+    "name": "Ayana Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee Tables",
+    "qty": 2,
+    "listEur": 5518,
+    "outletEur": 3035,
+    "saleEur": 3035,
+    "discountPct": 45,
+    "dims": "180cm x 90cm H:35cm",
+    "dekupe": "photos/dekupe/bb-italia-ayana-coffee-table.webp",
+    "lifes": [
+      "photos/life/bb-italia-ayana-coffee-table-life1.webp",
+      "photos/life/bb-italia-ayana-coffee-table-life2.webp"
+    ]
+  },
+  {
+    "id": 381,
+    "brand": "B&B Italia",
+    "name": "Ayana Table",
+    "section": "INDOOR",
+    "category": "Dining Tables",
+    "qty": 1,
+    "listEur": 8013,
+    "outletEur": 4410,
+    "saleEur": 4410,
+    "discountPct": 45,
+    "dims": "230cm x 110cm H:74cm",
+    "dekupe": "photos/dekupe/bb-italia-ayana-table.webp",
+    "lifes": [
+      "photos/life/bb-italia-ayana-table-life1.webp"
+    ]
+  },
+  {
+    "id": 382,
+    "brand": "B&B Italia",
+    "name": "Mirto Coffee Table Indoor",
+    "section": "INDOOR",
+    "category": "Coffee Tables",
+    "qty": 1,
+    "listEur": 8022,
+    "outletEur": 2325,
+    "saleEur": 2325,
+    "discountPct": 71,
+    "dims": "135cm x 135cm H:45cm",
+    "dekupe": "photos/dekupe/bb-italia-mirto-coffee-table-indoor.webp",
+    "lifes": [
+      "photos/life/bb-italia-mirto-coffee-table-indoor-life1.webp"
+    ]
+  },
+  {
+    "id": 383,
+    "brand": "Vitra",
+    "name": "Elliptical Table",
+    "section": "INDOOR",
+    "category": "Dining Tables",
+    "qty": 1,
+    "listEur": 2142,
+    "outletEur": 1075,
+    "saleEur": 1075,
+    "discountPct": 50,
+    "dims": "227cm x 74cm H:24.5cm",
+    "dekupe": "",
+    "lifes": []
+  },
+  {
+    "id": 384,
+    "brand": "Bover",
+    "name": "Amphora",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 555,
+    "outletEur": 425,
+    "saleEur": 425,
+    "discountPct": 23,
+    "dims": "Ø31cm H:47cm",
+    "dekupe": "photos/dekupe/bover-amphora.webp",
+    "lifes": [
+      "photos/life/bover-amphora-life1.webp"
+    ]
+  },
+  {
+    "id": 385,
+    "brand": "Vitra",
+    "name": "Slow Ottoman",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 1,
+    "listEur": 1380,
+    "outletEur": 500,
+    "saleEur": 500,
+    "discountPct": 64,
+    "dims": "71cm x 54cm H:28cm",
+    "dekupe": "",
+    "lifes": [
+      "photos/life/vitra-slow-ottoman-life1.webp"
+    ]
   }
 ]
