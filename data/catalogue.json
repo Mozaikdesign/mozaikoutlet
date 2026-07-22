@@ -34,23 +34,6 @@
     ]
   },
   {
-    "id": 5,
-    "brand": "Gallotti & Radice",
-    "name": "Stami Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 15504,
-    "outletEur": 6500,
-    "saleEur": 6500,
-    "discountPct": 58,
-    "dims": "249 x 96 cm H:43/73cm",
-    "dekupe": "photos/dekupe/gallotti-radice-stami.webp",
-    "lifes": [
-      "photos/life/gallotti-radice-stami.webp"
-    ]
-  },
-  {
     "id": 6,
     "brand": "Edra",
     "name": "Cipria Sofa",
@@ -216,23 +199,6 @@
     "lifes": [
       "photos/life/knoll-saarinen-side-table-life-1.webp",
       "photos/life/knoll-saarinen-side-table-life-2.webp"
-    ]
-  },
-  {
-    "id": 12,
-    "brand": "Flexform",
-    "name": "Gregory Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 15828,
-    "outletEur": 7000,
-    "saleEur": 7000,
-    "discountPct": 56,
-    "dims": "227 x 116 cm H:40/60cm",
-    "dekupe": "photos/dekupe/flexform-gregory-sofa.webp",
-    "lifes": [
-      "photos/life/flexform-gregory-sofa.webp"
     ]
   },
   {
@@ -1268,23 +1234,6 @@
     "discountPct": 30,
     "dims": "Ø24cm H:20cm",
     "dekupe": "photos/dekupe/driade-gear-24x20.webp",
-    "lifes": [
-      "photos/life/driade-gear-gold-life.webp"
-    ]
-  },
-  {
-    "id": 114,
-    "brand": "Driade",
-    "name": "Gear",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 330,
-    "outletEur": 231,
-    "saleEur": 231,
-    "discountPct": 30,
-    "dims": "Ø14,5cm H:41cm",
-    "dekupe": "photos/dekupe/driade-gear-white.webp",
     "lifes": [
       "photos/life/driade-gear-gold-life.webp"
     ]
@@ -3949,41 +3898,6 @@
     "lifes": []
   },
   {
-    "id": 362,
-    "brand": "Gallotti & Radice",
-    "name": "Stami Pouf",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 1,
-    "listEur": 2256,
-    "outletEur": 1240,
-    "saleEur": 1240,
-    "discountPct": 45,
-    "dims": "",
-    "dekupe": "photos/dekupe/gallotti-radice-stami-pouf.webp",
-    "lifes": [
-      "photos/life/gallotti-radice-stami-pouf-life.webp"
-    ]
-  },
-  {
-    "id": 363,
-    "brand": "Gallotti & Radice",
-    "name": "Stami Vanity Desk",
-    "section": "INDOOR",
-    "category": "Tables & Consoles",
-    "qty": 1,
-    "listEur": 9324,
-    "outletEur": 5130,
-    "saleEur": 5130,
-    "discountPct": 45,
-    "dims": "140 x 60 cm H:76cm",
-    "dekupe": "photos/dekupe/gallotti-radice-stami-vanity-desk.webp",
-    "lifes": [
-      "photos/life/gallotti-radice-stami-vanity-desk-life.webp",
-      "photos/life/gallotti-radice-stami-vanity-desk-life2.webp"
-    ]
-  },
-  {
     "id": 364,
     "brand": "Flexform",
     "name": "Eaton Coffee Table",
@@ -4347,7 +4261,7 @@
     "saleEur": 500,
     "discountPct": 64,
     "dims": "71cm x 54cm H:28cm",
-    "dekupe": "",
+    "dekupe": "photos/life/vitra-slow-ottoman-life1.webp",
     "lifes": [
       "photos/life/vitra-slow-ottoman-life1.webp"
     ]
@@ -4387,20 +4301,6 @@
       "photos/life/bb-italia-pablo-sofa-life2.webp",
       "photos/life/bb-italia-pablo-sofa-life3.webp"
     ]
-  },
-  {
-    "id": 388,
-    "brand": "B&B Italia",
-    "name": "Pablo Armchair",
-    "category": "Chairs",
-    "dims": "80,5 × 86,5 cm H: 52,5/72,5 cm",
-    "listEur": 6975,
-    "outletEur": 3840,
-    "saleEur": 3840,
-    "discountPct": 45,
-    "qty": 1,
-    "dekupe": "",
-    "lifes": []
   },
   {
     "id": 389,
@@ -4511,7 +4411,9 @@
     "discountPct": 45,
     "dims": "Ø110 cm H: 36 cm",
     "dekupe": "photos/dekupe/maxalto-nidus-pouf.webp",
-    "lifes": ["photos/life/maxalto-nidus-pouf.webp"]
+    "lifes": [
+      "photos/life/maxalto-nidus-pouf.webp"
+    ]
   },
   {
     "id": 397,
@@ -4526,7 +4428,9 @@
     "discountPct": 45,
     "dims": "73 × 73 cm H: 41/79 cm",
     "dekupe": "photos/dekupe/maxalto-febo-armchair.webp",
-    "lifes": ["photos/life/maxalto-febo-armchair.webp"]
+    "lifes": [
+      "photos/life/maxalto-febo-armchair.webp"
+    ]
   },
   {
     "id": 398,
@@ -4541,7 +4445,9 @@
     "discountPct": 45,
     "dims": "Ø90 cm H: 41 cm",
     "dekupe": "photos/dekupe/bb-italia-mera-small-table.webp",
-    "lifes": ["photos/life/bb-italia-mera-small-table.webp"]
+    "lifes": [
+      "photos/life/bb-italia-mera-small-table.webp"
+    ]
   },
   {
     "id": 399,
@@ -4556,7 +4462,9 @@
     "discountPct": 45,
     "dims": "60 × 55 cm H: 54 cm",
     "dekupe": "photos/dekupe/roda-piper-side-table.webp",
-    "lifes": ["photos/life/roda-piper-side-table.webp"]
+    "lifes": [
+      "photos/life/roda-piper-side-table.webp"
+    ]
   },
   {
     "id": 400,
@@ -4565,13 +4473,15 @@
     "section": "OUTDOOR",
     "category": "Outdoor Tables",
     "qty": 1,
-    "listEur": 0,
-    "outletEur": 0,
-    "saleEur": 0,
-    "discountPct": 0,
+    "listEur": 16456,
+    "outletEur": 9050,
+    "saleEur": 9050,
+    "discountPct": 45,
     "dims": "Ø220 cm H: 75 cm",
     "dekupe": "photos/dekupe/roda-levante-021-dining-table.webp",
-    "lifes": ["photos/life/roda-levante-021-dining-table.webp"]
+    "lifes": [
+      "photos/life/roda-levante-021-dining-table.webp"
+    ]
   },
   {
     "id": 401,
@@ -4579,13 +4489,50 @@
     "name": "Laze 059 Armchair",
     "section": "OUTDOOR",
     "category": "Outdoor Chairs",
-    "qty": 1,
-    "listEur": 0,
-    "outletEur": 0,
-    "saleEur": 0,
-    "discountPct": 0,
+    "qty": 8,
+    "listEur": 14160,
+    "outletEur": 7790,
+    "saleEur": 7790,
+    "discountPct": 45,
     "dims": "59 × 55 cm H: 47/65/81 cm",
     "dekupe": "photos/dekupe/roda-laze-059-armchair.webp",
-    "lifes": ["photos/life/roda-laze-059-armchair.webp"]
+    "lifes": [
+      "photos/life/roda-laze-059-armchair.webp"
+    ]
+  },
+  {
+    "id": 402,
+    "brand": "Gallotti & Radice",
+    "name": "Stami Vanity Desk",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 9324,
+    "outletEur": 5130,
+    "saleEur": 5130,
+    "discountPct": 45,
+    "dims": "140 × 60 cm H: 76 cm",
+    "dekupe": "photos/dekupe/gallotti-radice-stami-vanity-desk.webp",
+    "lifes": [
+      "photos/life/gallotti-radice-stami-vanity-desk.webp",
+      "photos/life/gallotti-radice-stami-vanity-desk-2.webp"
+    ]
+  },
+  {
+    "id": 403,
+    "brand": "Gallotti & Radice",
+    "name": "Stami Pouf",
+    "section": "INDOOR",
+    "category": "Ottomans & Poufs",
+    "qty": 1,
+    "listEur": 2256,
+    "outletEur": 1240,
+    "saleEur": 1240,
+    "discountPct": 45,
+    "dims": "",
+    "dekupe": "photos/dekupe/gallotti-radice-stami-pouf.webp",
+    "lifes": [
+      "photos/life/gallotti-radice-stami-pouf.webp"
+    ]
   }
 ]
