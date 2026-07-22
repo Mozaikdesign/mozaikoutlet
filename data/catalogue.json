@@ -169,23 +169,6 @@
     "lifes": []
   },
   {
-    "id": 233,
-    "brand": "Moroso",
-    "name": "Lakelet Coffee Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 1990,
-    "outletEur": 750,
-    "saleEur": 750,
-    "discountPct": 62,
-    "dims": "111 x 78 cm h:27 cm",
-    "dekupe": "photos/dekupe/moroso-lakelet-coffee-table.webp",
-    "lifes": [
-      "photos/life/moroso-lakelet-coffee-table-life.webp"
-    ]
-  },
-  {
     "id": 234,
     "brand": "ClassiCon",
     "name": "Materia Side Table",
@@ -737,24 +720,6 @@
     "lifes": [
       "photos/life/living-divani-moon-satellite-2.webp",
       "photos/life/living-divani-moon-satellite-life.webp"
-    ]
-  },
-  {
-    "id": 69,
-    "brand": "B&B Italia",
-    "name": "Heri' O Chair",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 4,
-    "listEur": 7684,
-    "outletEur": 3700,
-    "saleEur": 3700,
-    "discountPct": 52,
-    "dims": "H:47/78cm · İndirimli 4 adet fiyatı:",
-    "dekupe": "photos/dekupe/bb-heri-o.webp",
-    "lifes": [
-      "photos/life/bb-heri-o-life2.webp",
-      "photos/life/bb-heri-o-life3.webp"
     ]
   },
   {
@@ -1862,21 +1827,6 @@
     "lifes": [
       "photos/life/carl-hansen-bk12-sofa-life.webp"
     ]
-  },
-  {
-    "id": 212,
-    "brand": "Carl Hansen",
-    "name": "BK11 Armchair",
-    "section": "OUTDOOR",
-    "category": "Outdoor Seating",
-    "qty": 2,
-    "listEur": 3520,
-    "outletEur": 1600,
-    "saleEur": 1600,
-    "discountPct": 55,
-    "dims": "71x75cm H:67cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/carl-hansen-bk11-armchair.webp",
-    "lifes": []
   },
   {
     "id": 240,
@@ -4356,15 +4306,17 @@
     "brand": "Vitra",
     "name": "Elliptical Table",
     "section": "INDOOR",
-    "category": "Dining Tables",
+    "category": "Coffee Tables",
     "qty": 1,
     "listEur": 2142,
-    "outletEur": 1075,
-    "saleEur": 1075,
-    "discountPct": 50,
-    "dims": "227cm x 74cm H:24.5cm",
-    "dekupe": "",
-    "lifes": []
+    "outletEur": 1180,
+    "saleEur": 1180,
+    "discountPct": 45,
+    "dims": "230 × 75 cm H: 25 cm",
+    "dekupe": "photos/dekupe/vitra-elliptical-table-white.webp",
+    "lifes": [
+      "photos/dekupe/vitra-elliptical-table-white.webp"
+    ]
   },
   {
     "id": 384,
@@ -4399,5 +4351,241 @@
     "lifes": [
       "photos/life/vitra-slow-ottoman-life1.webp"
     ]
+  },
+  {
+    "id": 386,
+    "brand": "B&B Italia",
+    "name": "Pablo Sofa",
+    "category": "Outdoor Sofas",
+    "dims": "210 × 113,5 cm H: 52,5/72,5 cm",
+    "listEur": 16519,
+    "outletEur": 9085,
+    "saleEur": 9085,
+    "discountPct": 45,
+    "qty": 1,
+    "dekupe": "photos/dekupe/bb-italia-pablo-sofa.webp",
+    "lifes": [
+      "photos/life/bb-italia-pablo-sofa-life1.webp",
+      "photos/life/bb-italia-pablo-sofa-life2.webp",
+      "photos/life/bb-italia-pablo-sofa-life3.webp"
+    ]
+  },
+  {
+    "id": 387,
+    "brand": "B&B Italia",
+    "name": "Pablo Sofa",
+    "category": "Outdoor Sofas",
+    "dims": "210 × 113,5 cm H: 52,5/72,5 cm",
+    "listEur": 16519,
+    "outletEur": 9085,
+    "saleEur": 9085,
+    "discountPct": 45,
+    "qty": 1,
+    "dekupe": "photos/dekupe/bb-italia-pablo-sofa.webp",
+    "lifes": [
+      "photos/life/bb-italia-pablo-sofa-life1.webp",
+      "photos/life/bb-italia-pablo-sofa-life2.webp",
+      "photos/life/bb-italia-pablo-sofa-life3.webp"
+    ]
+  },
+  {
+    "id": 388,
+    "brand": "B&B Italia",
+    "name": "Pablo Armchair",
+    "category": "Chairs",
+    "dims": "80,5 × 86,5 cm H: 52,5/72,5 cm",
+    "listEur": 6975,
+    "outletEur": 3840,
+    "saleEur": 3840,
+    "discountPct": 45,
+    "qty": 1,
+    "dekupe": "",
+    "lifes": []
+  },
+  {
+    "id": 389,
+    "brand": "B&B Italia",
+    "name": "Erica Sofa",
+    "category": "Sofas",
+    "dims": "216 × 96 cm H: 37,5/65,5 cm",
+    "listEur": 10116,
+    "outletEur": 5565,
+    "saleEur": 5565,
+    "discountPct": 45,
+    "qty": 2,
+    "dekupe": "photos/dekupe/bb-italia-erica-sofa-3.webp",
+    "lifes": [
+      "photos/life/bb-italia-erica-sofa-3.webp"
+    ]
+  },
+  {
+    "id": 390,
+    "brand": "Roda",
+    "name": "Astra Lounge Chair",
+    "category": "Outdoor Chairs",
+    "dims": "83 × 92 cm H: 36/77 cm",
+    "listEur": 5664,
+    "outletEur": 3115,
+    "saleEur": 3115,
+    "discountPct": 45,
+    "qty": 2,
+    "dekupe": "photos/dekupe/roda-astra-lounge-chair.webp",
+    "lifes": [
+      "photos/life/roda-astra-lounge-chair.webp"
+    ]
+  },
+  {
+    "id": 391,
+    "brand": "B&B Italia",
+    "name": "Bay Small Armchair",
+    "category": "Chairs",
+    "dims": "92,5 × 82 cm H: 42,5/75 cm",
+    "listEur": 4106,
+    "outletEur": 2260,
+    "saleEur": 2260,
+    "discountPct": 45,
+    "qty": 2,
+    "dekupe": "photos/dekupe/bb-bay-small-armchair-2.webp",
+    "lifes": [
+      "photos/life/bb-bay-small-armchair-2.webp"
+    ]
+  },
+  {
+    "id": 392,
+    "brand": "Roda",
+    "name": "Astra Lounge Chair",
+    "category": "Outdoor Chairs",
+    "dims": "83 × 92 cm H: 36/77 cm",
+    "listEur": 5778,
+    "outletEur": 3180,
+    "saleEur": 3180,
+    "discountPct": 45,
+    "qty": 1,
+    "dekupe": "photos/dekupe/roda-astra-lounge-chair.webp",
+    "lifes": [
+      "photos/life/roda-astra-lounge-chair-2.webp"
+    ]
+  },
+  {
+    "id": 393,
+    "brand": "Roda",
+    "name": "Astra Sofa",
+    "category": "Outdoor Sofas",
+    "dims": "190 × 92 cm H: 36/77 cm",
+    "listEur": 10368,
+    "outletEur": 5705,
+    "saleEur": 5705,
+    "discountPct": 45,
+    "qty": 1,
+    "dekupe": "photos/dekupe/roda-astra-sofa.webp",
+    "lifes": [
+      "photos/life/roda-astra-sofa.webp"
+    ]
+  },
+  {
+    "id": 394,
+    "brand": "Maxalto",
+    "name": "Dives Sofa",
+    "category": "Sofas",
+    "dims": "255 × 150 cm H: 70 cm",
+    "listEur": 17820,
+    "outletEur": 9805,
+    "saleEur": 9805,
+    "discountPct": 45,
+    "qty": 1,
+    "dekupe": "photos/dekupe/maxalto-dives-sofa.webp",
+    "lifes": [
+      "photos/life/maxalto-dives-sofa.webp"
+    ]
+  },
+  {
+    "id": 396,
+    "brand": "Maxalto",
+    "name": "Nidus Pouf",
+    "section": "INDOOR",
+    "category": "Ottomans & Poufs",
+    "qty": 1,
+    "listEur": 3060,
+    "outletEur": 1685,
+    "saleEur": 1685,
+    "discountPct": 45,
+    "dims": "Ø110 cm H: 36 cm",
+    "dekupe": "photos/dekupe/maxalto-nidus-pouf.webp",
+    "lifes": ["photos/life/maxalto-nidus-pouf.webp"]
+  },
+  {
+    "id": 397,
+    "brand": "Maxalto",
+    "name": "Febo Armchair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 2,
+    "listEur": 6700,
+    "outletEur": 3685,
+    "saleEur": 3685,
+    "discountPct": 45,
+    "dims": "73 × 73 cm H: 41/79 cm",
+    "dekupe": "photos/dekupe/maxalto-febo-armchair.webp",
+    "lifes": ["photos/life/maxalto-febo-armchair.webp"]
+  },
+  {
+    "id": 398,
+    "brand": "B&B Italia",
+    "name": "Mera Small Table",
+    "section": "INDOOR",
+    "category": "Coffee Tables",
+    "qty": 1,
+    "listEur": 3645,
+    "outletEur": 2005,
+    "saleEur": 2005,
+    "discountPct": 45,
+    "dims": "Ø90 cm H: 41 cm",
+    "dekupe": "photos/dekupe/bb-italia-mera-small-table.webp",
+    "lifes": ["photos/life/bb-italia-mera-small-table.webp"]
+  },
+  {
+    "id": 399,
+    "brand": "Roda",
+    "name": "Piper Side Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 942,
+    "outletEur": 520,
+    "saleEur": 520,
+    "discountPct": 45,
+    "dims": "60 × 55 cm H: 54 cm",
+    "dekupe": "photos/dekupe/roda-piper-side-table.webp",
+    "lifes": ["photos/life/roda-piper-side-table.webp"]
+  },
+  {
+    "id": 400,
+    "brand": "Roda",
+    "name": "Levante 021 Dining Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 0,
+    "outletEur": 0,
+    "saleEur": 0,
+    "discountPct": 0,
+    "dims": "Ø220 cm H: 75 cm",
+    "dekupe": "photos/dekupe/roda-levante-021-dining-table.webp",
+    "lifes": ["photos/life/roda-levante-021-dining-table.webp"]
+  },
+  {
+    "id": 401,
+    "brand": "Roda",
+    "name": "Laze 059 Armchair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 1,
+    "listEur": 0,
+    "outletEur": 0,
+    "saleEur": 0,
+    "discountPct": 0,
+    "dims": "59 × 55 cm H: 47/65/81 cm",
+    "dekupe": "photos/dekupe/roda-laze-059-armchair.webp",
+    "lifes": ["photos/life/roda-laze-059-armchair.webp"]
   }
 ]
