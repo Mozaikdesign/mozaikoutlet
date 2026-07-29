@@ -9,6 +9,7 @@ const CATEGORY_ORDER = [
   'Outdoor Seating', 'Outdoor Chairs', 'Outdoor Tables',
   'Outdoor Accents', 'Outdoor Architecture', 'Outdoor',
   'Indoor',
+  'Pendants & Chandeliers', 'Table Lamps', 'Floor Lamps', 'Wall Lights',
 ];
 
 // Helpers

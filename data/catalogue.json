@@ -137,21 +137,6 @@
     ]
   },
   {
-    "id": 232,
-    "brand": "Agapecasa",
-    "name": "Eros Dining Table",
-    "section": "INDOOR",
-    "category": "Tables & Consoles",
-    "qty": 1,
-    "listEur": 27714,
-    "outletEur": 11000,
-    "saleEur": 11000,
-    "discountPct": 60,
-    "dims": "300 x 150cm H:72cm",
-    "dekupe": "photos/dekupe/agapecasa-eros-dining-table.webp",
-    "lifes": []
-  },
-  {
     "id": 234,
     "brand": "ClassiCon",
     "name": "Materia Side Table",
@@ -2692,7 +2677,7 @@
     "brand": "Oluce",
     "name": "Outdoor Stone",
     "section": "LIGHTING",
-    "category": "Wall & Outdoor",
+    "category": "Wall Lights",
     "qty": 1,
     "listEur": 535,
     "outletEur": 321,
@@ -2758,7 +2743,7 @@
     "brand": "Marset",
     "name": "The W",
     "section": "LIGHTING",
-    "category": "Wall & Outdoor",
+    "category": "Wall Lights",
     "qty": 1,
     "listEur": 5420,
     "outletEur": 3252,
@@ -3040,7 +3025,7 @@
     "brand": "Tom Dixon",
     "name": "Pipe Wall Light (White-Pink)",
     "section": "LIGHTING",
-    "category": "Wall & Outdoor",
+    "category": "Wall Lights",
     "qty": 1,
     "listEur": 410,
     "outletEur": 200,
@@ -3446,21 +3431,6 @@
     "lifes": []
   },
   {
-    "id": 329,
-    "brand": "Oluce",
-    "name": "Spider Black",
-    "section": "LIGHTING",
-    "category": "Floor Lamps",
-    "qty": 1,
-    "listEur": 1065,
-    "outletEur": 639,
-    "saleEur": 639,
-    "discountPct": 40,
-    "dims": "",
-    "dekupe": "photos/dekupe/oluce-spider-black.webp",
-    "lifes": []
-  },
-  {
     "id": 330,
     "brand": "Lumina",
     "name": "Flo Desk Table Lamp",
@@ -3482,7 +3452,7 @@
     "brand": "Flos",
     "name": "Heco Square Outdoor Table Lamp",
     "section": "LIGHTING",
-    "category": "Wall & Outdoor",
+    "category": "Wall Lights",
     "qty": 1,
     "listEur": 2485,
     "outletEur": 1000,
@@ -3868,21 +3838,6 @@
     "lifes": []
   },
   {
-    "id": 360,
-    "brand": "B&B Italia",
-    "name": "Erica Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 7514,
-    "outletEur": 4135,
-    "saleEur": 4135,
-    "discountPct": 45,
-    "dims": "80 x 78 cm H:37.5/65.5cm",
-    "dekupe": "photos/dekupe/bb-italia-erica-armchair-pair2.webp",
-    "lifes": []
-  },
-  {
     "id": 361,
     "brand": "B&B Italia",
     "name": "Michel Sofa",
@@ -4136,7 +4091,7 @@
     "brand": "Bomma",
     "name": "Umbra Wall Light",
     "section": "LIGHTING",
-    "category": "Wall & Outdoor",
+    "category": "Wall Lights",
     "qty": 1,
     "listEur": 1976,
     "outletEur": 1680,
@@ -4168,7 +4123,7 @@
     "brand": "B&B Italia",
     "name": "Ayana Coffee Table",
     "section": "INDOOR",
-    "category": "Coffee Tables",
+    "category": "Coffee & Side Tables",
     "qty": 2,
     "listEur": 5518,
     "outletEur": 3035,
@@ -4186,7 +4141,7 @@
     "brand": "B&B Italia",
     "name": "Ayana Table",
     "section": "INDOOR",
-    "category": "Dining Tables",
+    "category": "Tables & Consoles",
     "qty": 1,
     "listEur": 8013,
     "outletEur": 4410,
@@ -4203,7 +4158,7 @@
     "brand": "B&B Italia",
     "name": "Mirto Coffee Table Indoor",
     "section": "INDOOR",
-    "category": "Coffee Tables",
+    "category": "Coffee & Side Tables",
     "qty": 1,
     "listEur": 8022,
     "outletEur": 2325,
@@ -4220,7 +4175,7 @@
     "brand": "Vitra",
     "name": "Elliptical Table",
     "section": "INDOOR",
-    "category": "Coffee Tables",
+    "category": "Coffee & Side Tables",
     "qty": 1,
     "listEur": 2142,
     "outletEur": 1180,
@@ -4270,7 +4225,7 @@
     "id": 386,
     "brand": "B&B Italia",
     "name": "Pablo Sofa",
-    "category": "Outdoor Sofas",
+    "category": "Outdoor Seating",
     "dims": "210 × 113,5 cm H: 52,5/72,5 cm",
     "listEur": 16519,
     "outletEur": 9085,
@@ -4282,13 +4237,14 @@
       "photos/life/bb-italia-pablo-sofa-life1.webp",
       "photos/life/bb-italia-pablo-sofa-life2.webp",
       "photos/life/bb-italia-pablo-sofa-life3.webp"
-    ]
+    ],
+    "section": "OUTDOOR"
   },
   {
     "id": 387,
     "brand": "B&B Italia",
     "name": "Pablo Sofa",
-    "category": "Outdoor Sofas",
+    "category": "Outdoor Seating",
     "dims": "210 × 113,5 cm H: 52,5/72,5 cm",
     "listEur": 16519,
     "outletEur": 9085,
@@ -4300,23 +4256,8 @@
       "photos/life/bb-italia-pablo-sofa-life1.webp",
       "photos/life/bb-italia-pablo-sofa-life2.webp",
       "photos/life/bb-italia-pablo-sofa-life3.webp"
-    ]
-  },
-  {
-    "id": 389,
-    "brand": "B&B Italia",
-    "name": "Erica Sofa",
-    "category": "Sofas",
-    "dims": "216 × 96 cm H: 37,5/65,5 cm",
-    "listEur": 10116,
-    "outletEur": 5565,
-    "saleEur": 5565,
-    "discountPct": 45,
-    "qty": 2,
-    "dekupe": "photos/dekupe/bb-italia-erica-sofa-3.webp",
-    "lifes": [
-      "photos/life/bb-italia-erica-sofa-3.webp"
-    ]
+    ],
+    "section": "OUTDOOR"
   },
   {
     "id": 390,
@@ -4332,7 +4273,8 @@
     "dekupe": "photos/dekupe/roda-astra-lounge-chair.webp",
     "lifes": [
       "photos/life/roda-astra-lounge-chair.webp"
-    ]
+    ],
+    "section": "OUTDOOR"
   },
   {
     "id": 391,
@@ -4348,7 +4290,8 @@
     "dekupe": "photos/dekupe/bb-bay-small-armchair-2.webp",
     "lifes": [
       "photos/life/bb-bay-small-armchair-2.webp"
-    ]
+    ],
+    "section": "OUTDOOR"
   },
   {
     "id": 392,
@@ -4364,13 +4307,14 @@
     "dekupe": "photos/dekupe/roda-astra-lounge-chair.webp",
     "lifes": [
       "photos/life/roda-astra-lounge-chair-2.webp"
-    ]
+    ],
+    "section": "OUTDOOR"
   },
   {
     "id": 393,
     "brand": "Roda",
     "name": "Astra Sofa",
-    "category": "Outdoor Sofas",
+    "category": "Outdoor Seating",
     "dims": "190 × 92 cm H: 36/77 cm",
     "listEur": 10368,
     "outletEur": 5705,
@@ -4380,7 +4324,8 @@
     "dekupe": "photos/dekupe/roda-astra-sofa.webp",
     "lifes": [
       "photos/life/roda-astra-sofa.webp"
-    ]
+    ],
+    "section": "OUTDOOR"
   },
   {
     "id": 394,
@@ -4396,14 +4341,15 @@
     "dekupe": "photos/dekupe/maxalto-dives-sofa.webp",
     "lifes": [
       "photos/life/maxalto-dives-sofa.webp"
-    ]
+    ],
+    "section": "INDOOR"
   },
   {
     "id": 396,
     "brand": "Maxalto",
     "name": "Nidus Pouf",
     "section": "INDOOR",
-    "category": "Ottomans & Poufs",
+    "category": "Poufs & Ottomans",
     "qty": 1,
     "listEur": 3060,
     "outletEur": 1685,
@@ -4437,7 +4383,7 @@
     "brand": "B&B Italia",
     "name": "Mera Small Table",
     "section": "INDOOR",
-    "category": "Coffee Tables",
+    "category": "Coffee & Side Tables",
     "qty": 1,
     "listEur": 3645,
     "outletEur": 2005,
@@ -4523,7 +4469,7 @@
     "brand": "Gallotti & Radice",
     "name": "Stami Pouf",
     "section": "INDOOR",
-    "category": "Ottomans & Poufs",
+    "category": "Poufs & Ottomans",
     "qty": 1,
     "listEur": 2256,
     "outletEur": 1240,
@@ -4533,6 +4479,198 @@
     "dekupe": "photos/dekupe/gallotti-radice-stami-pouf.webp",
     "lifes": [
       "photos/life/gallotti-radice-stami-pouf.webp"
+    ]
+  },
+  {
+    "id": 404,
+    "brand": "Maxalto",
+    "name": "Caratos Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 18624,
+    "outletEur": 10245,
+    "saleEur": 10245,
+    "discountPct": 45,
+    "dims": "60 × 60,5 cm H: 48/65/80,5 cm · İndirimli 6 adet fiyatı:",
+    "dekupe": "photos/dekupe/maxalto-caratos.webp",
+    "lifes": [
+      "photos/life/maxalto-caratos-life.webp",
+      "photos/life/maxalto-caratos-life-2.webp",
+      "photos/dekupe/maxalto-caratos-2.webp"
+    ]
+  },
+  {
+    "id": 405,
+    "brand": "Flexform",
+    "name": "Zeus Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 18980,
+    "outletEur": 10500,
+    "saleEur": 10500,
+    "discountPct": 45,
+    "dims": "246 × 90 cm H: 36/68 cm",
+    "dekupe": "photos/dekupe/flexform-zeus-new.webp",
+    "lifes": [
+      "photos/life/flexform-zeus-life2.webp",
+      "photos/life/flexform-zeus.webp"
+    ]
+  },
+  {
+    "id": 406,
+    "brand": "Vitra",
+    "name": "Elliptical Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 2142,
+    "outletEur": 1075,
+    "saleEur": 1075,
+    "discountPct": 50,
+    "dims": "230 × 75 cm H: 25 cm",
+    "dekupe": "photos/dekupe/vitra-elliptical-table.webp",
+    "lifes": [
+      "photos/life/vitra-elliptical-table.webp"
+    ]
+  },
+  {
+    "id": 407,
+    "brand": "Cassina",
+    "name": "Soriana Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 11976,
+    "outletEur": 8385,
+    "saleEur": 8385,
+    "discountPct": 30,
+    "dims": "160 × 90 cm H: 30/60 cm",
+    "dekupe": "photos/dekupe/cassina-soriana-sofa.webp",
+    "lifes": [
+      "photos/life/cassina-soriana-sofa-1.webp",
+      "photos/life/cassina-soriana-sofa-2.webp"
+    ]
+  },
+  {
+    "id": 408,
+    "brand": "B&B Italia",
+    "name": "Heri O Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 3,
+    "listEur": 5763,
+    "outletEur": 3170,
+    "saleEur": 3170,
+    "discountPct": 45,
+    "dims": "60 × 60 cm H: 40/65 cm · İndirimli 3 adet fiyatı:",
+    "dekupe": "photos/dekupe/bb-heri-o.webp",
+    "lifes": [
+      "photos/life/bb-heri-o-life2.webp",
+      "photos/life/bb-heri-o-life3.webp",
+      "photos/dekupe/bb-heri-o-cream-2.webp"
+    ]
+  },
+  {
+    "id": 409,
+    "brand": "Maxalto",
+    "name": "Lithos Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 4640,
+    "outletEur": 1500,
+    "saleEur": 1500,
+    "discountPct": 68,
+    "dims": "90 × 90 cm H: 40 cm",
+    "dekupe": "photos/dekupe/maxalto-lithos-coffee-table.webp",
+    "lifes": []
+  },
+  {
+    "id": 410,
+    "brand": "Gandia Blasco",
+    "name": "Aram Low Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 384,
+    "outletEur": 215,
+    "saleEur": 215,
+    "discountPct": 44,
+    "dims": "Ø41 cm H: 25 cm",
+    "dekupe": "photos/dekupe/gandia-blasco-aram-low-table.webp",
+    "lifes": [
+      "photos/life/gandia-blasco-aram-low-table-1.webp"
+    ]
+  },
+  {
+    "id": 411,
+    "brand": "Fermob",
+    "name": "Outdoor Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 190,
+    "outletEur": 190,
+    "saleEur": 190,
+    "discountPct": 0,
+    "dims": "57 × 57 cm H: 75 cm",
+    "dekupe": "photos/dekupe/fermob-outdoor-table-57.webp",
+    "lifes": [
+      "photos/life/fermob-outdoor-table-57-1.webp"
+    ]
+  },
+  {
+    "id": 412,
+    "brand": "Maxalto",
+    "name": "Amphora Night Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 3238,
+    "outletEur": 2500,
+    "saleEur": 2500,
+    "discountPct": 23,
+    "dims": "63,5 × 48 cm H: 52,5 cm",
+    "dekupe": "photos/dekupe/maxalto-amphora-night-table.webp",
+    "lifes": [
+      "photos/life/maxalto-amphora-night-table-2.webp",
+      "photos/life/maxalto-amphora-night-table-1.webp"
+    ]
+  },
+  {
+    "id": 413,
+    "brand": "B&B Italia",
+    "name": "Surface Unit",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 5722,
+    "outletEur": 3500,
+    "saleEur": 3500,
+    "discountPct": 39,
+    "dims": "150 × 70 cm H: 38 cm",
+    "dekupe": "photos/dekupe/bb-italia-surface-unit.webp",
+    "lifes": [
+      "photos/life/bb-italia-surface-unit-1.webp"
+    ]
+  },
+  {
+    "id": 414,
+    "brand": "Vitra",
+    "name": "Noguchi Rocking Stool",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 1,
+    "listEur": 800,
+    "outletEur": 400,
+    "saleEur": 400,
+    "discountPct": 50,
+    "dims": "Ø35 cm H: 40 cm",
+    "dekupe": "photos/dekupe/vitra-noguchi-rocking-stool.webp",
+    "lifes": [
+      "photos/life/vitra-noguchi-rocking-stool-1.webp"
     ]
   }
 ]
