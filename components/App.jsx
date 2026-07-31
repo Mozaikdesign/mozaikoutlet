@@ -420,8 +420,6 @@ function App() {
         </div>
       </main>
 
-      <BrandStrip products={catalogue}/>
-
       <Footer onShopFilter={(action) => {
         setFilters({
           section: action.section || 'All',

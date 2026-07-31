@@ -310,23 +310,6 @@
     ]
   },
   {
-    "id": 23,
-    "brand": "Zanotta",
-    "name": "Gilda Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 15813,
-    "outletEur": 7000,
-    "saleEur": 7000,
-    "discountPct": 56,
-    "dims": "79 x 85-113 cm H:39/70-93cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/zanotta-gilda-armchair.webp",
-    "lifes": [
-      "photos/life/zanotta-gilda-life.webp"
-    ]
-  },
-  {
     "id": 25,
     "brand": "Flexform",
     "name": "Magnum Armchair",
