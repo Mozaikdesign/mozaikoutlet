@@ -258,23 +258,6 @@
     ]
   },
   {
-    "id": 18,
-    "brand": "Knoll",
-    "name": "Klismos Day Bed",
-    "section": "INDOOR",
-    "category": "Beds & Daybeds",
-    "qty": 1,
-    "listEur": 11232,
-    "outletEur": 4500,
-    "saleEur": 4500,
-    "discountPct": 60,
-    "dims": "155x85cm H:87cm",
-    "dekupe": "photos/dekupe/knoll-klismos-day-bed-2.webp",
-    "lifes": [
-      "photos/dekupe/knoll-klismos-daybed-3.webp"
-    ]
-  },
-  {
     "id": 19,
     "brand": "Maxalto",
     "name": "Febo Day Bed",
@@ -807,23 +790,6 @@
     "lifes": [
       "photos/life/flexform-feel-good-ottoman-1.webp",
       "photos/life/flexform-feel-good-ottoman-2.webp"
-    ]
-  },
-  {
-    "id": 208,
-    "brand": "Knoll",
-    "name": "Florence Credenza Unit",
-    "section": "INDOOR",
-    "category": "Storage & Bookcases",
-    "qty": 1,
-    "listEur": 13196,
-    "outletEur": 7000,
-    "saleEur": 7000,
-    "discountPct": 47,
-    "dims": "190 x 46cm H:64,5cm",
-    "dekupe": "photos/dekupe/knoll-florence-credenza-cover.webp",
-    "lifes": [
-      "photos/dekupe/knoll-florence-credenza-3.webp"
     ]
   },
   {
@@ -3659,23 +3625,6 @@
     "lifes": []
   },
   {
-    "id": 348,
-    "brand": "Belux",
-    "name": "Disk LED Floor Lamp",
-    "section": "LIGHTING",
-    "category": "Floor Lamps",
-    "qty": 1,
-    "listEur": 2950,
-    "outletEur": 1200,
-    "saleEur": 1200,
-    "discountPct": 59,
-    "dims": "2 adet mevcut",
-    "dekupe": "photos/dekupe/belux-disk-led-floor.webp",
-    "lifes": [
-      "photos/life/belux-disk-led-floor-life.webp"
-    ]
-  },
-  {
     "id": 349,
     "brand": "Tobias Grau",
     "name": "XT Floor Lamp",
@@ -4654,6 +4603,195 @@
     "dekupe": "photos/dekupe/vitra-noguchi-rocking-stool.webp",
     "lifes": [
       "photos/life/vitra-noguchi-rocking-stool-1.webp"
+    ]
+  },
+  {
+    "id": 415,
+    "brand": "Cappellini",
+    "name": "Sofa With Arms",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 3794,
+    "outletEur": 2090,
+    "saleEur": 2090,
+    "discountPct": 45,
+    "dims": "62 x 92cm H:38/65,5cm",
+    "dekupe": "photos/dekupe/cappellini-sofa-with-arms.webp",
+    "lifes": [
+      "photos/life/cappellini-sofa-with-arms-life.webp"
+    ]
+  },
+  {
+    "id": 416,
+    "brand": "Zanotta",
+    "name": "Demountable Flowerpot",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 1134,
+    "outletEur": 625,
+    "saleEur": 625,
+    "discountPct": 45,
+    "dims": "H:155cm",
+    "dekupe": "photos/dekupe/zanotta-demountable-flowerpot.webp",
+    "lifes": [
+      "photos/life/zanotta-demountable-flowerpot-life.webp",
+      "photos/life/zanotta-demountable-flowerpot-life2.webp"
+    ]
+  },
+  {
+    "id": 417,
+    "brand": "Maxalto",
+    "name": "Febo Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 8,
+    "listEur": 13944,
+    "outletEur": 7670,
+    "saleEur": 7670,
+    "discountPct": 45,
+    "dims": "50,5 x 55cm H:48/79cm · İndirimli 8 adet fiyatı:",
+    "dekupe": "photos/dekupe/maxalto-febo-chair-grey.webp",
+    "lifes": [
+      "photos/life/maxalto-febo-chair-grey-life.webp"
+    ]
+  },
+  {
+    "id": 418,
+    "brand": "Maxalto",
+    "name": "Febo Armchair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 2,
+    "listEur": 6414,
+    "outletEur": 3530,
+    "saleEur": 3530,
+    "discountPct": 45,
+    "dims": "69 x 75,5cm H:39/92,5cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/maxalto-febo-armchair-gold.webp",
+    "lifes": [
+      "photos/life/maxalto-febo-armchair-gold-life.webp"
+    ]
+  },
+  {
+    "id": 419,
+    "brand": "Maxalto",
+    "name": "Febo Ottoman",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 2,
+    "listEur": 2504,
+    "outletEur": 1380,
+    "saleEur": 1380,
+    "discountPct": 45,
+    "dims": "50 x 50cm H:40cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/maxalto-febo-ottoman.webp",
+    "lifes": [
+      "photos/life/maxalto-febo-ottoman-life.webp"
+    ]
+  },
+  {
+    "id": 420,
+    "brand": "B&B Italia",
+    "name": "Lazy Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 3674,
+    "outletEur": 2020,
+    "saleEur": 2020,
+    "discountPct": 45,
+    "dims": "70 x 72cm H:34/74cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/bb-lazy-armchair.webp",
+    "lifes": [
+      "photos/life/bb-lazy-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 421,
+    "brand": "B&B Italia",
+    "name": "Do Maru Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 7381,
+    "outletEur": 4060,
+    "saleEur": 4060,
+    "discountPct": 45,
+    "dims": "77 x 66,5cm H:39/71,5cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/bb-do-maru-armchair.webp",
+    "lifes": [
+      "photos/life/bb-do-maru-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 422,
+    "brand": "Maxalto",
+    "name": "Lithos Ottoman",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 1,
+    "listEur": 1528,
+    "outletEur": 840,
+    "saleEur": 840,
+    "discountPct": 45,
+    "dims": "Ø40cm H:45,5cm",
+    "dekupe": "photos/dekupe/maxalto-lithos-ottoman.webp",
+    "lifes": [
+      "photos/life/maxalto-lithos-ottoman-life.webp"
+    ]
+  },
+  {
+    "id": 423,
+    "brand": "Maxalto",
+    "name": "Pathos Console",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 2,
+    "listEur": 7264,
+    "outletEur": 3995,
+    "saleEur": 3995,
+    "discountPct": 45,
+    "dims": "80 x 56cm H:66cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/maxalto-pathos-console.webp",
+    "lifes": [
+      "photos/life/maxalto-pathos-console-life.webp"
+    ]
+  },
+  {
+    "id": 424,
+    "brand": "Gervasoni",
+    "name": "Loll Lounge Seat And Pouf",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 4256,
+    "outletEur": 2340,
+    "saleEur": 2340,
+    "discountPct": 45,
+    "dims": "90 x 100cm H:42/87cm",
+    "dekupe": "photos/dekupe/gervasoni-loll-lounge-seat-pouf.webp",
+    "lifes": [
+      "photos/life/gervasoni-loll-lounge-seat-pouf-life.webp"
+    ]
+  },
+  {
+    "id": 425,
+    "brand": "B&B Italia",
+    "name": "Nooch Outdoor Coffee Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 4795,
+    "outletEur": 2640,
+    "saleEur": 2640,
+    "discountPct": 45,
+    "dims": "135 x 95cm H:25cm",
+    "dekupe": "photos/dekupe/bb-nooch-outdoor-coffee-table.webp",
+    "lifes": [
+      "photos/life/bb-nooch-outdoor-coffee-table-life.webp",
+      "photos/life/bb-nooch-outdoor-coffee-table-life2.webp"
     ]
   }
 ]
