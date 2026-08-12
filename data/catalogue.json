@@ -811,23 +811,6 @@
     ]
   },
   {
-    "id": 88,
-    "brand": "Vitra",
-    "name": "ESU Shelf",
-    "section": "INDOOR",
-    "category": "Storage & Bookcases",
-    "qty": 1,
-    "listEur": 2754,
-    "outletEur": 1928,
-    "saleEur": 1515,
-    "discountPct": 45,
-    "dims": "179,5 cm x 42 cm h:117,5 cm",
-    "dekupe": "photos/dekupe/vitra-esu-shelf.webp",
-    "lifes": [
-      "photos/dekupe/vitra-esu-shelf.webp"
-    ]
-  },
-  {
     "id": 89,
     "brand": "B&B Italia",
     "name": "Liago Storage Unit",
@@ -886,9 +869,9 @@
     "saleEur": 1200,
     "discountPct": 58,
     "dims": "H:120cm",
-    "dekupe": "photos/dekupe/maxalto-windscreen-3-elements.webp",
+    "dekupe": "photos/dekupe/maxalto-windscreen-3-elements-v2.webp",
     "lifes": [
-      "photos/dekupe/maxalto-windscreen-2.webp"
+      "photos/life/maxalto-windscreen-3-elements-life.webp"
     ]
   },
   {
@@ -2185,21 +2168,6 @@
     "discountPct": 46,
     "dims": "1.700 € · indirimli adet fiyatı",
     "dekupe": "photos/dekupe/roda-double-35-36-pouf.webp",
-    "lifes": []
-  },
-  {
-    "id": 184,
-    "brand": "Paola Lenti",
-    "name": "Otto Cylindrical Pouf",
-    "section": "OUTDOOR",
-    "category": "Outdoor Accents",
-    "qty": 2,
-    "listEur": 1150,
-    "outletEur": 805,
-    "saleEur": 650,
-    "discountPct": 43,
-    "dims": "Ø 48cm h: 46 cm",
-    "dekupe": "photos/dekupe/paola-lenti-otto-cylindrical-pouf.webp",
     "lifes": []
   },
   {
@@ -4209,23 +4177,6 @@
     "section": "OUTDOOR"
   },
   {
-    "id": 391,
-    "brand": "B&B Italia",
-    "name": "Bay Small Armchair",
-    "category": "Chairs",
-    "dims": "92,5 × 82 cm H: 42,5/75 cm",
-    "listEur": 4106,
-    "outletEur": 2260,
-    "saleEur": 2260,
-    "discountPct": 45,
-    "qty": 2,
-    "dekupe": "photos/dekupe/bb-bay-small-armchair-2.webp",
-    "lifes": [
-      "photos/life/bb-bay-small-armchair-2.webp"
-    ],
-    "section": "OUTDOOR"
-  },
-  {
     "id": 392,
     "brand": "Roda",
     "name": "Astra Lounge Chair",
@@ -4376,41 +4327,6 @@
     "dekupe": "photos/dekupe/roda-laze-059-armchair.webp",
     "lifes": [
       "photos/life/roda-laze-059-armchair.webp"
-    ]
-  },
-  {
-    "id": 402,
-    "brand": "Gallotti & Radice",
-    "name": "Stami Vanity Desk",
-    "section": "INDOOR",
-    "category": "Tables & Consoles",
-    "qty": 1,
-    "listEur": 9324,
-    "outletEur": 5130,
-    "saleEur": 5130,
-    "discountPct": 45,
-    "dims": "140 × 60 cm H: 76 cm",
-    "dekupe": "photos/dekupe/gallotti-radice-stami-vanity-desk.webp",
-    "lifes": [
-      "photos/life/gallotti-radice-stami-vanity-desk.webp",
-      "photos/life/gallotti-radice-stami-vanity-desk-2.webp"
-    ]
-  },
-  {
-    "id": 403,
-    "brand": "Gallotti & Radice",
-    "name": "Stami Pouf",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 1,
-    "listEur": 2256,
-    "outletEur": 1240,
-    "saleEur": 1240,
-    "discountPct": 45,
-    "dims": "",
-    "dekupe": "photos/dekupe/gallotti-radice-stami-pouf.webp",
-    "lifes": [
-      "photos/life/gallotti-radice-stami-pouf.webp"
     ]
   },
   {
@@ -4669,9 +4585,9 @@
     "saleEur": 3530,
     "discountPct": 45,
     "dims": "69 x 75,5cm H:39/92,5cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/maxalto-febo-armchair-gold.webp",
+    "dekupe": "photos/dekupe/maxalto-febo-bergere.webp",
     "lifes": [
-      "photos/life/maxalto-febo-armchair-gold-life.webp"
+      "photos/life/maxalto-febo-bergere-life.webp"
     ]
   },
   {
@@ -4706,23 +4622,6 @@
     "dekupe": "photos/dekupe/bb-lazy-armchair.webp",
     "lifes": [
       "photos/life/bb-lazy-armchair-life.webp"
-    ]
-  },
-  {
-    "id": 421,
-    "brand": "B&B Italia",
-    "name": "Do Maru Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 7381,
-    "outletEur": 4060,
-    "saleEur": 4060,
-    "discountPct": 45,
-    "dims": "77 x 66,5cm H:39/71,5cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/bb-do-maru-armchair.webp",
-    "lifes": [
-      "photos/life/bb-do-maru-armchair-life.webp"
     ]
   },
   {
@@ -4792,6 +4691,514 @@
     "lifes": [
       "photos/life/bb-nooch-outdoor-coffee-table-life.webp",
       "photos/life/bb-nooch-outdoor-coffee-table-life2.webp"
+    ]
+  },
+  {
+    "id": 426,
+    "brand": "Maxalto",
+    "name": "Lithos Square Small Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 2,
+    "listEur": 5045,
+    "outletEur": 2775,
+    "saleEur": 2775,
+    "discountPct": 45,
+    "dims": "90 x 90cm H:39cm · (1 adet fiyatıdır)",
+    "dekupe": "photos/dekupe/maxalto-lithos-square-small-table.webp",
+    "lifes": [
+      "photos/life/maxalto-lithos-square-small-table-life.webp"
+    ]
+  },
+  {
+    "id": 427,
+    "brand": "Maxalto",
+    "name": "Lithos Ottoman",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 1,
+    "listEur": 1530,
+    "outletEur": 845,
+    "saleEur": 845,
+    "discountPct": 45,
+    "dims": "Ø40cm H:45,5cm",
+    "dekupe": "photos/dekupe/maxalto-lithos-ottoman-natural.webp",
+    "lifes": [
+      "photos/life/maxalto-lithos-ottoman-natural-life.webp"
+    ]
+  },
+  {
+    "id": 428,
+    "brand": "Maxalto",
+    "name": "Lithos Square Small Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 2,
+    "listEur": 2250,
+    "outletEur": 1240,
+    "saleEur": 1240,
+    "discountPct": 45,
+    "dims": "45 x 45cm H:39cm · (1 adet fiyatıdır)",
+    "dekupe": "photos/dekupe/maxalto-lithos-square-small-table-45.webp",
+    "lifes": [
+      "photos/life/maxalto-lithos-square-small-table-45-life.webp"
+    ]
+  },
+  {
+    "id": 429,
+    "brand": "B&B Italia",
+    "name": "Fat Sofa Outdoor Ottoman",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 2,
+    "listEur": 2112,
+    "outletEur": 1161,
+    "saleEur": 1161,
+    "discountPct": 45,
+    "dims": "Ø61cm H:46cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/bb-fat-sofa-outdoor-ottoman.webp",
+    "lifes": [
+      "photos/life/bb-fat-sofa-outdoor-ottoman-life.webp"
+    ]
+  },
+  {
+    "id": 430,
+    "brand": "Maxalto",
+    "name": "Lithos Ottoman",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 2,
+    "listEur": 1675,
+    "outletEur": 925,
+    "saleEur": 925,
+    "discountPct": 45,
+    "dims": "Ø40cm H:45,5cm · (1 adet fiyatıdır)",
+    "dekupe": "photos/dekupe/maxalto-lithos-ottoman-leather.webp",
+    "lifes": [
+      "photos/life/maxalto-lithos-ottoman-leather-life.webp"
+    ]
+  },
+  {
+    "id": 431,
+    "brand": "B&B Italia",
+    "name": "Flair O Maxi Small Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 2759,
+    "outletEur": 1520,
+    "saleEur": 1520,
+    "discountPct": 45,
+    "dims": "68 x 63cm H:41/68cm",
+    "dekupe": "photos/dekupe/bb-flair-o-maxi-small-armchair.webp",
+    "lifes": [
+      "photos/life/bb-flair-o-maxi-small-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 432,
+    "brand": "Maxalto",
+    "name": "Aurae Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 17926,
+    "outletEur": 9860,
+    "saleEur": 9860,
+    "discountPct": 45,
+    "dims": "290 x 105cm H:43/63/90cm",
+    "dekupe": "photos/dekupe/maxalto-aurae-sofa.webp",
+    "lifes": [
+      "photos/life/maxalto-aurae-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 434,
+    "brand": "B&B Italia",
+    "name": "Softcage Armchair Outdoor",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 2,
+    "listEur": 11964,
+    "outletEur": 6580,
+    "saleEur": 6580,
+    "discountPct": 45,
+    "dims": "100 x 85cm H:40/65cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/bb-softcage-armchair.webp",
+    "lifes": [
+      "photos/life/bb-softcage-armchair-outdoor-life.webp"
+    ]
+  },
+  {
+    "id": 436,
+    "brand": "B&B Italia",
+    "name": "Flair O Maxi Small Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 2643,
+    "outletEur": 1455,
+    "saleEur": 1455,
+    "discountPct": 45,
+    "dims": "68 x 63cm H:41/68cm",
+    "dekupe": "photos/dekupe/bb-flair-o-maxi-small-armchair.webp",
+    "lifes": [
+      "photos/life/bb-flair-o-maxi-small-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 437,
+    "brand": "Roda",
+    "name": "Piper Coffee Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 1248,
+    "outletEur": 690,
+    "saleEur": 690,
+    "discountPct": 45,
+    "dims": "60 x 55cm H:54cm",
+    "dekupe": "photos/dekupe/roda-piper-coffee-table.webp",
+    "lifes": [
+      "photos/life/roda-piper-coffee-table-life.webp"
+    ]
+  },
+  {
+    "id": 438,
+    "brand": "Andreu World",
+    "name": "Valencia Stool",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 1,
+    "listEur": 1247,
+    "outletEur": 685,
+    "saleEur": 685,
+    "discountPct": 45,
+    "dims": "Ø38cm H:45cm",
+    "dekupe": "photos/dekupe/andreu-world-valencia-stool.webp",
+    "lifes": [
+      "photos/life/andreu-world-valencia-stool-life2.webp",
+      "photos/life/andreu-world-valencia-stool-life.webp"
+    ]
+  },
+  {
+    "id": 439,
+    "brand": "B&B Italia",
+    "name": "Frank Ottoman Outdoor",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 2,
+    "listEur": 2004,
+    "outletEur": 1105,
+    "saleEur": 1105,
+    "discountPct": 45,
+    "dims": "59 x 40cm H:40cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/bb-frank-ottoman-outdoor.webp",
+    "lifes": [
+      "photos/life/bb-frank-ottoman-outdoor-life.webp",
+      "photos/life/bb-frank-ottoman-outdoor-life2.webp"
+    ]
+  },
+  {
+    "id": 440,
+    "brand": "Knoll",
+    "name": "Pillo Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 16606,
+    "outletEur": 9135,
+    "saleEur": 9135,
+    "discountPct": 45,
+    "dims": "292 x 108cm H:46/90cm",
+    "dekupe": "photos/dekupe/knoll-pillo-sofa.webp",
+    "lifes": [
+      "photos/life/knoll-pillo-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 441,
+    "brand": "Maxalto",
+    "name": "Florius Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 32340,
+    "outletEur": 17790,
+    "saleEur": 17790,
+    "discountPct": 45,
+    "dims": "330 x 105cm H:42/90cm",
+    "dekupe": "photos/dekupe/maxalto-florius-sofa.webp",
+    "lifes": [
+      "photos/life/maxalto-florius-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 442,
+    "brand": "Flos",
+    "name": "Snoopy Table Lamp",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 1390,
+    "outletEur": 973,
+    "saleEur": 973,
+    "discountPct": 30,
+    "dims": "Ø39,4cm H:36,9cm",
+    "dekupe": "photos/dekupe/flos-snoopy-table-lamp.webp",
+    "lifes": [
+      "photos/life/flos-snoopy-table-lamp-life.webp"
+    ]
+  },
+  {
+    "id": 443,
+    "brand": "Maxalto",
+    "name": "Arbiter Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 16875,
+    "outletEur": 9285,
+    "saleEur": 9285,
+    "discountPct": 45,
+    "dims": "270 x 110cm H:30/60cm",
+    "dekupe": "photos/dekupe/maxalto-arbiter-sofa.webp",
+    "lifes": [
+      "photos/life/maxalto-arbiter-sofa-life3.webp",
+      "photos/life/maxalto-arbiter-sofa-life2.webp",
+      "photos/life/maxalto-arbiter-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 444,
+    "brand": "Azucena",
+    "name": "Cilindro Ottoman",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 2,
+    "listEur": 2868,
+    "outletEur": 1580,
+    "saleEur": 1580,
+    "discountPct": 45,
+    "dims": "Ø38cm H:43cm · (1 adet fiyatıdır)",
+    "dekupe": "photos/dekupe/azucena-cilindro-ottoman.webp",
+    "lifes": []
+  },
+  {
+    "id": 445,
+    "brand": "B&B Italia",
+    "name": "Formiche Small Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 1940,
+    "outletEur": 1070,
+    "saleEur": 1070,
+    "discountPct": 45,
+    "dims": "Ø49cm H:52cm",
+    "dekupe": "photos/dekupe/bb-formiche-small-table-49.webp",
+    "lifes": [
+      "photos/life/bb-formiche-small-table-49-life.webp"
+    ]
+  },
+  {
+    "id": 446,
+    "brand": "B&B Italia",
+    "name": "Formiche Small Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 1566,
+    "outletEur": 865,
+    "saleEur": 865,
+    "discountPct": 45,
+    "dims": "Ø42cm H:51cm",
+    "dekupe": "photos/dekupe/bb-formiche-small-table-42.webp",
+    "lifes": [
+      "photos/life/bb-formiche-small-table-42-life.webp"
+    ]
+  },
+  {
+    "id": 447,
+    "brand": "B&B Italia",
+    "name": "Formiche Small Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 2196,
+    "outletEur": 1210,
+    "saleEur": 1210,
+    "discountPct": 45,
+    "dims": "Ø69cm H:41cm",
+    "dekupe": "photos/dekupe/bb-formiche-small-table-69.webp",
+    "lifes": []
+  },
+  {
+    "id": 448,
+    "brand": "B&B Italia",
+    "name": "Ace 8",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 4526,
+    "outletEur": 2490,
+    "saleEur": 2490,
+    "discountPct": 45,
+    "dims": "60 x 45cm H:64cm",
+    "dekupe": "photos/dekupe/bb-ace-8.webp",
+    "lifes": []
+  },
+  {
+    "id": 449,
+    "brand": "B&B Italia",
+    "name": "Surface",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 2,
+    "listEur": 5710,
+    "outletEur": 3140,
+    "saleEur": 3140,
+    "discountPct": 45,
+    "dims": "76 x 45cm H:47cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/bb-surface-76.webp",
+    "lifes": [
+      "photos/life/bb-surface-76-life.webp"
+    ]
+  },
+  {
+    "id": 450,
+    "brand": "Maxalto",
+    "name": "Caratos High Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 6516,
+    "outletEur": 3590,
+    "saleEur": 3590,
+    "discountPct": 45,
+    "dims": "80 x 76,5cm H:43,5/94cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/maxalto-caratos-high-armchair.webp",
+    "lifes": [
+      "photos/life/maxalto-caratos-high-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 451,
+    "brand": "B&B Italia",
+    "name": "Eucalipto Unit",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 8144,
+    "outletEur": 4480,
+    "saleEur": 4480,
+    "discountPct": 45,
+    "dims": "240 x 55cm H:67cm",
+    "dekupe": "photos/dekupe/bb-eucalipto-unit-v2.webp",
+    "lifes": [
+      "photos/life/bb-eucalipto-unit-life.webp"
+    ]
+  },
+  {
+    "id": 452,
+    "brand": "B&B Italia",
+    "name": "Frank Service Element",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 2905,
+    "outletEur": 1600,
+    "saleEur": 1600,
+    "discountPct": 45,
+    "dims": "200 x 40cm H:68cm",
+    "dekupe": "photos/dekupe/bb-frank-service-element.webp",
+    "lifes": [
+      "photos/life/bb-frank-service-element-life.webp"
+    ]
+  },
+  {
+    "id": 453,
+    "brand": "B&B Italia",
+    "name": "Atoll Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 14760,
+    "outletEur": 8120,
+    "saleEur": 8120,
+    "discountPct": 45,
+    "dims": "190 x 97cm H:40/66cm",
+    "dekupe": "photos/dekupe/bb-atoll-sofa-190.webp",
+    "lifes": [
+      "photos/life/bb-atoll-sofa-190-life.webp"
+    ]
+  },
+  {
+    "id": 454,
+    "brand": "Maxalto",
+    "name": "Windscreen 3 Elements",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 7750,
+    "outletEur": 4265,
+    "saleEur": 4265,
+    "discountPct": 45,
+    "dims": "H:120cm",
+    "dekupe": "photos/dekupe/maxalto-windscreen-3-elements-v2.webp",
+    "lifes": [
+      "photos/life/maxalto-windscreen-3-elements-life.webp"
+    ]
+  },
+  {
+    "id": 455,
+    "brand": "Maison Dada",
+    "name": "Memphis Candleholders No-4",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 2,
+    "listEur": 732,
+    "outletEur": 405,
+    "saleEur": 405,
+    "discountPct": 45,
+    "dims": "H:50cm · (1 adet fiyatıdır)",
+    "dekupe": "photos/dekupe/maison-dada-memphis-candleholder-4.webp",
+    "lifes": [
+      "photos/life/maison-dada-memphis-candleholder-4-life.webp"
+    ]
+  },
+  {
+    "id": 456,
+    "brand": "Maxalto",
+    "name": "Clio Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 3803,
+    "outletEur": 2095,
+    "saleEur": 2095,
+    "discountPct": 45,
+    "dims": "66 x 90cm H:52/76cm",
+    "dekupe": "photos/dekupe/maxalto-clio-armchair.webp",
+    "lifes": [
+      "photos/life/maxalto-clio-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 457,
+    "brand": "Roda",
+    "name": "Piper Sofa",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 13750,
+    "outletEur": 7565,
+    "saleEur": 7565,
+    "discountPct": 45,
+    "dims": "269 x 97cm H:51cm",
+    "dekupe": "photos/dekupe/roda-piper-sofa.webp",
+    "lifes": [
+      "photos/life/roda-piper-sofa-life.webp"
     ]
   }
 ]
