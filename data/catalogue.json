@@ -299,11 +299,11 @@
     "section": "INDOOR",
     "category": "Armchairs",
     "qty": 2,
-    "listEur": 10204,
-    "outletEur": 2000,
-    "saleEur": 2000,
+    "listEur": 20408,
+    "outletEur": 4000,
+    "saleEur": 4000,
     "discountPct": 80,
-    "dims": "90x95cm H:64cm",
+    "dims": "90x95cm H:64cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/flexform-magnum-armchair.webp",
     "lifes": [
       "photos/life/flexform-magnum-armchair-life.webp"
@@ -619,24 +619,6 @@
     "dekupe": "photos/dekupe/maxalto-elios-2.webp",
     "lifes": [
       "photos/life/maxalto-elios-life.webp"
-    ]
-  },
-  {
-    "id": 66,
-    "brand": "Living Divani",
-    "name": "Moon Satellite Side Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 2,
-    "listEur": 3858,
-    "outletEur": 3500,
-    "saleEur": 3500,
-    "discountPct": 9,
-    "dims": "Ø40cm h:57cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/living-divani-moon-satellite.webp",
-    "lifes": [
-      "photos/life/living-divani-moon-satellite-2.webp",
-      "photos/life/living-divani-moon-satellite-life.webp"
     ]
   },
   {
@@ -4827,23 +4809,6 @@
     "dekupe": "photos/dekupe/bb-softcage-armchair.webp",
     "lifes": [
       "photos/life/bb-softcage-armchair-outdoor-life.webp"
-    ]
-  },
-  {
-    "id": 436,
-    "brand": "B&B Italia",
-    "name": "Flair O Maxi Small Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 1,
-    "listEur": 2643,
-    "outletEur": 1455,
-    "saleEur": 1455,
-    "discountPct": 45,
-    "dims": "68 x 63cm H:41/68cm",
-    "dekupe": "photos/dekupe/bb-flair-o-maxi-small-armchair.webp",
-    "lifes": [
-      "photos/life/bb-flair-o-maxi-small-armchair-life.webp"
     ]
   },
   {
