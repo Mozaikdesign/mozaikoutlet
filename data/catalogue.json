@@ -154,21 +154,6 @@
     ]
   },
   {
-    "id": 236,
-    "brand": "Maxalto",
-    "name": "Elios Oval Side Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 1525,
-    "outletEur": 700,
-    "saleEur": 700,
-    "discountPct": 54,
-    "dims": "55 x 45cm h:51cm",
-    "dekupe": "photos/dekupe/maxalto-elios-oval-side-table.webp",
-    "lifes": []
-  },
-  {
     "id": 237,
     "brand": "Knoll",
     "name": "Saarinen Side Table",
@@ -908,24 +893,6 @@
     "dekupe": "photos/dekupe/maison-dada-mademoiselle-no1-cover.webp",
     "lifes": [
       "photos/dekupe/maison-dada-mademoiselle-no1.webp"
-    ]
-  },
-  {
-    "id": 99,
-    "brand": "Maison Dada",
-    "name": "Tray Blue",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 350,
-    "outletEur": 245,
-    "saleEur": 245,
-    "discountPct": 30,
-    "dims": "Ø42cm H:64cm",
-    "dekupe": "photos/dekupe/maison-dada-tray-blue-cover.webp",
-    "lifes": [
-      "photos/life/maison-dada-tray-blue-life.webp",
-      "photos/life/maison-dada-tray-blue-life-b.webp"
     ]
   },
   {
@@ -2867,42 +2834,6 @@
     "lifes": []
   },
   {
-    "id": 297,
-    "brand": "Axolight",
-    "name": "Alysoid Big",
-    "section": "LIGHTING",
-    "category": "Pendants & Chandeliers",
-    "qty": 1,
-    "listEur": 1150,
-    "outletEur": 690,
-    "saleEur": 690,
-    "discountPct": 40,
-    "dims": "",
-    "dekupe": "photos/dekupe/axolight-alysoid-big.webp",
-    "lifes": [
-      "photos/life/axolight-alysoid-big-life-1.webp",
-      "photos/life/axolight-alysoid-big-life-2.webp"
-    ]
-  },
-  {
-    "id": 298,
-    "brand": "Axolight",
-    "name": "Alysoid Small",
-    "section": "LIGHTING",
-    "category": "Pendants & Chandeliers",
-    "qty": 1,
-    "listEur": 1075,
-    "outletEur": 645,
-    "saleEur": 645,
-    "discountPct": 40,
-    "dims": "",
-    "dekupe": "photos/dekupe/axolight-alysoid-big.webp",
-    "lifes": [
-      "photos/life/axolight-alysoid-big-life-1.webp",
-      "photos/life/axolight-alysoid-big-life-2.webp"
-    ]
-  },
-  {
     "id": 301,
     "brand": "Tom Dixon",
     "name": "Stone LED Pendant",
@@ -3184,21 +3115,6 @@
     "discountPct": 78,
     "dims": "",
     "dekupe": "photos/dekupe/moooi-double-round-table.webp",
-    "lifes": []
-  },
-  {
-    "id": 319,
-    "brand": "Cappellini",
-    "name": "Melt Down (3'lü)",
-    "section": "LIGHTING",
-    "category": "Pendants & Chandeliers",
-    "qty": 1,
-    "listEur": 1800,
-    "outletEur": 680,
-    "saleEur": 680,
-    "discountPct": 62,
-    "dims": "",
-    "dekupe": "photos/dekupe/cappellini-melt-down-3.webp",
     "lifes": []
   },
   {
@@ -3558,21 +3474,6 @@
     "lifes": [
       "photos/life/pallucco-faro-black-life.webp"
     ]
-  },
-  {
-    "id": 347,
-    "brand": "Flos",
-    "name": "Spun Light Floor",
-    "section": "LIGHTING",
-    "category": "Floor Lamps",
-    "qty": 1,
-    "listEur": 2000,
-    "outletEur": 1120,
-    "saleEur": 1120,
-    "discountPct": 44,
-    "dims": "",
-    "dekupe": "photos/dekupe/flos-spun-light-floor.webp",
-    "lifes": []
   },
   {
     "id": 349,
@@ -4295,23 +4196,6 @@
     ]
   },
   {
-    "id": 401,
-    "brand": "Roda",
-    "name": "Laze 059 Armchair",
-    "section": "OUTDOOR",
-    "category": "Outdoor Chairs",
-    "qty": 8,
-    "listEur": 14160,
-    "outletEur": 7790,
-    "saleEur": 7790,
-    "discountPct": 45,
-    "dims": "59 × 55 cm H: 47/65/81 cm",
-    "dekupe": "photos/dekupe/roda-laze-059-armchair.webp",
-    "lifes": [
-      "photos/life/roda-laze-059-armchair.webp"
-    ]
-  },
-  {
     "id": 404,
     "brand": "Maxalto",
     "name": "Caratos Chair",
@@ -4882,23 +4766,6 @@
     ]
   },
   {
-    "id": 441,
-    "brand": "Maxalto",
-    "name": "Florius Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 32340,
-    "outletEur": 17790,
-    "saleEur": 17790,
-    "discountPct": 45,
-    "dims": "330 x 105cm H:42/90cm",
-    "dekupe": "photos/dekupe/maxalto-florius-sofa.webp",
-    "lifes": [
-      "photos/life/maxalto-florius-sofa-life.webp"
-    ]
-  },
-  {
     "id": 442,
     "brand": "Flos",
     "name": "Snoopy Table Lamp",
@@ -4947,55 +4814,6 @@
     "discountPct": 45,
     "dims": "Ø38cm H:43cm · (1 adet fiyatıdır)",
     "dekupe": "photos/dekupe/azucena-cilindro-ottoman.webp",
-    "lifes": []
-  },
-  {
-    "id": 445,
-    "brand": "B&B Italia",
-    "name": "Formiche Small Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 1940,
-    "outletEur": 1070,
-    "saleEur": 1070,
-    "discountPct": 45,
-    "dims": "Ø49cm H:52cm",
-    "dekupe": "photos/dekupe/bb-formiche-small-table-49.webp",
-    "lifes": [
-      "photos/life/bb-formiche-small-table-49-life.webp"
-    ]
-  },
-  {
-    "id": 446,
-    "brand": "B&B Italia",
-    "name": "Formiche Small Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 1566,
-    "outletEur": 865,
-    "saleEur": 865,
-    "discountPct": 45,
-    "dims": "Ø42cm H:51cm",
-    "dekupe": "photos/dekupe/bb-formiche-small-table-42.webp",
-    "lifes": [
-      "photos/life/bb-formiche-small-table-42-life.webp"
-    ]
-  },
-  {
-    "id": 447,
-    "brand": "B&B Italia",
-    "name": "Formiche Small Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 2196,
-    "outletEur": 1210,
-    "saleEur": 1210,
-    "discountPct": 45,
-    "dims": "Ø69cm H:41cm",
-    "dekupe": "photos/dekupe/bb-formiche-small-table-69.webp",
     "lifes": []
   },
   {
