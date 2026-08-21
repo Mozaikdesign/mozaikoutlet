@@ -2335,10 +2335,10 @@
     "section": "INDOOR",
     "category": "Coffee & Side Tables",
     "qty": 1,
-    "listEur": 13796,
-    "outletEur": 7500,
-    "saleEur": 7500,
-    "discountPct": 46,
+    "listEur": 5829,
+    "outletEur": 3205,
+    "saleEur": 3205,
+    "discountPct": 45,
     "dims": "Ø150cm H:41cm",
     "dekupe": "photos/dekupe/maxalto-xilos-coffee-table.webp",
     "lifes": [
@@ -4982,6 +4982,385 @@
     "dekupe": "photos/dekupe/roda-piper-sofa.webp",
     "lifes": [
       "photos/life/roda-piper-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 458,
+    "brand": "Maxalto",
+    "name": "Caratos Swivel Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 10829,
+    "outletEur": 5955,
+    "saleEur": 5955,
+    "discountPct": 45,
+    "dims": "76,5 x 82 cm H:43,5/105cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/maxalto-caratos-swivel-armchair.webp",
+    "lifes": [
+      "photos/life/maxalto-caratos-swivel-armchair-life.webp",
+      "photos/life/maxalto-caratos-swivel-armchair-life2.webp"
+    ]
+  },
+  {
+    "id": 459,
+    "brand": "Cassina",
+    "name": "Hayama Cabinet",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 8682,
+    "outletEur": 4775,
+    "saleEur": 4775,
+    "discountPct": 45,
+    "dims": "199 x 52 cm H:79cm",
+    "dekupe": "photos/dekupe/cassina-hayama-cabinet.webp",
+    "lifes": [
+      "photos/life/cassina-hayama-cabinet-life.webp",
+      "photos/life/cassina-hayama-cabinet-life2.webp"
+    ]
+  },
+  {
+    "id": 461,
+    "brand": "Cassina",
+    "name": "Sengu Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 4704,
+    "outletEur": 2590,
+    "saleEur": 2590,
+    "discountPct": 45,
+    "dims": "150 x 60 cm H:30cm",
+    "dekupe": "photos/dekupe/cassina-sengu-coffee-table.webp",
+    "lifes": [
+      "photos/life/cassina-sengu-coffee-table-life.webp",
+      "photos/life/cassina-sengu-coffee-table-life2.webp"
+    ]
+  },
+  {
+    "id": 462,
+    "brand": "ClassiCon",
+    "name": "Piega Mirror Medium",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 2,
+    "listEur": 1484,
+    "outletEur": 1040,
+    "saleEur": 1040,
+    "discountPct": 30,
+    "dims": "110 x 62cm · 1 adet fiyatı:",
+    "dekupe": "photos/dekupe/classicon-piega-mirror.webp",
+    "lifes": [
+      "photos/life/classicon-piega-mirror-medium-life4.webp",
+      "photos/life/classicon-piega-mirror-medium-life2.webp",
+      "photos/life/classicon-piega-mirror-medium-life3.webp",
+      "photos/life/classicon-piega-mirror-medium-life5.webp",
+      "photos/life/classicon-piega-mirror-life.webp"
+    ]
+  },
+  {
+    "id": 463,
+    "brand": "ClassiCon",
+    "name": "Piega Mirror Small",
+    "section": "INDOOR",
+    "category": "Objects & Vases",
+    "qty": 1,
+    "listEur": 1172,
+    "outletEur": 820,
+    "saleEur": 820,
+    "discountPct": 30,
+    "dims": "80 x 48cm",
+    "dekupe": "photos/dekupe/classicon-piega-mirror.webp",
+    "lifes": [
+      "photos/life/classicon-piega-mirror-life.webp"
+    ]
+  },
+  {
+    "id": 464,
+    "brand": "B&B Italia",
+    "name": "Husk Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 11280,
+    "outletEur": 6205,
+    "saleEur": 6205,
+    "discountPct": 45,
+    "dims": "61 x 60cm H:51/86cm · İndirimli 6 adet fiyatı:",
+    "dekupe": "photos/dekupe/bb-husk-chair-6set.webp",
+    "lifes": [
+      "photos/life/bb-husk-chair-6set-life.webp"
+    ]
+  },
+  {
+    "id": 465,
+    "brand": "B&B Italia",
+    "name": "Husk Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 1880,
+    "outletEur": 1034,
+    "saleEur": 1034,
+    "discountPct": 45,
+    "dims": "61 x 60cm H:51/86cm",
+    "dekupe": "photos/dekupe/bb-husk-chair-single.webp",
+    "lifes": [
+      "photos/life/bb-husk-chair-single-life.webp"
+    ]
+  },
+  {
+    "id": 466,
+    "brand": "Gallotti & Radice",
+    "name": "Akiko Lounge Chair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 5004,
+    "outletEur": 2755,
+    "saleEur": 2755,
+    "discountPct": 45,
+    "dims": "78,5 x 83,5 cm H:70cm",
+    "dekupe": "photos/dekupe/gallotti-radice-akiko-lounge-chair.webp",
+    "lifes": [
+      "photos/life/gallotti-radice-akiko-lounge-chair-life.webp"
+    ]
+  },
+  {
+    "id": 467,
+    "brand": "Moroso",
+    "name": "Lakelet Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 1685,
+    "outletEur": 930,
+    "saleEur": 930,
+    "discountPct": 45,
+    "dims": "80 x 73cm H:36cm",
+    "dekupe": "photos/dekupe/moroso-lakelet-coffee-table-80.webp",
+    "lifes": [
+      "photos/life/moroso-lakelet-coffee-table-family.webp"
+    ]
+  },
+  {
+    "id": 468,
+    "brand": "Cassina",
+    "name": "Sail Out Pouf",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 1410,
+    "outletEur": 775,
+    "saleEur": 775,
+    "discountPct": 45,
+    "dims": "Ø80cm H:36cm",
+    "dekupe": "photos/dekupe/cassina-sail-out-pouf-80-teal.webp",
+    "lifes": [
+      "photos/life/cassina-sail-out-pouf-80-teal-life.webp"
+    ]
+  },
+  {
+    "id": 469,
+    "brand": "Cassina",
+    "name": "Sail Out Pouf",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 1410,
+    "outletEur": 775,
+    "saleEur": 775,
+    "discountPct": 45,
+    "dims": "Ø80cm H:36cm",
+    "dekupe": "photos/dekupe/cassina-sail-out-pouf-80-grey.webp",
+    "lifes": [
+      "photos/life/cassina-sail-out-pouf-80-grey-life.webp"
+    ]
+  },
+  {
+    "id": 470,
+    "brand": "Cassina",
+    "name": "Sail Out Pouf",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 1410,
+    "outletEur": 775,
+    "saleEur": 775,
+    "discountPct": 45,
+    "dims": "Ø80cm H:36cm",
+    "dekupe": "photos/dekupe/cassina-sail-out-pouf-80-green.webp",
+    "lifes": [
+      "photos/life/cassina-sail-out-pouf-80-green-life.webp"
+    ]
+  },
+  {
+    "id": 471,
+    "brand": "Cassina",
+    "name": "Sail Out Pouf",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 900,
+    "outletEur": 495,
+    "saleEur": 495,
+    "discountPct": 45,
+    "dims": "Ø40cm H:47cm",
+    "dekupe": "photos/dekupe/cassina-sail-out-pouf-40-red.webp",
+    "lifes": [
+      "photos/life/cassina-sail-out-pouf-40-red-life.webp"
+    ]
+  },
+  {
+    "id": 472,
+    "brand": "Cassina",
+    "name": "Sail Out Pouf",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 900,
+    "outletEur": 495,
+    "saleEur": 495,
+    "discountPct": 45,
+    "dims": "Ø40cm H:47cm",
+    "dekupe": "photos/dekupe/cassina-sail-out-pouf-40-beige.webp",
+    "lifes": [
+      "photos/life/cassina-sail-out-pouf-40-beige-life.webp"
+    ]
+  },
+  {
+    "id": 473,
+    "brand": "Moroso",
+    "name": "Lakelet Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 1422,
+    "outletEur": 785,
+    "saleEur": 785,
+    "discountPct": 45,
+    "dims": "53 x 45 cm H:48cm",
+    "dekupe": "photos/dekupe/moroso-lakelet-coffee-table-53.webp",
+    "lifes": [
+      "photos/life/moroso-lakelet-coffee-table-53-life.webp",
+      "photos/life/moroso-lakelet-coffee-table-53-life2.webp"
+    ]
+  },
+  {
+    "id": 474,
+    "brand": "Cassina",
+    "name": "Esosoft Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 4104,
+    "outletEur": 2260,
+    "saleEur": 2260,
+    "discountPct": 45,
+    "dims": "180 x 90 cm H:33cm",
+    "dekupe": "photos/dekupe/cassina-esosoft-coffee-table.webp"
+  },
+  {
+    "id": 475,
+    "brand": "Gandia Blasco",
+    "name": "Isla Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 3,
+    "listEur": 8208,
+    "outletEur": 4515,
+    "saleEur": 4515,
+    "discountPct": 45,
+    "dims": "73 x 73cm H:48/80cm · İndirimli 3 adet fiyatı:",
+    "dekupe": "photos/dekupe/gandia-blasco-isla-chair.webp",
+    "lifes": [
+      "photos/life/gandia-blasco-isla-chair-life.webp"
+    ]
+  },
+  {
+    "id": 476,
+    "brand": "Living Divani",
+    "name": "Moon Satellite Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 3858,
+    "outletEur": 2125,
+    "saleEur": 2125,
+    "discountPct": 45,
+    "dims": "Ø40 cm H:58cm",
+    "dekupe": "photos/dekupe/living-divani-moon-satellite-coffee-table.webp",
+    "lifes": [
+      "photos/life/living-divani-moon-satellite-coffee-table-life.webp"
+    ]
+  },
+  {
+    "id": 477,
+    "brand": "Gandia Blasco",
+    "name": "Isla Coffee Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 1788,
+    "outletEur": 985,
+    "saleEur": 985,
+    "discountPct": 45,
+    "dims": "Ø80 cm H:40cm",
+    "dekupe": "photos/life/gandia-blasco-isla-coffee-table-life.webp",
+    "lifes": [
+      "photos/life/gandia-blasco-isla-coffee-table-life.webp"
+    ]
+  },
+  {
+    "id": 478,
+    "brand": "Cassina",
+    "name": "Soriana Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 11388,
+    "outletEur": 6265,
+    "saleEur": 6265,
+    "discountPct": 45,
+    "dims": "95 x 105 cm H:42/71cm · İndirimli 2 adet fiyatı:",
+    "dekupe": "photos/dekupe/cassina-soriana-armchair.webp",
+    "lifes": [
+      "photos/life/cassina-soriana-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 479,
+    "brand": "Cassina",
+    "name": "Esosoft Outdoor Sofa",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 9558,
+    "outletEur": 5256,
+    "saleEur": 5256,
+    "discountPct": 45,
+    "dims": "163 x 95 cm H:43/73cm",
+    "dekupe": "photos/dekupe/cassina-esosoft-outdoor-sofa.webp",
+    "lifes": [
+      "photos/life/cassina-esosoft-outdoor-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 480,
+    "brand": "Point",
+    "name": "Paralel Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 5300,
+    "outletEur": 2915,
+    "saleEur": 2915,
+    "discountPct": 45,
+    "dims": "220 x 100cm H:72,5cm",
+    "dekupe": "photos/dekupe/point-paralel-table.webp",
+    "lifes": [
+      "photos/life/point-paralel-table-life.webp"
     ]
   }
 ]
