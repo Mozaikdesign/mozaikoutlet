@@ -507,23 +507,6 @@
     "lifes": []
   },
   {
-    "id": 54,
-    "brand": "Classicon",
-    "name": "Pli Side Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 2045,
-    "outletEur": 1000,
-    "saleEur": 1000,
-    "discountPct": 51,
-    "dims": "56 x 42cm H:48cm",
-    "dekupe": "photos/dekupe/classicon-pli-side-table.webp",
-    "lifes": [
-      "photos/life/classicon-pli-side-table-life.webp"
-    ]
-  },
-  {
     "id": 204,
     "brand": "B&B Italia",
     "name": "Planck Small Table",
@@ -4986,24 +4969,6 @@
     ]
   },
   {
-    "id": 459,
-    "brand": "Cassina",
-    "name": "Hayama Cabinet",
-    "section": "INDOOR",
-    "category": "Storage & Bookcases",
-    "qty": 1,
-    "listEur": 8682,
-    "outletEur": 4775,
-    "saleEur": 4775,
-    "discountPct": 45,
-    "dims": "199 x 52 cm H:79cm",
-    "dekupe": "photos/dekupe/cassina-hayama-cabinet.webp",
-    "lifes": [
-      "photos/life/cassina-hayama-cabinet-life.webp",
-      "photos/life/cassina-hayama-cabinet-life2.webp"
-    ]
-  },
-  {
     "id": 461,
     "brand": "Cassina",
     "name": "Sengu Coffee Table",
@@ -5057,23 +5022,6 @@
     "dekupe": "photos/dekupe/classicon-piega-mirror.webp",
     "lifes": [
       "photos/life/classicon-piega-mirror-life.webp"
-    ]
-  },
-  {
-    "id": 464,
-    "brand": "B&B Italia",
-    "name": "Husk Chair",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 6,
-    "listEur": 11280,
-    "outletEur": 6205,
-    "saleEur": 6205,
-    "discountPct": 45,
-    "dims": "61 x 60cm H:51/86cm · İndirimli 6 adet fiyatı:",
-    "dekupe": "photos/dekupe/bb-husk-chair-6set.webp",
-    "lifes": [
-      "photos/life/bb-husk-chair-6set-life.webp"
     ]
   },
   {
