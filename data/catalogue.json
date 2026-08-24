@@ -503,8 +503,10 @@
     "saleEur": 1000,
     "discountPct": 59,
     "dims": "34x43cm H:53cm · Kösele deri",
-    "dekupe": "photos/dekupe/flexform-plain-side-table.webp",
-    "lifes": []
+    "dekupe": "photos/dekupe/flexform-plain-side-table-v2.webp",
+    "lifes": [
+      "photos/life/flexform-plain-side-table-life.webp"
+    ]
   },
   {
     "id": 204,
