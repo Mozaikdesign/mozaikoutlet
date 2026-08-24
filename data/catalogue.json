@@ -507,23 +507,6 @@
     "lifes": []
   },
   {
-    "id": 203,
-    "brand": "B&B Italia",
-    "name": "Elios Square Small Table",
-    "section": "INDOOR",
-    "category": "Tables & Consoles",
-    "qty": 1,
-    "listEur": 2440,
-    "outletEur": 1710,
-    "saleEur": 1345,
-    "discountPct": 45,
-    "dims": "43,5 x 40cm H:47,5cm",
-    "dekupe": "photos/dekupe/maxalto-elios-2.webp",
-    "lifes": [
-      "photos/life/maxalto-elios-life.webp"
-    ]
-  },
-  {
     "id": 54,
     "brand": "Classicon",
     "name": "Pli Side Table",
@@ -595,12 +578,12 @@
     "name": "Elios Round Small Table",
     "section": "INDOOR",
     "category": "Coffee & Side Tables",
-    "qty": 2,
+    "qty": 1,
     "listEur": 1044,
     "outletEur": 500,
     "saleEur": 500,
     "discountPct": 52,
-    "dims": "Ø35cm H:47cm · İndirimli 2 adet fiyatı:",
+    "dims": "Ø35cm H:47cm · Tek adet fiyatı:",
     "dekupe": "photos/dekupe/maxalto-elios-2.webp",
     "lifes": [
       "photos/life/maxalto-elios-life.webp"
@@ -5320,9 +5303,9 @@
     "category": "Armchairs",
     "qty": 2,
     "listEur": 11388,
-    "outletEur": 6265,
-    "saleEur": 6265,
-    "discountPct": 45,
+    "outletEur": 7975,
+    "saleEur": 7975,
+    "discountPct": 30,
     "dims": "95 x 105 cm H:42/71cm · İndirimli 2 adet fiyatı:",
     "dekupe": "photos/dekupe/cassina-soriana-armchair.webp",
     "lifes": [
