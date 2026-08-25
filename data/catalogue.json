@@ -390,9 +390,9 @@
     "category": "Tables & Consoles",
     "qty": 1,
     "listEur": 6558,
-    "outletEur": 4590,
-    "saleEur": 3610,
-    "discountPct": 45,
+    "outletEur": 2500,
+    "saleEur": 2500,
+    "discountPct": 62,
     "dims": "220 x 100 h:75 cm",
     "dekupe": "photos/dekupe/bb-hans-table.webp",
     "lifes": [
@@ -586,7 +586,7 @@
     "saleEur": 10000,
     "discountPct": 57,
     "dims": "h:77cm · L2 cat Nabuk_warm grey · Metal feet · fixed version · İndirimli 6 adet fiyatı:",
-    "dekupe": "photos/dekupe/gallotti-radice-akiko.webp",
+    "dekupe": "photos/dekupe/gallotti-radice-akiko-v2.webp",
     "lifes": [
       "photos/life/gallotti-radice-akiko-life.webp"
     ]
@@ -679,7 +679,7 @@
   },
   {
     "id": 80,
-    "brand": "Knoll",
+    "brand": "Walter Knoll",
     "name": "Gio Chair",
     "section": "INDOOR",
     "category": "Chairs",
@@ -689,9 +689,9 @@
     "saleEur": 600,
     "discountPct": 66,
     "dims": "56 x 60cm H:43/81cm",
-    "dekupe": "photos/dekupe/knoll-gio-2.webp",
+    "dekupe": "photos/dekupe/walter-knoll-gio-chair-v2.webp",
     "lifes": [
-      "photos/dekupe/knoll-gio-new.webp"
+      "photos/life/walter-knoll-gio-chair-life-v2.webp"
     ]
   },
   {
@@ -721,10 +721,9 @@
     "saleEur": 1000,
     "discountPct": 57,
     "dims": "76 x 74cm H:38/76cm · 2 adet mevcut",
-    "dekupe": "photos/dekupe/flexform-feel-good-ottoman.webp",
+    "dekupe": "photos/dekupe/flexform-feel-good-ottoman-v2.webp",
     "lifes": [
-      "photos/life/flexform-feel-good-ottoman-1.webp",
-      "photos/life/flexform-feel-good-ottoman-2.webp"
+      "photos/life/flexform-feel-good-ottoman-life-v2.webp"
     ]
   },
   {
@@ -1495,9 +1494,9 @@
     "saleEur": 10000,
     "discountPct": 52,
     "dims": "265 x 105 cm H:38/70cm · CS60PR x2 · CS60S",
-    "dekupe": "photos/dekupe/exteta-sunset-basket-sofa-new.webp",
+    "dekupe": "photos/dekupe/exteta-sunset-basket-sofa-v3.webp",
     "lifes": [
-      "photos/life/exteta-sunset-basket-sofa-life-new.webp"
+      "photos/life/exteta-sunset-basket-sofa-life-v3.webp"
     ]
   },
   {
@@ -4994,12 +4993,12 @@
     "name": "Piega Mirror Medium",
     "section": "INDOOR",
     "category": "Objects & Vases",
-    "qty": 2,
+    "qty": 1,
     "listEur": 1484,
     "outletEur": 1040,
     "saleEur": 1040,
     "discountPct": 30,
-    "dims": "110 x 62cm · 1 adet fiyatı:",
+    "dims": "110 x 62cm",
     "dekupe": "photos/dekupe/classicon-piega-mirror.webp",
     "lifes": [
       "photos/life/classicon-piega-mirror-medium-life4.webp",

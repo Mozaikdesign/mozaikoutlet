@@ -391,7 +391,7 @@ const DICT = {
 const I18nContext = createContext({ t: DICT.en, lang: 'en', setLang: () => {} });
 
 function I18nProvider({ children }) {
-  const [lang, setLang] = useState(() => localStorage.getItem('mozaik.lang') || 'en');
+  const [lang, setLang] = useState(() => localStorage.getItem('mozaik.lang') || 'tr');
   useEffect(() => {
     localStorage.setItem('mozaik.lang', lang);
     document.documentElement.lang = lang;
