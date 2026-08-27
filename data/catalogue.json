@@ -5294,5 +5294,78 @@
     "lifes": [
       "photos/life/point-paralel-table-life.webp"
     ]
+  },
+  {
+    "id": 481,
+    "brand": "Cassina",
+    "name": "Sengu Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 25944,
+    "outletEur": 14270,
+    "saleEur": 14270,
+    "discountPct": 45,
+    "dims": "350 x 250cm H:37/65cm",
+    "dekupe": "photos/dekupe/cassina-sengu-sofa.webp",
+    "lifes": [
+      "photos/life/cassina-sengu-sofa-life.webp",
+      "photos/life/cassina-sengu-sofa-life-2.webp"
+    ]
+  },
+  {
+    "id": 482,
+    "brand": "Moroso",
+    "name": "Gogan 3 Seater Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 11545,
+    "outletEur": 6350,
+    "saleEur": 6350,
+    "discountPct": 45,
+    "dims": "310 x 128cm H:44/70cm",
+    "dekupe": "photos/dekupe/moroso-gogan-3-seater-sofa.webp",
+    "lifes": [
+      "photos/life/moroso-gogan-3-seater-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 484,
+    "brand": "B&B Italia",
+    "name": "Ribes Sofa",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 11344,
+    "outletEur": 6240,
+    "saleEur": 6240,
+    "discountPct": 45,
+    "dims": "215 x 95cm H:60/87cm",
+    "dekupe": "photos/dekupe/bb-italia-ribes-sofa.webp",
+    "lifes": [
+      "photos/life/bb-italia-ribes-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 486,
+    "brand": "Brokis",
+    "name": "Big One Pendant",
+    "section": "LIGHTING",
+    "category": "Pendants & Chandeliers",
+    "qty": 2,
+    "listEur": 3615,
+    "outletEur": 2715,
+    "saleEur": 2715,
+    "discountPct": 25,
+    "dims": "Ø54cm H:45cm",
+    "note": {
+      "en": "Price shown is for one piece.",
+      "tr": "Belirtilen fiyat 1 adet içindir."
+    },
+    "dekupe": "photos/dekupe/brokis-big-one-pendant.webp",
+    "lifes": [
+      "photos/life/brokis-big-one-pendant-life.webp"
+    ]
   }
 ]
