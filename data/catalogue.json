@@ -172,24 +172,6 @@
     ]
   },
   {
-    "id": 14,
-    "brand": "Vitra",
-    "name": "Polder Compact Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 6360,
-    "outletEur": 3000,
-    "saleEur": 3000,
-    "discountPct": 53,
-    "dims": "225 cm x 97 cm h:82 cm",
-    "dekupe": "photos/dekupe/vitra-polder.webp",
-    "lifes": [
-      "photos/dekupe/vitra-polder-new.webp",
-      "photos/life/vitra-polder-life.webp"
-    ]
-  },
-  {
     "id": 15,
     "brand": "Carl Hansen",
     "name": "Sofa",
@@ -790,23 +772,6 @@
     "dims": "360 x 62cm H:225cm",
     "dekupe": "photos/dekupe/bb-pab-wall-unit.webp",
     "lifes": []
-  },
-  {
-    "id": 92,
-    "brand": "Maxalto",
-    "name": "Windscreen In 3 Elements",
-    "section": "INDOOR",
-    "category": "Storage & Bookcases",
-    "qty": 1,
-    "listEur": 2884,
-    "outletEur": 1200,
-    "saleEur": 1200,
-    "discountPct": 58,
-    "dims": "H:120cm",
-    "dekupe": "photos/dekupe/maxalto-windscreen-3-elements-v2.webp",
-    "lifes": [
-      "photos/life/maxalto-windscreen-3-elements-life.webp"
-    ]
   },
   {
     "id": 96,
