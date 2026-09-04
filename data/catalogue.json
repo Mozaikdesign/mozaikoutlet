@@ -119,24 +119,6 @@
     ]
   },
   {
-    "id": 230,
-    "brand": "Cassina",
-    "name": "Lady Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 9192,
-    "outletEur": 4000,
-    "saleEur": 4000,
-    "discountPct": 56,
-    "dims": "77 x 84 cm H:38/78cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/cassina-lady-armchair.webp",
-    "lifes": [
-      "photos/life/cassina-lady-armchair-pair.webp",
-      "photos/life/cassina-lady-armchair-life.webp"
-    ]
-  },
-  {
     "id": 234,
     "brand": "ClassiCon",
     "name": "Materia Side Table",
@@ -883,39 +865,6 @@
     ]
   },
   {
-    "id": 105,
-    "brand": "Driade",
-    "name": "Root Vase",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 344,
-    "outletEur": 241,
-    "saleEur": 241,
-    "discountPct": 30,
-    "dims": "Ø12cm H:35cm",
-    "dekupe": "photos/dekupe/driade-root-vase-new.webp",
-    "lifes": [
-      "photos/dekupe/driade-root-vase.webp",
-      "photos/life/driade-root-vase-life.webp"
-    ]
-  },
-  {
-    "id": 106,
-    "brand": "Driade",
-    "name": "Root Vase Small",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 302,
-    "outletEur": 211,
-    "saleEur": 211,
-    "discountPct": 30,
-    "dims": "Ø12cm H:25,5cm",
-    "dekupe": "photos/dekupe/driade-root-small.webp",
-    "lifes": []
-  },
-  {
     "id": 107,
     "brand": "Driade",
     "name": "Roques",
@@ -1037,23 +986,6 @@
     ]
   },
   {
-    "id": 115,
-    "brand": "Driade",
-    "name": "Tenochtitlan",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 393,
-    "outletEur": 275,
-    "saleEur": 275,
-    "discountPct": 30,
-    "dims": "",
-    "dekupe": "photos/dekupe/driade-tenochtitlan.webp",
-    "lifes": [
-      "photos/life/driade-tenochtitlan.webp"
-    ]
-  },
-  {
     "id": 116,
     "brand": "Driade",
     "name": "Ordini",
@@ -1148,306 +1080,6 @@
     ]
   },
   {
-    "id": 122,
-    "brand": "Paola C",
-    "name": "Small Titus III Blue Glass Vase",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 384,
-    "outletEur": 269,
-    "saleEur": 269,
-    "discountPct": 30,
-    "dims": "Ø10cm H:21cm",
-    "dekupe": "photos/dekupe/paola-c-titus-blue.webp",
-    "lifes": []
-  },
-  {
-    "id": 123,
-    "brand": "Paola C",
-    "name": "Longi",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 180,
-    "outletEur": 126,
-    "saleEur": 126,
-    "discountPct": 30,
-    "dims": "Ø22cm H:13cm",
-    "dekupe": "photos/dekupe/paola-c-longi-orange-cover.webp",
-    "lifes": [
-      "photos/dekupe/paola-c-longi-2.webp",
-      "photos/life/paola-c-longi-lifestyle.webp",
-      "photos/dekupe/paola-c-longi-ikili-2.webp",
-      "photos/life/paola-c-longi-life-a.webp",
-      "photos/life/paola-c-longi-ikili-life.webp",
-      "photos/life/paola-c-longi-lifestyle-new.webp"
-    ]
-  },
-  {
-    "id": 124,
-    "brand": "Paola C",
-    "name": "Longi",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 180,
-    "outletEur": 126,
-    "saleEur": 126,
-    "discountPct": 30,
-    "dims": "Ø22cm H:13cm",
-    "dekupe": "photos/dekupe/paola-c-longi-cover.webp",
-    "lifes": [
-      "photos/dekupe/paola-c-longi-2.webp",
-      "photos/life/paola-c-longi-lifestyle.webp",
-      "photos/life/paola-c-longi-ikili-life.webp",
-      "photos/life/paola-c-longi-lifestyle-new.webp"
-    ]
-  },
-  {
-    "id": 125,
-    "brand": "Paola C",
-    "name": "Longi",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 180,
-    "outletEur": 126,
-    "saleEur": 126,
-    "discountPct": 30,
-    "dims": "Ø12cm H:21,5cm",
-    "dekupe": "photos/dekupe/paola-c-longi-2-new.webp",
-    "lifes": [
-      "photos/life/paola-c-longi-lifestyle.webp",
-      "photos/life/paola-c-longi-ikili-life.webp"
-    ]
-  },
-  {
-    "id": 126,
-    "brand": "Paola C",
-    "name": "Longi",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 180,
-    "outletEur": 126,
-    "saleEur": 126,
-    "discountPct": 30,
-    "dims": "Ø12cm H:21,5cm",
-    "dekupe": "photos/dekupe/paola-c-longi-blue-cover.webp",
-    "lifes": [
-      "photos/life/paola-c-longi-lifestyle.webp",
-      "photos/life/paola-c-longi-ikili-life.webp"
-    ]
-  },
-  {
-    "id": 127,
-    "brand": "Paola C",
-    "name": "Riflessi",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 720,
-    "outletEur": 504,
-    "saleEur": 504,
-    "discountPct": 30,
-    "dims": "Ø15cm H:37cm",
-    "dekupe": "photos/dekupe/paola-c-riflessi.webp",
-    "lifes": []
-  },
-  {
-    "id": 128,
-    "brand": "Paola C",
-    "name": "Cuppone",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 744,
-    "outletEur": 521,
-    "saleEur": 521,
-    "discountPct": 30,
-    "dims": "Ø34cm H:20cm",
-    "dekupe": "photos/dekupe/paola-c-cuppone-3.webp",
-    "lifes": [
-      "photos/dekupe/paola-c-cuppone-2.webp"
-    ]
-  },
-  {
-    "id": 129,
-    "brand": "Paola C",
-    "name": "The Flat",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 900,
-    "outletEur": 630,
-    "saleEur": 630,
-    "discountPct": 30,
-    "dims": "Ø37cm H:9cm",
-    "dekupe": "photos/dekupe/paola-c-the-flat.webp",
-    "lifes": []
-  },
-  {
-    "id": 131,
-    "brand": "Paola C",
-    "name": "Gambino",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 216,
-    "outletEur": 151,
-    "saleEur": 151,
-    "discountPct": 30,
-    "dims": "Ø18cm H:12cm",
-    "dekupe": "photos/dekupe/paola-c-gambino-3.webp",
-    "lifes": [
-      "photos/life/paola-c-gambino-life1.webp",
-      "photos/life/paola-c-gambino-life2.webp"
-    ]
-  },
-  {
-    "id": 132,
-    "brand": "Paola C",
-    "name": "New Moon",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 1440,
-    "outletEur": 720,
-    "saleEur": 720,
-    "discountPct": 50,
-    "dims": "Ø32cm H:50cm",
-    "dekupe": "photos/dekupe/paola-c-new-moon.webp",
-    "lifes": [
-      "photos/life/paola-c-new-moon-life.webp"
-    ]
-  },
-  {
-    "id": 135,
-    "brand": "Paola C",
-    "name": "Titus II",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 660,
-    "outletEur": 462,
-    "saleEur": 462,
-    "discountPct": 30,
-    "dims": "Ø15cm H:30cm",
-    "dekupe": "photos/dekupe/paola-c-titus-green.webp",
-    "lifes": [
-      "photos/life/paola-c-titus-life1.webp",
-      "photos/life/paola-c-titus-life2.webp"
-    ]
-  },
-  {
-    "id": 210,
-    "brand": "Paola C",
-    "name": "The Short Vase Blue Small",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 828,
-    "outletEur": 580,
-    "saleEur": 580,
-    "discountPct": 30,
-    "dims": "Ø20cm H:31cm",
-    "dekupe": "photos/dekupe/paola-c-short-vase.webp",
-    "lifes": []
-  },
-  {
-    "id": 136,
-    "brand": "Paola C",
-    "name": "The Tall Vase Blue",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 960,
-    "outletEur": 672,
-    "saleEur": 672,
-    "discountPct": 30,
-    "dims": "Ø25cm H:40cm",
-    "dekupe": "photos/dekupe/paola-c-tall-vase.webp",
-    "lifes": []
-  },
-  {
-    "id": 137,
-    "brand": "Paola C",
-    "name": "Gambino",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 360,
-    "outletEur": 252,
-    "saleEur": 252,
-    "discountPct": 30,
-    "dims": "Ø18cm H:12cm",
-    "dekupe": "photos/dekupe/paola-c-gambino-3.webp",
-    "lifes": [
-      "photos/life/paola-c-gambino-life1.webp",
-      "photos/life/paola-c-gambino-life2.webp"
-    ]
-  },
-  {
-    "id": 139,
-    "brand": "Paola C",
-    "name": "Silver-Plated Titus",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 660,
-    "outletEur": 462,
-    "saleEur": 462,
-    "discountPct": 30,
-    "dims": "Ø15cm H:30cm",
-    "dekupe": "photos/dekupe/paola-c-silver-titus.webp",
-    "lifes": []
-  },
-  {
-    "id": 140,
-    "brand": "Paola C",
-    "name": "Silver-Plated Titus",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 864,
-    "outletEur": 605,
-    "saleEur": 605,
-    "discountPct": 30,
-    "dims": "Ø20cm H:40,5cm",
-    "dekupe": "photos/dekupe/paola-c-silver-titus.webp",
-    "lifes": []
-  },
-  {
-    "id": 141,
-    "brand": "Paola C",
-    "name": "Red Moon",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 600,
-    "outletEur": 420,
-    "saleEur": 420,
-    "discountPct": 30,
-    "dims": "Ø30cm H:18cm",
-    "dekupe": "photos/dekupe/paola-c-red-moon.webp",
-    "lifes": []
-  },
-  {
-    "id": 222,
-    "brand": "Paola C",
-    "name": "Paola C Red Moon 2",
-    "saleEur": 134,
-    "listEur": 192,
-    "dekupe": "photos/dekupe/paola-c-red-moon-2.webp",
-    "lifes": [],
-    "category": "Objects & Vases",
-    "description": "",
-    "dimensions": "",
-    "dims": "Ø15cm H:6cm",
-    "section": "INDOOR"
-  },
-  {
     "id": 143,
     "brand": "Exteta",
     "name": "Sunset Basket Outdoor Sofa",
@@ -1484,24 +1116,6 @@
     "section": "OUTDOOR",
     "outletEur": 8000,
     "discountPct": 61
-  },
-  {
-    "id": 144,
-    "brand": "Roda",
-    "name": "Roda Piper Masa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 10221,
-    "outletEur": 9625,
-    "saleEur": 5000,
-    "discountPct": 45,
-    "dims": "269 x 97 cm H:51cm",
-    "dekupe": "photos/dekupe/roda-piper-cover.webp",
-    "lifes": [
-      "photos/dekupe/roda-piper.webp",
-      "photos/life/roda-piper-life.webp"
-    ]
   },
   {
     "id": 145,
@@ -1582,9 +1196,9 @@
     "section": "INDOOR",
     "category": "Chairs",
     "qty": 1,
-    "listEur": 2395,
-    "outletEur": 1317,
-    "saleEur": 1317,
+    "listEur": 14370,
+    "outletEur": 7900,
+    "saleEur": 7900,
     "discountPct": 45,
     "dims": "",
     "note": {
@@ -2267,10 +1881,10 @@
     "section": "INDOOR",
     "category": "Coffee & Side Tables",
     "qty": 1,
-    "listEur": 5829,
-    "outletEur": 3205,
-    "saleEur": 3205,
-    "discountPct": 45,
+    "listEur": 13796,
+    "outletEur": 7500,
+    "saleEur": 7500,
+    "discountPct": 46,
     "dims": "Ø150cm H:41cm",
     "dekupe": "photos/dekupe/maxalto-xilos-coffee-table.webp",
     "lifes": [
@@ -2900,23 +2514,6 @@
     ]
   },
   {
-    "id": 310,
-    "brand": "Ingo Maurer",
-    "name": "Birdie Lamp",
-    "section": "LIGHTING",
-    "category": "Pendants & Chandeliers",
-    "qty": 1,
-    "listEur": 2605,
-    "outletEur": 1955,
-    "saleEur": 1955,
-    "discountPct": 25,
-    "dims": "",
-    "dekupe": "photos/dekupe/ingo-maurer-birdie.webp",
-    "lifes": [
-      "photos/life/ingo-maurer-birdie-life.webp"
-    ]
-  },
-  {
     "id": 311,
     "brand": "Flos",
     "name": "Cicatrices De Luxe 8",
@@ -3358,39 +2955,6 @@
     ]
   },
   {
-    "id": 344,
-    "brand": "Ingo Maurer",
-    "name": "Lucellino Touch Table Lamp",
-    "section": "LIGHTING",
-    "category": "Table Lamps",
-    "qty": 1,
-    "listEur": 950,
-    "outletEur": 400,
-    "saleEur": 400,
-    "discountPct": 58,
-    "dims": "",
-    "dekupe": "photos/dekupe/ingo-maurer-lucellino-touch.webp",
-    "lifes": [
-      "photos/life/ingo-maurer-lucellino-touch-life-1.webp",
-      "photos/life/ingo-maurer-lucellino-touch-life-2.webp"
-    ]
-  },
-  {
-    "id": 345,
-    "brand": "Flos",
-    "name": "Cicatrices De Luxe Floor Lamp",
-    "section": "LIGHTING",
-    "category": "Floor Lamps",
-    "qty": 1,
-    "listEur": 2500,
-    "outletEur": 780,
-    "saleEur": 780,
-    "discountPct": 69,
-    "dims": "2 adet mevcut",
-    "dekupe": "photos/dekupe/flos-cicatrices-floor.webp",
-    "lifes": []
-  },
-  {
     "id": 346,
     "brand": "Pallucco",
     "name": "Faro Black Floor Lamp",
@@ -3518,38 +3082,6 @@
     "discountPct": 45,
     "dims": "170 x 76 cm H:40/65cm",
     "dekupe": "photos/dekupe/bb-italia-erica-sofa-2.webp",
-    "lifes": []
-  },
-  {
-    "id": 358,
-    "brand": "B&B Italia",
-    "name": "Erica Daybed",
-    "section": "INDOOR",
-    "category": "Beds & Daybeds",
-    "qty": 1,
-    "listEur": 9800,
-    "outletEur": 5390,
-    "saleEur": 5390,
-    "discountPct": 45,
-    "dims": "153 x 140 cm H:37.5/65.5cm",
-    "dekupe": "photos/dekupe/bb-italia-erica-daybed.webp",
-    "lifes": [
-      "photos/life/bb-italia-erica-daybed-life.webp"
-    ]
-  },
-  {
-    "id": 359,
-    "brand": "B&B Italia",
-    "name": "Erica Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 1,
-    "listEur": 3757,
-    "outletEur": 2070,
-    "saleEur": 2070,
-    "discountPct": 45,
-    "dims": "80 x 78 cm H:37.5/65.5cm",
-    "dekupe": "photos/dekupe/bb-italia-erica-armchair.webp",
     "lifes": []
   },
   {
@@ -4303,23 +3835,6 @@
     ]
   },
   {
-    "id": 414,
-    "brand": "Vitra",
-    "name": "Noguchi Rocking Stool",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 1,
-    "listEur": 800,
-    "outletEur": 400,
-    "saleEur": 400,
-    "discountPct": 50,
-    "dims": "Ø35 cm H: 40 cm",
-    "dekupe": "photos/dekupe/vitra-noguchi-rocking-stool.webp",
-    "lifes": [
-      "photos/life/vitra-noguchi-rocking-stool-1.webp"
-    ]
-  },
-  {
     "id": 415,
     "brand": "Cappellini",
     "name": "Sofa With Arms",
@@ -4594,23 +4109,6 @@
     ]
   },
   {
-    "id": 432,
-    "brand": "Maxalto",
-    "name": "Aurae Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 17926,
-    "outletEur": 9860,
-    "saleEur": 9860,
-    "discountPct": 45,
-    "dims": "290 x 105cm H:43/63/90cm",
-    "dekupe": "photos/dekupe/maxalto-aurae-sofa.webp",
-    "lifes": [
-      "photos/life/maxalto-aurae-sofa-life.webp"
-    ]
-  },
-  {
     "id": 434,
     "brand": "B&B Italia",
     "name": "Softcage Armchair Outdoor",
@@ -4660,24 +4158,6 @@
     "lifes": [
       "photos/life/andreu-world-valencia-stool-life2.webp",
       "photos/life/andreu-world-valencia-stool-life.webp"
-    ]
-  },
-  {
-    "id": 439,
-    "brand": "B&B Italia",
-    "name": "Frank Ottoman Outdoor",
-    "section": "OUTDOOR",
-    "category": "Outdoor Seating",
-    "qty": 2,
-    "listEur": 2004,
-    "outletEur": 1105,
-    "saleEur": 1105,
-    "discountPct": 45,
-    "dims": "59 x 40cm H:40cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/bb-frank-ottoman-outdoor.webp",
-    "lifes": [
-      "photos/life/bb-frank-ottoman-outdoor-life.webp",
-      "photos/life/bb-frank-ottoman-outdoor-life2.webp"
     ]
   },
   {
@@ -4734,21 +4214,6 @@
     ]
   },
   {
-    "id": 444,
-    "brand": "Azucena",
-    "name": "Cilindro Ottoman",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 2,
-    "listEur": 2868,
-    "outletEur": 1580,
-    "saleEur": 1580,
-    "discountPct": 45,
-    "dims": "Ø38cm H:43cm · (1 adet fiyatıdır)",
-    "dekupe": "photos/dekupe/azucena-cilindro-ottoman.webp",
-    "lifes": []
-  },
-  {
     "id": 448,
     "brand": "B&B Italia",
     "name": "Ace 8",
@@ -4762,23 +4227,6 @@
     "dims": "60 x 45cm H:64cm",
     "dekupe": "photos/dekupe/bb-ace-8.webp",
     "lifes": []
-  },
-  {
-    "id": 449,
-    "brand": "B&B Italia",
-    "name": "Surface",
-    "section": "INDOOR",
-    "category": "Storage & Bookcases",
-    "qty": 2,
-    "listEur": 5710,
-    "outletEur": 3140,
-    "saleEur": 3140,
-    "discountPct": 45,
-    "dims": "76 x 45cm H:47cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/bb-surface-76.webp",
-    "lifes": [
-      "photos/life/bb-surface-76-life.webp"
-    ]
   },
   {
     "id": 450,
@@ -4795,23 +4243,6 @@
     "dekupe": "photos/dekupe/maxalto-caratos-high-armchair.webp",
     "lifes": [
       "photos/life/maxalto-caratos-high-armchair-life.webp"
-    ]
-  },
-  {
-    "id": 451,
-    "brand": "B&B Italia",
-    "name": "Eucalipto Unit",
-    "section": "INDOOR",
-    "category": "Storage & Bookcases",
-    "qty": 1,
-    "listEur": 8144,
-    "outletEur": 4480,
-    "saleEur": 4480,
-    "discountPct": 45,
-    "dims": "240 x 55cm H:67cm",
-    "dekupe": "photos/dekupe/bb-eucalipto-unit-v2.webp",
-    "lifes": [
-      "photos/life/bb-eucalipto-unit-life.webp"
     ]
   },
   {
@@ -4953,27 +4384,6 @@
     ]
   },
   {
-    "id": 462,
-    "brand": "ClassiCon",
-    "name": "Piega Mirror Medium",
-    "section": "INDOOR",
-    "category": "Objects & Vases",
-    "qty": 1,
-    "listEur": 1484,
-    "outletEur": 1040,
-    "saleEur": 1040,
-    "discountPct": 30,
-    "dims": "110 x 62cm",
-    "dekupe": "photos/dekupe/classicon-piega-mirror.webp",
-    "lifes": [
-      "photos/life/classicon-piega-mirror-medium-life4.webp",
-      "photos/life/classicon-piega-mirror-medium-life2.webp",
-      "photos/life/classicon-piega-mirror-medium-life3.webp",
-      "photos/life/classicon-piega-mirror-medium-life5.webp",
-      "photos/life/classicon-piega-mirror-life.webp"
-    ]
-  },
-  {
     "id": 463,
     "brand": "ClassiCon",
     "name": "Piega Mirror Small",
@@ -4988,23 +4398,6 @@
     "dekupe": "photos/dekupe/classicon-piega-mirror.webp",
     "lifes": [
       "photos/life/classicon-piega-mirror-life.webp"
-    ]
-  },
-  {
-    "id": 465,
-    "brand": "B&B Italia",
-    "name": "Husk Chair",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 1,
-    "listEur": 1880,
-    "outletEur": 1034,
-    "saleEur": 1034,
-    "discountPct": 45,
-    "dims": "61 x 60cm H:51/86cm",
-    "dekupe": "photos/dekupe/bb-husk-chair-single.webp",
-    "lifes": [
-      "photos/life/bb-husk-chair-single-life.webp"
     ]
   },
   {
@@ -5331,6 +4724,66 @@
     "dekupe": "photos/dekupe/brokis-big-one-pendant.webp",
     "lifes": [
       "photos/life/brokis-big-one-pendant-life.webp"
+    ]
+  },
+  {
+    "id": 487,
+    "brand": "Andreu World",
+    "name": "Oru Chair — Set of 6",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 9770,
+    "outletEur": 5375,
+    "saleEur": 5375,
+    "discountPct": 45,
+    "dims": "61,5 x 61cm H:46/73,5cm",
+    "note": {
+      "en": "Price shown is for the set of six.",
+      "tr": "Belirtilen fiyat 6 adet içindir."
+    },
+    "dekupe": "photos/dekupe/andreu-world-oru-chair.webp",
+    "lifes": [
+      "photos/life/andreu-world-oru-chair-life.webp"
+    ]
+  },
+  {
+    "id": 488,
+    "brand": "Living Divani",
+    "name": "Agra Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 9055,
+    "outletEur": 4980,
+    "saleEur": 4980,
+    "discountPct": 45,
+    "dims": "200 x 90cm H:40cm",
+    "dekupe": "photos/dekupe/living-divani-agra-sofa.webp",
+    "lifes": [
+      "photos/life/living-divani-agra-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 489,
+    "brand": "Cassina",
+    "name": "Leggera 647 Outdoor Chair — Set of 12",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 12,
+    "listEur": 28584,
+    "outletEur": 15725,
+    "saleEur": 15725,
+    "discountPct": 45,
+    "dims": "45 x 43cm H:47cm",
+    "note": {
+      "en": "Price shown is for the set of twelve.",
+      "tr": "Belirtilen fiyat 12 adet içindir."
+    },
+    "dekupe": "photos/dekupe/cassina-leggera-647-outdoor-chair.webp",
+    "lifes": [
+      "photos/life/cassina-leggera-647-outdoor-chair-life.webp",
+      "photos/life/cassina-leggera-647-outdoor-chair-life-2.webp"
     ]
   }
 ]
