@@ -41,9 +41,9 @@
     "category": "Sofas",
     "qty": 1,
     "listEur": 19398,
-    "outletEur": 9000,
-    "saleEur": 9000,
-    "discountPct": 54,
+    "outletEur": 8500,
+    "saleEur": 8500,
+    "discountPct": 56,
     "dims": "220 x 114 cm H:40/82 cm",
     "dekupe": "photos/dekupe/edra-cipria-sofa.webp",
     "lifes": [
@@ -178,9 +178,9 @@
     "category": "Beds & Daybeds",
     "qty": 1,
     "listEur": 30030,
-    "outletEur": 10000,
-    "saleEur": 10000,
-    "discountPct": 67,
+    "outletEur": 9500,
+    "saleEur": 9500,
+    "discountPct": 68,
     "dims": "206x102cm H:40/72cm",
     "dekupe": "photos/dekupe/promemoria-komodo-daybed-main.webp",
     "lifes": [
@@ -716,9 +716,9 @@
     "category": "Storage & Bookcases",
     "qty": 1,
     "listEur": 10768,
-    "outletEur": 7500,
-    "saleEur": 5900,
-    "discountPct": 45,
+    "outletEur": 5000,
+    "saleEur": 5000,
+    "discountPct": 54,
     "dims": "250 x 65 cm H:66cm",
     "dekupe": "photos/dekupe/bb-liago-storage-unit.webp",
     "lifes": [
@@ -1100,7 +1100,7 @@
     "id": 225,
     "brand": "Exteta",
     "name": "Exteta Sunset Outdoor Chair",
-    "saleEur": 8000,
+    "saleEur": 7500,
     "listEur": 20639,
     "dekupe": "photos/dekupe/exteta-sunset-outdoor-chair-2.webp",
     "lifes": [
@@ -1114,8 +1114,8 @@
     "dimensions": "",
     "dims": "62x63cm H:45/85cm · İndirimli 6 adet fiyatı:",
     "section": "OUTDOOR",
-    "outletEur": 8000,
-    "discountPct": 61
+    "outletEur": 7500,
+    "discountPct": 64
   },
   {
     "id": 145,
@@ -1161,9 +1161,9 @@
     "category": "Outdoor Seating",
     "qty": 1,
     "listEur": 24494,
-    "outletEur": 12000,
-    "saleEur": 12000,
-    "discountPct": 51,
+    "outletEur": 11000,
+    "saleEur": 11000,
+    "discountPct": 55,
     "dims": "202x117cm H:40/80cm",
     "dekupe": "photos/dekupe/paola-lenti-orbitry-sofa.webp",
     "lifes": [
@@ -3686,9 +3686,9 @@
     "category": "Sofas",
     "qty": 1,
     "listEur": 18980,
-    "outletEur": 10500,
-    "saleEur": 10500,
-    "discountPct": 45,
+    "outletEur": 9500,
+    "saleEur": 9500,
+    "discountPct": 50,
     "dims": "246 × 90 cm H: 36/68 cm",
     "dekupe": "photos/dekupe/flexform-zeus-new.webp",
     "lifes": [
@@ -4784,6 +4784,110 @@
     "lifes": [
       "photos/life/cassina-leggera-647-outdoor-chair-life.webp",
       "photos/life/cassina-leggera-647-outdoor-chair-life-2.webp"
+    ]
+  },
+  {
+    "id": 490,
+    "brand": "Cassina",
+    "name": "Constantin Side Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 3444,
+    "outletEur": 1895,
+    "saleEur": 1895,
+    "discountPct": 45,
+    "dims": "Ø48cm H:59cm",
+    "dekupe": "photos/dekupe/cassina-constantin-side-table.webp",
+    "lifes": [
+      "photos/life/cassina-constantin-side-table-life.webp"
+    ]
+  },
+  {
+    "id": 491,
+    "brand": "Flexform",
+    "name": "Ginger Chaise Lounge",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 8086,
+    "outletEur": 4450,
+    "saleEur": 4450,
+    "discountPct": 45,
+    "dims": "145 x 100cm H:40/86cm",
+    "dekupe": "photos/dekupe/flexform-ginger-chaise-lounge.webp",
+    "lifes": [
+      "photos/life/flexform-ginger-chaise-lounge-life.webp"
+    ]
+  },
+  {
+    "id": 492,
+    "brand": "Exteta",
+    "name": "Riva Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 37422,
+    "outletEur": 20585,
+    "saleEur": 20585,
+    "discountPct": 45,
+    "dims": "66 x 61cm H:45/82cm · İndirimli 6 adet fiyatı: 20.585 € · 1 adet: 3.430 €",
+    "dekupe": "photos/dekupe/exteta-riva-chair.webp",
+    "lifes": [
+      "photos/life/exteta-riva-chair-life.webp"
+    ]
+  },
+  {
+    "id": 493,
+    "brand": "Exteta",
+    "name": "Riva Dining Table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 16367,
+    "outletEur": 9005,
+    "saleEur": 9005,
+    "discountPct": 45,
+    "dims": "150 x 150cm H:75cm",
+    "dekupe": "photos/dekupe/exteta-riva-dining-table.webp",
+    "lifes": [
+      "photos/life/exteta-riva-dining-table-life.webp"
+    ]
+  },
+  {
+    "id": 494,
+    "brand": "Exteta",
+    "name": "Periscopio Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 37031,
+    "outletEur": 20370,
+    "saleEur": 20370,
+    "discountPct": 45,
+    "dims": "306 x 138cm H:72cm",
+    "dekupe": "photos/dekupe/exteta-periscopio-sofa.webp",
+    "lifes": [
+      "photos/life/exteta-periscopio-sofa-life-1.webp",
+      "photos/life/exteta-periscopio-sofa-life-2.webp",
+      "photos/life/exteta-periscopio-sofa-life-3.webp"
+    ]
+  },
+  {
+    "id": 495,
+    "brand": "Exteta",
+    "name": "Mochi Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 8354,
+    "outletEur": 4595,
+    "saleEur": 4595,
+    "discountPct": 45,
+    "dims": "85 x 90cm H:38/74cm",
+    "dekupe": "photos/dekupe/exteta-mochi-armchair.webp",
+    "lifes": [
+      "photos/life/exteta-mochi-armchair-life.webp"
     ]
   }
 ]
