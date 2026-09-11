@@ -102,40 +102,6 @@
     ]
   },
   {
-    "id": 229,
-    "brand": "Cassina",
-    "name": "Tre Pezzi Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 10668,
-    "outletEur": 5000,
-    "saleEur": 5000,
-    "discountPct": 53,
-    "dims": "80 x 80 cm H:42/92cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/cassina-tre-pezzi-armchair.webp",
-    "lifes": [
-      "photos/life/cassina-tre-pezzi-armchair-life.webp"
-    ]
-  },
-  {
-    "id": 234,
-    "brand": "ClassiCon",
-    "name": "Materia Side Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 4838,
-    "outletEur": 3390,
-    "saleEur": 2660,
-    "discountPct": 45,
-    "dims": "110 x 39 cm H:30cm",
-    "dekupe": "photos/dekupe/classicon-materia-side-table.webp",
-    "lifes": [
-      "photos/life/classicon-materia-side-table-life.webp"
-    ]
-  },
-  {
     "id": 237,
     "brand": "Knoll",
     "name": "Saarinen Side Table",
@@ -204,24 +170,6 @@
     "lifes": [
       "photos/dekupe/vitra-abalon-new.webp",
       "photos/life/vitra-abalon-life.webp"
-    ]
-  },
-  {
-    "id": 19,
-    "brand": "Maxalto",
-    "name": "Febo Day Bed",
-    "section": "INDOOR",
-    "category": "Beds & Daybeds",
-    "qty": 1,
-    "listEur": 5978,
-    "outletEur": 2500,
-    "saleEur": 2500,
-    "discountPct": 58,
-    "dims": "",
-    "dekupe": "photos/dekupe/maxalto-febo-daybed.webp",
-    "lifes": [
-      "photos/life/maxalto-febo-daybed-life.webp",
-      "photos/dekupe/maxalto-febo-daybed-new.webp"
     ]
   },
   {
@@ -453,23 +401,6 @@
       "photos/life/vitra-eames-coffee-table-life1.webp",
       "photos/life/vitra-eames-coffee-table-life2.webp",
       "photos/life/vitra-eames-coffee-table-life3.webp"
-    ]
-  },
-  {
-    "id": 202,
-    "brand": "Flexform",
-    "name": "Plain Side Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 2432,
-    "outletEur": 1000,
-    "saleEur": 1000,
-    "discountPct": 59,
-    "dims": "34x43cm H:53cm · Kösele deri",
-    "dekupe": "photos/dekupe/flexform-plain-side-table-v2.webp",
-    "lifes": [
-      "photos/life/flexform-plain-side-table-life.webp"
     ]
   },
   {
@@ -863,25 +794,6 @@
     "section": "OUTDOOR",
     "outletEur": 7500,
     "discountPct": 64
-  },
-  {
-    "id": 145,
-    "brand": "B&B Italia",
-    "name": "Softcage Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 12179,
-    "outletEur": 6000,
-    "saleEur": 6000,
-    "discountPct": 51,
-    "dims": "235 x 85 cm H:40/65cm",
-    "dekupe": "photos/dekupe/bb-softcage-sofa.webp",
-    "lifes": [
-      "photos/life/bb-softcage-sofa-life4.webp",
-      "photos/life/bb-softcage-2.webp",
-      "photos/life/bb-softcage-3.webp"
-    ]
   },
   {
     "id": 148,
@@ -1345,24 +1257,6 @@
     "lifes": [
       "photos/life/flexform-ortigia-life1.webp",
       "photos/life/flexform-ortigia-life2.webp"
-    ]
-  },
-  {
-    "id": 215,
-    "brand": "Andreu World",
-    "name": "Trenza Chair",
-    "section": "OUTDOOR",
-    "category": "Outdoor Chairs",
-    "qty": 2,
-    "listEur": 1880,
-    "outletEur": 800,
-    "saleEur": 800,
-    "discountPct": 57,
-    "dims": "52,5 x 52,5cm H:64/81cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/andreu-world-trenza-chair.webp",
-    "lifes": [
-      "photos/life/andreu-world-trenza-chair-life-a.webp",
-      "photos/life/andreu-world-trenza-chair-life-b.webp"
     ]
   },
   {
@@ -3098,21 +2992,6 @@
     ]
   },
   {
-    "id": 379,
-    "brand": "B&B Italia",
-    "name": "Atoll Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 12140,
-    "outletEur": 6680,
-    "saleEur": 6680,
-    "discountPct": 45,
-    "dims": "230 x 95 cm H:41/66cm",
-    "dekupe": "photos/dekupe/bb-italia-atoll-sofa.webp",
-    "lifes": []
-  },
-  {
     "id": 380,
     "brand": "B&B Italia",
     "name": "Ayana Coffee Table",
@@ -3254,23 +3133,6 @@
     "section": "OUTDOOR"
   },
   {
-    "id": 390,
-    "brand": "Roda",
-    "name": "Astra Lounge Chair",
-    "category": "Outdoor Chairs",
-    "dims": "83 × 92 cm H: 36/77 cm",
-    "listEur": 5664,
-    "outletEur": 3115,
-    "saleEur": 3115,
-    "discountPct": 45,
-    "qty": 2,
-    "dekupe": "photos/dekupe/roda-astra-lounge-chair.webp",
-    "lifes": [
-      "photos/life/roda-astra-lounge-chair.webp"
-    ],
-    "section": "OUTDOOR"
-  },
-  {
     "id": 392,
     "brand": "Roda",
     "name": "Astra Lounge Chair",
@@ -3284,23 +3146,6 @@
     "dekupe": "photos/dekupe/roda-astra-lounge-chair-green.webp",
     "lifes": [
       "photos/life/roda-astra-lounge-chair-2.webp"
-    ],
-    "section": "OUTDOOR"
-  },
-  {
-    "id": 393,
-    "brand": "Roda",
-    "name": "Astra Sofa",
-    "category": "Outdoor Seating",
-    "dims": "190 × 92 cm H: 36/77 cm",
-    "listEur": 10368,
-    "outletEur": 5705,
-    "saleEur": 5705,
-    "discountPct": 45,
-    "qty": 1,
-    "dekupe": "photos/dekupe/roda-astra-sofa.webp",
-    "lifes": [
-      "photos/life/roda-astra-sofa.webp"
     ],
     "section": "OUTDOOR"
   },
@@ -3336,23 +3181,6 @@
     "dekupe": "photos/dekupe/maxalto-nidus-pouf.webp",
     "lifes": [
       "photos/life/maxalto-nidus-pouf.webp"
-    ]
-  },
-  {
-    "id": 397,
-    "brand": "Maxalto",
-    "name": "Febo Armchair",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 2,
-    "listEur": 6700,
-    "outletEur": 3685,
-    "saleEur": 3685,
-    "discountPct": 45,
-    "dims": "73 × 73 cm H: 41/79 cm",
-    "dekupe": "photos/dekupe/maxalto-febo-armchair.webp",
-    "lifes": [
-      "photos/life/maxalto-febo-armchair.webp"
     ]
   },
   {
@@ -3461,24 +3289,6 @@
     ]
   },
   {
-    "id": 407,
-    "brand": "Cassina",
-    "name": "Soriana Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 11976,
-    "outletEur": 8385,
-    "saleEur": 8385,
-    "discountPct": 30,
-    "dims": "160 × 90 cm H: 30/60 cm",
-    "dekupe": "photos/dekupe/cassina-soriana-sofa.webp",
-    "lifes": [
-      "photos/life/cassina-soriana-sofa-1.webp",
-      "photos/life/cassina-soriana-sofa-2.webp"
-    ]
-  },
-  {
     "id": 408,
     "brand": "B&B Italia",
     "name": "Heri O Chair",
@@ -3582,23 +3392,6 @@
     ]
   },
   {
-    "id": 415,
-    "brand": "Cappellini",
-    "name": "Sofa With Arms",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 3794,
-    "outletEur": 2090,
-    "saleEur": 2090,
-    "discountPct": 45,
-    "dims": "62 x 92cm H:38/65,5cm",
-    "dekupe": "photos/dekupe/cappellini-sofa-with-arms.webp",
-    "lifes": [
-      "photos/life/cappellini-sofa-with-arms-life.webp"
-    ]
-  },
-  {
     "id": 416,
     "brand": "Zanotta",
     "name": "Demountable Flowerpot",
@@ -3685,23 +3478,6 @@
     ]
   },
   {
-    "id": 422,
-    "brand": "Maxalto",
-    "name": "Lithos Ottoman",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 1,
-    "listEur": 1528,
-    "outletEur": 840,
-    "saleEur": 840,
-    "discountPct": 45,
-    "dims": "Ø40cm H:45,5cm",
-    "dekupe": "photos/dekupe/maxalto-lithos-ottoman.webp",
-    "lifes": [
-      "photos/life/maxalto-lithos-ottoman-life.webp"
-    ]
-  },
-  {
     "id": 423,
     "brand": "Maxalto",
     "name": "Pathos Console",
@@ -3768,23 +3544,6 @@
     "dekupe": "photos/dekupe/maxalto-lithos-square-small-table.webp",
     "lifes": [
       "photos/life/maxalto-lithos-square-small-table-life.webp"
-    ]
-  },
-  {
-    "id": 427,
-    "brand": "Maxalto",
-    "name": "Lithos Ottoman",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 1,
-    "listEur": 1530,
-    "outletEur": 845,
-    "saleEur": 845,
-    "discountPct": 45,
-    "dims": "Ø40cm H:45,5cm",
-    "dekupe": "photos/dekupe/maxalto-lithos-ottoman-natural.webp",
-    "lifes": [
-      "photos/life/maxalto-lithos-ottoman-natural-life.webp"
     ]
   },
   {
@@ -3856,23 +3615,6 @@
     ]
   },
   {
-    "id": 434,
-    "brand": "B&B Italia",
-    "name": "Softcage Armchair Outdoor",
-    "section": "OUTDOOR",
-    "category": "Outdoor Seating",
-    "qty": 2,
-    "listEur": 11964,
-    "outletEur": 6580,
-    "saleEur": 6580,
-    "discountPct": 45,
-    "dims": "100 x 85cm H:40/65cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/bb-softcage-armchair.webp",
-    "lifes": [
-      "photos/life/bb-softcage-armchair-outdoor-life.webp"
-    ]
-  },
-  {
     "id": 437,
     "brand": "Roda",
     "name": "Piper Coffee Table",
@@ -3887,24 +3629,6 @@
     "dekupe": "photos/dekupe/roda-piper-coffee-table.webp",
     "lifes": [
       "photos/life/roda-piper-coffee-table-life.webp"
-    ]
-  },
-  {
-    "id": 438,
-    "brand": "Andreu World",
-    "name": "Valencia Stool",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 1,
-    "listEur": 1247,
-    "outletEur": 685,
-    "saleEur": 685,
-    "discountPct": 45,
-    "dims": "Ø38cm H:45cm",
-    "dekupe": "photos/dekupe/andreu-world-valencia-stool.webp",
-    "lifes": [
-      "photos/life/andreu-world-valencia-stool-life2.webp",
-      "photos/life/andreu-world-valencia-stool-life.webp"
     ]
   },
   {
@@ -4350,23 +4074,6 @@
     ]
   },
   {
-    "id": 478,
-    "brand": "Cassina",
-    "name": "Soriana Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 11388,
-    "outletEur": 7975,
-    "saleEur": 7975,
-    "discountPct": 30,
-    "dims": "95 x 105 cm H:42/71cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/cassina-soriana-armchair.webp",
-    "lifes": [
-      "photos/life/cassina-soriana-armchair-life.webp"
-    ]
-  },
-  {
     "id": 479,
     "brand": "Cassina",
     "name": "Esosoft Outdoor Sofa",
@@ -4471,27 +4178,6 @@
     "dekupe": "photos/dekupe/brokis-big-one-pendant.webp",
     "lifes": [
       "photos/life/brokis-big-one-pendant-life.webp"
-    ]
-  },
-  {
-    "id": 487,
-    "brand": "Andreu World",
-    "name": "Oru Chair — Set of 6",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 6,
-    "listEur": 9770,
-    "outletEur": 5375,
-    "saleEur": 5375,
-    "discountPct": 45,
-    "dims": "61,5 x 61cm H:46/73,5cm",
-    "note": {
-      "en": "Price shown is for the set of six.",
-      "tr": "Belirtilen fiyat 6 adet içindir."
-    },
-    "dekupe": "photos/dekupe/andreu-world-oru-chair.webp",
-    "lifes": [
-      "photos/life/andreu-world-oru-chair-life.webp"
     ]
   },
   {
