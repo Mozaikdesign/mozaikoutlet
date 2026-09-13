@@ -76,13 +76,6 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
             <button className="modal__close modal__close--title" onClick={onClose}>✕</button>
           </div>
 
-          {product.qty > 1 && (
-            <div className="modal__scarcity">
-              <span className="modal__scarcity-dot"/>
-              {m.manyAvail(product.qty)}
-            </div>
-          )}
-
           <div className="modal__pricing">
             <div className="modal__pricing-row">
               <span>{m.listPrice}</span>
