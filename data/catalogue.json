@@ -190,23 +190,6 @@
     ]
   },
   {
-    "id": 25,
-    "brand": "Flexform",
-    "name": "Magnum Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 20408,
-    "outletEur": 4000,
-    "saleEur": 4000,
-    "discountPct": 80,
-    "dims": "90x95cm H:64cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/flexform-magnum-armchair.webp",
-    "lifes": [
-      "photos/life/flexform-magnum-armchair-life.webp"
-    ]
-  },
-  {
     "id": 27,
     "brand": "Flexform",
     "name": "Ortigia Chair",
