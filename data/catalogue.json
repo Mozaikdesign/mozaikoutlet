@@ -68,23 +68,6 @@
     ]
   },
   {
-    "id": 8,
-    "brand": "Andreu World",
-    "name": "Mariya Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 11160,
-    "outletEur": 4500,
-    "saleEur": 4500,
-    "discountPct": 60,
-    "dims": "245 x 85,5cm H:53/88cm · İndirimli tek adet fiyatı:",
-    "dekupe": "photos/dekupe/andreu-world-maria-sofa.webp",
-    "lifes": [
-      "photos/life/andreu-world-maria.webp"
-    ]
-  },
-  {
     "id": 9,
     "brand": "Andreu World",
     "name": "Mariya Armchair",
@@ -1632,21 +1615,6 @@
     "lifes": []
   },
   {
-    "id": 265,
-    "brand": "Roda",
-    "name": "Calla Armchair",
-    "section": "OUTDOOR",
-    "category": "Outdoor Seating",
-    "qty": 2,
-    "listEur": 5148,
-    "outletEur": 2835,
-    "saleEur": 2835,
-    "discountPct": 45,
-    "dims": "İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/roda-calla-armchair.webp",
-    "lifes": []
-  },
-  {
     "id": 269,
     "brand": "Roda",
     "name": "Double Ottoman Ø90",
@@ -2645,23 +2613,6 @@
     ]
   },
   {
-    "id": 353,
-    "brand": "B&B Italia",
-    "name": "Borea Rect. Low Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 6839,
-    "outletEur": 3765,
-    "saleEur": 3765,
-    "discountPct": 45,
-    "dims": "71 x 105 cm H:32cm",
-    "dekupe": "photos/dekupe/bb-italia-borea-low-table.webp",
-    "lifes": [
-      "photos/life/bb-italia-borea-low-table-life.webp"
-    ]
-  },
-  {
     "id": 355,
     "brand": "Flexform",
     "name": "Zefiro Coffee Table",
@@ -3410,23 +3361,6 @@
     ]
   },
   {
-    "id": 418,
-    "brand": "Maxalto",
-    "name": "Febo Armchair",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 2,
-    "listEur": 6414,
-    "outletEur": 3530,
-    "saleEur": 3530,
-    "discountPct": 45,
-    "dims": "69 x 75,5cm H:39/92,5cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/maxalto-febo-bergere.webp",
-    "lifes": [
-      "photos/life/maxalto-febo-bergere-life.webp"
-    ]
-  },
-  {
     "id": 419,
     "brand": "Maxalto",
     "name": "Febo Ottoman",
@@ -4126,23 +4060,6 @@
     ]
   },
   {
-    "id": 484,
-    "brand": "B&B Italia",
-    "name": "Ribes Sofa",
-    "section": "OUTDOOR",
-    "category": "Outdoor Seating",
-    "qty": 1,
-    "listEur": 11344,
-    "outletEur": 6240,
-    "saleEur": 6240,
-    "discountPct": 45,
-    "dims": "215 x 95cm H:60/87cm",
-    "dekupe": "photos/dekupe/bb-italia-ribes-sofa.webp",
-    "lifes": [
-      "photos/life/bb-italia-ribes-sofa-life.webp"
-    ]
-  },
-  {
     "id": 486,
     "brand": "Brokis",
     "name": "Big One Pendant",
@@ -4304,6 +4221,110 @@
     "dekupe": "photos/dekupe/exteta-mochi-armchair.webp",
     "lifes": [
       "photos/life/exteta-mochi-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 496,
+    "brand": "B&B Italia",
+    "name": "Grande Papilio Armchair & Ottoman",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 4875,
+    "outletEur": 2685,
+    "saleEur": 2685,
+    "discountPct": 45,
+    "dims": "83 x 87cm H:36/102cm · Ottoman 70 x 50cm H:42,5cm",
+    "dekupe": "photos/dekupe/bb-italia-grande-papilio-armchair-ottoman.webp",
+    "lifes": [
+      "photos/life/bb-italia-grande-papilio-armchair-ottoman-life.webp"
+    ]
+  },
+  {
+    "id": 497,
+    "brand": "Knoll",
+    "name": "Smalto Coffee Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 3350,
+    "outletEur": 1845,
+    "saleEur": 1845,
+    "discountPct": 45,
+    "dims": "Ø135cm H:38cm",
+    "dekupe": "photos/dekupe/knoll-smalto-coffee-table.webp",
+    "lifes": [
+      "photos/life/knoll-smalto-coffee-table-life.webp"
+    ]
+  },
+  {
+    "id": 498,
+    "brand": "Flexform",
+    "name": "Ortigia Chair — Set of 6",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 6,
+    "listEur": 24378,
+    "outletEur": 13410,
+    "saleEur": 13410,
+    "discountPct": 45,
+    "dims": "55 x 54cm H:46/83cm",
+    "dekupe": "photos/dekupe/flexform-ortigia-chair.webp",
+    "lifes": [
+      "photos/life/flexform-ortigia-chair-life.webp"
+    ]
+  },
+  {
+    "id": 500,
+    "brand": "Knoll",
+    "name": "Klismos Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 11300,
+    "outletEur": 6215,
+    "saleEur": 6215,
+    "discountPct": 45,
+    "dims": "170 x 70cm H:62cm",
+    "dekupe": "photos/dekupe/knoll-klismos-sofa.webp",
+    "lifes": [
+      "photos/life/knoll-klismos-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 501,
+    "brand": "Knoll",
+    "name": "Klismos Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 11300,
+    "outletEur": 6215,
+    "saleEur": 6215,
+    "discountPct": 45,
+    "dims": "170 x 70cm H:62cm",
+    "dekupe": "photos/dekupe/knoll-klismos-sofa-2.webp",
+    "lifes": [
+      "photos/life/knoll-klismos-sofa-2-life.webp"
+    ]
+  },
+  {
+    "id": 502,
+    "brand": "Gandia Blasco",
+    "name": "Garden Layers Bed + Small Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 9604,
+    "outletEur": 5285,
+    "saleEur": 5285,
+    "discountPct": 45,
+    "dims": "185 x 200cm H:36/60cm · Table 60 x 60cm H:37cm",
+    "dekupe": "photos/dekupe/gandia-blasco-garden-layers-bed.webp",
+    "lifes": [
+      "photos/life/gandia-blasco-garden-layers-bed-life.webp",
+      "photos/life/gandia-blasco-garden-layers-bed-life-2.webp",
+      "photos/life/gandia-blasco-garden-layers-bed-life-3.webp"
     ]
   }
 ]
