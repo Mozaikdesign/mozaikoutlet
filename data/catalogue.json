@@ -470,24 +470,6 @@
     ]
   },
   {
-    "id": 206,
-    "brand": "Maxalto",
-    "name": "Fulgens Chair",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 1,
-    "listEur": 2805,
-    "outletEur": 1000,
-    "saleEur": 1000,
-    "discountPct": 64,
-    "dims": "58x57cm H:45,5/80cm",
-    "dekupe": "photos/dekupe/maxalto-fulgens-2.webp",
-    "lifes": [
-      "photos/life/maxalto-fulgens-life.webp",
-      "photos/life/maxalto-fulgens-life2.webp"
-    ]
-  },
-  {
     "id": 77,
     "brand": "Maxalto",
     "name": "Febo Chair",
@@ -884,7 +866,7 @@
     "dims": "86 x 96 cm H:44/71 cm · İndirimli 1 adet fiyatı:",
     "dekupe": "photos/dekupe/paola-lenti-portofino-armchair.webp",
     "lifes": [
-      "photos/dekupe/paola-lenti-portofino-armchair-2.webp"
+      "photos/life/paola-lenti-portofino-armchair-life.webp"
     ]
   },
   {
@@ -2367,23 +2349,6 @@
     "lifes": []
   },
   {
-    "id": 330,
-    "brand": "Lumina",
-    "name": "Flo Desk Table Lamp",
-    "section": "LIGHTING",
-    "category": "Table Lamps",
-    "qty": 1,
-    "listEur": 760,
-    "outletEur": 570,
-    "saleEur": 570,
-    "discountPct": 25,
-    "dims": "",
-    "dekupe": "photos/dekupe/lumina-flo-desk.webp",
-    "lifes": [
-      "photos/life/lumina-flo-desk-life.webp"
-    ]
-  },
-  {
     "id": 331,
     "brand": "Flos",
     "name": "Heco Square Outdoor Table Lamp",
@@ -2643,21 +2608,6 @@
     "lifes": [
       "photos/life/bb-italia-erica-sofa-1-life.webp"
     ]
-  },
-  {
-    "id": 357,
-    "brand": "B&B Italia",
-    "name": "Erica Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 7851,
-    "outletEur": 4320,
-    "saleEur": 4320,
-    "discountPct": 45,
-    "dims": "170 x 76 cm H:40/65cm",
-    "dekupe": "photos/dekupe/bb-italia-erica-sofa-2.webp",
-    "lifes": []
   },
   {
     "id": 361,
@@ -3099,23 +3049,6 @@
       "photos/life/maxalto-dives-sofa.webp"
     ],
     "section": "INDOOR"
-  },
-  {
-    "id": 396,
-    "brand": "Maxalto",
-    "name": "Nidus Pouf",
-    "section": "INDOOR",
-    "category": "Poufs & Ottomans",
-    "qty": 1,
-    "listEur": 3060,
-    "outletEur": 1685,
-    "saleEur": 1685,
-    "discountPct": 45,
-    "dims": "Ø110 cm H: 36 cm",
-    "dekupe": "photos/dekupe/maxalto-nidus-pouf.webp",
-    "lifes": [
-      "photos/life/maxalto-nidus-pouf.webp"
-    ]
   },
   {
     "id": 398,
@@ -3583,25 +3516,6 @@
     ]
   },
   {
-    "id": 443,
-    "brand": "Maxalto",
-    "name": "Arbiter Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 16875,
-    "outletEur": 9285,
-    "saleEur": 9285,
-    "discountPct": 45,
-    "dims": "270 x 110cm H:30/60cm",
-    "dekupe": "photos/dekupe/maxalto-arbiter-sofa.webp",
-    "lifes": [
-      "photos/life/maxalto-arbiter-sofa-life3.webp",
-      "photos/life/maxalto-arbiter-sofa-life2.webp",
-      "photos/life/maxalto-arbiter-sofa-life.webp"
-    ]
-  },
-  {
     "id": 448,
     "brand": "B&B Italia",
     "name": "Ace 8",
@@ -3751,24 +3665,6 @@
     "lifes": [
       "photos/life/maxalto-caratos-swivel-armchair-life.webp",
       "photos/life/maxalto-caratos-swivel-armchair-life2.webp"
-    ]
-  },
-  {
-    "id": 461,
-    "brand": "Cassina",
-    "name": "Sengu Coffee Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 4704,
-    "outletEur": 2590,
-    "saleEur": 2590,
-    "discountPct": 45,
-    "dims": "150 x 60 cm H:30cm",
-    "dekupe": "photos/dekupe/cassina-sengu-coffee-table.webp",
-    "lifes": [
-      "photos/life/cassina-sengu-coffee-table-life.webp",
-      "photos/life/cassina-sengu-coffee-table-life2.webp"
     ]
   },
   {
@@ -4043,23 +3939,6 @@
     ]
   },
   {
-    "id": 482,
-    "brand": "Moroso",
-    "name": "Gogan 3 Seater Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 11545,
-    "outletEur": 6350,
-    "saleEur": 6350,
-    "discountPct": 45,
-    "dims": "310 x 128cm H:44/70cm",
-    "dekupe": "photos/dekupe/moroso-gogan-3-seater-sofa.webp",
-    "lifes": [
-      "photos/life/moroso-gogan-3-seater-sofa-life.webp"
-    ]
-  },
-  {
     "id": 486,
     "brand": "Brokis",
     "name": "Big One Pendant",
@@ -4269,9 +4148,9 @@
     "saleEur": 13410,
     "discountPct": 45,
     "dims": "55 x 54cm H:46/83cm",
-    "dekupe": "photos/dekupe/flexform-ortigia-chair.webp",
+    "dekupe": "photos/dekupe/flexform-ortigia-set6.webp",
     "lifes": [
-      "photos/life/flexform-ortigia-chair-life.webp"
+      "photos/life/flexform-ortigia-set6-life.webp"
     ]
   },
   {
