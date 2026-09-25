@@ -66,7 +66,7 @@ function App() {
       setCatalogue(window.__resolveCatalogue__());
       return;
     }
-    fetch('data/catalogue.json?v=247')
+    fetch('data/catalogue.json?v=279d')
       .then(r => r.json())
       .then(setCatalogue);
   }, []);
