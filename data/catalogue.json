@@ -3414,23 +3414,6 @@
     ]
   },
   {
-    "id": 429,
-    "brand": "B&B Italia",
-    "name": "Fat Sofa Outdoor Ottoman",
-    "section": "OUTDOOR",
-    "category": "Outdoor Seating",
-    "qty": 2,
-    "listEur": 2112,
-    "outletEur": 1161,
-    "saleEur": 1161,
-    "discountPct": 45,
-    "dims": "Ø61cm H:46cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/bb-fat-sofa-outdoor-ottoman.webp",
-    "lifes": [
-      "photos/life/bb-fat-sofa-outdoor-ottoman-life.webp"
-    ]
-  },
-  {
     "id": 430,
     "brand": "Maxalto",
     "name": "Lithos Ottoman",
@@ -3445,23 +3428,6 @@
     "dekupe": "photos/dekupe/maxalto-lithos-ottoman-leather.webp",
     "lifes": [
       "photos/life/maxalto-lithos-ottoman-leather-life.webp"
-    ]
-  },
-  {
-    "id": 431,
-    "brand": "B&B Italia",
-    "name": "Flair O Maxi Small Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 1,
-    "listEur": 2759,
-    "outletEur": 1520,
-    "saleEur": 1520,
-    "discountPct": 45,
-    "dims": "68 x 63cm H:41/68cm",
-    "dekupe": "photos/dekupe/bb-flair-o-maxi-small-armchair.webp",
-    "lifes": [
-      "photos/life/bb-flair-o-maxi-small-armchair-life.webp"
     ]
   },
   {
@@ -3647,24 +3613,6 @@
     "dekupe": "photos/dekupe/roda-piper-sofa.webp",
     "lifes": [
       "photos/life/roda-piper-sofa-life.webp"
-    ]
-  },
-  {
-    "id": 458,
-    "brand": "Maxalto",
-    "name": "Caratos Swivel Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 2,
-    "listEur": 10829,
-    "outletEur": 5955,
-    "saleEur": 5955,
-    "discountPct": 45,
-    "dims": "76,5 x 82 cm H:43,5/105cm · İndirimli 2 adet fiyatı:",
-    "dekupe": "photos/dekupe/maxalto-caratos-swivel-armchair.webp",
-    "lifes": [
-      "photos/life/maxalto-caratos-swivel-armchair-life.webp",
-      "photos/life/maxalto-caratos-swivel-armchair-life2.webp"
     ]
   },
   {
@@ -4746,6 +4694,42 @@
     "dekupe": "photos/dekupe/bb-italia-eileen-console.webp",
     "lifes": [
       "photos/life/bb-italia-eileen-console-life.webp"
+    ]
+  },
+  {
+    "id": 535,
+    "brand": "FontanaArte",
+    "name": "Alicanto Floor Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 4950,
+    "outletEur": 4200,
+    "saleEur": 4200,
+    "discountPct": 15,
+    "dims": "",
+    "dekupe": "photos/dekupe/fontanaarte-alicanto-floor-lamp.webp",
+    "lifes": [
+      "photos/life/fontanaarte-alicanto-floor-lamp-life.webp",
+      "photos/life/fontanaarte-alicanto-floor-lamp-life2.webp"
+    ]
+  },
+  {
+    "id": 536,
+    "brand": "Cassina",
+    "name": "Cab Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 2532,
+    "outletEur": 1395,
+    "saleEur": 1395,
+    "discountPct": 45,
+    "dims": "52 x 62cm H:45/82cm",
+    "dekupe": "photos/dekupe/cassina-cab-chair.webp",
+    "lifes": [
+      "photos/life/cassina-cab-chair-life.webp",
+      "photos/life/cassina-cab-chair-life2.webp"
     ]
   }
 ]
