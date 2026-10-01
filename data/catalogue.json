@@ -138,24 +138,6 @@
     ]
   },
   {
-    "id": 17,
-    "brand": "Vitra",
-    "name": "Abalon Sofa",
-    "section": "INDOOR",
-    "category": "Sofas",
-    "qty": 1,
-    "listEur": 6276,
-    "outletEur": 3000,
-    "saleEur": 3000,
-    "discountPct": 52,
-    "dims": "218x90cm H:110cm",
-    "dekupe": "photos/dekupe/vitra-abalon-sofa.webp",
-    "lifes": [
-      "photos/dekupe/vitra-abalon-new.webp",
-      "photos/life/vitra-abalon-life.webp"
-    ]
-  },
-  {
     "id": 21,
     "brand": "Ceccotti Collezioni",
     "name": "Pigra Armchair & Ottoman",

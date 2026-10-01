@@ -7,9 +7,9 @@ const TILES_PER_FACE = 9; // 3 × 3 mosaic per face
 
 // Showroom gallery — replaces the cube in the hero.
 const SHOWROOM_IMGS = [
-  'uploads/hero-1.png',
-  'uploads/hero-2.png',
-  'uploads/hero-3.png',
+  'photos/hero/hero-1.webp',
+  'photos/hero/hero-2.webp',
+  'photos/hero/hero-3.webp',
 ];
 
 function ShowroomGallery() {
