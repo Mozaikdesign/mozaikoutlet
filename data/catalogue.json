@@ -85,24 +85,6 @@
     ]
   },
   {
-    "id": 237,
-    "brand": "Knoll",
-    "name": "Saarinen Side Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 1207,
-    "outletEur": 600,
-    "saleEur": 600,
-    "discountPct": 50,
-    "dims": "Ø51cm h:52cm",
-    "dekupe": "photos/dekupe/knoll-saarinen-side-table.webp",
-    "lifes": [
-      "photos/life/knoll-saarinen-side-table-life-1.webp",
-      "photos/life/knoll-saarinen-side-table-life-2.webp"
-    ]
-  },
-  {
     "id": 15,
     "brand": "Carl Hansen",
     "name": "Sofa",
@@ -243,23 +225,6 @@
     ]
   },
   {
-    "id": 201,
-    "brand": "B&B Italia",
-    "name": "Hans Table",
-    "section": "INDOOR",
-    "category": "Tables & Consoles",
-    "qty": 1,
-    "listEur": 6558,
-    "outletEur": 2500,
-    "saleEur": 2500,
-    "discountPct": 62,
-    "dims": "220 x 100 h:75 cm",
-    "dekupe": "photos/dekupe/bb-hans-table.webp",
-    "lifes": [
-      "photos/life/bb-hans-table-life.webp"
-    ]
-  },
-  {
     "id": 42,
     "brand": "USM",
     "name": "Kitos Table 90 cm",
@@ -350,21 +315,6 @@
       "photos/life/vitra-eames-coffee-table-life2.webp",
       "photos/life/vitra-eames-coffee-table-life3.webp"
     ]
-  },
-  {
-    "id": 204,
-    "brand": "B&B Italia",
-    "name": "Planck Small Table",
-    "section": "INDOOR",
-    "category": "Tables & Consoles",
-    "qty": 1,
-    "listEur": 2446,
-    "outletEur": 1000,
-    "saleEur": 1000,
-    "discountPct": 59,
-    "dims": "Ø50cm H:40cm · indirimli adet fiyatı",
-    "dekupe": "photos/dekupe/bb-planck-small-table.webp",
-    "lifes": []
   },
   {
     "id": 55,
@@ -552,24 +502,6 @@
     ]
   },
   {
-    "id": 209,
-    "brand": "B&B Italia",
-    "name": "Arne Bookcase",
-    "section": "INDOOR",
-    "category": "Storage & Bookcases",
-    "qty": 1,
-    "listEur": 6270,
-    "outletEur": 4390,
-    "saleEur": 3450,
-    "discountPct": 45,
-    "dims": "73 x 73 cm H:66 cm · döner mekanizmalı",
-    "dekupe": "photos/dekupe/bb-arne-bookcase.webp",
-    "lifes": [
-      "photos/life/bb-arne-bookcase-1.webp",
-      "photos/life/bb-arne-bookcase-2.webp"
-    ]
-  },
-  {
     "id": 89,
     "brand": "B&B Italia",
     "name": "Liago Storage Unit",
@@ -705,27 +637,6 @@
     ]
   },
   {
-    "id": 225,
-    "brand": "Exteta",
-    "name": "Exteta Sunset Outdoor Chair",
-    "saleEur": 7500,
-    "listEur": 20639,
-    "dekupe": "photos/dekupe/exteta-sunset-outdoor-chair-2.webp",
-    "lifes": [
-      "photos/dekupe/exteta-sunset-outdoor-chair-3.webp",
-      "photos/life/exteta-sunset-outdoor-chair-life.webp",
-      "photos/life/exteta-sunset-basket-chair-life.webp",
-      "photos/life/exteta-sunset-basket-chair-life2.webp"
-    ],
-    "category": "Sofas",
-    "description": "",
-    "dimensions": "",
-    "dims": "62x63cm H:45/85cm · İndirimli 6 adet fiyatı:",
-    "section": "OUTDOOR",
-    "outletEur": 7500,
-    "discountPct": 64
-  },
-  {
     "id": 148,
     "brand": "Cassina",
     "name": "Esosoft 3 Seater Sofa",
@@ -759,44 +670,6 @@
       "photos/dekupe/paola-lenti-orbitry-sofa-1.webp",
       "photos/life/paola-lenti-orbitry-life-1.webp",
       "photos/life/paola-lenti-orbitry-life-2.webp"
-    ]
-  },
-  {
-    "id": 211,
-    "brand": "Carl Hansen",
-    "name": "BK12 Sofa",
-    "section": "OUTDOOR",
-    "category": "Outdoor Seating",
-    "qty": 1,
-    "listEur": 2715,
-    "outletEur": 1500,
-    "saleEur": 1500,
-    "discountPct": 45,
-    "dims": "133x75cm H:67cm · (1 adet fiyatıdır)",
-    "dekupe": "photos/dekupe/carl-hansen-bk12-sofa.webp",
-    "lifes": [
-      "photos/life/carl-hansen-bk12-sofa-life.webp"
-    ]
-  },
-  {
-    "id": 240,
-    "brand": "Walter Knoll",
-    "name": "Liz Wood Chair — Set of 6",
-    "section": "INDOOR",
-    "category": "Chairs",
-    "qty": 1,
-    "listEur": 14370,
-    "outletEur": 7900,
-    "saleEur": 7900,
-    "discountPct": 45,
-    "dims": "",
-    "note": {
-      "en": "Sold only as a set of six — individual chairs are not available separately.",
-      "tr": "Yalnızca altılı set olarak satılır — sandalyeler tek tek satışa sunulmamaktadır."
-    },
-    "dekupe": "photos/dekupe/walter-knoll-liz-wood-chair.webp",
-    "lifes": [
-      "photos/life/walter-knoll-liz-wood-chair-life.webp"
     ]
   },
   {
@@ -1011,24 +884,6 @@
     "lifes": []
   },
   {
-    "id": 213,
-    "brand": "B&B Italia",
-    "name": "Mirto Table",
-    "section": "OUTDOOR",
-    "category": "Outdoor Tables",
-    "qty": 1,
-    "listEur": 3912,
-    "outletEur": 1900,
-    "saleEur": 1900,
-    "discountPct": 51,
-    "dims": "150 x 150cm H:74cm",
-    "dekupe": "photos/dekupe/bb-mirto-table-2155.webp",
-    "lifes": [
-      "photos/dekupe/bb-mirto-table.webp",
-      "photos/life/bb-mirto-table-life.webp"
-    ]
-  },
-  {
     "id": 168,
     "brand": "B&B Italia",
     "name": "Mirto Outdoor",
@@ -1155,23 +1010,6 @@
     ]
   },
   {
-    "id": 214,
-    "brand": "Gandia Blasco",
-    "name": "Isla Chair",
-    "section": "OUTDOOR",
-    "category": "Outdoor Chairs",
-    "qty": 4,
-    "listEur": 10944,
-    "outletEur": 7660,
-    "saleEur": 7660,
-    "discountPct": 30,
-    "dims": "73 x 73cm H:48/80cm · indirimli 4 adet fiyatı:",
-    "dekupe": "photos/dekupe/gandia-blasco-isla-chair.webp",
-    "lifes": [
-      "photos/dekupe/gandia-blasco-isla-chair-2.webp"
-    ]
-  },
-  {
     "id": 176,
     "brand": "Flexform",
     "name": "Ortigia Dining Chair",
@@ -1235,23 +1073,6 @@
     "dims": "1.700 € · indirimli adet fiyatı",
     "dekupe": "photos/dekupe/roda-double-35-36-pouf.webp",
     "lifes": []
-  },
-  {
-    "id": 216,
-    "brand": "Paola Lenti",
-    "name": "Strap Side Table",
-    "section": "OUTDOOR",
-    "category": "Outdoor Tables",
-    "qty": 1,
-    "listEur": 3988,
-    "outletEur": 1800,
-    "saleEur": 1800,
-    "discountPct": 55,
-    "dims": "Ø45cm H:40cm",
-    "dekupe": "photos/dekupe/paola-lenti-strap-side-table-new.webp",
-    "lifes": [
-      "photos/dekupe/paola-lenti-strap-side-table-2.webp"
-    ]
   },
   {
     "id": 193,
@@ -1371,6 +1192,125 @@
     ]
   },
   {
+    "id": 201,
+    "brand": "B&B Italia",
+    "name": "Hans Table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 6558,
+    "outletEur": 2500,
+    "saleEur": 2500,
+    "discountPct": 62,
+    "dims": "220 x 100 h:75 cm",
+    "dekupe": "photos/dekupe/bb-hans-table.webp",
+    "lifes": [
+      "photos/life/bb-hans-table-life.webp"
+    ]
+  },
+  {
+    "id": 204,
+    "brand": "B&B Italia",
+    "name": "Planck Small Table",
+    "section": "INDOOR",
+    "category": "Tables & Consoles",
+    "qty": 1,
+    "listEur": 2446,
+    "outletEur": 1000,
+    "saleEur": 1000,
+    "discountPct": 59,
+    "dims": "Ø50cm H:40cm · indirimli adet fiyatı",
+    "dekupe": "photos/dekupe/bb-planck-small-table.webp",
+    "lifes": []
+  },
+  {
+    "id": 209,
+    "brand": "B&B Italia",
+    "name": "Arne Bookcase",
+    "section": "INDOOR",
+    "category": "Storage & Bookcases",
+    "qty": 1,
+    "listEur": 6270,
+    "outletEur": 4390,
+    "saleEur": 3450,
+    "discountPct": 45,
+    "dims": "73 x 73 cm H:66 cm · döner mekanizmalı",
+    "dekupe": "photos/dekupe/bb-arne-bookcase.webp",
+    "lifes": [
+      "photos/life/bb-arne-bookcase-1.webp",
+      "photos/life/bb-arne-bookcase-2.webp"
+    ]
+  },
+  {
+    "id": 211,
+    "brand": "Carl Hansen",
+    "name": "BK12 Sofa",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 2715,
+    "outletEur": 1500,
+    "saleEur": 1500,
+    "discountPct": 45,
+    "dims": "133x75cm H:67cm · (1 adet fiyatıdır)",
+    "dekupe": "photos/dekupe/carl-hansen-bk12-sofa.webp",
+    "lifes": [
+      "photos/life/carl-hansen-bk12-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 213,
+    "brand": "B&B Italia",
+    "name": "Mirto Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 3912,
+    "outletEur": 1900,
+    "saleEur": 1900,
+    "discountPct": 51,
+    "dims": "150 x 150cm H:74cm",
+    "dekupe": "photos/dekupe/bb-mirto-table-2155.webp",
+    "lifes": [
+      "photos/dekupe/bb-mirto-table.webp",
+      "photos/life/bb-mirto-table-life.webp"
+    ]
+  },
+  {
+    "id": 214,
+    "brand": "Gandia Blasco",
+    "name": "Isla Chair",
+    "section": "OUTDOOR",
+    "category": "Outdoor Chairs",
+    "qty": 4,
+    "listEur": 10944,
+    "outletEur": 7660,
+    "saleEur": 7660,
+    "discountPct": 30,
+    "dims": "73 x 73cm H:48/80cm · indirimli 4 adet fiyatı:",
+    "dekupe": "photos/dekupe/gandia-blasco-isla-chair.webp",
+    "lifes": [
+      "photos/dekupe/gandia-blasco-isla-chair-2.webp"
+    ]
+  },
+  {
+    "id": 216,
+    "brand": "Paola Lenti",
+    "name": "Strap Side Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 3988,
+    "outletEur": 1800,
+    "saleEur": 1800,
+    "discountPct": 55,
+    "dims": "Ø45cm H:40cm",
+    "dekupe": "photos/dekupe/paola-lenti-strap-side-table-new.webp",
+    "lifes": [
+      "photos/dekupe/paola-lenti-strap-side-table-2.webp"
+    ]
+  },
+  {
     "id": 219,
     "brand": "B&B Italia",
     "name": "Mirto Coffee Table",
@@ -1412,20 +1352,63 @@
     "lifes": []
   },
   {
-    "id": 246,
-    "brand": "B&amp;B Italia",
-    "name": "Softcage Armchair",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 1,
-    "listEur": 4920,
-    "outletEur": 3000,
-    "saleEur": 3000,
-    "discountPct": 39,
-    "dims": "100 x 85 cm h:40/65 cm · 1 adet mevcut",
-    "dekupe": "photos/dekupe/bb-softcage-armchair.webp",
+    "id": 225,
+    "brand": "Exteta",
+    "name": "Exteta Sunset Outdoor Chair",
+    "saleEur": 7500,
+    "listEur": 20639,
+    "dekupe": "photos/dekupe/exteta-sunset-outdoor-chair-2.webp",
     "lifes": [
-      "photos/life/bb-softcage-armchair-life.webp"
+      "photos/dekupe/exteta-sunset-outdoor-chair-3.webp",
+      "photos/life/exteta-sunset-outdoor-chair-life.webp",
+      "photos/life/exteta-sunset-basket-chair-life.webp",
+      "photos/life/exteta-sunset-basket-chair-life2.webp"
+    ],
+    "category": "Sofas",
+    "description": "",
+    "dimensions": "",
+    "dims": "62x63cm H:45/85cm · İndirimli 6 adet fiyatı:",
+    "section": "OUTDOOR",
+    "outletEur": 7500,
+    "discountPct": 64
+  },
+  {
+    "id": 237,
+    "brand": "Knoll",
+    "name": "Saarinen Side Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 1207,
+    "outletEur": 600,
+    "saleEur": 600,
+    "discountPct": 50,
+    "dims": "Ø51cm h:52cm",
+    "dekupe": "photos/dekupe/knoll-saarinen-side-table.webp",
+    "lifes": [
+      "photos/life/knoll-saarinen-side-table-life-1.webp",
+      "photos/life/knoll-saarinen-side-table-life-2.webp"
+    ]
+  },
+  {
+    "id": 240,
+    "brand": "Walter Knoll",
+    "name": "Liz Wood Chair — Set of 6",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 1,
+    "listEur": 14370,
+    "outletEur": 7900,
+    "saleEur": 7900,
+    "discountPct": 45,
+    "dims": "",
+    "note": {
+      "en": "Sold only as a set of six — individual chairs are not available separately.",
+      "tr": "Yalnızca altılı set olarak satılır — sandalyeler tek tek satışa sunulmamaktadır."
+    },
+    "dekupe": "photos/dekupe/walter-knoll-liz-wood-chair.webp",
+    "lifes": [
+      "photos/life/walter-knoll-liz-wood-chair-life.webp"
     ]
   },
   {
@@ -1705,24 +1688,6 @@
     "dims": "",
     "dekupe": "photos/dekupe/tobias-grau-chandelier-six.webp",
     "lifes": []
-  },
-  {
-    "id": 279,
-    "brand": "Marset",
-    "name": "The W",
-    "section": "LIGHTING",
-    "category": "Wall Lights",
-    "qty": 1,
-    "listEur": 5420,
-    "outletEur": 3252,
-    "saleEur": 3252,
-    "discountPct": 40,
-    "dims": "",
-    "dekupe": "photos/dekupe/marset-the-w.webp",
-    "lifes": [
-      "photos/life/marset-the-w-life-1.webp",
-      "photos/life/marset-the-w-life-2.webp"
-    ]
   },
   {
     "id": 280,
@@ -3530,23 +3495,6 @@
     ]
   },
   {
-    "id": 454,
-    "brand": "Maxalto",
-    "name": "Windscreen 3 Elements",
-    "section": "INDOOR",
-    "category": "Storage & Bookcases",
-    "qty": 1,
-    "listEur": 7750,
-    "outletEur": 4265,
-    "saleEur": 4265,
-    "discountPct": 45,
-    "dims": "H:120cm",
-    "dekupe": "photos/dekupe/maxalto-windscreen-3-elements-v2.webp",
-    "lifes": [
-      "photos/life/maxalto-windscreen-3-elements-life.webp"
-    ]
-  },
-  {
     "id": 455,
     "brand": "Maison Dada",
     "name": "Memphis Candleholders No-4",
@@ -3629,23 +3577,6 @@
     "dekupe": "photos/dekupe/gallotti-radice-akiko-lounge-chair.webp",
     "lifes": [
       "photos/life/gallotti-radice-akiko-lounge-chair-life.webp"
-    ]
-  },
-  {
-    "id": 467,
-    "brand": "Moroso",
-    "name": "Lakelet Coffee Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 1685,
-    "outletEur": 930,
-    "saleEur": 930,
-    "discountPct": 45,
-    "dims": "80 x 73cm H:36cm",
-    "dekupe": "photos/dekupe/moroso-lakelet-coffee-table-80.webp",
-    "lifes": [
-      "photos/life/moroso-lakelet-coffee-table-family.webp"
     ]
   },
   {
@@ -3780,23 +3711,6 @@
     "dekupe": "photos/dekupe/gandia-blasco-isla-chair.webp",
     "lifes": [
       "photos/life/gandia-blasco-isla-chair-life.webp"
-    ]
-  },
-  {
-    "id": 476,
-    "brand": "Living Divani",
-    "name": "Moon Satellite Coffee Table",
-    "section": "INDOOR",
-    "category": "Coffee & Side Tables",
-    "qty": 1,
-    "listEur": 3858,
-    "outletEur": 2125,
-    "saleEur": 2125,
-    "discountPct": 45,
-    "dims": "Ø40 cm H:58cm",
-    "dekupe": "photos/dekupe/living-divani-moon-satellite-coffee-table.webp",
-    "lifes": [
-      "photos/life/living-divani-moon-satellite-coffee-table-life.webp"
     ]
   },
   {

@@ -5,7 +5,7 @@ const DICT = {
   en: {
     announce: 'FINAL DAYS · BEFORE THESE PIECES FIND A NEW HOME — SHOWROOM PIECES UP TO 55% OFF',
     nav: { indoor: 'Indoor', outdoor: 'Outdoor', lighting: 'Lighting', objects: 'Objects', brands: 'Brands' },
-    searchPlaceholder: 'Search 277 pieces…',
+    searchPlaceholder: 'Search 272 pieces…',
     account: 'Account',
     bag: 'Bag',
     subscribe: 'Subscribe',
@@ -31,7 +31,7 @@ const DICT = {
       pieces: 'pieces',
       enter: 'View',
       stats: [
-        ['277', 'pieces in this lot'],
+        ['272', 'pieces in this lot'],
         ['62', 'brands'],
         ['−55%', 'off list price'],
         ['1', 'iconic pieces. always'],
@@ -142,8 +142,8 @@ const DICT = {
       asCatalogued: 'As catalogued',
       save: '○ save to list',
       saved: '● saved',
-      reserve: 'Reserve this piece',
-      callBtn: 'Bize Ulaşın',
+      reserve: 'Get information about this piece',
+      callBtn: 'Contact us',
       oneOnly: 'One of one. When this piece leaves the showroom, the listing is retired.',
       manyAvail: (n) => `${n} available — each ex-display, each sold once.`,
       listPrice: 'Original list price',
@@ -164,7 +164,7 @@ const DICT = {
       ],
       deliveryP1: 'White-glove delivery worldwide. Istanbul & Milano pickup available by appointment. Crating and export documentation handled by our team.',
       deliveryP2: 'Typical lead time: 2–4 weeks within Europe, 4–8 weeks rest of world.',
-      microcopy: 'Reserve holds the piece for 24 hours while our team confirms condition and dispatch. No charge until you approve.',
+      microcopy: 'Our team will get back to you with availability, condition and delivery details. No obligation.',
       phone: '+90 539 576 18 00',
       noReturn: 'No returns or exchanges.',
     },
@@ -172,32 +172,32 @@ const DICT = {
       eyebrow: 'Your list',
       title: 'Saved pieces',
       empty: 'No pieces saved yet. Tap "save to list" on any piece to add it here.',
-      reserve: 'Reserve',
+      reserve: 'Get info',
       remove: 'Remove',
       clearAll: 'Clear all',
       clearConfirm: 'Remove all saved pieces?',
     },
     reserveMail: {
-      subject: (p) => `Reserve: ${p.brand} ${p.name}`,
+      subject: (p) => `Information request: ${p.brand} ${p.name}`,
       bodyModal: (p) =>
-        `Hello Mozaikdesign team,\n\nI'd like to reserve the piece below:\n\n` +
+        `Hello Mozaikdesign team,\n\nI'd like more information about the piece below:\n\n` +
         `• ${p.brand} — ${p.name}\n` +
         `• Category: ${p.category}\n` +
         `• Dimensions: ${p.dims || '—'}\n` +
         `• Outlet price: €${p.saleEur?.toLocaleString('de-DE')}\n\n` +
         `Please confirm availability and condition.\n\nThank you.`,
       bodySaved: (p) =>
-        `Hello Mozaikdesign team,\n\nI'd like to reserve:\n\n` +
+        `Hello Mozaikdesign team,\n\nI'd like more information about:\n\n` +
         `• ${p.brand} — ${p.name}\n` +
         `• Dimensions: ${p.dims || '—'}\n` +
         `• Outlet price: €${p.saleEur?.toLocaleString('de-DE')}\n\nThank you.`,
-      toast: (p) => `Reservation email opened for ${p.brand} ${p.name}. If nothing happened, write to simge@mozaikdesign.com.`,
+      toast: (p) => `Information request email opened for ${p.brand} ${p.name}. If nothing happened, write to simge@mozaikdesign.com.`,
     },
   },
   tr: {
     announce: 'SON GÜNLER · BU PARÇALAR YENİ SAHİBİNİ BULMADAN — TEŞHİR ÜRÜNLERİ %55\'E VARAN İNDİRİM',
     nav: { indoor: 'İç Mekan', outdoor: 'Dış Mekan', lighting: 'Aydınlatma', objects: 'Objeler', brands: 'Markalar' },
-    searchPlaceholder: '277 parça içinde ara…',
+    searchPlaceholder: '272 parça içinde ara…',
     account: 'Hesap',
     bag: 'Sepet',
     subscribe: 'Abone Ol',
@@ -223,7 +223,7 @@ const DICT = {
       pieces: 'parça',
       enter: 'Gör',
       stats: [
-        ['277', 'ürün'],
+        ['272', 'ürün'],
         ['62', 'marka'],
         ['%55', "'e varan indirim"],
         ['1', 'ikonik parça. her zaman'],
@@ -334,7 +334,7 @@ const DICT = {
       asCatalogued: 'Katalogda',
       save: '○ listeye kaydet',
       saved: '● kaydedildi',
-      reserve: 'Bu parçayı rezerve et',
+      reserve: 'Bu parça hakkında bilgi al',
       callBtn: 'Bize Ulaşın',
       oneOnly: 'Tek parça. Bu parça showroom\'dan ayrıldığında ilan kaldırılır.',
       manyAvail: (n) => `${n} adet mevcut — her biri teşhir, her biri bir kez satılır.`,
@@ -356,7 +356,7 @@ const DICT = {
       ],
       deliveryP1: 'Dünya çapında özel teslimat. İstanbul ve Milano\'dan randevuyla teslim alma mevcuttur. Sandıklama ve ihracat belgeleri ekibimiz tarafından yapılır.',
       deliveryP2: 'Tipik teslim süresi: Avrupa içinde 2–4 hafta, dünyanın geri kalanı 4–8 hafta.',
-      microcopy: 'Rezervasyon, ekibimiz durumu ve sevkiyatı onaylarken parçayı 24 saat tutar. Onaylayana kadar ücret alınmaz.',
+      microcopy: 'Ekibimiz uygunluk, ürün durumu ve teslimat bilgileriyle size dönüş yapar. Herhangi bir yükümlülük yoktur.',
       phone: '+90 539 576 18 00',
       noReturn: 'İade ve değişim yoktur.',
     },
@@ -364,26 +364,26 @@ const DICT = {
       eyebrow: 'Listeniz',
       title: 'Kaydedilen parçalar',
       empty: 'Henüz parça kaydetmediniz. Bir parçada "listeye kaydet"e dokunarak buraya ekleyin.',
-      reserve: 'Rezerve et',
+      reserve: 'Bilgi al',
       remove: 'Kaldır',
       clearAll: 'Tümünü temizle',
       clearConfirm: 'Tüm kayıtlı parçalar kaldırılsın mı?',
     },
     reserveMail: {
-      subject: (p) => `Rezervasyon: ${p.brand} ${p.name}`,
+      subject: (p) => `Bilgi talebi: ${p.brand} ${p.name}`,
       bodyModal: (p) =>
-        `Merhaba Mozaikdesign ekibi,\n\nAşağıdaki parçayı rezerve etmek istiyorum:\n\n` +
+        `Merhaba Mozaikdesign ekibi,\n\nAşağıdaki parça hakkında bilgi almak istiyorum:\n\n` +
         `• ${p.brand} — ${p.name}\n` +
         `• Kategori: ${p.category}\n` +
         `• Ölçüler: ${p.dims || '—'}\n` +
         `• Outlet fiyatı: €${p.saleEur?.toLocaleString('de-DE')}\n\n` +
         `Lütfen uygunluğu ve ürün durumunu teyit edebilir misiniz?\n\nTeşekkürler.`,
       bodySaved: (p) =>
-        `Merhaba Mozaikdesign ekibi,\n\nŞu parçayı rezerve etmek istiyorum:\n\n` +
+        `Merhaba Mozaikdesign ekibi,\n\nŞu parça hakkında bilgi almak istiyorum:\n\n` +
         `• ${p.brand} — ${p.name}\n` +
         `• Ölçüler: ${p.dims || '—'}\n` +
         `• Outlet fiyatı: €${p.saleEur?.toLocaleString('de-DE')}\n\nTeşekkürler.`,
-      toast: (p) => `${p.brand} ${p.name} için rezervasyon e-postası açıldı. Bir şey olmadıysa simge@mozaikdesign.com adresine yazın.`,
+      toast: (p) => `${p.brand} ${p.name} için bilgi talebi e-postası açıldı. Bir şey olmadıysa simge@mozaikdesign.com adresine yazın.`,
     },
   },
 };
