@@ -317,23 +317,6 @@
     ]
   },
   {
-    "id": 55,
-    "brand": "Cassina",
-    "name": "Bed Side Coffee Table",
-    "section": "INDOOR",
-    "category": "Beds & Daybeds",
-    "qty": 2,
-    "listEur": 2520,
-    "outletEur": 1000,
-    "saleEur": 1000,
-    "discountPct": 60,
-    "dims": "Ø44cm H:74cm",
-    "dekupe": "photos/dekupe/cassina-bed-side-coffee-table.webp",
-    "lifes": [
-      "photos/life/cassina-bedside.webp"
-    ]
-  },
-  {
     "id": 57,
     "brand": "Gallotti & Radice",
     "name": "Arch Low Table",
@@ -2078,23 +2061,6 @@
     "dekupe": "photos/dekupe/flos-goldman-black-fume.webp",
     "lifes": [
       "photos/life/flos-goldman-black-fume-life.webp"
-    ]
-  },
-  {
-    "id": 322,
-    "brand": "Luceplan",
-    "name": "GlassGlass",
-    "section": "LIGHTING",
-    "category": "Pendants & Chandeliers",
-    "qty": 1,
-    "listEur": 840,
-    "outletEur": 504,
-    "saleEur": 504,
-    "discountPct": 40,
-    "dims": "",
-    "dekupe": "photos/dekupe/luceplan-glassglass.webp",
-    "lifes": [
-      "photos/life/luceplan-glassglass-life.webp"
     ]
   },
   {
@@ -4867,6 +4833,176 @@
     "dekupe": "photos/dekupe/vitra-abalon-sofa.webp",
     "lifes": [
       "photos/life/vitra-abalon-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 571,
+    "brand": "Flexform",
+    "name": "Plain Side Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 2530,
+    "outletEur": 1395,
+    "saleEur": 1395,
+    "discountPct": 45,
+    "dims": "34 x 43cm H:53cm",
+    "dekupe": "photos/dekupe/flexform-plain-side-table-rust.webp",
+    "lifes": [
+      "photos/life/flexform-plain-side-table-rust-life.webp"
+    ]
+  },
+  {
+    "id": 572,
+    "brand": "B&B Italia",
+    "name": "Atoll Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 13336,
+    "outletEur": 7350,
+    "saleEur": 7350,
+    "discountPct": 45,
+    "dims": "354 x 97,5cm H:45/86cm",
+    "dekupe": "photos/dekupe/bb-atoll-354-sofa.webp",
+    "lifes": [
+      "photos/life/bb-atoll-354-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 573,
+    "brand": "Gandia Blasco",
+    "name": "Isla Side Table",
+    "section": "OUTDOOR",
+    "category": "Outdoor Tables",
+    "qty": 1,
+    "listEur": 816,
+    "outletEur": 450,
+    "saleEur": 450,
+    "discountPct": 45,
+    "dims": "Ø35cm H:51cm",
+    "dekupe": "photos/dekupe/gandia-blasco-isla-side-table.webp",
+    "lifes": [
+      "photos/life/gandia-blasco-isla-side-table-life.webp"
+    ]
+  },
+  {
+    "id": 574,
+    "brand": "Flexform",
+    "name": "Harper Sofa",
+    "section": "INDOOR",
+    "category": "Sofas",
+    "qty": 1,
+    "listEur": 46754,
+    "outletEur": 25715,
+    "saleEur": 25715,
+    "discountPct": 45,
+    "dims": "407 x 371cm H:42/88cm",
+    "dekupe": "photos/dekupe/flexform-harper-sofa.webp",
+    "lifes": [
+      "photos/life/flexform-harper-sofa-life.webp"
+    ]
+  },
+  {
+    "id": 575,
+    "brand": "Acerbis",
+    "name": "Palla Armchair & Pouf",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 1,
+    "listEur": 5161,
+    "outletEur": 2840,
+    "saleEur": 2840,
+    "discountPct": 45,
+    "dims": "Armchair 90 x 90cm H:40/70cm · Pouf 86 x 72cm H:37cm",
+    "dekupe": "photos/dekupe/acerbis-palla-armchair-pouf.webp",
+    "lifes": [
+      "photos/life/acerbis-palla-armchair-pouf-life.webp"
+    ]
+  },
+  {
+    "id": 576,
+    "brand": "B&B Italia",
+    "name": "Lemante Small Table",
+    "section": "INDOOR",
+    "category": "Coffee & Side Tables",
+    "qty": 1,
+    "listEur": 2056,
+    "outletEur": 1130,
+    "saleEur": 1130,
+    "discountPct": 45,
+    "dims": "65 x 65cm H:38cm",
+    "dekupe": "photos/dekupe/bb-italia-lemante-small-table.webp",
+    "lifes": [
+      "photos/life/bb-italia-lemante-small-table-life.webp"
+    ]
+  },
+  {
+    "id": 577,
+    "brand": "Axolight",
+    "name": "Bul-Bo Floor Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 3230,
+    "outletEur": 2100,
+    "saleEur": 2100,
+    "discountPct": 35,
+    "dims": "H:245cm",
+    "dekupe": "photos/dekupe/axolight-bul-bo-floor-lamp.webp",
+    "lifes": [
+      "photos/life/axolight-bul-bo-floor-lamp-life.webp"
+    ]
+  },
+  {
+    "id": 578,
+    "brand": "Maxalto",
+    "name": "Amoenus Soft Armchair",
+    "section": "INDOOR",
+    "category": "Armchairs",
+    "qty": 2,
+    "listEur": 3455,
+    "outletEur": 1900,
+    "saleEur": 1900,
+    "discountPct": 45,
+    "dims": "64 x 69cm H:37/63cm",
+    "dekupe": "photos/dekupe/maxalto-amoenus-soft-armchair.webp",
+    "lifes": [
+      "photos/life/maxalto-amoenus-soft-armchair-life.webp"
+    ]
+  },
+  {
+    "id": 579,
+    "brand": "Marset",
+    "name": "Dipping Light Portable (White)",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 480,
+    "outletEur": 315,
+    "saleEur": 315,
+    "discountPct": 34,
+    "dims": "",
+    "dekupe": "photos/dekupe/marset-dipping-portable-white.webp",
+    "lifes": [
+      "photos/life/marset-dipping-portable-white-life.webp"
+    ]
+  },
+  {
+    "id": 580,
+    "brand": "Marset",
+    "name": "Dipping Light Portable (Green)",
+    "section": "LIGHTING",
+    "category": "Table Lamps",
+    "qty": 1,
+    "listEur": 480,
+    "outletEur": 315,
+    "saleEur": 315,
+    "discountPct": 34,
+    "dims": "",
+    "dekupe": "photos/dekupe/marset-dipping-portable-green.webp",
+    "lifes": [
+      "photos/life/marset-dipping-portable-green-life.webp"
     ]
   }
 ]
