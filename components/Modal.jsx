@@ -81,14 +81,25 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
               <span>{m.listPrice}</span>
               <span className="modal__list-price">{eurFmt(product.listEur)}</span>
             </div>
+            {product.promo ? (<>
+              <div className="modal__pricing-row">
+                <span>{m.outletPrice}</span>
+                <span className="modal__list-price">{eurFmt(product.prevSaleEur)}</span>
+              </div>
+              <div className="modal__pricing-row modal__pricing-row--promo">
+                <span>{product.extra10 ? (lang === 'tr' ? '%10 ek indirim ile fiyat' : 'Price with extra 10% off') : (lang === 'tr' ? 'Özel indirimli fiyat' : 'Special offer price')}</span>
+                <span className="modal__sale-price">{eurFmt(product.saleEur)}</span>
+              </div>
+            </>) : (
             <div className="modal__pricing-row">
               <span>{m.outletPrice}</span>
               <span className="modal__sale-price">{eurFmt(product.saleEur)}</span>
             </div>
+            )}
             <div className="modal__pricing-rule"/>
             <div className="modal__pricing-row modal__pricing-row--save">
-              <span>{m.youSave}</span>
-              <span>{eurFmt(savings)} <em>(−{product.discountPct}%)</em></span>
+              <span>{m.youSave}{product.promo && <i className="promo-week promo-week--inline">{lang === 'tr' ? 'Bu haftaya özel' : 'This week only'}</i>}</span>
+              <span>{eurFmt(savings)} <em>({product.promo && <s>−{product.prevDiscountPct}%</s>} −{product.discountPct}%)</em></span>
             </div>
           </div>
 

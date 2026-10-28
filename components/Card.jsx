@@ -31,7 +31,7 @@ function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
       <div className="card__image">
         <Img src={showLife ? firstLife : product.dekupe} alt={product.name}/>
         {product.discountPct >= 15 && (
-          <span className="card__discount">−{product.discountPct}%</span>
+          <span className="card__discount">{product.promo && <i className="promo-week">{lang === 'tr' ? 'Bu haftaya özel' : 'This week only'}</i>}{product.promo && <s>−{product.prevDiscountPct}%</s>}−{product.discountPct}%</span>
         )}
         {product.qty !== 1 && (
           <span className={'card__qty card__qty--' + (product.qty === 2 ? 'two' : 'many')}>
@@ -60,8 +60,11 @@ function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
         <div className="card__brand">{product.brand}</div>
         <div className="card__name">{product.name}</div>
         <div className="card__prices">
-          <span className="card__price">{eurFmt(product.saleEur)}</span>
-          {product.listEur > product.saleEur && (
+          {product.extra10 && <window.PROMO.Extra10/>}
+          <span className={'card__price' + (product.promo ? ' is-promo' : '')}>{eurFmt(product.saleEur)}</span>
+          {product.promo ? (
+            <span className="card__list">{eurFmt(product.prevSaleEur)}</span>
+          ) : product.listEur > product.saleEur && (
             <span className="card__list">{eurFmt(product.listEur)}</span>
           )}
         </div>
@@ -111,10 +114,11 @@ function EditorialCard({ product, onOpen, onSave, saved, index }) {
         <h3 className="ed-card__name">{product.name}</h3>
         <div className="ed-card__meta">{product.category}</div>
         <div className="ed-card__prices">
-          <span className="ed-card__list">{eurFmt(product.listEur)}</span>
+          <span className="ed-card__list">{eurFmt(product.promo ? product.prevSaleEur : product.listEur)}</span>
           <span className="ed-card__arrow">→</span>
           <span className="ed-card__sale">{eurFmt(product.saleEur)}</span>
-          <span className="ed-card__pct">−{product.discountPct}%</span>
+          {product.extra10 && <window.PROMO.Extra10/>}
+          <span className="ed-card__pct">{product.promo && <i className="promo-week">{lang === 'tr' ? 'Bu haftaya özel' : 'This week only'}</i>}{product.promo && <s>−{product.prevDiscountPct}%</s>} −{product.discountPct}%</span>
         </div>
       </div>
     </article>
@@ -123,6 +127,7 @@ function EditorialCard({ product, onOpen, onSave, saved, index }) {
 
 // ------- List row — dense, table-like -------
 function ListRow({ product, onOpen, onSave, saved }) {
+  const { lang } = useI18n();
   return (
     <tr className="list-row" onClick={() => onOpen(product)}>
       <td className="list-row__img">
@@ -136,8 +141,10 @@ function ListRow({ product, onOpen, onSave, saved }) {
       <td className="list-row__qty">{product.qty}</td>
       <td className="list-row__list">{eurFmt(product.listEur)}</td>
       <td className="list-row__sale">
+        {product.promo && <span className="list-row__prev">{eurFmt(product.prevSaleEur)}</span>}
+        {product.extra10 && <window.PROMO.Extra10 className="promo-extra--block"/>}
         {eurFmt(product.saleEur)}
-        <span className="list-row__pct">−{product.discountPct}%</span>
+        <span className="list-row__pct">{product.promo && <i className="promo-week">{lang === 'tr' ? 'Bu haftaya özel' : 'This week only'}</i>}{product.promo && <s>−{product.prevDiscountPct}%</s>} −{product.discountPct}%</span>
       </td>
       <td className="list-row__cta">
         <button onClick={(e) => { e.stopPropagation(); onOpen(product); }}>view →</button>

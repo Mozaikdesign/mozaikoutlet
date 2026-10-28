@@ -102,7 +102,7 @@ function Filters({ products, filters, setFilters, resetFilters }) {
       </div>
 
       <div className="filters__group">
-        <h4 className="filters__label">{t.filters.discountBand}</h4>
+        <h4 className="filters__label">{window.PROMO && window.PROMO.promoActive() ? (lang === 'tr' ? 'BU HAFTAYA ÖZEL İNDİRİMLER' : 'THIS WEEK’S SPECIAL DISCOUNTS') : t.filters.discountBand}</h4>
         <div className="filters__list">
           {discountBands.map(b => (
             <button

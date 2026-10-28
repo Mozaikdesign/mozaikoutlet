@@ -63,12 +63,12 @@ function App() {
   useEffect(() => {
     if (typeof window.__resolveCatalogue__ === 'function') {
       // Standalone bundled mode — inlined JSON + blob URLs
-      setCatalogue(window.__resolveCatalogue__());
+      setCatalogue(window.PROMO.applyPromo(window.__resolveCatalogue__()));
       return;
     }
-    fetch('data/catalogue.json?v=293')
+    fetch('data/catalogue.json?v=295')
       .then(r => r.json())
-      .then(setCatalogue);
+      .then(d => setCatalogue(window.PROMO.applyPromo(d)));
   }, []);
 
   // Persist state
@@ -281,6 +281,9 @@ function App() {
           }
         }}
       />
+
+      {window.PROMO.promoActive() && <window.PROMO.PromoHero/>}
+      {window.PROMO.promoActive() && <window.PROMO.PromoPopup/>}
 
       <Hero
         view={view}

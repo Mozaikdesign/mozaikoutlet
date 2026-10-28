@@ -40,7 +40,7 @@ function TopBar({ onSearch, searchQuery, cartCount, onBagClick, onOpenFilters, o
   };
   return (
     <header className="site-header">
-      <div className="site-header__announce">{t.announce}</div>
+      {window.PROMO && window.PROMO.promoActive() ? <window.PROMO.PromoBanner/> : <div className="site-header__announce">{t.announce}</div>}
       <div className="site-header__main">
         <div className="site-header__nav site-header__nav--left">
           <a href="#indoor" onClick={handleNav('indoor')}>{t.nav.indoor}</a>
@@ -101,7 +101,7 @@ function TopBar({ onSearch, searchQuery, cartCount, onBagClick, onOpenFilters, o
 }
 
 function Hero({ view, setView, section, setSection, counts, cubeImages, pickerImages }) {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const Cube = window.CUBE && window.CUBE.Cube;
   const ShowroomGallery = window.CUBE && window.CUBE.ShowroomGallery;
   const pickerRef = useRef(null);
@@ -119,7 +119,7 @@ function Hero({ view, setView, section, setSection, counts, cubeImages, pickerIm
         <span className="hero__dot">·</span>
         <span className="hero__eyebrow">{t.hero.eyebrowRight}</span>
       </div>
-      <div className="hero__lead">
+      {!(window.PROMO && window.PROMO.promoActive()) && <div className="hero__lead">
         <h1 className="hero__title">
           {t.hero.titlePart1}<br/><em>{t.hero.titleEm}</em>
           {t.hero.titlePart2 ? <><br/>{t.hero.titlePart2}</> : null}
@@ -129,11 +129,11 @@ function Hero({ view, setView, section, setSection, counts, cubeImages, pickerIm
         <p className="hero__sub">
           {t.hero.sub}<em>{t.hero.subEm}</em>
         </p>
-      </div>
+      </div>}
 
       <div className="hero__stats">
-        {t.hero.stats.map(([v, l], i) => (
-          <div key={i} className="hero__stat"><span>{v}</span><label>{l}</label></div>
+        {t.hero.stats.map((s, i) => (i === 2 && window.PROMO && window.PROMO.promoActive()) ? (lang === 'tr' ? ['%70', "'e varan indirim · Bu haftaya özel"] : ['−70%', 'off list price · this week only']) : s).map(([v, l], i) => (
+          <div key={i} className={'hero__stat' + (i === 2 && window.PROMO && window.PROMO.promoActive() ? ' hero__stat--promo' : '')}><span>{v}</span><label>{l}</label></div>
         ))}
       </div>
 

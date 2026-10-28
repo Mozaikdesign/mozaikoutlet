@@ -120,23 +120,6 @@
     ]
   },
   {
-    "id": 21,
-    "brand": "Ceccotti Collezioni",
-    "name": "Pigra Armchair & Ottoman",
-    "section": "INDOOR",
-    "category": "Armchairs",
-    "qty": 1,
-    "listEur": 13654,
-    "outletEur": 6000,
-    "saleEur": 6000,
-    "discountPct": 56,
-    "dims": "56677 75 x 90 cm H:40/102 cm · 63 x 63 cm H:43,5cm",
-    "dekupe": "photos/dekupe/ceccotti-collezioni.webp",
-    "lifes": [
-      "photos/life/ceccotti-collezione.webp"
-    ]
-  },
-  {
     "id": 27,
     "brand": "Flexform",
     "name": "Ortigia Chair",
@@ -1703,21 +1686,6 @@
     "lifes": []
   },
   {
-    "id": 292,
-    "brand": "Flos",
-    "name": "Kelvin T (White)",
-    "section": "LIGHTING",
-    "category": "Table Lamps",
-    "qty": 1,
-    "listEur": 480,
-    "outletEur": 310,
-    "saleEur": 310,
-    "discountPct": 35,
-    "dims": "",
-    "dekupe": "photos/dekupe/flos-kelvin-t.webp",
-    "lifes": []
-  },
-  {
     "id": 294,
     "brand": "Belux",
     "name": "Scope",
@@ -1733,21 +1701,6 @@
     "lifes": [
       "photos/life/belux-scope-life.webp"
     ]
-  },
-  {
-    "id": 295,
-    "brand": "Tobias Grau",
-    "name": "Bill",
-    "section": "LIGHTING",
-    "category": "Table Lamps",
-    "qty": 1,
-    "listEur": 300,
-    "outletEur": 80,
-    "saleEur": 80,
-    "discountPct": 73,
-    "dims": "",
-    "dekupe": "photos/dekupe/tobias-grau-bill.webp",
-    "lifes": []
   },
   {
     "id": 296,
@@ -1897,21 +1850,6 @@
       "photos/life/santa-cole-sylvestrina-life1.webp",
       "photos/life/santa-cole-sylvestrina-life2.webp"
     ]
-  },
-  {
-    "id": 311,
-    "brand": "Flos",
-    "name": "Cicatrices De Luxe 8",
-    "section": "LIGHTING",
-    "category": "Pendants & Chandeliers",
-    "qty": 1,
-    "listEur": 7150,
-    "outletEur": 4290,
-    "saleEur": 4290,
-    "discountPct": 40,
-    "dims": "",
-    "dekupe": "photos/dekupe/flos-cicatrices-de-luxe-8.webp",
-    "lifes": []
   },
   {
     "id": 312,
@@ -2158,23 +2096,6 @@
     "dims": "",
     "dekupe": "photos/dekupe/moooi-paper-floor-lamp.webp",
     "lifes": []
-  },
-  {
-    "id": 334,
-    "brand": "Flos",
-    "name": "Romeo Moon T1 Glass",
-    "section": "LIGHTING",
-    "category": "Table Lamps",
-    "qty": 1,
-    "listEur": 960,
-    "outletEur": 460,
-    "saleEur": 460,
-    "discountPct": 52,
-    "dims": "",
-    "dekupe": "photos/dekupe/flos-romeo-moon-t1.webp",
-    "lifes": [
-      "photos/life/flos-romeo-moon-t1-life.webp"
-    ]
   },
   {
     "id": 337,
@@ -5003,6 +4924,110 @@
     "dekupe": "photos/dekupe/marset-dipping-portable-green.webp",
     "lifes": [
       "photos/life/marset-dipping-portable-green-life.webp"
+    ]
+  },
+  {
+    "id": 581,
+    "brand": "Moroso",
+    "name": "Shadowy Outdoor Chaise Lounge",
+    "section": "OUTDOOR",
+    "category": "Outdoor Seating",
+    "qty": 1,
+    "listEur": 1955,
+    "outletEur": 1075,
+    "saleEur": 1075,
+    "discountPct": 45,
+    "dims": "87 × 150 cm, H 160 cm",
+    "dekupe": "photos/life/moroso-shadowy-chaise-life.webp",
+    "lifes": []
+  },
+  {
+    "id": 582,
+    "brand": "Vibia",
+    "name": "Meridiano Lamp (Off-White)",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 2665,
+    "outletEur": 1735,
+    "saleEur": 1735,
+    "discountPct": 35,
+    "dims": "Ø 64 cm, H 46 cm",
+    "dekupe": "photos/dekupe/vibia-meridiano-offwhite.webp",
+    "lifes": [
+      "photos/life/vibia-meridiano-offwhite-life.webp"
+    ]
+  },
+  {
+    "id": 583,
+    "brand": "Vibia",
+    "name": "Meridiano Lamp (Khaki)",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 2665,
+    "outletEur": 1735,
+    "saleEur": 1735,
+    "discountPct": 35,
+    "dims": "Ø 64 cm, H 46 cm",
+    "dekupe": "photos/dekupe/vibia-meridiano-khaki.webp",
+    "lifes": [
+      "photos/life/vibia-meridiano-khaki-life.webp"
+    ]
+  },
+  {
+    "id": 584,
+    "brand": "Vibia",
+    "name": "Meridiano Lamp",
+    "section": "LIGHTING",
+    "category": "Floor Lamps",
+    "qty": 1,
+    "listEur": 2815,
+    "outletEur": 1830,
+    "saleEur": 1830,
+    "discountPct": 35,
+    "dims": "Ø 92 cm, H 32 cm",
+    "dekupe": "photos/dekupe/vibia-meridiano-92.webp",
+    "lifes": [
+      "photos/life/vibia-meridiano-92-life.webp"
+    ]
+  },
+  {
+    "id": 585,
+    "brand": "Fendi Casa",
+    "name": "Doyle Swivel Chair",
+    "section": "INDOOR",
+    "category": "Chairs",
+    "qty": 6,
+    "listEur": 37128,
+    "outletEur": 19500,
+    "saleEur": 19500,
+    "discountPct": 47,
+    "dims": "62,5 × 62 cm, H 49 / 76,5 cm",
+    "dekupe": "photos/dekupe/fendi-casa-doyle-swivel.webp",
+    "lifes": [
+      "photos/life/fendi-casa-doyle-swivel-life.webp"
+    ],
+    "note": {
+      "tr": "6 adet fiyatıdır — adet fiyatı 3.250 €.",
+      "en": "Price for 6 — €3,250 each."
+    }
+  },
+  {
+    "id": 586,
+    "brand": "Maxalto",
+    "name": "Caratos Bench",
+    "section": "INDOOR",
+    "category": "Poufs & Ottomans",
+    "qty": 1,
+    "listEur": 4360,
+    "outletEur": 2400,
+    "saleEur": 2400,
+    "discountPct": 45,
+    "dims": "142 × 51 cm, H 50 cm",
+    "dekupe": "photos/dekupe/maxalto-caratos-bench.webp",
+    "lifes": [
+      "photos/life/maxalto-caratos-bench-life.webp"
     ]
   }
 ]
