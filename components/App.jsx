@@ -549,6 +549,7 @@ function App() {
                           '?subject=' + encodeURIComponent(t.reserveMail.subject(p)) +
                           '&body=' + encodeURIComponent(t.reserveMail.bodySaved(p))
                         }
+                        onClick={() => window.mzTrack && window.mzTrack('get_info_click', p, { source: 'saved_tray' })}
                       >{t.savedTray.reserve}</a>
                       <button className="btn btn--ghost btn--sm" onClick={() => toggleSave(p)}>{t.savedTray.remove}</button>
                     </div>
