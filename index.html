@@ -9,6 +9,25 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-TTT976PM');</script>
   <!-- End Google Tag Manager -->
+  <!-- Mozaik CTA tracking helper -->
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  window.mzTrack = function (name, product, extra) {
+    try {
+      var d = { event: name };
+      if (product) {
+        d.item_id    = product.id;
+        d.item_name  = product.name;
+        d.item_brand = product.brand;
+        d.value      = product.saleEur;
+        d.currency   = 'EUR';
+      }
+      if (extra) { for (var k in extra) { d[k] = extra[k]; } }
+      window.dataLayer.push(d);
+    } catch (e) {}
+  };
+  </script>
+  <!-- End Mozaik CTA tracking helper -->
   <title>Mozaikdesign — Outlet Catalogue</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" id="viewport"/>
   <script>
