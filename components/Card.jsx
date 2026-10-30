@@ -67,6 +67,7 @@ function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
           ) : product.listEur > product.saleEur && (
             <span className="card__list">{eurFmt(product.listEur)}</span>
           )}
+          <span className="card__vat">{lang === 'tr' ? '+KDV' : '+VAT'}</span>
         </div>
       </div>
     </article>

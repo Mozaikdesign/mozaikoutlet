@@ -132,7 +132,7 @@ const DICT = {
           },
         ],
       },
-      copyright: '© 2026 Mozaikdesign · all pieces ex-display · priced in EUR incl. VAT',
+      copyright: '© 2026 Mozaikdesign · all pieces ex-display · prices in EUR, VAT not included',
       tagline: 'Every piece sold is retired from the catalogue within the hour.',
     },
     modal: {
@@ -324,7 +324,7 @@ const DICT = {
           },
         ],
       },
-      copyright: '© 2026 Mozaikdesign · tüm parçalar teşhir · KDV dahil EUR',
+      copyright: '© 2026 Mozaikdesign · tüm parçalar teşhir · fiyatlar EUR, KDV dahil değildir',
       tagline: 'Satılan her parça bir saat içinde katalogdan kaldırılır.',
     },
     modal: {

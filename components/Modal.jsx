@@ -101,6 +101,7 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
               <span>{m.youSave}{product.promo && <i className="promo-week promo-week--inline">{lang === 'tr' ? 'Bu haftaya özel' : 'This week only'}</i>}</span>
               <span>{eurFmt(savings)} <em>({product.promo && <s>−{product.prevDiscountPct}%</s>} −{product.discountPct}%)</em></span>
             </div>
+            <div className="modal__vat">{lang === 'tr' ? 'Fiyatlara KDV dahil değildir.' : 'Prices exclude VAT.'}</div>
           </div>
 
           <div className="modal__tab-body">
@@ -122,26 +123,19 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
                 '?subject=' + encodeURIComponent(t.reserveMail.subject(product)) +
                 '&body=' + encodeURIComponent(t.reserveMail.bodyModal(product))
               }
-              onClick={() => {
-                window.mzTrack && window.mzTrack('get_info_click', product, { source: 'modal' });
-                onAdd(product);
-              }}
+              onClick={() => onAdd(product)}
             >
               {m.reserve} — {eurFmt(product.saleEur)}
             </a>
             <button
               className={'btn btn--ghost ' + (saved ? 'is-saved' : '')}
-              onClick={() => {
-                if (!saved) window.mzTrack && window.mzTrack('save_to_list', product, { source: 'modal' });
-                onSave(product);
-              }}
+              onClick={() => onSave(product)}
             >
               {saved ? m.saved : m.save}
             </button>
             <a
               className="btn btn--call"
               href="tel:+905395761800"
-              onClick={() => window.mzTrack && window.mzTrack('call_click', product, { source: 'modal_button' })}
             >
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/>
@@ -153,11 +147,7 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
 
           <div className="modal__microcopy">{m.microcopy}</div>
           <div className="modal__contact-row">
-            <a
-              href={'tel:' + m.phone}
-              className="modal__phone"
-              onClick={() => window.mzTrack && window.mzTrack('call_click', product, { source: 'modal_footer' })}
-            >{m.phone}</a>
+            <a href={'tel:' + m.phone} className="modal__phone">{m.phone}</a>
             <span className="modal__no-return">{m.noReturn}</span>
           </div>
 

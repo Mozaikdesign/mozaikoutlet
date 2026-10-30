@@ -2005,3 +2005,6 @@ em { font-style: italic; }
   font-size: 12px;
   margin-bottom: 12px;
 }
+
+.modal__vat{margin-top:8px;font-family:var(--sans);font-size:11px;letter-spacing:0.04em;color:var(--ink-2,#666)}
+.card__vat{font-family:var(--sans);font-size:10px;letter-spacing:0.06em;color:#777}
