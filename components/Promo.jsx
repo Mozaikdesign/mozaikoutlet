@@ -4,7 +4,7 @@
 // Phase 1 countdown ends ANNOUNCED_END; then banner shows "extended" and counts to FINAL_END.
 // After FINAL_END everything reverts automatically to catalogue prices.
 const PROMO_CFG = {
-  ENABLED: true, // set to false to switch the whole campaign off instantly
+  ENABLED: false, // set to false to switch the whole campaign off instantly
   ANNOUNCED_END: new Date('2026-11-04T23:59:59+03:00'),
   FINAL_END: new Date('2026-11-11T23:59:59+03:00'),
   bands: [
