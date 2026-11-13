@@ -46,6 +46,7 @@ function TopBar({ onSearch, searchQuery, cartCount, onBagClick, onOpenFilters, o
           <a href="#indoor" onClick={handleNav('indoor')}>{t.nav.indoor}</a>
           <a href="#outdoor" onClick={handleNav('outdoor')}>{t.nav.outdoor}</a>
           <a href="#lighting" onClick={handleNav('lighting')}>{t.nav.lighting}</a>
+          <a href="#office" onClick={handleNav('office')}>{t.nav.office}</a>
           <a href="#objects" onClick={handleNav('objects')}>{t.nav.objects}</a>
           <a href="#brands" onClick={handleNav('brands')}>{t.nav.brands}</a>
         </div>
@@ -179,6 +180,20 @@ function Hero({ view, setView, section, setSection, counts, cubeImages, pickerIm
             <span className="pick-card__label">{t.hero.lightingTitle}</span>
             <span className="pick-card__foot">
               <span className="pick-card__sub">{t.hero.lightingSub}</span>
+              <span className="pick-card__cta">{t.hero.enter} →</span>
+            </span>
+          </button>
+          <button
+            className={'pick-card ' + (section === 'OFFICE' ? 'is-active' : '')}
+            onClick={() => setSection('OFFICE')}
+          >
+            <span className="pick-card__media">
+              <img className="pick-card__img pick-card__img--base" src={(pickerImages && pickerImages.office || [])[0]} alt="" loading="lazy"/>
+              {(pickerImages && pickerImages.office || [])[1] && <img className="pick-card__img pick-card__img--hover" src={pickerImages.office[1]} alt="" loading="lazy"/>}
+            </span>
+            <span className="pick-card__label">{t.hero.officeTitle}</span>
+            <span className="pick-card__foot">
+              <span className="pick-card__sub">{t.hero.officeSub}</span>
               <span className="pick-card__cta">{t.hero.enter} →</span>
             </span>
           </button>

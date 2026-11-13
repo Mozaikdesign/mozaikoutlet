@@ -4401,5 +4401,518 @@
    "tr": "6 adet fiyatıdır — adet fiyatı 3.250 €.",
    "en": "Price for 6 — €3,250 each."
   }
+ },
+ {
+  "id": 586,
+  "brand": "B&B Italia",
+  "name": "Le Bambole Sofa",
+  "section": "INDOOR",
+  "category": "Sofas",
+  "qty": 1,
+  "listEur": 10131,
+  "outletEur": 5575,
+  "saleEur": 5575,
+  "discountPct": 45,
+  "dims": "244 × 116 cm, H 42 / 75 cm",
+  "dekupe": "photos/dekupe/bb-italia-le-bambole-sofa.webp",
+  "lifes": [
+   "photos/life/bb-italia-le-bambole-sofa-life.webp"
+  ]
+ },
+ {
+  "id": 587,
+  "brand": "B&B Italia",
+  "name": "Tortello Sofa",
+  "section": "INDOOR",
+  "category": "Sofas",
+  "qty": 1,
+  "listEur": 8375,
+  "outletEur": 4610,
+  "saleEur": 4610,
+  "discountPct": 45,
+  "dims": "250 × 110 cm, H 42 / 78 cm",
+  "dekupe": "photos/dekupe/bb-italia-tortello-sofa.webp",
+  "lifes": [
+   "photos/life/bb-italia-tortello-sofa-life.webp"
+  ]
+ },
+ {
+  "id": 588,
+  "brand": "B&B Italia",
+  "name": "Tortello Armchair",
+  "section": "INDOOR",
+  "category": "Armchairs",
+  "qty": 1,
+  "listEur": 4106,
+  "outletEur": 2260,
+  "saleEur": 2260,
+  "discountPct": 45,
+  "dims": "118 × 96 cm, H 42 / 78 cm",
+  "dekupe": "photos/dekupe/bb-italia-tortello-armchair.webp",
+  "lifes": [
+   "photos/life/bb-italia-tortello-armchair-life.webp"
+  ]
+ },
+ {
+  "id": 589,
+  "brand": "Cassina",
+  "name": "Dudet Chair",
+  "section": "INDOOR",
+  "category": "Chairs",
+  "qty": 6,
+  "listEur": 12060,
+  "outletEur": 6635,
+  "saleEur": 6635,
+  "discountPct": 45,
+  "dims": "60 × 51 cm, H 46 / 75 cm",
+  "dekupe": "photos/dekupe/cassina-dudet-chair.webp",
+  "lifes": [
+   "photos/life/cassina-dudet-chair-life.webp"
+  ],
+  "note": {
+   "tr": "6 adet fiyatıdır — adet fiyatı 1.105 €.",
+   "en": "Price for 6 — €1,105 each."
+  }
+ },
+ {
+  "id": 590,
+  "brand": "Vitra",
+  "name": "Eames Stool Model C",
+  "section": "INDOOR",
+  "category": "Coffee & Side Tables",
+  "qty": 1,
+  "listEur": 1482,
+  "outletEur": 815,
+  "saleEur": 815,
+  "discountPct": 45,
+  "dims": "Ø 33 cm, H 38 cm",
+  "dekupe": "photos/dekupe/vitra-eames-stool-c.webp",
+  "lifes": [
+   "photos/life/vitra-eames-stool-c-life.webp"
+  ]
+ },
+ {
+  "id": 591,
+  "brand": "Knoll",
+  "name": "Spark Chair",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 330,
+  "outletEur": 165,
+  "saleEur": 165,
+  "discountPct": 50,
+  "dekupe": "photos/dekupe/knoll-spark-chair.webp",
+  "lifes": [
+   "photos/life/knoll-spark-chair-life.webp"
+  ]
+ },
+ {
+  "id": 592,
+  "brand": "Vitra",
+  "name": "Tip Ton Chair Red",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 275,
+  "outletEur": 165,
+  "saleEur": 165,
+  "discountPct": 40,
+  "dekupe": "photos/dekupe/vitra-tipton-chair-red.webp",
+  "lifes": [
+   "photos/life/vitra-tipton-chair-red-life.webp"
+  ]
+ },
+ {
+  "id": 593,
+  "brand": "Magis",
+  "name": "Steelwood Chair",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 420,
+  "outletEur": 180,
+  "saleEur": 180,
+  "discountPct": 57,
+  "dekupe": "photos/dekupe/magis-steelwood-chair.webp",
+  "lifes": [
+   "photos/life/magis-steelwood-chair-life.webp"
+  ]
+ },
+ {
+  "id": 594,
+  "brand": "Vitra",
+  "name": "Eames Plastic Chair",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 792,
+  "outletEur": 400,
+  "saleEur": 400,
+  "discountPct": 49,
+  "dekupe": "photos/dekupe/vitra-eames-plastic-chair.webp",
+  "lifes": [
+   "photos/life/vitra-eames-plastic-chair-life.webp"
+  ]
+ },
+ {
+  "id": 595,
+  "brand": "Vitra",
+  "name": "Eames Plastic Armchair Blue",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 600,
+  "outletEur": 330,
+  "saleEur": 330,
+  "discountPct": 45,
+  "dekupe": "photos/dekupe/vitra-eames-plastic-armchair-blue.webp",
+  "lifes": [
+   "photos/life/vitra-eames-plastic-armchair-blue-life.webp"
+  ]
+ },
+ {
+  "id": 596,
+  "brand": "Andreu World",
+  "name": "Anna Chair",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 647,
+  "outletEur": 300,
+  "saleEur": 300,
+  "discountPct": 54,
+  "dekupe": "photos/dekupe/andreu-world-anna-chair.webp",
+  "lifes": [
+   "photos/life/andreu-world-anna-chair-life.webp"
+  ]
+ },
+ {
+  "id": 597,
+  "brand": "B&B Italia",
+  "name": "Luta Chair",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 1552,
+  "outletEur": 700,
+  "saleEur": 700,
+  "discountPct": 55,
+  "dims": "68 × 68 cm, H 46 / 80 cm",
+  "dekupe": "photos/dekupe/bb-italia-luta-chair-2.webp",
+  "lifes": [
+   "photos/life/bb-italia-luta-chair-2-life.webp"
+  ]
+ },
+ {
+  "id": 598,
+  "brand": "Arper",
+  "name": "Catifa 46 Chair",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 203,
+  "outletEur": 120,
+  "saleEur": 120,
+  "discountPct": 41,
+  "dekupe": "photos/dekupe/arper-catifa-46.webp",
+  "lifes": [
+   "photos/life/arper-catifa-46-life.webp"
+  ]
+ },
+ {
+  "id": 599,
+  "brand": "Vitra",
+  "name": "Visasoft Lounge Chair",
+  "section": "OFFICE",
+  "category": "Armchairs",
+  "qty": 2,
+  "listEur": 5040,
+  "outletEur": 2200,
+  "saleEur": 2200,
+  "discountPct": 56,
+  "dekupe": "photos/dekupe/vitra-visasoft-lounge.webp",
+  "lifes": [
+   "photos/life/vitra-visasoft-lounge-life.webp"
+  ],
+  "note": {
+   "tr": "2 adet fiyatıdır — adet fiyatı 1.100 €.",
+   "en": "Price for 2 — €1,100 each."
+  }
+ },
+ {
+  "id": 600,
+  "brand": "Vitra",
+  "name": "Soft Work Sofa",
+  "section": "OFFICE",
+  "category": "Sofas",
+  "qty": 1,
+  "listEur": 15432,
+  "outletEur": 8490,
+  "saleEur": 8490,
+  "discountPct": 45,
+  "dims": "340 × 70 cm, H 42 / 86 cm",
+  "dekupe": "photos/dekupe/vitra-soft-work.webp",
+  "lifes": [
+   "photos/life/vitra-soft-work-life.webp"
+  ]
+ },
+ {
+  "id": 601,
+  "brand": "Vitra",
+  "name": "Alcove Highback Sofa",
+  "section": "OFFICE",
+  "category": "Sofas",
+  "qty": 1,
+  "listEur": 9126,
+  "outletEur": 2500,
+  "saleEur": 2500,
+  "discountPct": 73,
+  "dims": "238 × 86 cm, H 48,5 / 136 cm",
+  "dekupe": "photos/dekupe/vitra-alcove-highback-sofa.webp",
+  "lifes": [
+   "photos/life/vitra-alcove-highback-sofa-life.webp"
+  ]
+ },
+ {
+  "id": 602,
+  "brand": "Cassina",
+  "name": "Loop Desk by Simon",
+  "section": "OFFICE",
+  "category": "Tables & Consoles",
+  "qty": 1,
+  "listEur": 4458,
+  "outletEur": 2000,
+  "saleEur": 2000,
+  "discountPct": 55,
+  "dims": "214 × 82 cm, H 74 cm",
+  "dekupe": "photos/dekupe/cassina-loop-desk.webp",
+  "lifes": [
+   "photos/life/cassina-loop-desk-life.webp"
+  ]
+ },
+ {
+  "id": 603,
+  "brand": "Vitra",
+  "name": "Hal Tube Armchair",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 200,
+  "outletEur": 100,
+  "saleEur": 100,
+  "discountPct": 50,
+  "dekupe": "photos/dekupe/vitra-hal-tube-armchair.webp",
+  "lifes": [
+   "photos/life/vitra-hal-tube-armchair-life.webp"
+  ]
+ },
+ {
+  "id": 604,
+  "brand": "Vitra",
+  "name": "EA 108 Chair",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 8,
+  "listEur": 20064,
+  "outletEur": 12040,
+  "saleEur": 12040,
+  "discountPct": 40,
+  "dims": "55 × 58 cm, H 48 / 82 cm",
+  "dekupe": "photos/dekupe/vitra-ea108-chair.webp",
+  "lifes": [
+   "photos/life/vitra-ea108-chair-life.webp"
+  ],
+  "note": {
+   "tr": "8 adet fiyatıdır — adet fiyatı 1.505 €.",
+   "en": "Price for 8 — €1,505 each."
+  }
+ },
+ {
+  "id": 605,
+  "brand": "Moroso",
+  "name": "Divina MD Sofa",
+  "section": "OFFICE",
+  "category": "Sofas",
+  "qty": 1,
+  "listEur": 2750,
+  "outletEur": 1500,
+  "saleEur": 1500,
+  "discountPct": 45,
+  "dims": "156 × 84 cm, H 34 / 114 cm",
+  "dekupe": "photos/dekupe/moroso-divina-md.webp",
+  "lifes": [
+   "photos/life/moroso-divina-md-life.webp"
+  ]
+ },
+ {
+  "id": 606,
+  "brand": "Vitra",
+  "name": "Alcove Low Back Sofa",
+  "section": "OFFICE",
+  "category": "Sofas",
+  "qty": 1,
+  "listEur": 2750,
+  "outletEur": 1500,
+  "saleEur": 1500,
+  "discountPct": 45,
+  "dims": "150 × 84 cm, H 40 / 98 cm",
+  "dekupe": "photos/dekupe/vitra-alcove-lowback.webp",
+  "lifes": [
+   "photos/life/vitra-alcove-lowback-life.webp"
+  ]
+ },
+ {
+  "id": 607,
+  "brand": "Knoll",
+  "name": "Unit Shelving",
+  "section": "OFFICE",
+  "category": "Storage & Bookcases",
+  "qty": 1,
+  "listEur": 1800,
+  "outletEur": 990,
+  "saleEur": 990,
+  "discountPct": 45,
+  "dims": "80 × 40 cm, H 143 cm",
+  "dekupe": "photos/dekupe/knoll-unit.webp",
+  "lifes": [
+   "photos/life/knoll-unit-life.webp"
+  ]
+ },
+ {
+  "id": 608,
+  "brand": "B&B Italia",
+  "name": "Musa Chair",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 4,
+  "listEur": 4000,
+  "outletEur": 2000,
+  "saleEur": 2000,
+  "discountPct": 50,
+  "dims": "44 × 53 cm, H 44 / 84 cm",
+  "dekupe": "photos/dekupe/bb-italia-musa-chair.webp",
+  "lifes": [
+   "photos/life/bb-italia-musa-chair-life.webp"
+  ],
+  "note": {
+   "tr": "4 adet fiyatıdır — adet fiyatı 500 €.",
+   "en": "Price for 4 — €500 each."
+  }
+ },
+ {
+  "id": 609,
+  "brand": "B&B Italia",
+  "name": "Cloud Bench",
+  "section": "OFFICE",
+  "category": "Sofas",
+  "qty": 1,
+  "listEur": 3000,
+  "outletEur": 1500,
+  "saleEur": 1500,
+  "discountPct": 50,
+  "dims": "300 × 210 cm, H 36 cm",
+  "dekupe": "photos/dekupe/bb-italia-cloud.webp",
+  "lifes": [
+   "photos/life/bb-italia-cloud-life.webp"
+  ]
+ },
+ {
+  "id": 610,
+  "brand": "Billiani",
+  "name": "Chair",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 300,
+  "outletEur": 150,
+  "saleEur": 150,
+  "discountPct": 50,
+  "dekupe": "photos/dekupe/billiani-chair.webp",
+  "lifes": [
+   "photos/life/billiani-chair-life.webp"
+  ]
+ },
+ {
+  "id": 611,
+  "brand": "USM",
+  "name": "Haller Serving Cart",
+  "section": "INDOOR",
+  "category": "Storage & Bookcases",
+  "qty": 1,
+  "listEur": 1790,
+  "outletEur": 1255,
+  "saleEur": 1255,
+  "discountPct": 30,
+  "dims": "96 × 52 cm, H 83 cm",
+  "dekupe": "photos/dekupe/usm-haller-serving-cart.webp",
+  "lifes": [
+   "photos/life/usm-haller-serving-cart-life.webp"
+  ]
+ },
+ {
+  "id": 612,
+  "brand": "Vitra",
+  "name": "Eames Plastic Armchair Red",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 600,
+  "outletEur": 330,
+  "saleEur": 330,
+  "discountPct": 45,
+  "dekupe": "photos/dekupe/vitra-eames-plastic-armchair-red.webp",
+  "lifes": [
+   "photos/life/vitra-eames-plastic-armchair-red-life.webp"
+  ]
+ },
+ {
+  "id": 613,
+  "brand": "Vitra",
+  "name": "Tom Vac Chair Blue",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 299,
+  "outletEur": 130,
+  "saleEur": 130,
+  "discountPct": 57,
+  "dekupe": "photos/dekupe/vitra-tom-vac-blue.webp",
+  "lifes": [
+   "photos/life/vitra-tom-vac-blue-life.webp"
+  ]
+ },
+ {
+  "id": 614,
+  "brand": "Vitra",
+  "name": "Tom Vac Chair White",
+  "section": "OFFICE",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 299,
+  "outletEur": 130,
+  "saleEur": 130,
+  "discountPct": 57,
+  "dekupe": "photos/dekupe/vitra-tom-vac-white.webp",
+  "lifes": [
+   "photos/life/vitra-tom-vac-white-life.webp"
+  ]
+ },
+ {
+  "id": 615,
+  "brand": "Andreu World",
+  "name": "Table",
+  "section": "OFFICE",
+  "category": "Tables & Consoles",
+  "qty": 1,
+  "listEur": 2500,
+  "outletEur": 1000,
+  "saleEur": 1000,
+  "discountPct": 60,
+  "dims": "200 × 100 cm, H 75 cm",
+  "dekupe": "photos/dekupe/andreu-world-table.webp",
+  "lifes": [
+   "photos/life/andreu-world-table-life.webp"
+  ]
  }
 ]

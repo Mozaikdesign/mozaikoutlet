@@ -4,7 +4,7 @@ const { createContext, useContext, useState, useEffect } = React;
 const DICT = {
   en: {
     announce: 'FINAL DAYS · BEFORE THESE PIECES FIND A NEW HOME — SHOWROOM PIECES UP TO 55% OFF',
-    nav: { indoor: 'Indoor', outdoor: 'Outdoor', lighting: 'Lighting', objects: 'Objects', brands: 'Brands' },
+    nav: { indoor: 'Indoor', outdoor: 'Outdoor', lighting: 'Lighting', office: 'Office', objects: 'Objects', brands: 'Brands' },
     searchPlaceholder: 'Search 258 pieces…',
     account: 'Account',
     bag: 'Bag',
@@ -26,6 +26,8 @@ const DICT = {
       outdoorSub: 'terrace · garden · poolside',
       lightingTitle: 'Lighting',
       lightingSub: 'pendants · table · floor · wall',
+      officeTitle: 'Office',
+      officeSub: 'desks · task chairs · lounge · storage',
       allTitle: 'The whole lot',
       allSub: 'browse everything',
       pieces: 'pieces',
@@ -196,7 +198,7 @@ const DICT = {
   },
   tr: {
     announce: 'SON GÜNLER · BU PARÇALAR YENİ SAHİBİNİ BULMADAN — TEŞHİR ÜRÜNLERİ %55\'E VARAN İNDİRİM',
-    nav: { indoor: 'İç Mekan', outdoor: 'Dış Mekan', lighting: 'Aydınlatma', objects: 'Objeler', brands: 'Markalar' },
+    nav: { indoor: 'İç Mekan', outdoor: 'Dış Mekan', lighting: 'Aydınlatma', office: 'Ofis', objects: 'Objeler', brands: 'Markalar' },
     searchPlaceholder: '258 parça içinde ara…',
     account: 'Hesap',
     bag: 'Sepet',
@@ -218,6 +220,8 @@ const DICT = {
       outdoorSub: 'teras · bahçe · havuz başı',
       lightingTitle: 'Aydınlatma',
       lightingSub: 'sarkıt · masa · ayaklı · duvar',
+      officeTitle: 'Ofis',
+      officeSub: 'çalışma masası · sandalye · lounge · depolama',
       allTitle: 'Tüm koleksiyon',
       allSub: 'hepsine göz at',
       pieces: 'parça',
