@@ -4,8 +4,8 @@ const { createContext, useContext, useState, useEffect } = React;
 const DICT = {
   en: {
     announce: 'FINAL DAYS · BEFORE THESE PIECES FIND A NEW HOME — SHOWROOM PIECES UP TO 55% OFF',
-    nav: { indoor: 'Indoor', outdoor: 'Outdoor', lighting: 'Lighting', objects: 'Objects', brands: 'Brands' },
-    searchPlaceholder: 'Search 293 pieces…',
+    nav: { indoor: 'Indoor', outdoor: 'Outdoor', lighting: 'Lighting', office: 'Office', objects: 'Objects', brands: 'Brands' },
+    searchPlaceholder: 'Search 288 pieces…',
     account: 'Account',
     bag: 'Bag',
     subscribe: 'Subscribe',
@@ -26,6 +26,8 @@ const DICT = {
       outdoorSub: 'terrace · garden · poolside',
       lightingTitle: 'Lighting',
       lightingSub: 'pendants · table · floor · wall',
+      officeTitle: 'Office',
+      officeSub: 'desks · chairs · storage',
       allTitle: 'The whole lot',
       allSub: 'browse everything',
       pieces: 'pieces',
@@ -132,7 +134,7 @@ const DICT = {
           },
         ],
       },
-      copyright: '© 2026 Mozaikdesign · all pieces ex-display · priced in EUR incl. VAT',
+      copyright: '© 2026 Mozaikdesign · all pieces ex-display · priced in EUR, VAT not included',
       tagline: 'Every piece sold is retired from the catalogue within the hour.',
     },
     modal: {
@@ -196,8 +198,8 @@ const DICT = {
   },
   tr: {
     announce: 'SON GÜNLER · BU PARÇALAR YENİ SAHİBİNİ BULMADAN — TEŞHİR ÜRÜNLERİ %55\'E VARAN İNDİRİM',
-    nav: { indoor: 'İç Mekan', outdoor: 'Dış Mekan', lighting: 'Aydınlatma', objects: 'Objeler', brands: 'Markalar' },
-    searchPlaceholder: '293 parça içinde ara…',
+    nav: { indoor: 'İç Mekan', outdoor: 'Dış Mekan', lighting: 'Aydınlatma', office: 'Ofis', objects: 'Objeler', brands: 'Markalar' },
+    searchPlaceholder: '288 parça içinde ara…',
     account: 'Hesap',
     bag: 'Sepet',
     subscribe: 'Abone Ol',
@@ -218,6 +220,8 @@ const DICT = {
       outdoorSub: 'teras · bahçe · havuz başı',
       lightingTitle: 'Aydınlatma',
       lightingSub: 'sarkıt · masa · ayaklı · duvar',
+      officeTitle: 'Ofis',
+      officeSub: 'masa · sandalye · depolama',
       allTitle: 'Tüm koleksiyon',
       allSub: 'hepsine göz at',
       pieces: 'parça',
@@ -324,7 +328,7 @@ const DICT = {
           },
         ],
       },
-      copyright: '© 2026 Mozaikdesign · tüm parçalar teşhir · KDV dahil EUR',
+      copyright: '© 2026 Mozaikdesign · tüm parçalar teşhir · fiyatlar EUR, KDV dahil değildir',
       tagline: 'Satılan her parça bir saat içinde katalogdan kaldırılır.',
     },
     modal: {
