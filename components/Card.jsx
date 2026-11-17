@@ -9,6 +9,12 @@ function qtyLabel(qty, lang) {
   if (lang === 'tr') return qty + ' adet fiyatı';
   return 'price for ' + (QTY_WORDS_EN[qty] || qty);
 }
+// Single chairs (not sets) show "1 adet fiyatı" so buyers know the price is per piece
+function isSingleChair(p) {
+  return p.qty === 1 && /^(Chairs|Outdoor Chairs)$/.test(p.category) && !/set|takım|ottoman|table/i.test(p.name);
+}
+function onePieceLabel(lang) { return lang === 'tr' ? '1 adet fiyatı' : 'price for one'; }
+window.QTYLABEL = { isSingleChair, onePieceLabel };
 
 // ------- Grid card — clean, neutral, showroom-catalogue style -------
 function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
@@ -37,6 +43,9 @@ function GridCard({ product, onOpen, onSave, saved, cardStyle }) {
           <span className={'card__qty card__qty--' + (product.qty === 2 ? 'two' : 'many')}>
             {qtyLabel(product.qty, lang)}
           </span>
+        )}
+        {isSingleChair(product) && (
+          <span className="card__qty card__qty--two">{onePieceLabel(lang)}</span>
         )}
         {hasHovered && firstLife && product.dekupe && (
           <div className="card__photo-flip" aria-hidden="true">
@@ -110,7 +119,7 @@ function EditorialCard({ product, onOpen, onSave, saved, index }) {
       <div className="ed-card__body">
         <div className="ed-card__line">
           <span className="ed-card__brand">— {product.brand}</span>
-          <span className="ed-card__qty">{product.qty === 1 ? (lang === 'tr' ? 'tek adet' : 'one only') : qtyLabel(product.qty, lang)}</span>
+          <span className="ed-card__qty">{isSingleChair(product) ? onePieceLabel(lang) : product.qty === 1 ? (lang === 'tr' ? 'tek adet' : 'one only') : qtyLabel(product.qty, lang)}</span>
         </div>
         <h3 className="ed-card__name">{product.name}</h3>
         <div className="ed-card__meta">{product.category}</div>

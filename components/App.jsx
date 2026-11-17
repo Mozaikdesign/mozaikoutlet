@@ -63,12 +63,12 @@ function App() {
   useEffect(() => {
     if (typeof window.__resolveCatalogue__ === 'function') {
       // Standalone bundled mode — inlined JSON + blob URLs
-      setCatalogue(window.PROMO.applyPromo(window.__resolveCatalogue__()));
+      setCatalogue(window.__resolveCatalogue__());
       return;
     }
-    fetch('data/catalogue.json?v=289')
+    fetch('data/catalogue.json?v=293')
       .then(r => r.json())
-      .then(d => setCatalogue(window.PROMO.applyPromo(d)));
+      .then(setCatalogue);
   }, []);
 
   // Persist state
@@ -170,7 +170,6 @@ function App() {
         'photos/life/bb-bay-small-armchair-life-2.webp',
         'photos/life/bb-mirto-outdoor-life1.webp',
       ],
-      office: ['photos/life/vitra-alcove-highback-sofa-life.webp', 'photos/life/vitra-soft-work-life.webp'],
       all: objects.length >= 2 ? objects : imgsFor(() => true),
     };
   }, [catalogue]);
@@ -272,9 +271,6 @@ function App() {
           } else if (key === 'lighting') {
             setFilters({ ...filters, section: 'LIGHTING', category: null, categories: null });
             scrollToCatalogue();
-          } else if (key === 'office') {
-            setFilters({ ...filters, section: 'OFFICE', category: null, categories: null });
-            scrollToCatalogue();
           } else if (key === 'objects') {
             setFilters({ ...filters, section: 'All', category: 'Objects & Vases', categories: null });
             scrollToCatalogue();
@@ -285,9 +281,6 @@ function App() {
           }
         }}
       />
-
-      {window.PROMO.promoActive() && <window.PROMO.PromoHero/>}
-      {window.PROMO.promoActive() && <window.PROMO.PromoPopup/>}
 
       <Hero
         view={view}
@@ -306,7 +299,6 @@ function App() {
           indoor: catalogue.filter(p => p.section === 'INDOOR').length,
           outdoor: catalogue.filter(p => p.section === 'OUTDOOR').length,
           lighting: catalogue.filter(p => p.section === 'LIGHTING').length,
-          office: catalogue.filter(p => p.section === 'OFFICE').length,
           total: catalogue.length,
         }}
       />
@@ -339,7 +331,7 @@ function App() {
 
           <section className="catalogue-main__grid-wrap">
             <div className="catalogue-main__breadcrumb">
-              <span>{filters.section === 'All' ? t.breadcrumb.whole : (filters.section === 'INDOOR' ? t.hero.indoorTitle : (filters.section === 'LIGHTING' ? t.hero.lightingTitle : filters.section === 'OFFICE' ? t.hero.officeTitle : t.hero.outdoorTitle))}</span>
+              <span>{filters.section === 'All' ? t.breadcrumb.whole : (filters.section === 'INDOOR' ? t.hero.indoorTitle : (filters.section === 'LIGHTING' ? t.hero.lightingTitle : t.hero.outdoorTitle))}</span>
               {filters.category && <span> · {filters.category}</span>}
               {filters.brand && <span> · {filters.brand}</span>}
               <strong>{visible.length} {t.breadcrumb.pieces}</strong>

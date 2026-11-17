@@ -92,7 +92,7 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
               </div>
             </>) : (
             <div className="modal__pricing-row">
-              <span>{m.outletPrice}</span>
+              <span>{m.outletPrice}{window.QTYLABEL && window.QTYLABEL.isSingleChair(product) && <> · {window.QTYLABEL.onePieceLabel(lang)}</>}</span>
               <span className="modal__sale-price">{eurFmt(product.saleEur)}</span>
             </div>
             )}
