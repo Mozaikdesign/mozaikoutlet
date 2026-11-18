@@ -2681,9 +2681,9 @@
   "saleEur": 775,
   "discountPct": 45,
   "dims": "Ø80cm H:36cm",
-  "dekupe": "photos/dekupe/cassina-sail-out-pouf-80-green.webp",
+  "dekupe": "photos/dekupe/cassina-sail-out-pouf-80-green-v2.webp",
   "lifes": [
-   "photos/life/cassina-sail-out-pouf-80-green-life.webp"
+   "photos/life/cassina-sail-out-pouf-80-green-v2-life.webp"
   ]
  },
  {
@@ -4572,6 +4572,59 @@
   "dekupe": "photos/dekupe/edra-standard-sofa.webp",
   "lifes": [
    "photos/life/edra-standard-sofa-life.webp"
+  ]
+ },
+ {
+  "id": 386,
+  "brand": "B&B Italia",
+  "name": "Pablo Sofa",
+  "category": "Outdoor Seating",
+  "dims": "210 × 113,5 cm H: 52,5/72,5 cm",
+  "listEur": 16519,
+  "outletEur": 9085,
+  "saleEur": 9085,
+  "discountPct": 45,
+  "qty": 1,
+  "dekupe": "photos/dekupe/bb-italia-pablo-sofa.webp",
+  "lifes": [
+   "photos/life/bb-italia-pablo-sofa-life1.webp",
+   "photos/life/bb-italia-pablo-sofa-life2.webp",
+   "photos/life/bb-italia-pablo-sofa-life3.webp"
+  ],
+  "section": "OUTDOOR"
+ },
+ {
+  "id": 619,
+  "brand": "Cassina",
+  "name": "Sail Out Pouf",
+  "section": "OUTDOOR",
+  "category": "Outdoor Seating",
+  "qty": 1,
+  "listEur": 900,
+  "outletEur": 495,
+  "saleEur": 495,
+  "discountPct": 45,
+  "dims": "Ø40cm H:47cm",
+  "dekupe": "photos/dekupe/cassina-sail-out-pouf-40-yellow.webp",
+  "lifes": [
+   "photos/life/cassina-sail-out-pouf-40-yellow-life.webp"
+  ]
+ },
+ {
+  "id": 620,
+  "brand": "Paola Lenti",
+  "name": "Smile Container Pouf",
+  "section": "OUTDOOR",
+  "category": "Outdoor Seating",
+  "qty": 1,
+  "listEur": 2438,
+  "outletEur": 1340,
+  "saleEur": 1340,
+  "discountPct": 45,
+  "dims": "68 x 68cm H:30cm",
+  "dekupe": "photos/dekupe/paola-lenti-smile-container-pouf.webp",
+  "lifes": [
+   "photos/life/paola-lenti-smile-container-pouf-life.webp"
   ]
  }
 ]

@@ -68,7 +68,7 @@ function App() {
     }
     fetch('data/catalogue.json?v=1117')
       .then(r => r.json())
-      .then(setCatalogue);
+      .then(d => { window.CAT_COUNT = d.length; window.CAT_BRANDS = new Set(d.map(p => p.brand)).size; setCatalogue(d); });
   }, []);
 
   // Persist state

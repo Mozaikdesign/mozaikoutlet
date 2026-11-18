@@ -1,3 +1,4 @@
+window.fillCount = s => String(s).replace('{n}', window.CAT_COUNT || '').replace('{b}', window.CAT_BRANDS || '');
 /* global React, I18N */
 const { useState, useRef } = React;
 const { useI18n } = I18N;
@@ -62,7 +63,7 @@ function TopBar({ onSearch, searchQuery, cartCount, onBagClick, onOpenFilters, o
             <input
               value={searchQuery}
               onChange={e => onSearch(e.target.value)}
-              placeholder={t.searchPlaceholder}
+              placeholder={window.fillCount(t.searchPlaceholder)}
             />
           </div>
           <LangToggle/>
@@ -87,7 +88,7 @@ function TopBar({ onSearch, searchQuery, cartCount, onBagClick, onOpenFilters, o
           <input
             value={searchQuery}
             onChange={e => onSearch(e.target.value)}
-            placeholder={t.searchPlaceholder}
+            placeholder={window.fillCount(t.searchPlaceholder)}
           />
         </div>
         <button className="site-header__mobile-filter" onClick={() => onOpenFilters && onOpenFilters()}>
@@ -134,7 +135,7 @@ function Hero({ view, setView, section, setSection, counts, cubeImages, pickerIm
 
       <div className="hero__stats">
         {t.hero.stats.map((s, i) => (i === 2 && window.PROMO && window.PROMO.promoActive()) ? (lang === 'tr' ? ['%70', "'e varan indirim · Bu haftaya özel"] : ['−70%', 'off list price · this week only']) : s).map(([v, l], i) => (
-          <div key={i} className={'hero__stat' + (i === 2 && window.PROMO && window.PROMO.promoActive() ? ' hero__stat--promo' : '')}><span>{v}</span><label>{l}</label></div>
+          <div key={i} className={'hero__stat' + (i === 2 && window.PROMO && window.PROMO.promoActive() ? ' hero__stat--promo' : '')}><span>{window.fillCount(v)}</span><label>{l}</label></div>
         ))}
       </div>
 
