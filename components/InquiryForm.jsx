@@ -1,6 +1,7 @@
 /* global React, I18N */
 // Ürün Bilgi Talep Formu → onlinedestek@mozaikdesign.com (via FormSubmit)
-const INQ_ENDPOINT = 'https://formsubmit.co/ajax/onlinedestek@mozaikdesign.com';
+// Web3Forms access key — registered to onlinedestek@mozaikdesign.com (web3forms.com)
+const WEB3FORMS_KEY = '1beea8c7-c601-461a-9ac2-b19ce2c22353';
 
 // Capture traffic source once per visit (first landing URL + referrer)
 (function captureSource() {
@@ -63,10 +64,6 @@ function InquiryForm({ product, onClose, onSent }) {
     try { ip = (await (await fetch('https://api.ipify.org?format=json')).json()).ip; } catch (x) {}
     const now = new Date();
     const payload = {
-      _subject: 'OUTLET Ürün Bilgi Talebi',
-      _template: 'basic',
-      _captcha: 'false',
-      _replyto: f.email,
       'Gönderen': f.name,
       'E-posta': f.email,
       'Telefon': f.phone,
@@ -92,11 +89,10 @@ function InquiryForm({ product, onClose, onSent }) {
       'Dil': lang.toUpperCase(),
     };
     try {
-      const r = await fetch(INQ_ENDPOINT, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(payload) });
+      const r = await fetch('https://api.web3forms.com/submit', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ access_key: WEB3FORMS_KEY, subject: 'OUTLET Ürün Bilgi Talebi', from_name: f.name, replyto: f.email, ...payload }) });
       const j = await r.json().catch(() => ({}));
       console.log('[inquiry]', r.status, j);
-      if (r.ok && String(j.success) !== 'false') setStatus('done');
-      else if (/activat/i.test(j.message || '')) setStatus('activate');
+      if (r.ok && j.success) setStatus('done');
       else { setErrMsg(j.message || ('HTTP ' + r.status)); setStatus('error'); }
     } catch (x) { console.warn('[inquiry]', x); setErrMsg(String(x.message || x)); setStatus('error'); }
   };
