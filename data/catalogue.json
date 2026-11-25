@@ -351,6 +351,74 @@
   ]
  },
  {
+  "id": 77,
+  "brand": "Maxalto",
+  "name": "Febo Chair",
+  "section": "INDOOR",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 1688,
+  "outletEur": 750,
+  "saleEur": 750,
+  "discountPct": 56,
+  "dims": "50,5 x 61,5cm H:48/90cm",
+  "dekupe": "photos/dekupe/maxalto-febo-white.webp",
+  "lifes": [
+   "photos/dekupe/maxalto-febo-chair-2.webp"
+  ]
+ },
+ {
+  "id": 78,
+  "brand": "Maxalto",
+  "name": "Febo Chair",
+  "section": "INDOOR",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 1606,
+  "outletEur": 750,
+  "saleEur": 750,
+  "discountPct": 53,
+  "dims": "50,5 x 61,5cm H:48/90cm",
+  "dekupe": "photos/dekupe/maxalto-febo-cream.webp",
+  "lifes": [
+   "photos/dekupe/maxalto-febo-other-color.webp"
+  ]
+ },
+ {
+  "id": 79,
+  "brand": "Cassina",
+  "name": "Hola Chair",
+  "section": "INDOOR",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 1300,
+  "outletEur": 600,
+  "saleEur": 600,
+  "discountPct": 54,
+  "dims": "",
+  "dekupe": "photos/dekupe/cassina-hola.webp",
+  "lifes": [
+   "photos/life/cassina-hola-life.webp"
+  ]
+ },
+ {
+  "id": 80,
+  "brand": "Walter Knoll",
+  "name": "Gio Chair",
+  "section": "INDOOR",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 1768,
+  "outletEur": 600,
+  "saleEur": 600,
+  "discountPct": 66,
+  "dims": "56 x 60cm H:43/81cm",
+  "dekupe": "photos/dekupe/walter-knoll-gio-chair-v2.webp",
+  "lifes": [
+   "photos/life/walter-knoll-gio-chair-life-v2.webp"
+  ]
+ },
+ {
   "id": 83,
   "brand": "Hal",
   "name": "Wood Chair",
@@ -364,6 +432,23 @@
   "dims": "44 x 44cm H:80cm",
   "dekupe": "photos/dekupe/hal-wood-chair.webp",
   "lifes": []
+ },
+ {
+  "id": 84,
+  "brand": "Flexform",
+  "name": "Feel Good Ottoman",
+  "section": "INDOOR",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 2312,
+  "outletEur": 1000,
+  "saleEur": 1000,
+  "discountPct": 57,
+  "dims": "76 x 74cm H:38/76cm · 2 adet mevcut",
+  "dekupe": "photos/dekupe/flexform-feel-good-ottoman-v2.webp",
+  "lifes": [
+   "photos/life/flexform-feel-good-ottoman-life-v2.webp"
+  ]
  },
  {
   "id": 89,
@@ -530,15 +615,15 @@
   "name": "Portofino Armchair",
   "section": "OUTDOOR",
   "category": "Outdoor Accents",
-  "qty": 2,
+  "qty": 4,
   "listEur": 15913,
   "outletEur": 11000,
   "saleEur": 8750,
   "discountPct": 45,
   "dims": "86 x 96 cm H:44/71 cm · İndirimli 1 adet fiyatı:",
-  "dekupe": "photos/dekupe/paola-lenti-portofino-armchair-v2.webp",
+  "dekupe": "photos/dekupe/paola-lenti-portofino-armchair.webp",
   "lifes": [
-   "photos/life/paola-lenti-portofino-armchair-life-v2.webp"
+   "photos/life/paola-lenti-portofino-armchair-life.webp"
   ]
  },
  {
@@ -1204,6 +1289,23 @@
   ]
  },
  {
+  "id": 261,
+  "brand": "Roda",
+  "name": "Orson Chair",
+  "section": "OUTDOOR",
+  "category": "Outdoor Chairs",
+  "qty": 6,
+  "listEur": 10509,
+  "outletEur": 5780,
+  "saleEur": 5780,
+  "discountPct": 45,
+  "dims": "57 x 50 cm H:47/84cm · İndirimli 6 adet fiyatı:",
+  "dekupe": "photos/dekupe/roda-orson-chair.webp",
+  "lifes": [
+   "photos/life/roda-orson-chair-life.webp"
+  ]
+ },
+ {
   "id": 262,
   "brand": "Roda",
   "name": "Mistral Armchair",
@@ -1232,10 +1334,8 @@
   "saleEur": 700,
   "discountPct": 45,
   "dims": "Ø45cm h:48,5cm",
-  "dekupe": "photos/dekupe/bb-husk-side-table-v2.webp",
-  "lifes": [
-   "photos/life/bb-husk-side-table-v2-life.webp"
-  ]
+  "dekupe": "photos/dekupe/bb-husk-side-table.webp",
+  "lifes": []
  },
  {
   "id": 269,
@@ -1782,6 +1882,21 @@
   "lifes": []
  },
  {
+  "id": 320,
+  "brand": "Pallucco",
+  "name": "Baby Gilda White",
+  "section": "LIGHTING",
+  "category": "Table Lamps",
+  "qty": 1,
+  "listEur": 610,
+  "outletEur": 300,
+  "saleEur": 300,
+  "discountPct": 51,
+  "dims": "",
+  "dekupe": "photos/dekupe/pallucco-baby-gilda-white.webp",
+  "lifes": []
+ },
+ {
   "id": 321,
   "brand": "Flos",
   "name": "Goldman Black/Fumé",
@@ -2009,6 +2124,23 @@
   "lifes": []
  },
  {
+  "id": 351,
+  "brand": "Tobias Grau",
+  "name": "George Pendant",
+  "section": "LIGHTING",
+  "category": "Pendants & Chandeliers",
+  "qty": 1,
+  "listEur": 0,
+  "outletEur": 0,
+  "saleEur": 0,
+  "discountPct": 0,
+  "dims": "",
+  "dekupe": "photos/dekupe/tobias-grau-george-pendant.webp",
+  "lifes": [
+   "photos/life/tobias-grau-george-pendant-life.webp"
+  ]
+ },
+ {
   "id": 352,
   "brand": "Artek",
   "name": "A110 Pendant",
@@ -2191,6 +2323,23 @@
   ]
  },
  {
+  "id": 376,
+  "brand": "Foscarini",
+  "name": "Fleur Table Lamp",
+  "section": "LIGHTING",
+  "category": "Table Lamps",
+  "qty": 1,
+  "listEur": 260,
+  "outletEur": 170,
+  "saleEur": 170,
+  "discountPct": 35,
+  "dims": "Ø11 cm H:24cm",
+  "dekupe": "photos/dekupe/foscarini-fleur.webp",
+  "lifes": [
+   "photos/life/foscarini-fleur-life.webp"
+  ]
+ },
+ {
   "id": 378,
   "brand": "Bomma",
   "name": "Umbra Wall Light",
@@ -2260,6 +2409,23 @@
   ]
  },
  {
+  "id": 383,
+  "brand": "Vitra",
+  "name": "Elliptical Table",
+  "section": "INDOOR",
+  "category": "Coffee & Side Tables",
+  "qty": 1,
+  "listEur": 2142,
+  "outletEur": 1180,
+  "saleEur": 1180,
+  "discountPct": 45,
+  "dims": "230 × 75 cm H: 25 cm",
+  "dekupe": "photos/dekupe/vitra-elliptical-table-white.webp",
+  "lifes": [
+   "photos/dekupe/vitra-elliptical-table-white.webp"
+  ]
+ },
+ {
   "id": 384,
   "brand": "Bover",
   "name": "Amphora",
@@ -2292,6 +2458,44 @@
   "lifes": [
    "photos/life/vitra-slow-ottoman-life1.webp"
   ]
+ },
+ {
+  "id": 386,
+  "brand": "B&B Italia",
+  "name": "Pablo Sofa",
+  "category": "Outdoor Seating",
+  "dims": "210 × 113,5 cm H: 52,5/72,5 cm",
+  "listEur": 16519,
+  "outletEur": 9085,
+  "saleEur": 9085,
+  "discountPct": 45,
+  "qty": 1,
+  "dekupe": "photos/dekupe/bb-italia-pablo-sofa.webp",
+  "lifes": [
+   "photos/life/bb-italia-pablo-sofa-life1.webp",
+   "photos/life/bb-italia-pablo-sofa-life2.webp",
+   "photos/life/bb-italia-pablo-sofa-life3.webp"
+  ],
+  "section": "OUTDOOR"
+ },
+ {
+  "id": 387,
+  "brand": "B&B Italia",
+  "name": "Pablo Sofa",
+  "category": "Outdoor Seating",
+  "dims": "210 × 113,5 cm H: 52,5/72,5 cm",
+  "listEur": 16519,
+  "outletEur": 9085,
+  "saleEur": 9085,
+  "discountPct": 45,
+  "qty": 1,
+  "dekupe": "photos/dekupe/bb-italia-pablo-sofa.webp",
+  "lifes": [
+   "photos/life/bb-italia-pablo-sofa-life1.webp",
+   "photos/life/bb-italia-pablo-sofa-life2.webp",
+   "photos/life/bb-italia-pablo-sofa-life3.webp"
+  ],
+  "section": "OUTDOOR"
  },
  {
   "id": 392,
@@ -2519,6 +2723,23 @@
   ]
  },
  {
+  "id": 419,
+  "brand": "Maxalto",
+  "name": "Febo Ottoman",
+  "section": "INDOOR",
+  "category": "Poufs & Ottomans",
+  "qty": 2,
+  "listEur": 2504,
+  "outletEur": 1380,
+  "saleEur": 1380,
+  "discountPct": 45,
+  "dims": "50 x 50cm H:40cm · İndirimli 2 adet fiyatı:",
+  "dekupe": "photos/dekupe/maxalto-febo-ottoman.webp",
+  "lifes": [
+   "photos/life/maxalto-febo-ottoman-life.webp"
+  ]
+ },
+ {
   "id": 423,
   "brand": "Maxalto",
   "name": "Pathos Console",
@@ -2636,6 +2857,23 @@
   ]
  },
  {
+  "id": 463,
+  "brand": "ClassiCon",
+  "name": "Piega Mirror Small",
+  "section": "INDOOR",
+  "category": "Objects & Vases",
+  "qty": 1,
+  "listEur": 1172,
+  "outletEur": 820,
+  "saleEur": 820,
+  "discountPct": 30,
+  "dims": "80 x 48cm",
+  "dekupe": "photos/dekupe/classicon-piega-mirror.webp",
+  "lifes": [
+   "photos/life/classicon-piega-mirror-life.webp"
+  ]
+ },
+ {
   "id": 468,
   "brand": "Cassina",
   "name": "Sail Out Pouf",
@@ -2681,9 +2919,26 @@
   "saleEur": 775,
   "discountPct": 45,
   "dims": "Ø80cm H:36cm",
-  "dekupe": "photos/dekupe/cassina-sail-out-pouf-80-green-v2.webp",
+  "dekupe": "photos/dekupe/cassina-sail-out-pouf-80-green.webp",
   "lifes": [
-   "photos/life/cassina-sail-out-pouf-80-green-v2-life.webp"
+   "photos/life/cassina-sail-out-pouf-80-green-life.webp"
+  ]
+ },
+ {
+  "id": 471,
+  "brand": "Cassina",
+  "name": "Sail Out Pouf",
+  "section": "OUTDOOR",
+  "category": "Outdoor Seating",
+  "qty": 1,
+  "listEur": 900,
+  "outletEur": 495,
+  "saleEur": 495,
+  "discountPct": 45,
+  "dims": "Ø40cm H:47cm",
+  "dekupe": "photos/dekupe/cassina-sail-out-pouf-40-red.webp",
+  "lifes": [
+   "photos/life/cassina-sail-out-pouf-40-red-life.webp"
   ]
  },
  {
@@ -3530,6 +3785,24 @@
   ]
  },
  {
+  "id": 536,
+  "brand": "Cassina",
+  "name": "Cab Chair",
+  "section": "INDOOR",
+  "category": "Chairs",
+  "qty": 1,
+  "listEur": 2532,
+  "outletEur": 1395,
+  "saleEur": 1395,
+  "discountPct": 45,
+  "dims": "52 x 62cm H:45/82cm",
+  "dekupe": "photos/dekupe/cassina-cab-chair.webp",
+  "lifes": [
+   "photos/life/cassina-cab-chair-life.webp",
+   "photos/life/cassina-cab-chair-life2.webp"
+  ]
+ },
+ {
   "id": 537,
   "brand": "Arper",
   "name": "Kata Lounge Chair",
@@ -3786,6 +4059,40 @@
   ]
  },
  {
+  "id": 558,
+  "brand": "Maxalto",
+  "name": "Lithos Ottoman",
+  "section": "INDOOR",
+  "category": "Poufs & Ottomans",
+  "qty": 1,
+  "listEur": 1528,
+  "outletEur": 840,
+  "saleEur": 840,
+  "discountPct": 45,
+  "dims": "Ø40cm H:45,5cm",
+  "dekupe": "photos/dekupe/maxalto-lithos-ottoman-new.webp",
+  "lifes": [
+   "photos/life/maxalto-lithos-ottoman-new-life.webp"
+  ]
+ },
+ {
+  "id": 559,
+  "brand": "ClassiCon",
+  "name": "Piega Mirror Medium",
+  "section": "INDOOR",
+  "category": "Objects & Vases",
+  "qty": 1,
+  "listEur": 1484,
+  "outletEur": 1040,
+  "saleEur": 1040,
+  "discountPct": 30,
+  "dims": "110 x 62cm",
+  "dekupe": "photos/dekupe/classicon-piega-mirror-medium.webp",
+  "lifes": [
+   "photos/life/classicon-piega-mirror-medium-life.webp"
+  ]
+ },
+ {
   "id": 560,
   "brand": "B&B Italia",
   "name": "Bay Armchair",
@@ -3834,6 +4141,23 @@
   "dekupe": "photos/dekupe/fritz-hansen-3107-chair.webp",
   "lifes": [
    "photos/life/fritz-hansen-3107-chair-life.webp"
+  ]
+ },
+ {
+  "id": 565,
+  "brand": "Fritz Hansen",
+  "name": "Drop Chair",
+  "section": "INDOOR",
+  "category": "Chairs",
+  "qty": 2,
+  "listEur": 760,
+  "outletEur": 535,
+  "saleEur": 535,
+  "discountPct": 30,
+  "dims": "45 x 54cm H:46/88cm · 1 adet: 267 €",
+  "dekupe": "photos/dekupe/fritz-hansen-drop-chair.webp",
+  "lifes": [
+   "photos/life/fritz-hansen-drop-chair-life.webp"
   ]
  },
  {
@@ -3970,6 +4294,23 @@
   "dekupe": "photos/dekupe/axolight-bul-bo-floor-lamp.webp",
   "lifes": [
    "photos/life/axolight-bul-bo-floor-lamp-life.webp"
+  ]
+ },
+ {
+  "id": 579,
+  "brand": "Marset",
+  "name": "Dipping Light Portable (White)",
+  "section": "LIGHTING",
+  "category": "Table Lamps",
+  "qty": 1,
+  "listEur": 480,
+  "outletEur": 315,
+  "saleEur": 315,
+  "discountPct": 34,
+  "dims": "",
+  "dekupe": "photos/dekupe/marset-dipping-portable-white.webp",
+  "lifes": [
+   "photos/life/marset-dipping-portable-white-life.webp"
   ]
  },
  {
@@ -4132,6 +4473,23 @@
    "tr": "6 adet fiyatıdır — adet fiyatı 1.105 €.",
    "en": "Price for 6 — €1,105 each."
   }
+ },
+ {
+  "id": 590,
+  "brand": "Vitra",
+  "name": "Eames Stool Model C",
+  "section": "INDOOR",
+  "category": "Coffee & Side Tables",
+  "qty": 1,
+  "listEur": 1482,
+  "outletEur": 815,
+  "saleEur": 815,
+  "discountPct": 45,
+  "dims": "Ø 33 cm, H 38 cm",
+  "dekupe": "photos/dekupe/vitra-eames-stool-c.webp",
+  "lifes": [
+   "photos/life/vitra-eames-stool-c-life.webp"
+  ]
  },
  {
   "id": 591,
@@ -4443,6 +4801,23 @@
   }
  },
  {
+  "id": 609,
+  "brand": "B&B Italia",
+  "name": "Cloud Bench",
+  "section": "OFFICE",
+  "category": "Sofas",
+  "qty": 1,
+  "listEur": 12000,
+  "outletEur": 4500,
+  "saleEur": 4500,
+  "discountPct": 63,
+  "dims": "300 × 210 cm, H 36 cm",
+  "dekupe": "photos/dekupe/bb-italia-cloud.webp",
+  "lifes": [
+   "photos/life/bb-italia-cloud-life.webp"
+  ]
+ },
+ {
   "id": 610,
   "brand": "Billiani",
   "name": "Chair",
@@ -4456,6 +4831,23 @@
   "dekupe": "photos/dekupe/billiani-chair.webp",
   "lifes": [
    "photos/life/billiani-chair-life.webp"
+  ]
+ },
+ {
+  "id": 611,
+  "brand": "USM",
+  "name": "Haller Serving Cart",
+  "section": "INDOOR",
+  "category": "Storage & Bookcases",
+  "qty": 1,
+  "listEur": 1790,
+  "outletEur": 1255,
+  "saleEur": 1255,
+  "discountPct": 30,
+  "dims": "96 × 52 cm, H 83 cm",
+  "dekupe": "photos/dekupe/usm-haller-serving-cart.webp",
+  "lifes": [
+   "photos/life/usm-haller-serving-cart-life.webp"
   ]
  },
  {
@@ -4521,110 +4913,6 @@
   "dekupe": "photos/dekupe/andreu-world-table.webp",
   "lifes": [
    "photos/life/andreu-world-table-life.webp"
-  ]
- },
- {
-  "id": 616,
-  "brand": "Artek",
-  "name": "Aalto Table",
-  "section": "INDOOR",
-  "category": "Tables & Consoles",
-  "qty": 1,
-  "listEur": 1310,
-  "outletEur": 720,
-  "saleEur": 720,
-  "discountPct": 45,
-  "dims": "Ø100cm H:61,5cm",
-  "dekupe": "photos/dekupe/artek-aalto-table.webp",
-  "lifes": [
-   "photos/life/artek-aalto-table-life.webp"
-  ]
- },
- {
-  "id": 617,
-  "brand": "Cassina",
-  "name": "Sengu Low Table",
-  "section": "INDOOR",
-  "category": "Coffee & Side Tables",
-  "qty": 1,
-  "listEur": 2808,
-  "outletEur": 1545,
-  "saleEur": 1545,
-  "discountPct": 45,
-  "dims": "Ø65cm H:41cm",
-  "dekupe": "photos/dekupe/cassina-sengu-low-table.webp",
-  "lifes": [
-   "photos/life/cassina-sengu-low-table-life.webp"
-  ]
- },
- {
-  "id": 618,
-  "brand": "Edra",
-  "name": "Standard Sofa",
-  "section": "INDOOR",
-  "category": "Sofas",
-  "qty": 1,
-  "listEur": 24774,
-  "outletEur": 13625,
-  "saleEur": 13625,
-  "discountPct": 45,
-  "dims": "334 x 154cm H:40/92cm",
-  "dekupe": "photos/dekupe/edra-standard-sofa.webp",
-  "lifes": [
-   "photos/life/edra-standard-sofa-life.webp"
-  ]
- },
- {
-  "id": 386,
-  "brand": "B&B Italia",
-  "name": "Pablo Sofa",
-  "category": "Outdoor Seating",
-  "dims": "210 × 113,5 cm H: 52,5/72,5 cm",
-  "listEur": 16519,
-  "outletEur": 9085,
-  "saleEur": 9085,
-  "discountPct": 45,
-  "qty": 1,
-  "dekupe": "photos/dekupe/bb-italia-pablo-sofa.webp",
-  "lifes": [
-   "photos/life/bb-italia-pablo-sofa-life1.webp",
-   "photos/life/bb-italia-pablo-sofa-life2.webp",
-   "photos/life/bb-italia-pablo-sofa-life3.webp"
-  ],
-  "section": "OUTDOOR"
- },
- {
-  "id": 619,
-  "brand": "Cassina",
-  "name": "Sail Out Pouf",
-  "section": "OUTDOOR",
-  "category": "Outdoor Seating",
-  "qty": 1,
-  "listEur": 900,
-  "outletEur": 495,
-  "saleEur": 495,
-  "discountPct": 45,
-  "dims": "Ø40cm H:47cm",
-  "dekupe": "photos/dekupe/cassina-sail-out-pouf-40-yellow.webp",
-  "lifes": [
-   "photos/life/cassina-sail-out-pouf-40-yellow-life.webp"
-  ]
- },
- {
-  "id": 620,
-  "brand": "Paola Lenti",
-  "name": "Smile Container Pouf",
-  "section": "OUTDOOR",
-  "category": "Outdoor Seating",
-  "qty": 1,
-  "listEur": 2438,
-  "outletEur": 1340,
-  "saleEur": 1340,
-  "discountPct": 45,
-  "dims": "68 x 68cm H:30cm",
-  "dekupe": "photos/dekupe/paola-lenti-smile-container-pouf.webp",
-  "lifes": [
-   "photos/life/paola-lenti-smile-container-pouf-life.webp"
   ]
  }
 ]

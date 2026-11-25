@@ -263,7 +263,7 @@ em { font-style: italic; }
   margin-bottom: 16px;
 }
 .hero__picker-grid {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+  display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px;
 }
 
 /* Rhode-style section cards — full-bleed image with overlay */
@@ -2008,3 +2008,28 @@ em { font-style: italic; }
 
 .modal__vat{margin-top:8px;font-family:var(--sans);font-size:11px;letter-spacing:0.04em;color:var(--ink-2,#666)}
 .card__vat{font-family:var(--sans);font-size:10px;letter-spacing:0.06em;color:#777}
+
+/* ---------- Ürün Bilgi Talep Formu ---------- */
+.inq{position:fixed;inset:0;z-index:2000;background:rgba(26,23,20,.55);display:flex;align-items:center;justify-content:center;padding:24px;overflow-y:auto}
+.inq__dialog{position:relative;background:#f7f6f3;width:100%;max-width:980px;display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:40px;padding:48px 44px 40px;font-family:var(--sans);color:var(--ink);max-height:calc(100vh - 48px);overflow-y:auto}
+.inq__close{position:absolute;top:14px;right:14px;width:34px;height:34px;border:1px solid var(--rule);border-radius:50%;background:#fff;cursor:pointer;font-size:13px;color:var(--ink)}
+.inq__title{font-family:var(--sans);font-weight:400;font-size:24px;line-height:1.2;margin:0}
+.inq__bar{width:44px;height:3px;background:#6aa5a0;margin:18px 0}
+.inq__sub{font-size:14px;line-height:1.6;color:var(--ink-2);margin:0;text-wrap:pretty}
+.inq__grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px 24px;align-content:start}
+.inq__field{display:flex;flex-direction:column;gap:8px;font-size:14px}
+.inq__field--full{grid-column:1 / 2}
+.inq__field input{height:50px;border:1px solid #e3e0d8;background:#fff;border-radius:4px;padding:0 14px;font:inherit;font-size:15px;color:var(--ink);outline:none}
+.inq__field input:focus{border-color:var(--ink-3)}
+.inq__field input[readonly]{color:var(--ink-2);background:#fbfaf8}
+.inq__radios{display:flex;gap:20px;min-height:24px;align-items:center}
+.inq__radios label,.inq__checks label{display:flex;gap:8px;align-items:flex-start;cursor:pointer;font-size:13px;line-height:1.5;color:var(--ink-2)}
+.inq__radios input,.inq__checks input{margin-top:3px;accent-color:var(--ink)}
+.inq__checks{display:flex;flex-direction:column;gap:10px;justify-content:center}
+.inq__foot{grid-column:1 / -1;display:flex;align-items:center;justify-content:flex-end;gap:16px;flex-wrap:wrap}
+.inq__send{min-width:140px;text-transform:uppercase;letter-spacing:.08em}
+.inq__send:disabled{opacity:.4;cursor:not-allowed}
+.inq__err{color:var(--red);font-size:13px;margin:0;flex:1}
+.inq__done{display:flex;flex-direction:column;gap:20px;align-items:flex-start;justify-content:center;font-size:16px;line-height:1.6}
+.inq__done p{margin:0}
+@media (max-width:760px){.inq{padding:0;align-items:stretch}.inq__dialog{grid-template-columns:1fr;gap:20px;padding:56px 20px 28px;max-height:none;min-height:100%}.inq__grid{grid-template-columns:1fr}.inq__field--full{grid-column:auto}.inq__send{width:100%}}

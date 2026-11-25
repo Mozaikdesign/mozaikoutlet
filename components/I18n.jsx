@@ -78,7 +78,7 @@ const DICT = {
       viewSite: 'View', mobile: 'Mobile', desktop: 'Desktop',
       shopLinks: ['Online Outlet Store', 'Online Stock', 'Products', 'Brands'],
       servicesLinks: [],
-      houseLinks: ['Frequently Asked Questions'],
+      houseLinks: [],
       newsletter: {
         title: 'Subscribe to our newsletter',
         body: 'Don\'t miss new products, news, and campaigns!',
@@ -108,26 +108,10 @@ const DICT = {
                 a: ['If your order has not arrived, or if you experience any issues regarding delivery, please contact us at info@mozaikdesign.com.'],
               },
               {
-                q: 'How can I return a product?',
-                a: [
-                  'You may request a return within 14 days from the delivery date by contacting our Customer Relations team. To be eligible for a return, products must:',
-                  ['Be unused', 'Be returned in their original packaging', 'Be free from any damage', 'Retain their original condition and resale quality'],
-                  'Returns cannot be accepted for products that have been used, damaged, altered, or returned without their original packaging. Products must be returned in the same condition in which they were delivered.',
-                  'The return policy above applies only to purchases made through our online store. Personalized or made-to-order products cannot be returned.',
-                ],
-              },
-              {
                 q: 'What should I do if my product arrives damaged?',
                 a: [
                   'If you notice any signs of damage, impact, or tampering on the package at the time of delivery, please do not accept the shipment before requesting a damage report from the courier representative.',
                   'Once the report has been completed, please contact our Customer Service team and provide the necessary information regarding the issue.',
-                ],
-              },
-              {
-                q: 'How are refunds processed?',
-                a: [
-                  'Once the returned product reaches our warehouse, it will be inspected to ensure that it meets the return conditions. Approved refunds will be processed within 5 business days.',
-                  'After the refund has been issued, the time required for the amount to appear in your account may vary depending on your bank\'s processing procedures. For updates regarding your refund status, please contact your bank directly.',
                 ],
               },
             ],
@@ -193,7 +177,7 @@ const DICT = {
         `• ${p.brand} — ${p.name}\n` +
         `• Dimensions: ${p.dims || '—'}\n` +
         `• Outlet price: €${p.saleEur?.toLocaleString('de-DE')}\n\nThank you.`,
-      toast: (p) => `Information request email opened for ${p.brand} ${p.name}. If nothing happened, write to simge@mozaikdesign.com.`,
+      toast: (p) => `Your request for ${p.brand} ${p.name} has been received. Our team will get back to you shortly.`,
     },
   },
   tr: {
@@ -272,7 +256,7 @@ const DICT = {
       viewSite: 'Görünüm', mobile: 'Mobil', desktop: 'Masaüstü',
       shopLinks: ['Online Stok', 'Ürünler', 'Markalar'],
       servicesLinks: [],
-      houseLinks: ['Sıkça Sorulan Sorular'],
+      houseLinks: [],
       newsletter: {
         title: 'E-bültene kayıt olun',
         body: 'Yeni ürünler, haberler ve kampanyalar kaçırmayın!',
@@ -302,26 +286,10 @@ const DICT = {
                 a: ['Siparişiniz ulaşmadıysa veya teslimatla ilgili herhangi bir sorun yaşarsanız lütfen info@mozaikdesign.com adresinden bizimle iletişime geçin.'],
               },
               {
-                q: 'Bir ürünü nasıl iade edebilirim?',
-                a: [
-                  'Teslimat tarihinden itibaren 14 gün içinde Müşteri İlişkileri ekibimizle iletişime geçerek iade talebinde bulunabilirsiniz. İade için ürünlerin:',
-                  ['Kullanılmamış olması', 'Orijinal ambalajında iade edilmesi', 'Herhangi bir hasar içermemesi', 'Orijinal durumunu ve yeniden satılabilir kalitesini koruması'],
-                  'Kullanılmış, hasar görmüş, değiştirilmiş veya orijinal ambalajı olmadan iade edilen ürünler kabul edilemez. Ürünler teslim edildiği durumla aynı şekilde iade edilmelidir.',
-                  'Yukarıdaki iade politikası yalnızca online mağazamızdan yapılan alışverişler için geçerlidir. Kişiye özel veya siparişe özel üretilen ürünler iade edilemez.',
-                ],
-              },
-              {
                 q: 'Ürünüm hasarlı gelirse ne yapmalıyım?',
                 a: [
                   'Teslimat sırasında pakette herhangi bir hasar, darbe veya müdahale izi fark ederseniz, lütfen kurye yetkilisinden hasar tespit tutanağı talep etmeden gönderiyi teslim almayın.',
                   'Tutanak tamamlandıktan sonra lütfen Müşteri Hizmetleri ekibimizle iletişime geçerek konuyla ilgili gerekli bilgileri iletin.',
-                ],
-              },
-              {
-                q: 'İadeler nasıl işleme alınır?',
-                a: [
-                  'İade edilen ürün depomuza ulaştığında, iade koşullarını karşıladığından emin olmak için incelenir. Onaylanan iadeler 5 iş günü içinde işleme alınır.',
-                  'İade işleme alındıktan sonra tutarın hesabınıza yansıması, bankanızın işlem süreçlerine göre değişebilir. İade durumunuzla ilgili güncellemeler için lütfen doğrudan bankanızla iletişime geçin.',
                 ],
               },
             ],
@@ -387,7 +355,7 @@ const DICT = {
         `• ${p.brand} — ${p.name}\n` +
         `• Ölçüler: ${p.dims || '—'}\n` +
         `• Outlet fiyatı: €${p.saleEur?.toLocaleString('de-DE')}\n\nTeşekkürler.`,
-      toast: (p) => `${p.brand} ${p.name} için bilgi talebi e-postası açıldı. Bir şey olmadıysa simge@mozaikdesign.com adresine yazın.`,
+      toast: (p) => `${p.brand} ${p.name} için talebiniz alındı. Ekibimiz en kısa sürede size dönüş yapacak.`,
     },
   },
 };

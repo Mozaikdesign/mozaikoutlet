@@ -8,11 +8,12 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
   const m = t.modal;
   const [imgIdx, setImgIdx] = useState(0);
   const [showTryRoom, setShowTryRoom] = useState(false);
+  const [showForm, setShowForm] = useState(false);
   const { TryInRoom } = TRYINROOM;
   const isTouchDevice = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
 
   useEffect(() => {
-    const handler = (e) => { if (e.key === 'Escape') onClose(); };
+    const handler = (e) => { if (e.key === 'Escape' && !document.querySelector('.inq')) onClose(); };
     document.addEventListener('keydown', handler);
     document.body.style.overflow = 'hidden';
     return () => {
@@ -116,17 +117,12 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
           </div>
 
           <div className="modal__actions">
-            <a
+            <button
               className="btn btn--primary"
-              href={
-                'mailto:simge@mozaikdesign.com' +
-                '?subject=' + encodeURIComponent(t.reserveMail.subject(product)) +
-                '&body=' + encodeURIComponent(t.reserveMail.bodyModal(product))
-              }
-              onClick={() => onAdd(product)}
+              onClick={() => setShowForm(true)}
             >
               {m.reserve} — {eurFmt(product.saleEur)}
-            </a>
+            </button>
             <button
               className={'btn btn--ghost ' + (saved ? 'is-saved' : '')}
               onClick={() => onSave(product)}
@@ -155,6 +151,7 @@ function QuickView({ product, onClose, onSave, saved, onAdd }) {
       </div>
     </div>
     {showTryRoom && <TryInRoom product={product} onClose={() => setShowTryRoom(false)}/>}
+    {showForm && <window.INQUIRY.InquiryForm product={product} onClose={() => setShowForm(false)} onSent={() => onAdd(product)}/>}
   </>);
 }
 

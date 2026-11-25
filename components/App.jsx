@@ -66,7 +66,7 @@ function App() {
       setCatalogue(window.__resolveCatalogue__());
       return;
     }
-    fetch('data/catalogue.json?v=1117')
+    fetch('data/catalogue.json?v=1118')
       .then(r => r.json())
       .then(d => { window.CAT_COUNT = d.length; window.CAT_BRANDS = new Set(d.map(p => p.brand)).size; setCatalogue(d); });
   }, []);
@@ -214,6 +214,7 @@ function App() {
     });
   };
 
+  const [inquiryProduct, setInquiryProduct] = useState(null);
   const addToCart = (product) => {
     setCartIds(prev => new Set([...prev, product.id]));
     setOpenProduct(null);
@@ -508,6 +509,10 @@ function App() {
         />
       )}
 
+      {inquiryProduct && window.INQUIRY && (
+        <window.INQUIRY.InquiryForm product={inquiryProduct} onClose={() => setInquiryProduct(null)} onSent={() => {}}/>
+      )}
+
       {savedTrayOpen && (
         <div className="info-panel" onClick={() => setSavedTrayOpen(false)}>
           <div className="info-panel__dialog info-panel__dialog--wide" onClick={(e) => e.stopPropagation()}>
@@ -539,14 +544,7 @@ function App() {
                       <div className="saved-tray__price">€{p.saleEur?.toLocaleString('de-DE')}</div>
                     </div>
                     <div className="saved-tray__actions">
-                      <a
-                        className="btn btn--primary btn--sm"
-                        href={
-                          'mailto:simge@mozaikdesign.com' +
-                          '?subject=' + encodeURIComponent(t.reserveMail.subject(p)) +
-                          '&body=' + encodeURIComponent(t.reserveMail.bodySaved(p))
-                        }
-                      >{t.savedTray.reserve}</a>
+                      <button className="btn btn--primary btn--sm" onClick={() => setInquiryProduct(p)}>{t.savedTray.reserve}</button>
                       <button className="btn btn--ghost btn--sm" onClick={() => toggleSave(p)}>{t.savedTray.remove}</button>
                     </div>
                   </li>
